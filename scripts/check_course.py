@@ -35,10 +35,10 @@ def lessons() -> list[Path]:
 def check() -> list[str]:
     errors: list[str] = []
     paths = lessons()
-    if len(paths) != 61:
-        errors.append(f"expected 61 lessons, found {len(paths)}")
-    if [int(p.name.split("_", 2)[1]) for p in paths] != list(range(1, 62)):
-        errors.append("lesson numbering is not exactly day_001 through day_061")
+    if len(paths) != 83:
+        errors.append(f"expected 83 lessons, found {len(paths)}")
+    if [int(p.name.split("_", 2)[1]) for p in paths] != list(range(1, 84)):
+        errors.append("lesson numbering is not exactly day_001 through day_083")
     for path in paths:
         lesson = path / f"{path.name}.md"
         if not lesson.exists():
@@ -84,7 +84,7 @@ def check() -> list[str]:
         errors.append("missing DAY_INDEX.md")
     else:
         days = [int(n) for n in re.findall(r"^\| (\d{3}) \|", index.read_text(encoding="utf-8"), flags=re.MULTILINE)]
-        if days != list(range(1, 62)):
+        if days != list(range(1, 84)):
             errors.append("DAY_INDEX.md is not numerically complete")
     return errors
 
@@ -94,4 +94,4 @@ if errors:
     print("Course check failed:")
     print("\n".join(f"- {error}" for error in errors))
     raise SystemExit(1)
-print("Course check passed: 61 sortable lessons, structured sections, onboarding navigation, and useful practice files are present.")
+print("Course check passed: 83 sortable lessons, structured sections, onboarding navigation, and useful practice files are present.")

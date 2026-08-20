@@ -1,6 +1,15 @@
-# 61-day course index
+# 83-day course index
 
-Each lesson uses three-digit numbering so alphabetical file browsing remains chronological.
+> **Start here:** if you are new to programming or to React, read the [course README](README.md), complete the [setup guide](SETUP.md), and inspect the [examples guide](examples/README.md) before opening Day 001.
+
+Each lesson uses three-digit numbering so alphabetical file browsing remains chronological. Follow the lessons in order. Every lesson links back to the README, setup guide, examples, and this index.
+
+| Learning aid | Link |
+| --- | --- |
+| Course map and learning loop | [README.md](README.md) |
+| Install Node.js, VS Code, and extensions | [SETUP.md](SETUP.md) |
+| Choose the React or Next.js starter | [examples/README.md](examples/README.md) |
+| Teaching contract | [LESSON_STANDARD.md](LESSON_STANDARD.md) |
 
 | Day | Lesson |
 | ---: | --- |
@@ -65,3 +74,25 @@ Each lesson uses three-digit numbering so alphabetical file browsing remains chr
 | 059 | [Capstone architecture and review](day_059_capstone_architecture_and_review/day_059_capstone_architecture_and_review.md) |
 | 060 | [Final demonstration and portfolio review](day_060_final_demonstration_and_portfolio_review/day_060_final_demonstration_and_portfolio_review.md) |
 | 061 | [Getters, setters, and state boundaries](day_061_getters_setters_and_state_boundaries/day_061_getters_setters_and_state_boundaries.md) |
+| 062 | [Tailwind CSS v4 setup in Next.js](day_062_tailwind_css_v4_setup_in_next_js/day_062_tailwind_css_v4_setup_in_next_js.md) |
+| 063 | [Responsive layouts and design tokens with Tailwind](day_063_responsive_layouts_and_design_tokens_with_tailwind/day_063_responsive_layouts_and_design_tokens_with_tailwind.md) |
+| 064 | [shadcn/ui installation and component ownership](day_064_shadcn_ui_installation_and_component_ownership/day_064_shadcn_ui_installation_and_component_ownership.md) |
+| 065 | [shadcn/ui composition, theming, and accessible patterns](day_065_shadcn_ui_composition_theming_and_accessible_patterns/day_065_shadcn_ui_composition_theming_and_accessible_patterns.md) |
+| 066 | [The dashboard shell and feature-based boundaries](day_066_the_dashboard_shell_and_feature_based_boundaries/day_066_the_dashboard_shell_and_feature_based_boundaries.md) |
+| 067 | [Schema validation with Zod-style boundaries](day_067_schema_validation_with_zod_style_boundaries/day_067_schema_validation_with_zod_style_boundaries.md) |
+| 068 | [SQL and relational data modeling](day_068_sql_and_relational_data_modeling/day_068_sql_and_relational_data_modeling.md) |
+| 069 | [Drizzle ORM, SQLite, migrations, and seed data](day_069_drizzle_orm_sqlite_migrations_and_seed_data/day_069_drizzle_orm_sqlite_migrations_and_seed_data.md) |
+| 070 | [Repositories and server-only data access](day_070_repositories_and_server_only_data_access/day_070_repositories_and_server_only_data_access.md) |
+| 071 | [Server Actions for validated mutations](day_071_server_actions_for_validated_mutations/day_071_server_actions_for_validated_mutations.md) |
+| 072 | [Route Handlers, API contracts, and typed errors](day_072_route_handlers_api_contracts_and_typed_errors/day_072_route_handlers_api_contracts_and_typed_errors.md) |
+| 073 | [Authentication providers and identity boundaries](day_073_authentication_providers_and_identity_boundaries/day_073_authentication_providers_and_identity_boundaries.md) |
+| 074 | [Secure sessions and cookie policy](day_074_secure_sessions_and_cookie_policy/day_074_secure_sessions_and_cookie_policy.md) |
+| 075 | [Next.js 16 Proxy and the middleware migration](day_075_next_js_16_proxy_and_the_middleware_migration/day_075_next_js_16_proxy_and_the_middleware_migration.md) |
+| 076 | [Authorization, roles, ownership, and multi-tenant data](day_076_authorization_roles_ownership_and_multi_tenant_data/day_076_authorization_roles_ownership_and_multi_tenant_data.md) |
+| 077 | [File uploads, metadata, and storage boundaries](day_077_file_uploads_metadata_and_storage_boundaries/day_077_file_uploads_metadata_and_storage_boundaries.md) |
+| 078 | [Error taxonomy, logging, and instrumentation](day_078_error_taxonomy_logging_and_instrumentation/day_078_error_taxonomy_logging_and_instrumentation.md) |
+| 079 | [Full-stack testing with Playwright and synthetic fixtures](day_079_full_stack_testing_with_playwright_and_synthetic_fixtures/day_079_full_stack_testing_with_playwright_and_synthetic_fixtures.md) |
+| 080 | [Production configuration, CI, and deployment evidence](day_080_production_configuration_ci_and_deployment_evidence/day_080_production_configuration_ci_and_deployment_evidence.md) |
+| 081 | [Capstone architecture, threat model, and delivery plan](day_081_capstone_architecture_threat_model_and_delivery_plan/day_081_capstone_architecture_threat_model_and_delivery_plan.md) |
+| 082 | [Capstone build I: design system, shell, and database-backed reads](day_082_capstone_build_i_design_system_shell_and_database_backed_reads/day_082_capstone_build_i_design_system_shell_and_database_backed_reads.md) |
+| 083 | [Capstone build II: auth, proxy, mutations, tests, and portfolio proof](day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof/day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof.md) |

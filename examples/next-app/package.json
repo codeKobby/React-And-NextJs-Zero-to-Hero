@@ -11,15 +11,21 @@
   "dependencies": {
     "next": "16.3.1",
     "react": "19.2.8",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
     "react-dom": "19.2.8",
-    "server-only": "latest"
+    "server-only": "latest",
+    "tailwind-merge": "3.6.0"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
+    "@tailwindcss/postcss": "4.3.3",
     "@types/react-dom": "latest",
     "eslint": "10.8.1",
     "eslint-config-next": "16.3.1",
+    "postcss": "8.5.26",
+    "tailwindcss": "4.3.3",
     "typescript": "7.0.2"
   }
 }

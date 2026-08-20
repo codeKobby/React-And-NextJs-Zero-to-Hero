@@ -16,9 +16,18 @@ for folder in ROOT.iterdir():
     rows.append((day, title, f"{folder.name}/{lesson_path.name}"))
 rows.sort()
 lines = [
-    "# 61-day course index",
+    f"# {max((row[0] for row in rows), default=0)}-day course index",
     "",
-    "Each lesson uses three-digit numbering so alphabetical file browsing remains chronological.",
+    "> **Start here:** if you are new to programming or to React, read the [course README](README.md), complete the [setup guide](SETUP.md), and inspect the [examples guide](examples/README.md) before opening Day 001.",
+    "",
+    "Each lesson uses three-digit numbering so alphabetical file browsing remains chronological. Follow the lessons in order. Every lesson links back to the README, setup guide, examples, and this index.",
+    "",
+    "| Learning aid | Link |",
+    "| --- | --- |",
+    "| Course map and learning loop | [README.md](README.md) |",
+    "| Install Node.js, VS Code, and extensions | [SETUP.md](SETUP.md) |",
+    "| Choose the React or Next.js starter | [examples/README.md](examples/README.md) |",
+    "| Teaching contract | [LESSON_STANDARD.md](LESSON_STANDARD.md) |",
     "",
     "| Day | Lesson |",
     "| ---: | --- |",

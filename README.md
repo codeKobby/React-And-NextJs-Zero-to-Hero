@@ -1,6 +1,6 @@
 # React and Next.js Zero to Hero
 
-A **61-day beginner-first course** for learning modern React and Next.js from the ground up. The course starts with the JavaScript and browser ideas that React relies on, teaches React in isolation, then introduces Next.js App Router and full-stack rendering one boundary at a time.
+An **83-day beginner-first course** for learning modern React and Next.js from the ground up and building a full-stack application. The course starts with JavaScript and browser ideas, teaches React in isolation, introduces the Next.js App Router one boundary at a time, and then turns those foundations into a styled, validated, database-backed, authenticated, tested, and deployable application.
 
 The course targets **React 19.2.8** and **Next.js 16.3.1** as the validation baseline recorded on 20 August 2026. Always check the official release notes before starting a new production project.
 
@@ -12,7 +12,7 @@ The course targets **React 19.2.8** and **Next.js 16.3.1** as the validation bas
 | Modern toolchain | [MODERN_TOOLCHAIN.md](MODERN_TOOLCHAIN.md) |
 | Beginner tutorial standard | [LESSON_STANDARD.md](LESSON_STANDARD.md) |
 | Project structure guide | [PROJECT_STRUCTURE_GUIDE.md](PROJECT_STRUCTURE_GUIDE.md) |
-| 61-day curriculum | [DAY_INDEX.md](DAY_INDEX.md) |
+| 83-day curriculum | [DAY_INDEX.md](DAY_INDEX.md) |
 | Official research findings | [OFFICIAL_RESEARCH.md](OFFICIAL_RESEARCH.md) |
 | Course quality checks | [COURSE_QUALITY_STANDARD.md](COURSE_QUALITY_STANDARD.md) |
 
@@ -43,7 +43,7 @@ A lesson is not complete because the code compiles. It is complete when you can 
 
 The React sequence covers JSX, components, function and class components, props, composition, lists and keys, events, forms, controlled and uncontrolled inputs, state and setters, JavaScript property getters and setters, derived state, lifting state, reducers, Context, Effects, cleanup, refs, custom Hooks, memoization, transitions, Suspense, testing, accessibility, performance, security, TypeScript, React 19 Actions, `useActionState`, `useFormStatus`, `useOptimistic`, the `use` API, metadata, ref changes, and the React Compiler.
 
-The Next.js sequence covers `create-next-app`, App Router, Pages Router history, root-level `app/` versus `src/app/`, aliases, layouts, pages, dynamic segments, route groups, private folders, loading and error boundaries, `not-found`, metadata, images, fonts, Server and Client Components, server-only boundaries, data fetching, caching, revalidation, streaming, Route Handlers, Server Actions, forms, authentication and authorization boundaries, testing, accessibility, performance, deployment, migration, and a final full-stack capstone.
+The Next.js sequence covers `create-next-app`, App Router, Pages Router history, root-level `app/` versus `src/app/`, aliases, layouts, pages, dynamic segments, route groups, private folders, loading and error boundaries, `not-found`, metadata, images, fonts, Server and Client Components, server-only boundaries, data fetching, caching, revalidation, streaming, Route Handlers, Server Actions, forms, and current Next.js 16 `proxy.ts` guidance. The application-building sequence then covers Tailwind CSS v4, responsive design tokens, shadcn/ui, `components.json`, accessible UI primitives, dashboard architecture, schema validation, SQL, Drizzle ORM, SQLite, migrations, seed data, server-only repositories, typed API errors, authentication providers, secure sessions, Proxy checks, authorization and multi-tenant ownership, file uploads, storage boundaries, structured logging, instrumentation, Playwright, CI, deployment, and a full-stack capstone built in two vertical slices.
 
 ## Project layout decision
 

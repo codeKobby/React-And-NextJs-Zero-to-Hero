@@ -1,6 +1,6 @@
 # Day 061: Getters, setters, and state boundaries
 
-[← Previous lesson](../day_060_final_demonstration_and_portfolio_review/day_060_final_demonstration_and_portfolio_review.md) · [Start here](../README.md) · [Setup](../SETUP.md) · [Day index](../DAY_INDEX.md) · [Course index →](../DAY_INDEX.md)
+[← Previous lesson](../day_060_final_demonstration_and_portfolio_review/day_060_final_demonstration_and_portfolio_review.md) · [Start here](../README.md) · [Setup](../SETUP.md) · [Day index](../DAY_INDEX.md) · [Next lesson →](../day_062_tailwind_css_v4_setup_in_next_js/day_062_tailwind_css_v4_setup_in_next_js.md)
 
 ## Table of contents
 
@@ -169,3 +169,7 @@ You are finished when you can teach the main idea to another beginner, show the 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Next.js Project Structure](https://nextjs.org/docs/app/getting-started/project-structure)
 - [Next.js Server and Client Components](https://nextjs.org/docs/app/getting-started/server-and-client-components)
+- [Next.js Authentication](https://nextjs.org/docs/app/guides/authentication)
+- [Next.js Proxy](https://nextjs.org/docs/app/api-reference/file-conventions/proxy)
+- [Tailwind CSS with Next.js](https://tailwindcss.com/docs/installation/framework-guides/nextjs)
+- [shadcn/ui with Next.js](https://ui.shadcn.com/docs/installation/next)
