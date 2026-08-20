@@ -1,21 +1,21 @@
 # Day 061 solution guide: Getters, setters, and state boundaries
 
-Use this guide after attempting [the exercises](exercises.md). A solution is evidence and reasoning, not a copied file. Compare your work with the [lesson](../day_061_getters_setters_and_state_boundaries.md), then improve the explanation if your code works for the wrong reason.
+Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Getters, setters, and state boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 
-1. The definition of **What is a getter?** names an observable rule and points to a concrete lesson example.
-2. The unchanged worked example runs in the correct local starter and its output matches the lesson's expected result.
-3. The trace identifies the order of evaluation and the owner of each important value.
-4. The normal alternative changes one input and preserves the rule for **What is a setter?**.
-5. The boundary case has deliberate behavior rather than an accidental blank screen, stray value, or unhandled rejection.
-6. The broken example reproduces the stated failure, and the repair is the smallest change that restores the normal case without weakening the check.
-7. The comparison table distinguishes **What is a getter?** from **What is a setter?** by responsibility, lifetime, and direction of data flow.
-8. The added quality requirement is visible in the code or project structure and is explained in plain language.
-9. The test or assertion fails when the important behavior is removed, then passes after the repair.
-10. The local feature has a named boundary, synthetic fixture data, a normal path, and a failure or empty path appropriate to the topic.
-11. The limitation statement avoids claiming that a passing build or test proves production readiness.
-12. The review note names files, commands, observed evidence, one remaining risk, and the next learning step.
+1. The submission states the problem and connects it to getters, setters, and state boundaries rather than offering only a definition.
+2. The unchanged example runs and its visible or returned result is recorded for a controlled case draft whose fields update without erasing each other.
+3. The trace identifies the owner and boundary: the render snapshot, pending update queue, and component that owns the setter.
+4. The normal change isolates one input and preserves the rule for What is a getter?.
+5. The boundary case for What is a setter? has deliberate behavior and an explanation.
+6. The failure `Use a setter to hide invalid data instead of validating at the boundary, then repair the model and explain why React state still needs an explicit setter call.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
+7. The repair keeps the responsibility that the lesson owns: One update is easy, but repeated updates and object state reveal that a setter is a request rather than a normal assignment.
+8. The quality requirement for How are property accessors different from useState setters? is visible in code or project structure.
+9. The assertion or test fails when the important behavior is removed and passes after the repair.
+10. The local application demonstrates a controlled case draft whose fields update without erasing each other with synthetic data and a named owner.
+11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
+12. The review note is reproducible and records evidence, residual risk, and the boundary the render snapshot, pending update queue, and component that owns the setter.
 
 ## Self-assessment
 

@@ -1,21 +1,21 @@
 # Day 073 solution guide: Authentication providers and identity boundaries
 
-Use this guide after attempting [the exercises](exercises.md). A solution is evidence and reasoning, not a copied file. Compare your work with the [lesson](../day_073_authentication_providers_and_identity_boundaries.md), then improve the explanation if your code works for the wrong reason.
+Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Authentication providers and identity boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 
-1. The definition of **What is authentication?** names an observable rule and points to a concrete lesson example.
-2. The unchanged worked example runs in the correct local starter and its output matches the lesson's expected result.
-3. The trace identifies the order of evaluation and the owner of each important value.
-4. The normal alternative changes one input and preserves the rule for **What belongs to an authentication provider?**.
-5. The boundary case has deliberate behavior rather than an accidental blank screen, stray value, or unhandled rejection.
-6. The broken example reproduces the stated failure, and the repair is the smallest change that restores the normal case without weakening the check.
-7. The comparison table distinguishes **What is authentication?** from **What belongs to an authentication provider?** by responsibility, lifetime, and direction of data flow.
-8. The added quality requirement is visible in the code or project structure and is explained in plain language.
-9. The test or assertion fails when the important behavior is removed, then passes after the repair.
-10. The local feature has a named boundary, synthetic fixture data, a normal path, and a failure or empty path appropriate to the topic.
-11. The limitation statement avoids claiming that a passing build or test proves production readiness.
-12. The review note names files, commands, observed evidence, one remaining risk, and the next learning step.
+1. The submission states the problem and connects it to authentication providers and identity boundaries rather than offering only a definition.
+2. The unchanged example runs and its visible or returned result is recorded for a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+3. The trace identifies the owner and boundary: identity and navigation checks versus server-side data and mutation authority.
+4. The normal change isolates one input and preserves the rule for What is authentication?.
+5. The boundary case for What belongs to an authentication provider? has deliberate behavior and an explanation.
+6. The failure `Treat an email field from the browser as an authenticated identity, then repair the provider boundary.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
+7. The repair keeps the responsibility that the lesson owns: A full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection.
+8. The quality requirement for Why is identity different from permission? is visible in code or project structure.
+9. The assertion or test fails when the important behavior is removed and passes after the repair.
+10. The local application demonstrates a local protected case route with synthetic sessions, permissions, and unauthorized fixtures with synthetic data and a named owner.
+11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
+12. The review note is reproducible and records evidence, residual risk, and the boundary identity and navigation checks versus server-side data and mutation authority.
 
 ## Self-assessment
 

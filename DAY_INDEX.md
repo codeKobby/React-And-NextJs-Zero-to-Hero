@@ -95,4 +95,4 @@ Each lesson uses three-digit numbering so alphabetical file browsing remains chr
 | 080 | [Production configuration, CI, and deployment evidence](day_080_production_configuration_ci_and_deployment_evidence/day_080_production_configuration_ci_and_deployment_evidence.md) |
 | 081 | [Capstone architecture, threat model, and delivery plan](day_081_capstone_architecture_threat_model_and_delivery_plan/day_081_capstone_architecture_threat_model_and_delivery_plan.md) |
 | 082 | [Capstone build I: design system, shell, and database-backed reads](day_082_capstone_build_i_design_system_shell_and_database_backed_reads/day_082_capstone_build_i_design_system_shell_and_database_backed_reads.md) |
-| 083 | [Capstone build II: auth, proxy, mutations, tests, and portfolio proof](day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof/day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof.md) |
+| 083 | [Capstone build II — auth, Proxy, mutations, tests, and portfolio proof](day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof/day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof.md) |

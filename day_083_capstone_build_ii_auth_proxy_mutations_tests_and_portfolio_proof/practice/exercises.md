@@ -1,22 +1,22 @@
 # Day 083 practice: Capstone build II: auth, proxy, mutations, tests, and portfolio proof
 
-Use this worksheet after reading [the lesson](../day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof.md). Before you start, read the [course README](../../README.md), confirm your tools with the [setup guide](../../SETUP.md), and choose the appropriate local starter from the [examples guide](../../examples/README.md). Work only with local, synthetic data.
+Use this worksheet after reading [the lesson](../day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof.md). Start with the [course README](../../README.md), confirm the [setup guide](../../SETUP.md), and choose the local fixture from the [examples guide](../../examples/README.md). This worksheet is designed for **Capstone build II: auth, proxy, mutations, tests, and portfolio proof** and uses only local, synthetic, bounded data.
 
 ## How to submit your own evidence
 
-For every exercise, save the smallest runnable code or written artifact, record your prediction before running it, copy the observed result, and explain the difference in your own words. Do not open the solution guide until you have attempted the task.
+For every task, record a prediction before running it, save the smallest relevant code or written artifact, copy the observed result, and explain why it happened. Do not open the solution guide until you have attempted the work.
 
 ## Exercises
 
-1. Define **How do we connect identity to protected mutations?** in two sentences for a beginner, then point to the exact line in the lesson where the idea first appears.
-2. Copy the worked example unchanged into the correct starter project, run it, and record the command, expected result, and observed result.
-3. Write a line-by-line execution trace for the worked example. Name the input, operation, output, and owner of each important value.
-4. Replace one input with a normal alternative that still demonstrates **Where does Proxy help and where does it stop?**. Predict the result before running it.
-5. Create a boundary case involving **What tests prove the main journey?**. Decide whether the correct behavior is a value, an empty state, a compiler error, a loading state, or a failure message, and justify that choice.
-6. Reproduce this deliberate failure: **Declare the capstone complete because the happy path works, then repair the demonstration with failure tests, security evidence, and explicit residual risk.**. Capture the error or incorrect behavior, name the violated assumption, and repair the smallest possible change.
-7. Compare **How do we connect identity to protected mutations?** and **Where does Proxy help and where does it stop?** in a short table. Include ownership, data flow, and one situation where confusing them causes a bug.
-8. Add one quality requirement to the fixture: a meaningful accessible name, a type guard, a loading state, an error state, or a server/client boundary declaration. Explain why it belongs there.
-9. Add a focused test or assertion for the most important behavior. The test must fail when that behavior is removed and pass after the repair.
-10. Apply the lesson to a small local feature using invented data. Write the component, route, or function boundary before writing the implementation.
-11. Write a limitation statement: explain what your successful run does **not** prove about production correctness, security, performance, or accessibility.
-12. Prepare a review note for a teammate. Include the changed files, evidence you collected, one remaining risk, and the next lesson you are ready to study.
+1. Run the synthetic signed-out and signed-in fixtures and record the visible outcome.
+2. Separate identity, session, navigation check, and permission in a short table.
+3. Change one permission and predict which request should be allowed or rejected.
+4. Add an unauthorized and an ownership-mismatch fixture.
+5. Reproduce the client-only or hidden-button protection mistake.
+6. Repair the authoritative server-side check before data access or mutation.
+7. Inspect cookie flags, expiry, secret ownership, and environment boundaries.
+8. Add a test for a forbidden actor that cannot read or mutate another record.
+9. Explain why Proxy or a redirect is not final authorization.
+10. Apply the policy to a local synthetic case journey with normal, invalid, empty, and failure fixtures with invented actors and records.
+11. Document the exact trust boundary: the public behavior under test and the internal implementation that may change.
+12. Write residual-risk notes for session rotation, logging, and deployment configuration.

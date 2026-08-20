@@ -1,22 +1,22 @@
 # Day 079 practice: Full-stack testing with Playwright and synthetic fixtures
 
-Use this worksheet after reading [the lesson](../day_079_full_stack_testing_with_playwright_and_synthetic_fixtures.md). Before you start, read the [course README](../../README.md), confirm your tools with the [setup guide](../../SETUP.md), and choose the appropriate local starter from the [examples guide](../../examples/README.md). Work only with local, synthetic data.
+Use this worksheet after reading [the lesson](../day_079_full_stack_testing_with_playwright_and_synthetic_fixtures.md). Start with the [course README](../../README.md), confirm the [setup guide](../../SETUP.md), and choose the local fixture from the [examples guide](../../examples/README.md). This worksheet is designed for **Full-stack testing with Playwright and synthetic fixtures** and uses only local, synthetic, bounded data.
 
 ## How to submit your own evidence
 
-For every exercise, save the smallest runnable code or written artifact, record your prediction before running it, copy the observed result, and explain the difference in your own words. Do not open the solution guide until you have attempted the task.
+For every task, record a prediction before running it, save the smallest relevant code or written artifact, copy the observed result, and explain why it happened. Do not open the solution guide until you have attempted the work.
 
 ## Exercises
 
-1. Define **What should each test level prove?** in two sentences for a beginner, then point to the exact line in the lesson where the idea first appears.
-2. Copy the worked example unchanged into the correct starter project, run it, and record the command, expected result, and observed result.
-3. Write a line-by-line execution trace for the worked example. Name the input, operation, output, and owner of each important value.
-4. Replace one input with a normal alternative that still demonstrates **How do we test a protected route?**. Predict the result before running it.
-5. Create a boundary case involving **What is a safe fixture?**. Decide whether the correct behavior is a value, an empty state, a compiler error, a loading state, or a failure message, and justify that choice.
-6. Reproduce this deliberate failure: **Assert only that a private component function was called and skip the browser contract, then repair the test around user behavior.**. Capture the error or incorrect behavior, name the violated assumption, and repair the smallest possible change.
-7. Compare **What should each test level prove?** and **How do we test a protected route?** in a short table. Include ownership, data flow, and one situation where confusing them causes a bug.
-8. Add one quality requirement to the fixture: a meaningful accessible name, a type guard, a loading state, an error state, or a server/client boundary declaration. Explain why it belongs there.
-9. Add a focused test or assertion for the most important behavior. The test must fail when that behavior is removed and pass after the repair.
-10. Apply the lesson to a small local feature using invented data. Write the component, route, or function boundary before writing the implementation.
-11. Write a limitation statement: explain what your successful run does **not** prove about production correctness, security, performance, or accessibility.
-12. Prepare a review note for a teammate. Include the changed files, evidence you collected, one remaining risk, and the next lesson you are ready to study.
+1. State one user-visible behavior the test should protect.
+2. Run the smallest normal fixture and record the public output.
+3. Add an empty, invalid, rejected, or unauthorized fixture.
+4. Choose unit, integration, or browser coverage and justify the level.
+5. Reproduce an assertion that checks a private implementation detail.
+6. Repair it around the user-visible or route contract.
+7. Add a keyboard, label, loading, or error assertion where appropriate.
+8. Make the test fail by removing the behavior, then restore it.
+9. Explain what the test cannot prove about production.
+10. Apply the test plan to a local synthetic case journey with normal, invalid, empty, and failure fixtures with local synthetic data.
+11. Document the public boundary under test: the public behavior under test and the internal implementation that may change.
+12. Write a review note with commands, evidence, flaky-risk considerations, and residual risk.

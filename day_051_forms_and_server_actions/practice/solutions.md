@@ -1,21 +1,21 @@
 # Day 051 solution guide: Forms and Server Actions
 
-Use this guide after attempting [the exercises](exercises.md). A solution is evidence and reasoning, not a copied file. Compare your work with the [lesson](../day_051_forms_and_server_actions.md), then improve the explanation if your code works for the wrong reason.
+Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Forms and Server Actions**; it is not a copied answer key.
 
 ## Review checkpoints
 
-1. The definition of **What is a Server Action?** names an observable rule and points to a concrete lesson example.
-2. The unchanged worked example runs in the correct local starter and its output matches the lesson's expected result.
-3. The trace identifies the order of evaluation and the owner of each important value.
-4. The normal alternative changes one input and preserves the rule for **How does a form call server code?**.
-5. The boundary case has deliberate behavior rather than an accidental blank screen, stray value, or unhandled rejection.
-6. The broken example reproduces the stated failure, and the repair is the smallest change that restores the normal case without weakening the check.
-7. The comparison table distinguishes **What is a Server Action?** from **How does a form call server code?** by responsibility, lifetime, and direction of data flow.
-8. The added quality requirement is visible in the code or project structure and is explained in plain language.
-9. The test or assertion fails when the important behavior is removed, then passes after the repair.
-10. The local feature has a named boundary, synthetic fixture data, a normal path, and a failure or empty path appropriate to the topic.
-11. The limitation statement avoids claiming that a passing build or test proves production readiness.
-12. The review note names files, commands, observed evidence, one remaining risk, and the next learning step.
+1. The submission states the problem and connects it to forms and server actions rather than offering only a definition.
+2. The unchanged example runs and its visible or returned result is recorded for a validated local create-case mutation with field errors and revalidation evidence.
+3. The trace identifies the owner and boundary: browser intent versus server authority and data mutation.
+4. The normal change isolates one input and preserves the rule for What is a Server Action?.
+5. The boundary case for How does a form call server code? has deliberate behavior and an explanation.
+6. The failure `Trust a FormData field as an authorized user ID and repair the authorization check.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
+7. The repair keeps the responsibility that the lesson owns: A form needs to change server-owned data while preserving validation, authorization, pending state, and a useful result.
+8. The quality requirement for Where does validation happen? is visible in code or project structure.
+9. The assertion or test fails when the important behavior is removed and passes after the repair.
+10. The local application demonstrates a validated local create-case mutation with field errors and revalidation evidence with synthetic data and a named owner.
+11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
+12. The review note is reproducible and records evidence, residual risk, and the boundary browser intent versus server authority and data mutation.
 
 ## Self-assessment
 

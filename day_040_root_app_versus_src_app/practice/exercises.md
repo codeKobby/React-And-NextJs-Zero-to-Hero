@@ -1,22 +1,22 @@
 # Day 040 practice: Root app versus src/app
 
-Use this worksheet after reading [the lesson](../day_040_root_app_versus_src_app.md). Before you start, read the [course README](../../README.md), confirm your tools with the [setup guide](../../SETUP.md), and choose the appropriate local starter from the [examples guide](../../examples/README.md). Work only with local, synthetic data.
+Use this worksheet after reading [the lesson](../day_040_root_app_versus_src_app.md). Start with the [course README](../../README.md), confirm the [setup guide](../../SETUP.md), and choose the local fixture from the [examples guide](../../examples/README.md). This worksheet is designed for **Root app versus src/app** and uses only local, synthetic, bounded data.
 
 ## How to submit your own evidence
 
-For every exercise, save the smallest runnable code or written artifact, record your prediction before running it, copy the observed result, and explain the difference in your own words. Do not open the solution guide until you have attempted the task.
+For every task, record a prediction before running it, save the smallest relevant code or written artifact, copy the observed result, and explain why it happened. Do not open the solution guide until you have attempted the work.
 
 ## Exercises
 
-1. Define **Why use src?** in two sentences for a beginner, then point to the exact line in the lesson where the idea first appears.
-2. Copy the worked example unchanged into the correct starter project, run it, and record the command, expected result, and observed result.
-3. Write a line-by-line execution trace for the worked example. Name the input, operation, output, and owner of each important value.
-4. Replace one input with a normal alternative that still demonstrates **When is root-level app simpler?**. Predict the result before running it.
-5. Create a boundary case involving **Which files stay at root?**. Decide whether the correct behavior is a value, an empty state, a compiler error, a loading state, or a failure message, and justify that choice.
-6. Reproduce this deliberate failure: **Move app into src but leave an empty root app, then repair the ambiguous project.**. Capture the error or incorrect behavior, name the violated assumption, and repair the smallest possible change.
-7. Compare **Why use src?** and **When is root-level app simpler?** in a short table. Include ownership, data flow, and one situation where confusing them causes a bug.
-8. Add one quality requirement to the fixture: a meaningful accessible name, a type guard, a loading state, an error state, or a server/client boundary declaration. Explain why it belongs there.
-9. Add a focused test or assertion for the most important behavior. The test must fail when that behavior is removed and pass after the repair.
-10. Apply the lesson to a small local feature using invented data. Write the component, route, or function boundary before writing the implementation.
-11. Write a limitation statement: explain what your successful run does **not** prove about production correctness, security, performance, or accessibility.
-12. Prepare a review note for a teammate. Include the changed files, evidence you collected, one remaining risk, and the next lesson you are ready to study.
+1. Run the smallest route or structure fixture and write its URL and visible result.
+2. Map each relevant folder or special file to the route or boundary it creates.
+3. Change one segment or parameter and predict the URL before running it.
+4. Add a normal, missing, loading, or not-found case appropriate to the route.
+5. Reproduce the duplicate-router, missing-file, or parameter-timing mistake.
+6. Repair the folder, file, or async boundary with the smallest change.
+7. Explain which code is application source and which remains root configuration.
+8. Add a semantic link, heading, or focus behavior to the route UI.
+9. Add a route-level assertion or browser check for the public contract.
+10. Apply the lesson to a small App Router starter whose source, configuration, and public assets have named homes and document the route map.
+11. Explain what crosses the application source versus root configuration and the route files Next.js recognizes and what must stay private.
+12. Write a review note with the URL, file map, evidence, and one deployment limitation.

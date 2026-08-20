@@ -4,6 +4,14 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+GENERIC_MARKERS = (
+    "A named idea in this lesson.",
+    "A beginner mistake is to copy the spelling",
+    "The useful answer to **",
+    "Read the code from top to bottom. Identify the input",
+    "Use the numbered questions in the lesson",
+)
+
 REQUIRED = {
     "## Table of contents",
     "## Start here",
@@ -57,6 +65,13 @@ def check() -> list[str]:
             errors.append(f"{lesson.relative_to(ROOT)} missing next-course navigation")
         if len(text.split()) < 900:
             errors.append(f"{lesson.relative_to(ROOT)} is too short for the lesson contract")
+        if any(marker in text for marker in GENERIC_MARKERS):
+            errors.append(f"{lesson.relative_to(ROOT)} contains rejected generic teaching prose")
+        if text.count("```") < 2 and "conceptual orientation" not in text.lower():
+            errors.append(f"{lesson.relative_to(ROOT)} needs a runnable or deliberately explained worked example")
+        observable_markers = ("Expected result", "Visible behavior", "Expected behavior", "visible result", "visible output", "prints", "The first render", "The browser")
+        if not any(marker in text for marker in observable_markers):
+            errors.append(f"{lesson.relative_to(ROOT)} needs explicit learner-observable output")
         if len(re.findall(r"^\d+\. ", text, flags=re.MULTILINE)) < 12:
             errors.append(f"{lesson.relative_to(ROOT)} needs 12 numbered exercises")
         toc_start = text.find("## Table of contents")
@@ -77,7 +92,7 @@ def check() -> list[str]:
                 errors.append(f"{practice_path.relative_to(ROOT)} is too short to be useful")
             if len(re.findall(r"^\d+\. ", practice_text, flags=re.MULTILINE)) < 12:
                 errors.append(f"{practice_path.relative_to(ROOT)} needs 12 numbered entries")
-            if "Use the numbered questions in the lesson" in practice_text:
+            if any(marker in practice_text for marker in GENERIC_MARKERS):
                 errors.append(f"{practice_path.relative_to(ROOT)} still contains generic placeholder text")
     index = ROOT / "DAY_INDEX.md"
     if not index.exists():

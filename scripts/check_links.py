@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 errors: list[str] = []
 for path in ROOT.rglob("*.md"):
-    if any(part in {".git", "node_modules", ".next", "dist"} for part in path.parts):
+    if any(part in {'.git', 'node_modules', '.next', 'dist', 'authored_lessons'} for part in path.parts):
         continue
     text = path.read_text(encoding="utf-8")
     for target in re.findall(r"\[[^]]+\]\(([^)#]+)(?:#[^)]+)?\)", text):

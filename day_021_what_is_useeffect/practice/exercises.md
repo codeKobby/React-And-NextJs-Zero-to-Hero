@@ -1,22 +1,22 @@
 # Day 021 practice: What is useEffect?
 
-Use this worksheet after reading [the lesson](../day_021_what_is_useeffect.md). Before you start, read the [course README](../../README.md), confirm your tools with the [setup guide](../../SETUP.md), and choose the appropriate local starter from the [examples guide](../../examples/README.md). Work only with local, synthetic data.
+Use this worksheet after reading [the lesson](../day_021_what_is_useeffect.md). Start with the [course README](../../README.md), confirm the [setup guide](../../SETUP.md), and choose the local fixture from the [examples guide](../../examples/README.md). This worksheet is designed for **What is useEffect?** and uses only local, synthetic, bounded data.
 
 ## How to submit your own evidence
 
-For every exercise, save the smallest runnable code or written artifact, record your prediction before running it, copy the observed result, and explain the difference in your own words. Do not open the solution guide until you have attempted the task.
+For every task, record a prediction before running it, save the smallest relevant code or written artifact, copy the observed result, and explain why it happened. Do not open the solution guide until you have attempted the work.
 
 ## Exercises
 
-1. Define **What is an Effect?** in two sentences for a beginner, then point to the exact line in the lesson where the idea first appears.
-2. Copy the worked example unchanged into the correct starter project, run it, and record the command, expected result, and observed result.
-3. Write a line-by-line execution trace for the worked example. Name the input, operation, output, and owner of each important value.
-4. Replace one input with a normal alternative that still demonstrates **Why is it for synchronization rather than ordinary calculations?**. Predict the result before running it.
-5. Create a boundary case involving **What does the dependency list mean?**. Decide whether the correct behavior is a value, an empty state, a compiler error, a loading state, or a failure message, and justify that choice.
-6. Reproduce this deliberate failure: **Use an Effect to calculate a filtered array and replace it with a render-time calculation.**. Capture the error or incorrect behavior, name the violated assumption, and repair the smallest possible change.
-7. Compare **What is an Effect?** and **Why is it for synchronization rather than ordinary calculations?** in a short table. Include ownership, data flow, and one situation where confusing them causes a bug.
-8. Add one quality requirement to the fixture: a meaningful accessible name, a type guard, a loading state, an error state, or a server/client boundary declaration. Explain why it belongs there.
-9. Add a focused test or assertion for the most important behavior. The test must fail when that behavior is removed and pass after the repair.
-10. Apply the lesson to a small local feature using invented data. Write the component, route, or function boundary before writing the implementation.
-11. Write a limitation statement: explain what your successful run does **not** prove about production correctness, security, performance, or accessibility.
-12. Prepare a review note for a teammate. Include the changed files, evidence you collected, one remaining risk, and the next lesson you are ready to study.
+1. Run the smallest Hook or synchronization example unchanged.
+2. Name the external system, input, output, and cleanup responsibility.
+3. Change one dependency and predict when work runs again.
+4. Create a loading, empty, or disconnected boundary appropriate to the example.
+5. Reproduce the likely Rules of Hooks or stale-dependency mistake.
+6. Repair the mistake without silencing the lint rule or hiding the dependency.
+7. Remove the Hook if the behavior can be calculated during render and explain why.
+8. Add cleanup evidence for the subscription, timer, request, or resource.
+9. Add a test or trace for setup and cleanup behavior.
+10. Apply the behavior to a local status title or synthetic subscription with setup and cleanup evidence with a local fixture.
+11. Explain the boundary between React rendering and the line between React's render calculation and an external system's lifecycle.
+12. Write a review note naming what remains untested in an asynchronous environment.

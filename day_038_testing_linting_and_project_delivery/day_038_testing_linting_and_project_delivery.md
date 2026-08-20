@@ -27,63 +27,61 @@
 
 ## Start here
 
-This lesson belongs to the complete course, not to a disconnected collection of notes. Before coding, open the [course README](../README.md) for the learning contract, read the [setup guide](../SETUP.md) if your tools are not ready, and use the [day index](../DAY_INDEX.md) to see where this lesson fits. If you need a runnable project, open the [examples guide](../examples/README.md), choose the React playground or Next.js starter that matches this day, and work locally with synthetic data only.
-
-The intended loop is simple: read the lesson, run the worked example unchanged, make a prediction, repair the broken version, complete the guided practice, then use the linked [practice worksheet](practice/exercises.md), [hints](practice/hints.md), and [solution guide](practice/solutions.md) only after attempting the work.
+This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: We will state a behavior claim, exercise it through the public UI or route contract, add a failure case, and distinguish test evidence from proof of production correctness. Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
 
 ## Why this lesson exists
 
-A learner can read a framework tutorial and still feel lost because the tutorial shows a finished file without explaining the decisions that produced it. This lesson teaches **Testing, linting, and project delivery** as a sequence of small, testable ideas. The goal is not to memorize a recipe. The goal is to predict what the runtime will do, explain why it did it, and make a safe change without breaking the mental model.
+The learner problem comes first: A component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. This lesson teaches **Testing, linting, and project delivery** through a connected sequence rather than a finished file dropped from the sky: We will state a behavior claim, exercise it through the public UI or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The goal is to explain the decision and its owner, not to memorize a spelling.
 
 ## Prerequisites
 
-Complete the previous lesson, confirm the [setup guide](../SETUP.md), and make sure the repository setup works. If a command fails, stop and read the first error instead of copying a random fix. Use the [course README](../README.md) to understand the learning loop and the [examples guide](../examples/README.md) to choose the correct local starter. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
+Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **the component or route behavior being tested and a runnable starter**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
 
 ## Outcomes
 
-By the end, you should be able to explain the topics in your own words, run the worked example, trace it line by line, predict one normal and one boundary result, repair the broken version, and apply the idea to a small local project. You should also be able to state one limitation: what this lesson does **not** prove about production readiness, security, performance, or correctness.
+By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **testing, linting, and project delivery** to a local synthetic case journey with normal, invalid, empty, and failure fixtures. You should be able to name the owner and boundary—the public behavior under test and the internal implementation that may change—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
 
 ## Keywords and terms
 
 | Keyword or term | Plain-English meaning |
 | --- | --- |
-| `lint` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
-| `typecheck` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
-| `test` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
-| `build` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
-| `CI` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
-| `regression` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
-| `review` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `lint` | Automated source analysis that catches suspicious patterns and enforces project conventions. |
+| `typecheck` | A static verification that source values and operations satisfy the TypeScript type contracts. |
+| `test` | A repeatable check of a behavior or contract under controlled inputs. |
+| `build` | The process that checks, bundles, and prepares an application for a target environment. |
+| `CI` | Continuous integration: an automated process that checks changes before they are merged or deployed. |
+| `regression` | A previously working behavior that breaks after a change. |
+| `review` | A deliberate inspection of code, evidence, trade-offs, and remaining risks before acceptance. |
 
 ## Topics
 
 ### What does each check prove?
 
-Study **What does each check prove** by naming its input, operation, output, and owner. Change one thing at a time and keep both your prediction and the observed result so that a mismatch becomes a repairable learning signal.
+Start with the learner's concrete question: **What does each check prove**. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why are lint and type checks different?
 
-The useful answer to **Why are lint and type checks different** is a trade-off, not a memorized slogan. Compare the simple case with the failure case, then ask what responsibility is being protected: ownership, identity, accessibility, performance, or server authority. Record the evidence from the example before choosing a pattern.
+The answer to **Why are lint and type checks different** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic case journey with normal, invalid, empty, and failure fixtures.
 
 ### What belongs in CI?
 
-Study **What belongs in CI** by naming its input, operation, output, and owner. Change one thing at a time and keep both your prediction and the observed result so that a mismatch becomes a repairable learning signal.
+Start with the learner's concrete question: **What belongs in CI**. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we review a change?
 
-To answer **How do we review a change**, follow a repeatable procedure. First identify the input and the owner; next make the smallest change; then predict the output, run it, and inspect the boundary behavior. If the code crosses from JavaScript into React or from a Server Component into the browser, write that boundary down explicitly.
+To answer **How do we review a change**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
 
 ## Worked example
 
-Copy this complete example into the appropriate starter file. Do not modify it before the first run.
+The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: We will state a behavior claim, exercise it through the public UI or route contract, add a failure case, and distinguish test evidence from proof of production correctness.
 
 ```tsx
 npm run lint && npm run typecheck && npm test && npm run build
@@ -95,61 +93,62 @@ npm run lint && npm run typecheck && npm test && npm run build
 A clean pipeline gives evidence, not certainty.
 ```
 
-Read the code from top to bottom. Identify the input, the named values, the operation, the output, and the line that owns the decision. If the example is JSX, distinguish JavaScript expressions inside braces from markup. If it is a Server Component or Client Component example, identify which side of the boundary each line belongs to.
+Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is the public behavior under test and the internal implementation that may change.
 
 ## Line-by-line explanation
 
 | Line | What this line does |
 | ---: | --- |
-| 1 | `npm run lint && npm run typecheck && npm test && npm run build` — Runs as part of the surrounding expression or block; identify its input and observed effect. |
+| 1 | `npm run lint && npm run typecheck && npm test && npm run build` — Runs inside the current example; connect its effect to the public behavior under test and the internal implementation that may change. |
 
 Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
 
 ## Execution trace
 
-1. The runtime reads the declarations and creates the names used by the example.
-2. The component or function receives its input and evaluates its body from top to bottom.
-3. React or Next.js records the result, schedules any state update or asynchronous work, and decides what can be rendered in the current environment.
-4. The visible result is evidence about this fixture. It is not proof that an untested production application is secure, accessible, or correct.
+1. Start with the fixture's initial input: A component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries.
+2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
+3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: We will state a behavior claim, exercise it through the public UI or route contract, add a failure case, and distinguish test evidence from proof of production correctness.
+4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
+5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
 
-Write the trace in your own notebook. After each line, record what value exists and which component or environment owns it.
+Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input from the worked example: use an empty value, a boundary value, a delayed promise, a missing route parameter, or a rejected action appropriate to this lesson. Predict the output, fallback, compiler error, or thrown error. Run it, record what happened, and explain the difference. Then run the original case again to prove that the repair did not remove the normal behavior.
+Before running the experiment, write your prediction. Change exactly one input or boundary related to **Testing, linting, and project delivery**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** Skip the build because tests pass and explain the missing evidence.
 
-Run the broken version in a local copy. Capture the error or incorrect UI. Name the violated assumption in one sentence. **Repair:** change the smallest possible line or boundary, rerun the normal case, rerun the boundary case, and explain what remains untested. Do not hide the failure with a broad catch, disable a type check, or claim that a passing render proves a secure application.
+Run the broken version in a local copy. The likely beginner mistake for this family is: Assert a private implementation detail while skipping the visible contract the learner actually needs to protect. Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example with one different value. Second, change one rule while keeping the input fixed and predict the result. Third, start a blank file and recreate the smallest version from memory. Ask yourself: what is the component boundary, what data crosses it, where does state live, and what should happen when work is loading or fails? Only after these three checkpoints should you attempt the independent exercises.
+First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **testing, linting, and project delivery** to a local synthetic case journey with normal, invalid, empty, and failure fixtures. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
 
 ## Project application
 
-Use a local, synthetic project fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
+Apply the lesson to a local synthetic case journey with normal, invalid, empty, and failure fixtures using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is the public behavior under test and the internal implementation that may change. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
-1. Recreate the worked example using different data.
-2. Explain each keyword in the Keywords and terms table without reading the lesson.
-3. Change one line and predict the new output before running it.
-4. Add a normal case and a boundary case.
-5. Break the example in the way described above and record the error.
-6. Repair it with the smallest change.
-7. Add one accessible label, keyboard behavior, or meaningful loading message.
-8. Add a test or assertion for the most important behavior.
-9. Explain which value is owned by which component, function, or server boundary.
-10. Write one limitation that the example does not prove.
-11. Apply the lesson to the current project fixture using only local or synthetic data.
-12. Write a short review explaining what a teammate should inspect before merging your change.
+1. State one user-visible behavior the test should protect.
+2. Run the smallest normal fixture and record the public output.
+3. Add an empty, invalid, rejected, or unauthorized fixture.
+4. Choose unit, integration, or browser coverage and justify the level.
+5. Reproduce an assertion that checks a private implementation detail.
+6. Repair it around the user-visible or route contract.
+7. Add a keyboard, label, loading, or error assertion where appropriate.
+8. Make the test fail by removing the behavior, then restore it.
+9. Explain what the test cannot prove about production.
+10. Apply the test plan to a local synthetic case journey with normal, invalid, empty, and failure fixtures with local synthetic data.
+11. Document the public boundary under test: the public behavior under test and the internal implementation that may change.
+12. Write a review note with commands, evidence, flaky-risk considerations, and residual risk.
 
 ## Finish line
 
-You are finished when you can teach the main idea to another beginner, show the normal and broken runs, explain the repair, and point to the exact boundary where data, state, effects, or server authority changes. Do not move on because the code merely compiles.
+You are finished when you can teach **Testing, linting, and project delivery** to another beginner, show the normal and broken runs, explain the repair, and point to **the public behavior under test and the internal implementation that may change**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
 
 ## References
 

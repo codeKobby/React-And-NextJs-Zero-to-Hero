@@ -1,21 +1,21 @@
 # Day 017 solution guide: Uncontrolled inputs and refs
 
-Use this guide after attempting [the exercises](exercises.md). A solution is evidence and reasoning, not a copied file. Compare your work with the [lesson](../day_017_uncontrolled_inputs_and_refs.md), then improve the explanation if your code works for the wrong reason.
+Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Uncontrolled inputs and refs**; it is not a copied answer key.
 
 ## Review checkpoints
 
-1. The definition of **What is an uncontrolled input?** names an observable rule and points to a concrete lesson example.
-2. The unchanged worked example runs in the correct local starter and its output matches the lesson's expected result.
-3. The trace identifies the order of evaluation and the owner of each important value.
-4. The normal alternative changes one input and preserves the rule for **When is a ref useful?**.
-5. The boundary case has deliberate behavior rather than an accidental blank screen, stray value, or unhandled rejection.
-6. The broken example reproduces the stated failure, and the repair is the smallest change that restores the normal case without weakening the check.
-7. The comparison table distinguishes **What is an uncontrolled input?** from **When is a ref useful?** by responsibility, lifetime, and direction of data flow.
-8. The added quality requirement is visible in the code or project structure and is explained in plain language.
-9. The test or assertion fails when the important behavior is removed, then passes after the repair.
-10. The local feature has a named boundary, synthetic fixture data, a normal path, and a failure or empty path appropriate to the topic.
-11. The limitation statement avoids claiming that a passing build or test proves production readiness.
-12. The review note names files, commands, observed evidence, one remaining risk, and the next learning step.
+1. The submission states the problem and connects it to uncontrolled inputs and refs rather than offering only a definition.
+2. The unchanged example runs and its visible or returned result is recorded for a small local fixture that demonstrates uncontrolled inputs and refs.
+3. The trace identifies the owner and boundary: the code or framework boundary that owns the decision in this lesson.
+4. The normal change isolates one input and preserves the rule for What is an uncontrolled input?.
+5. The boundary case for When is a ref useful? has deliberate behavior and an explanation.
+6. The failure `Read ref.current during render and explain why refs are not reactive state.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
+7. The repair keeps the responsibility that the lesson owns: Learners need a concrete reason to study uncontrolled inputs and refs before the terminology becomes useful.
+8. The quality requirement for What is the difference between value and defaultValue? is visible in code or project structure.
+9. The assertion or test fails when the important behavior is removed and passes after the repair.
+10. The local application demonstrates a small local fixture that demonstrates uncontrolled inputs and refs with synthetic data and a named owner.
+11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
+12. The review note is reproducible and records evidence, residual risk, and the boundary the code or framework boundary that owns the decision in this lesson.
 
 ## Self-assessment
 

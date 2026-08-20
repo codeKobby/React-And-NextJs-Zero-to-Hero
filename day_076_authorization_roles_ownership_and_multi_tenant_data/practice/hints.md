@@ -1,18 +1,18 @@
 # Day 076 hints: Authorization, roles, ownership, and multi-tenant data
 
-These hints are deliberately specific enough to unblock you but not to replace the attempt. Use the [lesson](../day_076_authorization_roles_ownership_and_multi_tenant_data.md) and [setup guide](../../SETUP.md) first.
+Use these after attempting the [exercises](exercises.md). They are specific to **Authorization, roles, ownership, and multi-tenant data** and should unblock the next thought without replacing it.
 
 ## Hints
 
-1. Use the word **What is authorization?** in your definition, then connect it to an observable input and output rather than a dictionary slogan.
-2. Do not change the example before the first run. If it fails, verify the current directory and the starter's package scripts.
-3. Make one trace row per meaningful line. Include the value before and after a setter, render, request, or boundary decision.
-4. Change exactly one input. If you change the code and the input together, you will not know what caused the result.
-5. Boundary behavior is part of the feature. Decide who owns the empty, invalid, pending, or unauthorized case before coding it.
-6. Start from the smallest broken line. Do not disable TypeScript, remove a dependency array, or hide an error with a broad catch.
-7. **What is authorization?** and **How do roles differ from permissions?** may be related without being interchangeable. Compare who creates the value and who is allowed to change it.
-8. Prefer a small explicit boundary over a global workaround. For Next.js, state whether the code runs on the server or in the browser.
-9. Assert user-visible behavior or a clear contract. A test that only checks a private implementation detail will not protect the lesson's idea.
-10. Use the same local fixture throughout. Keep the feature small enough that you can explain every file in the review.
-11. A build proves only that the checked build completed. It does not prove that every user path, device, permission, or failure mode works.
-12. A good review note is reproducible: another learner should know what to run, what should happen, and what remains uncertain.
+1. Begin with the learner problem: A full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection.
+2. Run the smallest example unchanged and inspect the evidence for a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+3. Trace the input, operation, output, and owner at identity and navigation checks versus server-side data and mutation authority.
+4. Change exactly one input related to What is authorization?; keep the rule fixed.
+5. For How do roles differ from permissions?, decide the normal and boundary behavior before coding.
+6. Reproduce the likely mistake: Treat a browser field, client redirect, or login flag as proof of permission and return data before the server policy runs.
+7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
+8. Keep the data local and synthetic while you test Why must ownership filter the query?.
+9. Assert a visible result or public contract rather than a private implementation detail.
+10. Use the same fixture to apply authorization, roles, ownership, and multi-tenant data to a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+11. A passing build proves only the checked build completed; record what remains untested.
+12. Your review note should name the owner, evidence, limitation, and boundary: identity and navigation checks versus server-side data and mutation authority.
