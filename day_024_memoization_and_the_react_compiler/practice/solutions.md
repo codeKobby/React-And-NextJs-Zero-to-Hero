@@ -1,6 +1,6 @@
 # Day 024 solution guide: Memoization and the React Compiler
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Memoization and the React Compiler**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Memoization and the React Compiler**; it is not a copied answer key.
 
 ## Review checkpoints
 

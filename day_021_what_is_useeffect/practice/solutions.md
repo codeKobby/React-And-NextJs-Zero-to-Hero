@@ -1,6 +1,6 @@
 # Day 021 solution guide: What is useEffect?
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **What is useEffect?**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **What is useEffect?**; it is not a copied answer key.
 
 ## Review checkpoints
 

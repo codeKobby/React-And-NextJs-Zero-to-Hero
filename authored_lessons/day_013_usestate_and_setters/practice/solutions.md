@@ -1,6 +1,6 @@
 # Day 013 solution route: useState and setters
 
-Use this route after attempting the [exercises](exercises.md). The goal is to compare state-update decisions and evidence, not to memorize a code shape.
+Use this route after attempting the the numbered exercises in this lesson. The goal is to compare state-update decisions and evidence, not to memorize a code shape.
 
 1. One direct update changes the next render by one.
 2. Two direct updates can request the same value because both read the same snapshot.

@@ -1,6 +1,6 @@
 # Day 008 solution guide: Props and one-way data flow
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Props and one-way data flow**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Props and one-way data flow**; it is not a copied answer key.
 
 ## Review checkpoints
 

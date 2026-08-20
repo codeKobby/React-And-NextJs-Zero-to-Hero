@@ -1,6 +1,6 @@
 # Day 002 hints: HTML, CSS, accessibility, and the DOM
 
-Use these after attempting the [observation exercises](exercises.md). They help you inspect rather than replace the work.
+Use these after attempting the the observation exercises in this lesson. They help you inspect rather than replace the work.
 
 ## Hints
 

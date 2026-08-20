@@ -945,25 +945,10 @@ def practice_solutions(title: str, raw_topics: str, repair: str) -> str:
     return "\n".join(f"{index}. {item}" for index, item in enumerate(items, 1))
 
 
-def practice_materials(day: int, title: str, raw_topics: str, repair: str) -> tuple[str, str, str]:
-    topics = [item.strip() for item in raw_topics.split(";")]
-    first, second, third, fourth = topics[:4]
-    lesson_slug = f"day_{day:03d}_{slug(title)}"
-    exercises = f"""# Day {day:03d} practice: {title}
-
-Use this worksheet after reading [the lesson](../{lesson_slug}.md). Start with the [course README](../../README.md), confirm the [setup guide](../../SETUP.md), and choose the local fixture from the [examples guide](../../examples/README.md). This worksheet is designed for **{title}** and uses only local, synthetic, bounded data.
-
-## How to submit your own evidence
-
-For every task, record a prediction before running it, save the smallest relevant code or written artifact, copy the observed result, and explain why it happened. Do not open the solution guide until you have attempted the work.
-
-## Exercises
-
-{independent_exercises(title, raw_topics, repair)}
-"""
+def practice_materials(day: int, title: str, raw_topics: str, repair: str) -> tuple[str, str]:
     hints = f"""# Day {day:03d} hints: {title}
 
-Use these after attempting the [exercises](exercises.md). They are specific to **{title}** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_{day:03d}_{slug(title)}.md). They are specific to **{title}** and should unblock the next thought without replacing it.
 
 ## Hints
 
@@ -971,7 +956,7 @@ Use these after attempting the [exercises](exercises.md). They are specific to *
 """
     solutions = f"""# Day {day:03d} solution guide: {title}
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **{title}**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_{day:03d}_{slug(title)}.md). It reviews the decisions for **{title}**; it is not a copied answer key.
 
 ## Review checkpoints
 
@@ -981,7 +966,7 @@ Use this guide after attempting [the exercises](exercises.md). It reviews the de
 
 Mark the work **ready** only when you can explain why the implementation works, reproduce the result from a clean checkout, and describe what it still does not cover. If your answer is “the framework does it,” return to the execution trace and identify the actual boundary where the behavior is decided.
 """
-    return exercises, hints, solutions
+    return hints, solutions
 
 
 def main() -> None:
@@ -1012,8 +997,8 @@ def main() -> None:
             for source in authored_practice.glob("*.md"):
                 (practice / source.name).write_text(source.read_text(encoding="utf-8"), encoding="utf-8")
         else:
-            exercises, hints, solutions = practice_materials(day, title, topics, repair)
-            (practice / "exercises.md").write_text(exercises, encoding="utf-8")
+            hints, solutions = practice_materials(day, title, topics, repair)
+            (practice / "exercises.md").unlink(missing_ok=True)
             (practice / "hints.md").write_text(hints, encoding="utf-8")
             (practice / "solutions.md").write_text(solutions, encoding="utf-8")
     print(f"Generated {len(LESSONS)} modern lessons with learner-specific practice materials.")

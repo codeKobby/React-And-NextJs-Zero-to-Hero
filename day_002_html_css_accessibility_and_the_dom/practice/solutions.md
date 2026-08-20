@@ -1,6 +1,6 @@
 # Day 002 review guide: HTML, CSS, accessibility, and the DOM
 
-Use this after attempting the [observation exercises](exercises.md). It reviews the quality of the observation, not a single correct page.
+Use this after attempting the the observation exercises in this lesson. It reviews the quality of the observation, not a single correct page.
 
 ## Review checkpoints
 

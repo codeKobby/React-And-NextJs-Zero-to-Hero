@@ -1,6 +1,6 @@
 # Day 057 solution guide: Deployment and environment configuration
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Deployment and environment configuration**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Deployment and environment configuration**; it is not a copied answer key.
 
 ## Review checkpoints
 

@@ -1,6 +1,6 @@
 # Day 031 solution guide: React 19 Actions
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **React 19 Actions**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **React 19 Actions**; it is not a copied answer key.
 
 ## Review checkpoints
 

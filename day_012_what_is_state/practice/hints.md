@@ -1,6 +1,6 @@
 # Day 012 hints: What is state?
 
-Use these after attempting the [exercises](exercises.md). Start with the [lesson](../day_012_what_is_state.md) and the local [React playground](../../examples/README.md).
+Use these after attempting the the numbered exercises in this lesson. Start with the [lesson](../day_012_what_is_state.md) and the local [React playground](../../examples/README.md).
 
 1. Record two columns: what the console prints and what the screen displays. They are allowed to differ in the broken example.
 2. `useState` needs an import, a current value, and a setter. Keep the button and paragraph unchanged while making the ownership change.

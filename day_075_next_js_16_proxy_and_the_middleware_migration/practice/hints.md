@@ -1,6 +1,6 @@
 # Day 075 hints: Next.js 16 Proxy and the middleware migration
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Next.js 16 Proxy and the middleware migration** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Next.js 16 Proxy and the middleware migration** and should unblock the next thought without replacing it.
 
 ## Hints
 

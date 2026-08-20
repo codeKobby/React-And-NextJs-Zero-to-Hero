@@ -1,6 +1,6 @@
 # Day 047 hints: Server-only and client-only boundaries
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Server-only and client-only boundaries** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Server-only and client-only boundaries** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -1,6 +1,6 @@
 # Day 053 solution guide: Authentication and authorization boundaries
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Authentication and authorization boundaries**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Authentication and authorization boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

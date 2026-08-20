@@ -1,6 +1,6 @@
 # Day 006 hints: What is a component?
 
-Use these after attempting the [exercises](exercises.md). If the project does not run, return to the [README](../../README.md), [setup guide](../../SETUP.md), and [examples guide](../../examples/README.md).
+Use these after attempting the the numbered exercises in this lesson. If the project does not run, return to the [README](../../README.md), [setup guide](../../SETUP.md), and [examples guide](../../examples/README.md).
 
 1. Start by preserving the visible page. A refactor can improve ownership without changing the user's result.
 2. Give `Header`, `Main`, and `Footer` one responsibility each; do not split every element into a component.

@@ -1,6 +1,6 @@
 # Day 017 solution guide: Uncontrolled inputs and refs
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Uncontrolled inputs and refs**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Uncontrolled inputs and refs**; it is not a copied answer key.
 
 ## Review checkpoints
 

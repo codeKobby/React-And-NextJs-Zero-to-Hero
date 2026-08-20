@@ -1,6 +1,6 @@
 # Day 052 hints: Route Handlers and HTTP APIs
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Route Handlers and HTTP APIs** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Route Handlers and HTTP APIs** and should unblock the next thought without replacing it.
 
 ## Hints
 

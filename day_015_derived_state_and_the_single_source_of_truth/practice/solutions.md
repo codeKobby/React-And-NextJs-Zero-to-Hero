@@ -1,6 +1,6 @@
 # Day 015 solution guide: Derived state and the single source of truth
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Derived state and the single source of truth**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Derived state and the single source of truth**; it is not a copied answer key.
 
 ## Review checkpoints
 

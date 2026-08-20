@@ -1,6 +1,6 @@
 # Day 056 solution guide: Performance and bundle boundaries
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Performance and bundle boundaries**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Performance and bundle boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

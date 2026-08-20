@@ -1,6 +1,6 @@
 # Day 041 hints: Layouts, pages, and route segments
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Layouts, pages, and route segments** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Layouts, pages, and route segments** and should unblock the next thought without replacing it.
 
 ## Hints
 

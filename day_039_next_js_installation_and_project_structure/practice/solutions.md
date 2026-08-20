@@ -1,6 +1,6 @@
 # Day 039 solution guide: Next.js installation and project structure
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Next.js installation and project structure**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Next.js installation and project structure**; it is not a copied answer key.
 
 ## Review checkpoints
 

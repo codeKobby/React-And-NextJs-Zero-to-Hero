@@ -1,6 +1,6 @@
 # Day 005 hints: Tooling and the first component
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Tooling and the first component** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Tooling and the first component** and should unblock the next thought without replacing it.
 
 ## Hints
 

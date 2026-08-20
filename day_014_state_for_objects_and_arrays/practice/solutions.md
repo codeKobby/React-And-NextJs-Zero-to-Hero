@@ -1,6 +1,6 @@
 # Day 014 solution guide: State for objects and arrays
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **State for objects and arrays**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **State for objects and arrays**; it is not a copied answer key.
 
 ## Review checkpoints
 

@@ -1,6 +1,6 @@
 # Day 076 hints: Authorization, roles, ownership, and multi-tenant data
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Authorization, roles, ownership, and multi-tenant data** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Authorization, roles, ownership, and multi-tenant data** and should unblock the next thought without replacing it.
 
 ## Hints
 

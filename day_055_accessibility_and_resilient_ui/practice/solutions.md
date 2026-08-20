@@ -1,6 +1,6 @@
 # Day 055 solution guide: Accessibility and resilient UI
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Accessibility and resilient UI**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Accessibility and resilient UI**; it is not a copied answer key.
 
 ## Review checkpoints
 

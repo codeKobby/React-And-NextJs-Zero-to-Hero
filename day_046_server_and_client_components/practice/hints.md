@@ -1,6 +1,6 @@
 # Day 046 hints: Server and Client Components
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Server and Client Components** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Server and Client Components** and should unblock the next thought without replacing it.
 
 ## Hints
 

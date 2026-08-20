@@ -1,6 +1,6 @@
 # Day 060 solution guide: Final demonstration and portfolio review
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Final demonstration and portfolio review**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Final demonstration and portfolio review**; it is not a copied answer key.
 
 ## Review checkpoints
 

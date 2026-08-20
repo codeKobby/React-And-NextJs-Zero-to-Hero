@@ -1,6 +1,6 @@
 # Day 069 solution guide: Drizzle ORM, SQLite, migrations, and seed data
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Drizzle ORM, SQLite, migrations, and seed data**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Drizzle ORM, SQLite, migrations, and seed data**; it is not a copied answer key.
 
 ## Review checkpoints
 

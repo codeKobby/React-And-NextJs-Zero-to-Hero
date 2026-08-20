@@ -1,6 +1,6 @@
 # Day 065 hints: shadcn/ui composition, theming, and accessible patterns
 
-Use these after attempting the [exercises](exercises.md). They are specific to **shadcn/ui composition, theming, and accessible patterns** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **shadcn/ui composition, theming, and accessible patterns** and should unblock the next thought without replacing it.
 
 ## Hints
 

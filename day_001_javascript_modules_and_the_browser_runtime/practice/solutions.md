@@ -1,6 +1,6 @@
 # Day 001 solution guide: JavaScript modules and the browser runtime
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **JavaScript modules and the browser runtime**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **JavaScript modules and the browser runtime**; it is not a copied answer key.
 
 ## Review checkpoints
 

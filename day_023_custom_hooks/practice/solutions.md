@@ -1,6 +1,6 @@
 # Day 023 solution guide: Custom Hooks
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Custom Hooks**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Custom Hooks**; it is not a copied answer key.
 
 ## Review checkpoints
 

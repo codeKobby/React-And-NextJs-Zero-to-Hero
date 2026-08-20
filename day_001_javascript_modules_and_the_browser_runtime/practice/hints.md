@@ -1,6 +1,6 @@
 # Day 001 hints: JavaScript modules and the browser runtime
 
-Use these after attempting the [exercises](exercises.md). They are specific to **JavaScript modules and the browser runtime** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **JavaScript modules and the browser runtime** and should unblock the next thought without replacing it.
 
 ## Hints
 

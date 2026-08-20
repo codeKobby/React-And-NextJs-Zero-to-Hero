@@ -1,6 +1,6 @@
 # Day 012 solution route: What is state?
 
-Use this route after attempting the [exercises](exercises.md). Compare the evidence and reasoning with the [lesson](../day_012_what_is_state.md), not just the final screen.
+Use this route after attempting the the numbered exercises in this lesson. Compare the evidence and reasoning with the [lesson](../day_012_what_is_state.md), not just the final screen.
 
 1. The broken counter's console increases while the screen can remain at zero because changing a local variable does not request a render.
 2. `useState` gives React ownership; the screen reflects the current snapshot after each setter request is processed.

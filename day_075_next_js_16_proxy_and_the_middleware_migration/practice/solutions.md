@@ -1,6 +1,6 @@
 # Day 075 solution guide: Next.js 16 Proxy and the middleware migration
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Next.js 16 Proxy and the middleware migration**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Next.js 16 Proxy and the middleware migration**; it is not a copied answer key.
 
 ## Review checkpoints
 

@@ -1,6 +1,6 @@
 # Day 027 solution guide: Function components versus class components
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Function components versus class components**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Function components versus class components**; it is not a copied answer key.
 
 ## Review checkpoints
 

@@ -1,6 +1,6 @@
 # Day 049 solution guide: Caching and revalidation
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Caching and revalidation**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Caching and revalidation**; it is not a copied answer key.
 
 ## Review checkpoints
 

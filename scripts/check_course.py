@@ -72,8 +72,15 @@ def check() -> list[str]:
         observable_markers = ("Expected result", "Visible behavior", "Expected behavior", "visible result", "visible output", "prints", "The first render", "The browser")
         if not any(marker in text for marker in observable_markers):
             errors.append(f"{lesson.relative_to(ROOT)} needs explicit learner-observable output")
-        if len(re.findall(r"^\d+\. ", text, flags=re.MULTILINE)) < 12:
-            errors.append(f"{lesson.relative_to(ROOT)} needs 12 numbered exercises")
+        exercise_heading = re.search(r"^## Independent exercises\s*$", text, flags=re.MULTILINE)
+        if not exercise_heading:
+            errors.append(f"{lesson.relative_to(ROOT)} is missing its canonical Independent exercises section")
+        else:
+            exercise_tail = text[exercise_heading.end() :]
+            next_heading = re.search(r"^## ", exercise_tail, flags=re.MULTILINE)
+            exercise_section = exercise_tail[: next_heading.start() if next_heading else len(exercise_tail)]
+            if len(re.findall(r"^\d+\. ", exercise_section, flags=re.MULTILINE)) < 12:
+                errors.append(f"{lesson.relative_to(ROOT)} needs 12 numbered exercises in Independent exercises")
         toc_start = text.find("## Table of contents")
         toc_end = text.find("\n## ", toc_start + 4)
         toc = text[toc_start : toc_end if toc_end != -1 else len(text)]
@@ -81,7 +88,9 @@ def check() -> list[str]:
         for anchor in re.findall(r"\]\(#([^)]+)\)", toc):
             if anchor not in headings:
                 errors.append(f"{lesson.relative_to(ROOT)} has broken TOC anchor #{anchor}")
-        practice_files = ("practice/exercises.md", "practice/hints.md", "practice/solutions.md")
+        if (path / "practice" / "exercises.md").exists():
+            errors.append(f"{path.relative_to(ROOT)}/practice/exercises.md is redundant; exercises belong in the lesson")
+        practice_files = ("practice/hints.md", "practice/solutions.md")
         for required in practice_files:
             practice_path = path / required
             if not practice_path.exists():
@@ -109,4 +118,4 @@ if errors:
     print("Course check failed:")
     print("\n".join(f"- {error}" for error in errors))
     raise SystemExit(1)
-print("Course check passed: 83 sortable lessons, structured sections, onboarding navigation, and useful practice files are present.")
+print("Course check passed: 83 sortable lessons, canonical in-lesson exercises, onboarding navigation, and support practice files are present.")

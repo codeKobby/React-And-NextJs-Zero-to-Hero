@@ -1,6 +1,6 @@
 # Day 013 hints: useState and setters
 
-Use these after attempting the [exercises](exercises.md). Return to the [lesson](../day_013_usestate_and_setters.md) when a result surprises you.
+Use these after attempting the the numbered exercises in this lesson. Return to the [lesson](../day_013_usestate_and_setters.md) when a result surprises you.
 
 1. One direct update from one snapshot is the easy case; record the current value before the click.
 2. Both direct expressions read the same render snapshot. Write the arithmetic each expression performs.

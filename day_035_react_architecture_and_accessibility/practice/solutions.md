@@ -1,6 +1,6 @@
 # Day 035 solution guide: React architecture and accessibility
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **React architecture and accessibility**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **React architecture and accessibility**; it is not a copied answer key.
 
 ## Review checkpoints
 

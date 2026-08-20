@@ -1,6 +1,6 @@
 # Day 069 hints: Drizzle ORM, SQLite, migrations, and seed data
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Drizzle ORM, SQLite, migrations, and seed data** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Drizzle ORM, SQLite, migrations, and seed data** and should unblock the next thought without replacing it.
 
 ## Hints
 

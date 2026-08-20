@@ -1,6 +1,6 @@
 # Day 074 solution guide: Secure sessions and cookie policy
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Secure sessions and cookie policy**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Secure sessions and cookie policy**; it is not a copied answer key.
 
 ## Review checkpoints
 

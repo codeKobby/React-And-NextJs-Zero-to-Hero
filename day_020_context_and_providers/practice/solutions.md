@@ -1,6 +1,6 @@
 # Day 020 solution guide: Context and providers
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Context and providers**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Context and providers**; it is not a copied answer key.
 
 ## Review checkpoints
 

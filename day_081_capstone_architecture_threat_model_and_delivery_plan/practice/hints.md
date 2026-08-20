@@ -1,6 +1,6 @@
 # Day 081 hints: Capstone architecture, threat model, and delivery plan
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Capstone architecture, threat model, and delivery plan** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Capstone architecture, threat model, and delivery plan** and should unblock the next thought without replacing it.
 
 ## Hints
 

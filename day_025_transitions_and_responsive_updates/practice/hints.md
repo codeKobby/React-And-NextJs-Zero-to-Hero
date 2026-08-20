@@ -1,6 +1,6 @@
 # Day 025 hints: Transitions and responsive updates
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Transitions and responsive updates** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Transitions and responsive updates** and should unblock the next thought without replacing it.
 
 ## Hints
 

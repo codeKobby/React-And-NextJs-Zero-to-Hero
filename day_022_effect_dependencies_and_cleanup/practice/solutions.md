@@ -1,6 +1,6 @@
 # Day 022 solution guide: Effect dependencies and cleanup
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Effect dependencies and cleanup**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Effect dependencies and cleanup**; it is not a copied answer key.
 
 ## Review checkpoints
 

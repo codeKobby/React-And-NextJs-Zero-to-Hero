@@ -1,6 +1,6 @@
 # Day 006 solution route: What is a component?
 
-Compare your work with the [lesson](../day_006_what_is_a_component.md) after attempting the [exercises](exercises.md). The goal is to explain decisions, not copy a page.
+Compare your work with the [lesson](../day_006_what_is_a_component.md) after attempting the the numbered exercises in this lesson. The goal is to explain decisions, not copy a page.
 
 1. The original page has welcome, queue, and closing responsibilities.
 2. The split page keeps the same visible output while giving each responsibility a named owner.

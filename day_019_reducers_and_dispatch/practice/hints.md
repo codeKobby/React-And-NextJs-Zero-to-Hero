@@ -1,6 +1,6 @@
 # Day 019 hints: Reducers and dispatch
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Reducers and dispatch** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Reducers and dispatch** and should unblock the next thought without replacing it.
 
 ## Hints
 

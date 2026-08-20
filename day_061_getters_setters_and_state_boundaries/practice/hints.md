@@ -1,6 +1,6 @@
 # Day 061 hints: Getters, setters, and state boundaries
 
-Use these after attempting the [exercises](exercises.md). They are specific to **Getters, setters, and state boundaries** and should unblock the next thought without replacing it.
+Use these after attempting the the numbered exercises in this lesson. They are specific to **Getters, setters, and state boundaries** and should unblock the next thought without replacing it.
 
 ## Hints
 

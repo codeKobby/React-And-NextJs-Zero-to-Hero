@@ -18,7 +18,7 @@ A lesson must distinguish JavaScript runtime behavior, React rendering behavior,
 
 Practice is deliberately lesson-specific. The course must not generate twelve mechanically identical questions merely to satisfy a count. A setup or orientation lesson may have no coding exercise if it gives a better verification or installation task. A state lesson should normally progress from a small run to an interaction, boundary case, repair, and a small application. A project or capstone lesson should include milestones, acceptance criteria, tests, review evidence, and limitations.
 
-When practice files exist, `practice/exercises.md` states the starting point, expected behavior, acceptance criteria, and permitted concepts. `practice/hints.md` provides progressive clues without replacing the learner's attempt. `practice/solutions.md` explains decisions and review evidence rather than serving as a generic answer key. Companion files must be substantive and specific to the lesson.
+Each lesson’s **Independent exercises** section is the canonical source for the starting point, expected behavior, acceptance criteria, and permitted concepts. `practice/hints.md` provides progressive clues without replacing the learner's attempt. `practice/solutions.md` explains decisions and review evidence rather than serving as a generic answer key. These support files must be substantive and specific to the lesson, and no redundant the lesson’s numbered exercises file is permitted.
 
 ## Human review questions
 

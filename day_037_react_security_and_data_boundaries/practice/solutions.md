@@ -1,6 +1,6 @@
 # Day 037 solution guide: React security and data boundaries
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **React security and data boundaries**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **React security and data boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

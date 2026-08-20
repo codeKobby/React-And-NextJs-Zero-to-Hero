@@ -1,6 +1,6 @@
 # Day 070 solution guide: Repositories and server-only data access
 
-Use this guide after attempting [the exercises](exercises.md). It reviews the decisions for **Repositories and server-only data access**; it is not a copied answer key.
+Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Repositories and server-only data access**; it is not a copied answer key.
 
 ## Review checkpoints
 
