@@ -16,9 +16,26 @@ The course targets **React 19.2.8** and **Next.js 16.3.1** as the validation bas
 | Official research findings | [OFFICIAL_RESEARCH.md](OFFICIAL_RESEARCH.md) |
 | Course quality checks | [COURSE_QUALITY_STANDARD.md](COURSE_QUALITY_STANDARD.md) |
 
+## Start here if you are completely new
+
+Follow these links in order instead of opening a random lesson:
+
+| Step | What to do | Link |
+| --- | --- | --- |
+| 1 | Read the course map and learning rules | This README |
+| 2 | Install Node.js, VS Code, extensions, and the required commands | [SETUP.md](SETUP.md) |
+| 3 | Learn how the two runnable starters are organized | [Examples guide](examples/README.md) |
+| 4 | Choose the next lesson in order | [DAY_INDEX.md](DAY_INDEX.md) |
+| 5 | Read that lesson from **Start here** through **Finish line** | The lesson's linked Markdown file |
+| 6 | Attempt the worksheet without looking at the answers | The lesson's `practice/exercises.md` |
+| 7 | Use hints only for the exercise that blocked you | The lesson's `practice/hints.md` |
+| 8 | Compare your evidence with the review checkpoints | The lesson's `practice/solutions.md` |
+
+Do not begin with the capstone or with a framework feature whose prerequisites you have skipped. Day 001 assumes no React knowledge, and the course gradually introduces JavaScript, TypeScript, React, and then Next.js. Every lesson links back to this README, the setup guide, the examples guide, and the day index so a learner can recover their place without guessing.
+
 ## The learning loop
 
-Read the **Keywords and terms** table first. Then follow the named **Topics** in order. Copy the complete worked example, run it unchanged, read it line by line, predict one normal and one boundary result, run the prediction experiment, repair the deliberately broken version, and complete the guided practice before attempting the numbered exercises.
+Read the **Keywords and terms** table first. Then follow the named **Topics** in order. Copy the complete worked example, run it unchanged, read it line by line, predict one normal and one boundary result, run the prediction experiment, repair the deliberately broken version, and complete the guided practice before attempting the numbered exercises. The separate practice worksheet is not a placeholder: it turns the lesson's idea into twelve observable tasks, while the hints and solution guide provide targeted support and review checkpoints after an honest attempt.
 
 A lesson is not complete because the code compiles. It is complete when you can explain what the runtime did, why the component or route owns each value, what happens while work is loading, what happens when it fails, and what the example still does not prove.
 

@@ -1,9 +1,10 @@
 # Day 012: What is state?
 
-[← Previous lesson](../DAY_INDEX.md) · [Day index](../DAY_INDEX.md)
+[← Previous lesson](../day_011_events_and_event_handlers/day_011_events_and_event_handlers.md) · [Start here](../README.md) · [Setup](../SETUP.md) · [Day index](../DAY_INDEX.md) · [Next lesson →](../day_013_usestate_and_setters/day_013_usestate_and_setters.md)
 
 ## Table of contents
 
+- [Start here](#start-here)
 - [Why this lesson exists](#why-this-lesson-exists)
 - [Prerequisites](#prerequisites)
 - [Outcomes](#outcomes)
@@ -14,6 +15,7 @@
   - [What does a setter do?](#what-does-a-setter-do)
   - [Why does a state update cause another render?](#why-does-a-state-update-cause-another-render)
 - [Worked example](#worked-example)
+- [Line-by-line explanation](#line-by-line-explanation)
 - [Execution trace](#execution-trace)
 - [Prediction experiment](#prediction-experiment)
 - [Broken example and repair](#broken-example-and-repair)
@@ -23,13 +25,19 @@
 - [Finish line](#finish-line)
 - [References](#references)
 
+## Start here
+
+This lesson belongs to the complete course, not to a disconnected collection of notes. Before coding, open the [course README](../README.md) for the learning contract, read the [setup guide](../SETUP.md) if your tools are not ready, and use the [day index](../DAY_INDEX.md) to see where this lesson fits. If you need a runnable project, open the [examples guide](../examples/README.md), choose the React playground or Next.js starter that matches this day, and work locally with synthetic data only.
+
+The intended loop is simple: read the lesson, run the worked example unchanged, make a prediction, repair the broken version, complete the guided practice, then use the linked [practice worksheet](practice/exercises.md), [hints](practice/hints.md), and [solution guide](practice/solutions.md) only after attempting the work.
+
 ## Why this lesson exists
 
 A learner can read a framework tutorial and still feel lost because the tutorial shows a finished file without explaining the decisions that produced it. This lesson teaches **What is state?** as a sequence of small, testable ideas. The goal is not to memorize a recipe. The goal is to predict what the runtime will do, explain why it did it, and make a safe change without breaking the mental model.
 
 ## Prerequisites
 
-Complete the previous lesson and make sure the repository setup works. If a command fails, stop and read the error instead of copying a random fix. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
+Complete the previous lesson, confirm the [setup guide](../SETUP.md), and make sure the repository setup works. If a command fails, stop and read the first error instead of copying a random fix. Use the [course README](../README.md) to understand the learning loop and the [examples guide](../examples/README.md) to choose the correct local starter. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
 
 ## Outcomes
 
@@ -39,38 +47,38 @@ By the end, you should be able to explain the topics in your own words, run the 
 
 | Keyword or term | Plain-English meaning |
 | --- | --- |
-| `state` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `render` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `setter` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `snapshot` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `update` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `re-render` | A term you will use in this lesson; test it in the examples before memorizing it. |
+| `state` | Data owned by a component that React remembers between renders and can use to produce new UI. |
+| `render` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `setter` | A function that requests a new state value; it is not the same thing as a JavaScript property setter. |
+| `snapshot` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `update` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `re-render` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
 
 ## Topics
 
 ### What is state?
 
-Start with the ordinary-language question: **What is state?**. In **What is state?**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+**state** is the idea you must be able to point to in code. Begin with the smallest example: identify the value or boundary involved, observe what changes, and name the rule that connects the input to the result. In this lesson, the worked example gives you a controlled fixture; do not add framework complexity until you can explain the plain JavaScript or browser behavior first.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### Why is state different from an ordinary variable?
 
-Start with the ordinary-language question: **Why is state different from an ordinary variable?**. In **What is state?**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+The useful answer to **Why is state different from an ordinary variable** is a trade-off, not a memorized slogan. Compare the simple case with the failure case, then ask what responsibility is being protected: ownership, identity, accessibility, performance, or server authority. Record the evidence from the example before choosing a pattern.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### What does a setter do?
 
-Start with the ordinary-language question: **What does a setter do?**. In **What is state?**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+Study **What does a setter do** by naming its input, operation, output, and owner. Change one thing at a time and keep both your prediction and the observed result so that a mismatch becomes a repairable learning signal.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### Why does a state update cause another render?
 
-Start with the ordinary-language question: **Why does a state update cause another render?**. In **What is state?**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+The useful answer to **Why does a state update cause another render** is a trade-off, not a memorized slogan. Compare the simple case with the failure case, then ask what responsibility is being protected: ownership, identity, accessibility, performance, or server authority. Record the evidence from the example before choosing a pattern.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ## Worked example
 
@@ -88,6 +96,15 @@ The number increases after each click.
 ```
 
 Read the code from top to bottom. Identify the input, the named values, the operation, the output, and the line that owns the decision. If the example is JSX, distinguish JavaScript expressions inside braces from markup. If it is a Server Component or Client Component example, identify which side of the boundary each line belongs to.
+
+## Line-by-line explanation
+
+| Line | What this line does |
+| ---: | --- |
+| 1 | `const [count, setCount] = useState(0);` — Connects the component to React state and receives a snapshot plus a setter. |
+| 2 | `return <button onClick={() => setCount(count + 1)}>{count}</button>;` — Returns the value or UI description that the surrounding function owns. |
+
+Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
 
 ## Execution trace
 
@@ -114,7 +131,7 @@ First, reproduce the worked example with one different value. Second, change one
 
 ## Project application
 
-Use a local, synthetic project fixture. Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
+Use a local, synthetic project fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
 
 ## Independent exercises
 

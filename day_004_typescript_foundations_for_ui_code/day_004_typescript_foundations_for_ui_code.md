@@ -1,9 +1,10 @@
 # Day 004: TypeScript foundations for UI code
 
-[← Previous lesson](../DAY_INDEX.md) · [Day index](../DAY_INDEX.md)
+[← Previous lesson](../day_003_modern_javascript_for_react/day_003_modern_javascript_for_react.md) · [Start here](../README.md) · [Setup](../SETUP.md) · [Day index](../DAY_INDEX.md) · [Next lesson →](../day_005_tooling_and_the_first_component/day_005_tooling_and_the_first_component.md)
 
 ## Table of contents
 
+- [Start here](#start-here)
 - [Why this lesson exists](#why-this-lesson-exists)
 - [Prerequisites](#prerequisites)
 - [Outcomes](#outcomes)
@@ -14,6 +15,7 @@
   - [How do unions describe real UI states?](#how-do-unions-describe-real-ui-states)
   - [What can TypeScript not know at runtime?](#what-can-typescript-not-know-at-runtime)
 - [Worked example](#worked-example)
+- [Line-by-line explanation](#line-by-line-explanation)
 - [Execution trace](#execution-trace)
 - [Prediction experiment](#prediction-experiment)
 - [Broken example and repair](#broken-example-and-repair)
@@ -23,13 +25,19 @@
 - [Finish line](#finish-line)
 - [References](#references)
 
+## Start here
+
+This lesson belongs to the complete course, not to a disconnected collection of notes. Before coding, open the [course README](../README.md) for the learning contract, read the [setup guide](../SETUP.md) if your tools are not ready, and use the [day index](../DAY_INDEX.md) to see where this lesson fits. If you need a runnable project, open the [examples guide](../examples/README.md), choose the React playground or Next.js starter that matches this day, and work locally with synthetic data only.
+
+The intended loop is simple: read the lesson, run the worked example unchanged, make a prediction, repair the broken version, complete the guided practice, then use the linked [practice worksheet](practice/exercises.md), [hints](practice/hints.md), and [solution guide](practice/solutions.md) only after attempting the work.
+
 ## Why this lesson exists
 
 A learner can read a framework tutorial and still feel lost because the tutorial shows a finished file without explaining the decisions that produced it. This lesson teaches **TypeScript foundations for UI code** as a sequence of small, testable ideas. The goal is not to memorize a recipe. The goal is to predict what the runtime will do, explain why it did it, and make a safe change without breaking the mental model.
 
 ## Prerequisites
 
-Complete the previous lesson and make sure the repository setup works. If a command fails, stop and read the error instead of copying a random fix. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
+Complete the previous lesson, confirm the [setup guide](../SETUP.md), and make sure the repository setup works. If a command fails, stop and read the first error instead of copying a random fix. Use the [course README](../README.md) to understand the learning loop and the [examples guide](../examples/README.md) to choose the correct local starter. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
 
 ## Outcomes
 
@@ -39,38 +47,38 @@ By the end, you should be able to explain the topics in your own words, run the 
 
 | Keyword or term | Plain-English meaning |
 | --- | --- |
-| `type` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `annotation` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `inference` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `union` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `interface` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `narrowing` | A term you will use in this lesson; test it in the examples before memorizing it. |
+| `type` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `annotation` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `inference` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `union` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `interface` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `narrowing` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
 
 ## Topics
 
 ### What problem does TypeScript solve?
 
-Start with the ordinary-language question: **What problem does TypeScript solve?**. In **TypeScript foundations for UI code**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+Study **What problem does TypeScript solve** by naming its input, operation, output, and owner. Change one thing at a time and keep both your prediction and the observed result so that a mismatch becomes a repairable learning signal.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### What is inference?
 
-Start with the ordinary-language question: **What is inference?**. In **TypeScript foundations for UI code**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+**inference** is the idea you must be able to point to in code. Begin with the smallest example: identify the value or boundary involved, observe what changes, and name the rule that connects the input to the result. In this lesson, the worked example gives you a controlled fixture; do not add framework complexity until you can explain the plain JavaScript or browser behavior first.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### How do unions describe real UI states?
 
-Start with the ordinary-language question: **How do unions describe real UI states?**. In **TypeScript foundations for UI code**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+To answer **How do unions describe real UI states**, follow a repeatable procedure. First identify the input and the owner; next make the smallest change; then predict the output, run it, and inspect the boundary behavior. If the code crosses from JavaScript into React or from a Server Component into the browser, write that boundary down explicitly.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### What can TypeScript not know at runtime?
 
-Start with the ordinary-language question: **What can TypeScript not know at runtime?**. In **TypeScript foundations for UI code**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+Study **What can TypeScript not know at runtime** by naming its input, operation, output, and owner. Change one thing at a time and keep both your prediction and the observed result so that a mismatch becomes a repairable learning signal.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ## Worked example
 
@@ -89,6 +97,16 @@ loading
 ```
 
 Read the code from top to bottom. Identify the input, the named values, the operation, the output, and the line that owns the decision. If the example is JSX, distinguish JavaScript expressions inside braces from markup. If it is a Server Component or Client Component example, identify which side of the boundary each line belongs to.
+
+## Line-by-line explanation
+
+| Line | What this line does |
+| ---: | --- |
+| 1 | `type Status = 'idle' \| 'loading' \| 'success' \| 'error';` — Creates or updates a named value; read the right-hand side to find the input and operation. |
+| 2 | `const status: Status = 'loading';` — Creates or updates a named value; read the right-hand side to find the input and operation. |
+| 3 | `console.log(status);` — Writes an observation to the console so the learner can compare it with the prediction. |
+
+Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
 
 ## Execution trace
 
@@ -115,7 +133,7 @@ First, reproduce the worked example with one different value. Second, change one
 
 ## Project application
 
-Use a local, synthetic project fixture. Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
+Use a local, synthetic project fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
 
 ## Independent exercises
 

@@ -74,12 +74,74 @@ def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
 
 
+TERM_MEANINGS = {
+    "action": "A named unit of work that can have pending, success, error, or optimistic behavior.",
+    "app router": "Next.js routing model where folders and special files define route segments and rendering boundaries.",
+    "browser": "The program that loads a page, provides the DOM, and runs client-side JavaScript.",
+    "client component": "A component whose module begins with `use client` and may use browser-only interaction APIs.",
+    "component": "A reusable unit of UI that receives inputs and returns a description of what should appear.",
+    "context": "A React mechanism for making a value available to a subtree without passing it through every prop.",
+    "effect": "A synchronization step that connects rendering to something outside React, such as a subscription or document title.",
+    "export": "A declaration that makes a value available to another module.",
+    "getter": "A JavaScript property accessor that runs when code reads a property.",
+    "hook": "A React function with a call-site rule that lets a function component use React features.",
+    "import": "A declaration that reads a value exported by another module.",
+    "jsx": "JavaScript syntax that describes UI elements using markup-like notation.",
+    "layout": "A Next.js file that wraps a route segment and can preserve shared UI while child pages change.",
+    "module": "A file with its own scope that can explicitly export and import values.",
+    "next.js": "A React framework that adds routing, server rendering, data boundaries, and production conventions.",
+    "node.js": "A JavaScript runtime that runs outside the browser and can access server-side APIs.",
+    "props": "Read-only inputs passed from a parent component to a child component.",
+    "react": "A library for describing interactive user interfaces as a tree of components.",
+    "ref": "A stable container or DOM reference that does not itself trigger a re-render when it changes.",
+    "reducer": "A pure function that calculates the next state from the current state and a named action.",
+    "route handler": "A Next.js server file that handles an HTTP method such as GET or POST.",
+    "server component": "A component rendered on the server by default in the App Router and not sent as interactive client JavaScript.",
+    "server action": "A server-side function that a form or client interaction can invoke through a controlled framework boundary.",
+    "setter": "A function that requests a new state value; it is not the same thing as a JavaScript property setter.",
+    "src": "A conventional directory used to keep application source code separate from root configuration files.",
+    "state": "Data owned by a component that React remembers between renders and can use to produce new UI.",
+    "typescript": "A static type checker that catches many mismatches before JavaScript runs.",
+    "useeffect": "The React Hook used to synchronize with an external system after rendering.",
+    "usestate": "The React Hook that returns a state snapshot and a setter for requesting the next state.",
+    "validation": "A check that an input has the shape and values a boundary is prepared to handle.",
+}
+
+
+def term_meaning(term: str) -> str:
+    normalized = re.sub(r"[^a-z0-9]+", "", term.lower())
+    for key, meaning in TERM_MEANINGS.items():
+        if re.sub(r"[^a-z0-9]+", "", key) == normalized:
+            return meaning
+    if normalized.endswith("s"):
+        singular = normalized[:-1]
+        for key, meaning in TERM_MEANINGS.items():
+            if re.sub(r"[^a-z0-9]+", "", key) == singular:
+                return meaning
+    return "A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words."
+
+
 def keywords_table(raw: str) -> str:
     terms = [item.strip() for item in raw.split(",")]
     rows = ["| Keyword or term | Plain-English meaning |", "| --- | --- |"]
     for term in terms:
-        rows.append(f"| `{term}` | A term you will use in this lesson; test it in the examples before memorizing it. |")
+        rows.append(f"| `{term}` | {term_meaning(term)} |")
     return "\n".join(rows)
+
+
+def topic_explanation(topic: str, title: str) -> str:
+    question = topic.rstrip("?")
+    lower = question.lower()
+    if lower.startswith("what is"):
+        core = question[8:].strip()
+        return f"**{core}** is the idea you must be able to point to in code. Begin with the smallest example: identify the value or boundary involved, observe what changes, and name the rule that connects the input to the result. In this lesson, the worked example gives you a controlled fixture; do not add framework complexity until you can explain the plain JavaScript or browser behavior first."
+    if lower.startswith("why"):
+        return f"The useful answer to **{question}** is a trade-off, not a memorized slogan. Compare the simple case with the failure case, then ask what responsibility is being protected: ownership, identity, accessibility, performance, or server authority. Record the evidence from the example before choosing a pattern."
+    if lower.startswith("how"):
+        return f"To answer **{question}**, follow a repeatable procedure. First identify the input and the owner; next make the smallest change; then predict the output, run it, and inspect the boundary behavior. If the code crosses from JavaScript into React or from a Server Component into the browser, write that boundary down explicitly."
+    if lower.startswith("when"):
+        return f"Treat **{question}** as a decision rule. List the normal case, one boundary case, and the cost of choosing the wrong option. Then use the worked example to decide which component, module, route, or server boundary should own the behavior."
+    return f"Study **{question}** by naming its input, operation, output, and owner. Change one thing at a time and keep both your prediction and the observed result so that a mismatch becomes a repairable learning signal."
 
 
 def topic_sections(raw: str, title: str) -> tuple[str, str]:
@@ -90,23 +152,62 @@ def topic_sections(raw: str, title: str) -> tuple[str, str]:
         heading = f"### {topic}"
         anchor = re.sub(r"[^a-z0-9]+", "-", topic.lower()).strip("-")
         toc.append(f"  - [{topic}](#{anchor})")
-        body.append(
-            f"{heading}\n\n"
-            f"Start with the ordinary-language question: **{topic}**. In **{title}**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.\n\n"
-            f"A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair."
-        )
+        body.append(f"{heading}\n\n{topic_explanation(topic, title)}\n\nA beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.")
     return "\n".join(toc), "\n\n".join(body)
 
 
-def lesson(day: int, title: str, keywords: str, raw_topics: str, code: str, output: str, repair: str) -> str:
+def line_by_line(code: str) -> str:
+    rows = ["| Line | What this line does |", "| ---: | --- |"]
+    for number, raw_line in enumerate(code.splitlines(), 1):
+        line = raw_line.strip()
+        if not line:
+            rows.append(f"| {number} | Blank line: it separates ideas and has no runtime operation. |")
+            continue
+        if line.startswith("import "):
+            explanation = "Imports a binding from another module before this file uses it."
+        elif line.startswith("export "):
+            explanation = "Creates a module binding and makes it available to another file."
+        elif "useState" in line:
+            explanation = "Connects the component to React state and receives a snapshot plus a setter."
+        elif "useEffect" in line:
+            explanation = "Declares synchronization work that React will run after the component renders."
+        elif line.startswith("return ") or line == "return":
+            explanation = "Returns the value or UI description that the surrounding function owns."
+        elif line.startswith("console."):
+            explanation = "Writes an observation to the console so the learner can compare it with the prediction."
+        elif "=>" in line or line.startswith("function ") or line.startswith("class "):
+            explanation = "Declares behavior; the body runs when this function or component is called or rendered."
+        elif line.startswith("<") or line.startswith("</") or line.startswith("//"):
+            explanation = "Describes structure or records an intentional comment; JSX becomes part of the rendered result."
+        elif "set" in line.lower() and "(" in line:
+            explanation = "Requests a new value through a setter or update function rather than mutating the old value."
+        elif "=" in line:
+            explanation = "Creates or updates a named value; read the right-hand side to find the input and operation."
+        else:
+            explanation = "Runs as part of the surrounding expression or block; identify its input and observed effect."
+        rows.append(f"| {number} | `{line.replace('|', '\\|')}` — {explanation} |")
+    return "\n".join(rows)
+
+
+def lesson(
+    day: int,
+    title: str,
+    keywords: str,
+    raw_topics: str,
+    code: str,
+    output: str,
+    repair: str,
+    navigation: str,
+) -> str:
     topic_toc, topics = topic_sections(raw_topics, title)
     heading = f"Day {day:03d}: {title}"
     return f"""# {heading}
 
-[← Previous lesson](../DAY_INDEX.md) · [Day index](../DAY_INDEX.md)
+{navigation}
 
 ## Table of contents
 
+- [Start here](#start-here)
 - [Why this lesson exists](#why-this-lesson-exists)
 - [Prerequisites](#prerequisites)
 - [Outcomes](#outcomes)
@@ -114,6 +215,7 @@ def lesson(day: int, title: str, keywords: str, raw_topics: str, code: str, outp
 - [Topics](#topics)
 {topic_toc}
 - [Worked example](#worked-example)
+- [Line-by-line explanation](#line-by-line-explanation)
 - [Execution trace](#execution-trace)
 - [Prediction experiment](#prediction-experiment)
 - [Broken example and repair](#broken-example-and-repair)
@@ -123,13 +225,19 @@ def lesson(day: int, title: str, keywords: str, raw_topics: str, code: str, outp
 - [Finish line](#finish-line)
 - [References](#references)
 
+## Start here
+
+This lesson belongs to the complete course, not to a disconnected collection of notes. Before coding, open the [course README](../README.md) for the learning contract, read the [setup guide](../SETUP.md) if your tools are not ready, and use the [day index](../DAY_INDEX.md) to see where this lesson fits. If you need a runnable project, open the [examples guide](../examples/README.md), choose the React playground or Next.js starter that matches this day, and work locally with synthetic data only.
+
+The intended loop is simple: read the lesson, run the worked example unchanged, make a prediction, repair the broken version, complete the guided practice, then use the linked [practice worksheet](practice/exercises.md), [hints](practice/hints.md), and [solution guide](practice/solutions.md) only after attempting the work.
+
 ## Why this lesson exists
 
 A learner can read a framework tutorial and still feel lost because the tutorial shows a finished file without explaining the decisions that produced it. This lesson teaches **{title}** as a sequence of small, testable ideas. The goal is not to memorize a recipe. The goal is to predict what the runtime will do, explain why it did it, and make a safe change without breaking the mental model.
 
 ## Prerequisites
 
-Complete the previous lesson and make sure the repository setup works. If a command fails, stop and read the error instead of copying a random fix. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
+Complete the previous lesson, confirm the [setup guide](../SETUP.md), and make sure the repository setup works. If a command fails, stop and read the first error instead of copying a random fix. Use the [course README](../README.md) to understand the learning loop and the [examples guide](../examples/README.md) to choose the correct local starter. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
 
 ## Outcomes
 
@@ -158,6 +266,12 @@ Copy this complete example into the appropriate starter file. Do not modify it b
 
 Read the code from top to bottom. Identify the input, the named values, the operation, the output, and the line that owns the decision. If the example is JSX, distinguish JavaScript expressions inside braces from markup. If it is a Server Component or Client Component example, identify which side of the boundary each line belongs to.
 
+## Line-by-line explanation
+
+{line_by_line(code)}
+
+Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+
 ## Execution trace
 
 1. The runtime reads the declarations and creates the names used by the example.
@@ -183,7 +297,7 @@ First, reproduce the worked example with one different value. Second, change one
 
 ## Project application
 
-Use a local, synthetic project fixture. Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
+Use a local, synthetic project fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
@@ -214,32 +328,102 @@ You are finished when you can teach the main idea to another beginner, show the 
 """
 
 
+def practice_materials(day: int, title: str, raw_topics: str, repair: str) -> tuple[str, str, str]:
+    topics = [item.strip() for item in raw_topics.split(";")]
+    first, second, third, fourth = topics[:4]
+    lesson_slug = f"day_{day:03d}_{slug(title)}"
+    exercises = f"""# Day {day:03d} practice: {title}
+
+Use this worksheet after reading [the lesson](../{lesson_slug}.md). Before you start, read the [course README](../../README.md), confirm your tools with the [setup guide](../../SETUP.md), and choose the appropriate local starter from the [examples guide](../../examples/README.md). Work only with local, synthetic data.
+
+## How to submit your own evidence
+
+For every exercise, save the smallest runnable code or written artifact, record your prediction before running it, copy the observed result, and explain the difference in your own words. Do not open the solution guide until you have attempted the task.
+
+## Exercises
+
+1. Define **{first}** in two sentences for a beginner, then point to the exact line in the lesson where the idea first appears.
+2. Copy the worked example unchanged into the correct starter project, run it, and record the command, expected result, and observed result.
+3. Write a line-by-line execution trace for the worked example. Name the input, operation, output, and owner of each important value.
+4. Replace one input with a normal alternative that still demonstrates **{second}**. Predict the result before running it.
+5. Create a boundary case involving **{third}**. Decide whether the correct behavior is a value, an empty state, a compiler error, a loading state, or a failure message, and justify that choice.
+6. Reproduce this deliberate failure: **{repair}**. Capture the error or incorrect behavior, name the violated assumption, and repair the smallest possible change.
+7. Compare **{first}** and **{second}** in a short table. Include ownership, data flow, and one situation where confusing them causes a bug.
+8. Add one quality requirement to the fixture: a meaningful accessible name, a type guard, a loading state, an error state, or a server/client boundary declaration. Explain why it belongs there.
+9. Add a focused test or assertion for the most important behavior. The test must fail when that behavior is removed and pass after the repair.
+10. Apply the lesson to a small local feature using invented data. Write the component, route, or function boundary before writing the implementation.
+11. Write a limitation statement: explain what your successful run does **not** prove about production correctness, security, performance, or accessibility.
+12. Prepare a review note for a teammate. Include the changed files, evidence you collected, one remaining risk, and the next lesson you are ready to study.
+"""
+    hints = f"""# Day {day:03d} hints: {title}
+
+These hints are deliberately specific enough to unblock you but not to replace the attempt. Use the [lesson](../{lesson_slug}.md) and [setup guide](../../SETUP.md) first.
+
+## Hints
+
+1. Use the word **{first}** in your definition, then connect it to an observable input and output rather than a dictionary slogan.
+2. Do not change the example before the first run. If it fails, verify the current directory and the starter's package scripts.
+3. Make one trace row per meaningful line. Include the value before and after a setter, render, request, or boundary decision.
+4. Change exactly one input. If you change the code and the input together, you will not know what caused the result.
+5. Boundary behavior is part of the feature. Decide who owns the empty, invalid, pending, or unauthorized case before coding it.
+6. Start from the smallest broken line. Do not disable TypeScript, remove a dependency array, or hide an error with a broad catch.
+7. **{first}** and **{second}** may be related without being interchangeable. Compare who creates the value and who is allowed to change it.
+8. Prefer a small explicit boundary over a global workaround. For Next.js, state whether the code runs on the server or in the browser.
+9. Assert user-visible behavior or a clear contract. A test that only checks a private implementation detail will not protect the lesson's idea.
+10. Use the same local fixture throughout. Keep the feature small enough that you can explain every file in the review.
+11. A build proves only that the checked build completed. It does not prove that every user path, device, permission, or failure mode works.
+12. A good review note is reproducible: another learner should know what to run, what should happen, and what remains uncertain.
+"""
+    solutions = f"""# Day {day:03d} solution guide: {title}
+
+Use this guide after attempting [the exercises](exercises.md). A solution is evidence and reasoning, not a copied file. Compare your work with the [lesson](../{lesson_slug}.md), then improve the explanation if your code works for the wrong reason.
+
+## Review checkpoints
+
+1. The definition of **{first}** names an observable rule and points to a concrete lesson example.
+2. The unchanged worked example runs in the correct local starter and its output matches the lesson's expected result.
+3. The trace identifies the order of evaluation and the owner of each important value.
+4. The normal alternative changes one input and preserves the rule for **{second}**.
+5. The boundary case has deliberate behavior rather than an accidental blank screen, stray value, or unhandled rejection.
+6. The broken example reproduces the stated failure, and the repair is the smallest change that restores the normal case without weakening the check.
+7. The comparison table distinguishes **{first}** from **{second}** by responsibility, lifetime, and direction of data flow.
+8. The added quality requirement is visible in the code or project structure and is explained in plain language.
+9. The test or assertion fails when the important behavior is removed, then passes after the repair.
+10. The local feature has a named boundary, synthetic fixture data, a normal path, and a failure or empty path appropriate to the topic.
+11. The limitation statement avoids claiming that a passing build or test proves production readiness.
+12. The review note names files, commands, observed evidence, one remaining risk, and the next learning step.
+
+## Self-assessment
+
+Mark the work **ready** only when you can explain why the implementation works, reproduce the result from a clean checkout, and describe what it still does not cover. If your answer is “the framework does it,” return to the execution trace and identify the actual boundary where the behavior is decided.
+"""
+    return exercises, hints, solutions
+
+
 def main() -> None:
     for path in ROOT.glob("day_*"):
         if path.is_dir():
             import shutil
             shutil.rmtree(path)
+    lesson_paths = [ROOT / f"day_{day:03d}_{slug(item[0])}" for day, item in enumerate(LESSONS, 1)]
     for day, (title, keywords, topics, code, output, repair) in enumerate(LESSONS, 1):
-        folder = ROOT / f"day_{day:03d}_{slug(title)}"
+        folder = lesson_paths[day - 1]
         folder.mkdir(parents=True, exist_ok=True)
-        (folder / f"day_{day:03d}_{slug(title)}.md").write_text(
-            lesson(day, title, keywords, topics, code, output, repair), encoding="utf-8"
+        previous = "../DAY_INDEX.md" if day == 1 else f"../{lesson_paths[day - 2].name}/{lesson_paths[day - 2].name}.md"
+        next_link = "../DAY_INDEX.md" if day == len(LESSONS) else f"../{lesson_paths[day].name}/{lesson_paths[day].name}.md"
+        previous_label = "← Course overview" if day == 1 else "← Previous lesson"
+        next_label = "Course index →" if day == len(LESSONS) else "Next lesson →"
+        navigation = f"[{previous_label}]({previous}) · [Start here](../README.md) · [Setup](../SETUP.md) · [Day index](../DAY_INDEX.md) · [{next_label}]({next_link})"
+        (folder / f"{folder.name}.md").write_text(
+            lesson(day, title, keywords, topics, code, output, repair, navigation), encoding="utf-8"
         )
         practice = folder / "practice"
         practice.mkdir()
-        (practice / "exercises.md").write_text(
-            f"# Day {day:03d} exercises\n\nUse the numbered questions in the lesson. Work without solutions first, then record your prediction, observed result, and explanation.\n",
-            encoding="utf-8",
-        )
-        (practice / "hints.md").write_text(
-            f"# Day {day:03d} hints\n\nStart with the worked example. Change one value at a time. If the failure is a boundary error, repair the input or the boundary policy rather than hiding the error.\n",
-            encoding="utf-8",
-        )
-        (practice / "solutions.md").write_text(
-            f"# Day {day:03d} solution guide\n\nA strong solution includes runnable code, expected behavior, a normal case, a boundary case, a repair, and a limitation. Compare your reasoning with the lesson rather than copying a final file.\n",
-            encoding="utf-8",
-        )
-    print(f"Generated {len(LESSONS)} modern lessons.")
+        exercises, hints, solutions = practice_materials(day, title, topics, repair)
+        (practice / "exercises.md").write_text(exercises, encoding="utf-8")
+        (practice / "hints.md").write_text(hints, encoding="utf-8")
+        (practice / "solutions.md").write_text(solutions, encoding="utf-8")
+    print(f"Generated {len(LESSONS)} modern lessons with learner-specific practice materials.")
 
 
 if __name__ == "__main__":

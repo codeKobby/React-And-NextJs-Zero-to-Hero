@@ -1,9 +1,10 @@
 # Day 013: useState and setters
 
-[← Previous lesson](../DAY_INDEX.md) · [Day index](../DAY_INDEX.md)
+[← Previous lesson](../day_012_what_is_state/day_012_what_is_state.md) · [Start here](../README.md) · [Setup](../SETUP.md) · [Day index](../DAY_INDEX.md) · [Next lesson →](../day_014_state_for_objects_and_arrays/day_014_state_for_objects_and_arrays.md)
 
 ## Table of contents
 
+- [Start here](#start-here)
 - [Why this lesson exists](#why-this-lesson-exists)
 - [Prerequisites](#prerequisites)
 - [Outcomes](#outcomes)
@@ -14,6 +15,7 @@
   - [What does batching mean?](#what-does-batching-mean)
   - [How should a setter be named?](#how-should-a-setter-be-named)
 - [Worked example](#worked-example)
+- [Line-by-line explanation](#line-by-line-explanation)
 - [Execution trace](#execution-trace)
 - [Prediction experiment](#prediction-experiment)
 - [Broken example and repair](#broken-example-and-repair)
@@ -23,13 +25,19 @@
 - [Finish line](#finish-line)
 - [References](#references)
 
+## Start here
+
+This lesson belongs to the complete course, not to a disconnected collection of notes. Before coding, open the [course README](../README.md) for the learning contract, read the [setup guide](../SETUP.md) if your tools are not ready, and use the [day index](../DAY_INDEX.md) to see where this lesson fits. If you need a runnable project, open the [examples guide](../examples/README.md), choose the React playground or Next.js starter that matches this day, and work locally with synthetic data only.
+
+The intended loop is simple: read the lesson, run the worked example unchanged, make a prediction, repair the broken version, complete the guided practice, then use the linked [practice worksheet](practice/exercises.md), [hints](practice/hints.md), and [solution guide](practice/solutions.md) only after attempting the work.
+
 ## Why this lesson exists
 
 A learner can read a framework tutorial and still feel lost because the tutorial shows a finished file without explaining the decisions that produced it. This lesson teaches **useState and setters** as a sequence of small, testable ideas. The goal is not to memorize a recipe. The goal is to predict what the runtime will do, explain why it did it, and make a safe change without breaking the mental model.
 
 ## Prerequisites
 
-Complete the previous lesson and make sure the repository setup works. If a command fails, stop and read the error instead of copying a random fix. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
+Complete the previous lesson, confirm the [setup guide](../SETUP.md), and make sure the repository setup works. If a command fails, stop and read the first error instead of copying a random fix. Use the [course README](../README.md) to understand the learning loop and the [examples guide](../examples/README.md) to choose the correct local starter. You may use JavaScript, TypeScript, React, or Next.js examples depending on the phase, but every new framework word is explained before the lesson depends on it.
 
 ## Outcomes
 
@@ -39,37 +47,37 @@ By the end, you should be able to explain the topics in your own words, run the 
 
 | Keyword or term | Plain-English meaning |
 | --- | --- |
-| `useState` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `setter` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `functional update` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `initial value` | A term you will use in this lesson; test it in the examples before memorizing it. |
-| `batching` | A term you will use in this lesson; test it in the examples before memorizing it. |
+| `useState` | The React Hook that returns a state snapshot and a setter for requesting the next state. |
+| `setter` | A function that requests a new state value; it is not the same thing as a JavaScript property setter. |
+| `functional update` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `initial value` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
+| `batching` | A named idea in this lesson. Use the worked example to observe its input, behavior, output, and boundary before trying to define it in your own words. |
 
 ## Topics
 
 ### How does useState return a value and setter?
 
-Start with the ordinary-language question: **How does useState return a value and setter?**. In **useState and setters**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+To answer **How does useState return a value and setter**, follow a repeatable procedure. First identify the input and the owner; next make the smallest change; then predict the output, run it, and inspect the boundary behavior. If the code crosses from JavaScript into React or from a Server Component into the browser, write that boundary down explicitly.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### Why use a functional updater?
 
-Start with the ordinary-language question: **Why use a functional updater?**. In **useState and setters**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+The useful answer to **Why use a functional updater** is a trade-off, not a memorized slogan. Compare the simple case with the failure case, then ask what responsibility is being protected: ownership, identity, accessibility, performance, or server authority. Record the evidence from the example before choosing a pattern.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### What does batching mean?
 
-Start with the ordinary-language question: **What does batching mean?**. In **useState and setters**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+Study **What does batching mean** by naming its input, operation, output, and owner. Change one thing at a time and keep both your prediction and the observed result so that a mismatch becomes a repairable learning signal.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ### How should a setter be named?
 
-Start with the ordinary-language question: **How should a setter be named?**. In **useState and setters**, this topic is not a slogan. It is a decision you can observe in a small program. Read the next example slowly, name the input, the operation, the output, and the boundary that prevents the code from doing more than intended. Then change one value and explain which line noticed the change.
+To answer **How should a setter be named**, follow a repeatable procedure. First identify the input and the owner; next make the smallest change; then predict the output, run it, and inspect the boundary behavior. If the code crosses from JavaScript into React or from a Server Component into the browser, write that boundary down explicitly.
 
-A beginner mistake is to copy the spelling without understanding the runtime. Instead, say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
+A beginner mistake is to copy the spelling without understanding the runtime. Say the rule aloud, write a prediction, run the example, and compare the result. Keep the prediction even when it is wrong; the mismatch tells you which assumption needs repair.
 
 ## Worked example
 
@@ -87,6 +95,15 @@ The count increases twice safely.
 ```
 
 Read the code from top to bottom. Identify the input, the named values, the operation, the output, and the line that owns the decision. If the example is JSX, distinguish JavaScript expressions inside braces from markup. If it is a Server Component or Client Component example, identify which side of the boundary each line belongs to.
+
+## Line-by-line explanation
+
+| Line | What this line does |
+| ---: | --- |
+| 1 | `setCount((current) => current + 1);` — Declares behavior; the body runs when this function or component is called or rendered. |
+| 2 | `setCount((current) => current + 1);` — Declares behavior; the body runs when this function or component is called or rendered. |
+
+Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
 
 ## Execution trace
 
@@ -113,7 +130,7 @@ First, reproduce the worked example with one different value. Second, change one
 
 ## Project application
 
-Use a local, synthetic project fixture. Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
+Use a local, synthetic project fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the component or route boundary, the data shape, the loading state, the failure state, the accessibility requirement, and the test evidence. If the topic is Next.js, state whether the file is a Server Component or Client Component and why. If it uses a secret, database, cookie, or authorization decision, keep that logic server-side and test an unauthorized fixture. If the topic is React-only, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
