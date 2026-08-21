@@ -2,7 +2,7 @@
 
 An **83-day beginner-first course** for learning modern React and Next.js from the ground up and building a full-stack application. The course starts with JavaScript and browser ideas, teaches React in isolation, introduces the Next.js App Router one boundary at a time, and then turns those foundations into a styled, validated, database-backed, authenticated, tested, and deployable application.
 
-The course targets **React 19.2.8** and **Next.js 16.3.1** as the validation baseline recorded on 20 August 2026. Always check the official release notes before starting a new production project.
+The course targets **React 19.2.8** and **Next.js 16.3.1** as the validation baseline recorded on 20 August 2026. Always check the official release notes before starting a new production project. For the best interactive learning experience, install the public [code-buddy learning workflow](CODE_BUDDY.md).
 
 ## Contents
 
@@ -15,6 +15,7 @@ The course targets **React 19.2.8** and **Next.js 16.3.1** as the validation bas
 | 83-day curriculum | [DAY_INDEX.md](DAY_INDEX.md) |
 | Official research findings | [OFFICIAL_RESEARCH.md](OFFICIAL_RESEARCH.md) |
 | Course quality checks | [COURSE_QUALITY_STANDARD.md](COURSE_QUALITY_STANDARD.md) |
+| Code Buddy learning workflow | [CODE_BUDDY.md](CODE_BUDDY.md) |
 
 ## Start here if you are completely new
 
