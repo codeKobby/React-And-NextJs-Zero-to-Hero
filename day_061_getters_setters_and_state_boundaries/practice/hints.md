@@ -4,15 +4,15 @@ Use these only after attempting the numbered exercises in [the lesson](../day_06
 
 ## Hints
 
-1. Begin with the learner problem: One update is easy, but repeated updates and object state reveal that a setter is a request rather than a normal assignment.
-2. Run the smallest example unchanged and inspect the evidence for a controlled case draft whose fields update without erasing each other.
-3. Trace the input, operation, output, and owner at the render snapshot, pending update queue, and component that owns the setter.
-4. Change exactly one input related to What is a getter?; keep the rule fixed.
-5. For What is a setter?, decide the normal and boundary behavior before coding.
-6. Reproduce the likely mistake: Read one render snapshot twice or replace an object without copying the fields that should remain.
-7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
-8. Keep the data local and synthetic while you test How are property accessors different from useState setters?.
-9. Assert a visible result or public contract rather than a private implementation detail.
-10. Use the same fixture to apply getters, setters, and state boundaries to a controlled case draft whose fields update without erasing each other.
-11. A passing build proves only the checked build completed; record what remains untested.
-12. Your review note should name the owner, evidence, limitation, and boundary: the render snapshot, pending update queue, and component that owns the setter.
+1. Read the short problem statement for getters, setters, and state boundaries and say what the page or program should do.
+2. Run the example without changes. If it works, write down what you see for a controlled case draft whose fields update without erasing each other.
+3. Point to the input and the line that changes the output. Do not try to explain the whole application at once.
+4. Change one input for What is a getter?. Keep every other line the same.
+5. For What is a setter?, try the normal case first. Then try one empty or bad value.
+6. Make this mistake in a copy: Read one render snapshot twice or replace an object without copying the fields that should remain.
+7. Read the error or wrong result. Fix one line. Run the example again.
+8. Use invented local data while you try How are property accessors different from useState setters?.
+9. Check the text, number, URL, or DOM element that the learner can actually see.
+10. Use the same starter to build a controlled case draft whose fields update without erasing each other. Do not add a new package.
+11. A passing check only proves that check passed. Write one thing you did not test.
+12. If a technical word is confusing, define it in your own simple sentence before using it.

@@ -36,9 +36,21 @@ After the repair, rerun the normal case and at least one boundary case. Explain 
 
 Guided practice should be a partial imitation of the worked sequence: change one value, then one rule, then recreate the smallest version from a blank file or a clearly bounded starter. The independent task should not introduce three new concepts at once. State the starting file, expected behavior, acceptance criteria, and the concepts the learner is allowed to use.
 
-### 7. Match practice to the lesson
+### 7. Write for a complete beginner
+
+Assume the learner has never seen the word, file, command, or code pattern before. Use a short sentence for one idea. Define a technical word immediately after showing it. Prefer “A state setter asks React to render again” to “the setter establishes a state transition boundary.” Prefer “Click the button and check the number” to “inspect the observable state transition.”
+
+Every new idea should follow this order: show a small example, say what the learner should see, explain the important lines, ask one direct question, then give one small task. Do not make the learner infer the goal from words such as **owner**, **boundary**, **evidence**, **fixture**, **synthesis**, or **residual risk**. Explain those words after the concrete action, and use them only when they add value.
+
+A lesson may be technically advanced while its sentences remain simple. “The browser sends the form. The server checks it. If the check fails, the server returns an error. The page shows that error.” is preferable to one sentence containing all four ideas and several new terms.
+
+### 8. Match practice to the lesson
 
 Practice is not a fixed 12-question template. The file may contain no coding task for a purely conceptual orientation day, a short set of mechanical questions for a setup day, a progressive Level 1/Level 2/Level 3 sequence for a state or component day, or a larger project checklist for a capstone day. Every task must be specific to the lesson and have a reason for being there.
+
+When exercises are present, write each item as one clear instruction. Begin with **Answer**, **Run**, **Write**, **Add**, **Change**, **Fix**, **Build**, or **Explain**. Name the exact function, component, file, value, or visible result. Give one main action per item. If the item asks a question, ask one question and say what a good answer should mention. If it asks for code, state the starting point and the expected result.
+
+Prefer “Add a Reset button. When the learner clicks it, the counter must show 0.” over “Apply the lesson to a local fixture and explain the ownership boundary.” The second sentence can become a short review question after the beginner task.
 
 When exercises are present, prefer this progression:
 

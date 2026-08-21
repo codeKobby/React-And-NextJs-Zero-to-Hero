@@ -269,26 +269,26 @@ Build a local **case queue toggle** using invented records. The user must be abl
 
 ## Independent exercises
 
-### Level 1 — Mechanical confidence
+### Level 1 — Questions and first steps
 
-1. Run the local-variable failure and record console versus screen output.
-2. Recreate the smallest `useState` counter and verify the first, second, and third clicks.
-3. Explain the two values returned by `useState` without calling the setter a mutation.
-4. Move the click logic into a named `addOne` handler.
+1. What is state in React? Answer in one sentence.
+2. What is the difference between props and state?
+3. How do you read state inside a component?
+4. How do you ask React to change state?
+5. Run the local-variable failure. What changes in the console? What changes on the screen?
+6. Recreate the smallest `useState` counter. What number appears after the first, second, and third clicks?
 
-### Level 2 — Applied practice
+### Level 2 — Build a small counter
 
-5. Add a `minusOne` handler and a `Reset` button. Predict the result of the sequence `+1, +1, -1, reset`.
-6. Replace the number with a `Case[]` state and render a list.
-7. Add a `Clear queue` button and a useful empty state.
-8. Add an `aria-live` status that reports the current queue size.
+7. Move the click logic into an `addOne` function.
+8. Add a `minusOne` function and a `Reset` button. After `+1, +1, -1, reset`, the number must be `0`.
+9. Add an `aria-live` message that says how many cases are in the queue.
+10. Replace the number with a list of three invented cases.
 
-### Level 3 — Synthesis
+### Level 3 — Build a useful state example
 
-9. Reproduce the local-variable bug and explain why a console change does not prove a screen update.
-10. Use an initial state function for a small local fixture and explain when lazy initialization is useful.
-11. Add a test or written acceptance check for normal, empty, and repeated-clear behavior.
-12. Write a review note naming the state owner, event boundary, visible evidence, one limitation, and why a reducer is not yet necessary.
+11. Add a `Clear queue` button. When clicked, show “No cases are waiting.”
+12. Make the local-variable mistake again, fix it with state, and write two sentences explaining why the screen now updates.
 
 ## Finish line
 

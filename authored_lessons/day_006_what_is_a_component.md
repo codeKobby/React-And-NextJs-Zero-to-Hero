@@ -328,26 +328,26 @@ Build a local **case queue card** in the React playground. It must display a tit
 
 ## Independent exercises
 
-### Level 1 — Confidence
+### Level 1 — Questions and first steps
 
-1. Run Example 1 and record the visible sections.
-2. Split the page into `Header`, `Main`, and `Footer` without changing the visible result.
-3. Explain the responsibility of each new component in one sentence.
-4. Create a `StatusBadge` component that receives `label` and renders it in a `<span>`.
+1. What is a React component? Answer in one sentence.
+2. How do you make a function component? Point to the function in Example 1.
+3. What is the difference between a normal JavaScript function and a component function?
+4. How small can a component be? Name one small part of a page.
+5. Can a button or an input field be a component? Explain why.
+6. Run Example 1 and write down the three visible parts of the page.
 
-### Level 2 — Application
+### Level 2 — Build small components
 
-5. Convert the queue into an array of objects with stable `id`, `title`, and `status` fields.
-6. Render the array with a reusable `CaseCard` component and a stable key.
-7. Add an empty-state branch and predict what the user will see for an empty array.
-8. Add a `Summary` component that receives the count rather than reading the array directly.
+7. Make a reusable `Button` component. Render the word `Open` inside it.
+8. Make a reusable `InputField` component with a label and an input.
+9. Make an alert component with one parent `<div>` and one child `<p>`.
+10. Split the page into `Header`, `Main`, and `Footer` without changing what the user sees.
 
-### Level 3 — Synthesis
+### Level 3 — Use the components
 
-9. Reproduce the lowercase `caseCard` failure and repair it. Record the error or incorrect output.
-10. Add a typed `Case` model and explain what TypeScript catches and what it cannot validate at runtime.
-11. Add one accessible requirement: a meaningful heading hierarchy, visible status text, or an `aria-live` summary. Explain the choice.
-12. Write a review note with the component tree, data ownership, changed files, observed output, one limitation, and one next refactor.
+11. Render two `CaseCard` components with different titles and statuses.
+12. Show a clear message when the case list is empty. Write one sentence naming which component displays that message.
 
 ## Finish line
 

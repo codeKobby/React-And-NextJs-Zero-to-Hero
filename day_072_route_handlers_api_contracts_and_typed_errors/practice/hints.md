@@ -4,15 +4,15 @@ Use these only after attempting the numbered exercises in [the lesson](../day_07
 
 ## Hints
 
-1. Begin with the learner problem: Sometimes a browser, test, webhook, or other client needs a documented HTTP boundary rather than a component-only interaction.
-2. Run the smallest example unchanged and inspect the evidence for a local synthetic Route Handler with typed success and error JSON.
-3. Trace the input, operation, output, and owner at public HTTP contract versus private data-access and authorization decisions.
-4. Change exactly one input related to When should an app expose an HTTP endpoint?; keep the rule fixed.
-5. For How do we shape a successful response?, decide the normal and boundary behavior before coding.
-6. Reproduce the likely mistake: Return 200 for invalid input, leak stack traces, or confuse an internal function result with an HTTP response.
-7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
-8. Keep the data local and synthetic while you test Which status represents invalid input?.
-9. Assert a visible result or public contract rather than a private implementation detail.
-10. Use the same fixture to apply route handlers, api contracts, and typed errors to a local synthetic Route Handler with typed success and error JSON.
-11. A passing build proves only the checked build completed; record what remains untested.
-12. Your review note should name the owner, evidence, limitation, and boundary: public HTTP contract versus private data-access and authorization decisions.
+1. Read the short problem statement for route handlers, api contracts, and typed errors and say what the page or program should do.
+2. Run the example without changes. If it works, write down what you see for a local synthetic Route Handler with typed success and error JSON.
+3. Point to the input and the line that changes the output. Do not try to explain the whole application at once.
+4. Change one input for When should an app expose an HTTP endpoint?. Keep every other line the same.
+5. For How do we shape a successful response?, try the normal case first. Then try one empty or bad value.
+6. Make this mistake in a copy: Return 200 for invalid input, leak stack traces, or confuse an internal function result with an HTTP response.
+7. Read the error or wrong result. Fix one line. Run the example again.
+8. Use invented local data while you try Which status represents invalid input?.
+9. Check the text, number, URL, or DOM element that the learner can actually see.
+10. Use the same starter to build a local synthetic Route Handler with typed success and error JSON. Do not add a new package.
+11. A passing check only proves that check passed. Write one thing you did not test.
+12. If a technical word is confusing, define it in your own simple sentence before using it.

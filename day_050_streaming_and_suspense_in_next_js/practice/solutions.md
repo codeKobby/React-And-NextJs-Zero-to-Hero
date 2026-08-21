@@ -4,18 +4,18 @@ Use this guide only after attempting the numbered exercises in [the lesson](../d
 
 ## Review checkpoints
 
-1. The submission states the problem and connects it to streaming and suspense in next.js rather than offering only a definition.
-2. The unchanged example runs and its visible or returned result is recorded for a small local fixture that demonstrates streaming and suspense in next.js.
-3. The trace identifies the owner and boundary: the code or framework boundary that owns the decision in this lesson.
-4. The normal change isolates one input and preserves the rule for What is streaming?.
-5. The boundary case for Why do waterfalls happen? has deliberate behavior and an explanation.
-6. The failure `Place the boundary around the whole app and explain the lost progressive rendering.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
-7. The repair keeps the responsibility that the lesson owns: Learners need a concrete reason to study streaming and suspense in next.js before the terminology becomes useful.
-8. The quality requirement for Where should Suspense boundaries live? is visible in code or project structure.
-9. The assertion or test fails when the important behavior is removed and passes after the repair.
-10. The local application demonstrates a small local fixture that demonstrates streaming and suspense in next.js with synthetic data and a named owner.
-11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
-12. The review note is reproducible and records evidence, residual risk, and the boundary the code or framework boundary that owns the decision in this lesson.
+1. The learner can say what problem streaming and suspense in next.js solves in one or two simple sentences.
+2. The example runs and the learner records the visible or returned result for a small local example.
+3. The learner can point to the input, the important line, and the output.
+4. The learner changes one input for What is streaming? and records the old and new result.
+5. The learner tries a normal and an empty or bad value for Why do waterfalls happen?.
+6. The learner reproduces `Place the boundary around the whole app and explain the lost progressive rendering.` and writes down the error or wrong result.
+7. The learner fixes the smallest line and runs the normal case again.
+8. The learner uses local invented data to show Where should Suspense boundaries live?.
+9. The test or check fails when the visible behavior is removed and passes after it is restored.
+10. The learner builds a small local example without exposing secrets or using real data.
+11. The learner writes one thing the example does not prove about a real application.
+12. The learner’s review note uses plain sentences and defines any technical word it needs.
 
 ## Self-assessment
 

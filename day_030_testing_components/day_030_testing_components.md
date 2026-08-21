@@ -27,19 +27,35 @@
 
 ## Start here
 
-This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: We will show one complete page, split it into Header/Main/Footer, pass props to a reusable card, and compose a small dashboard. Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
+Start with the [course README](../README.md), [setup guide](../SETUP.md), and [day index](../DAY_INDEX.md). Choose the starter from the [examples guide](../examples/README.md). Work locally with invented data only.
+
+Today’s steps are simple: We will show one complete page, split it into Header/Main/Footer, pass props to a reusable card, and compose a small dashboard. Run the first example. Write what you expect. Change one thing. Make the stated mistake. Fix it. Then do the numbered exercises.
 
 ## Why this lesson exists
 
-The learner problem comes first: A page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. This lesson teaches **Testing components** through a connected sequence rather than a finished file dropped from the sky: We will show one complete page, split it into Header/Main/Footer, pass props to a reusable card, and compose a small dashboard. The goal is to explain the decision and its owner, not to memorize a spelling.
+Here is the problem: A page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate.
+
+A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building.
+
+Today we will learn **Testing components** in small steps. We will show one complete page, split it into Header/Main/Footer, pass props to a reusable card, and compose a small dashboard. You are learning what the code does, not just memorising a word.
 
 ## Prerequisites
 
-Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **JavaScript functions, JSX, and the local React playground**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
+Complete the previous lesson and read the [setup guide](../SETUP.md). You need **JavaScript functions, JSX, and the local React playground**.
+
+Use the [examples guide](../examples/README.md) to choose the starter. If a command fails, stop. Write down the folder and command before trying again. Do not add a database, login provider, or unrelated package unless this lesson teaches it.
 
 ## Outcomes
 
-By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **testing components** to a local case dashboard built from a shell, summary, list, and card. You should be able to name the owner and boundary—the parent-to-child data flow and the responsibility owned by each component—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
+By the end, you should be able to:
+
+- explain **Testing components** in your own words;
+- run the normal example;
+- show the broken example and fix it;
+- change one input and predict the result; and
+- use **testing components** in a local case dashboard built from a shell, summary, list, and card.
+
+This local example does not prove that a real application is secure, accessible, fast, or ready for production. We will name the important boundary later: the parent-to-child data flow and the responsibility owned by each component.
 
 ## Keywords and terms
 
@@ -56,31 +72,31 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What should a component test prove?
 
-Start with the learner's concrete question: **What should a component test prove**. Use the worked example to show what **What should a component test prove** changes before introducing a framework shortcut. For **What should a component test prove**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should a component test prove**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What should a component test prove**. Look at **What should a component test prove** in the example before learning the technical name. For **What should a component test prove**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What should a component test prove?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should a component test prove**, say what goes in and what comes out.
 
 ### Why test behavior rather than implementation?
 
-The answer to **Why test behavior rather than implementation** must be earned by comparing a working case with a deliberately limited or broken case. For **Why test behavior rather than implementation**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why test behavior rather than implementation**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Answer **Why test behavior rather than implementation** by comparing the working example with a broken or limited example. For **Why test behavior rather than implementation**, say what changed and which result is easier or safer to use.
 
-**Try it before moving on:** For **Why test behavior rather than implementation?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local case dashboard built from a shell, summary, list, and card.
+**Try it before moving on:** For **Why test behavior rather than implementation?**, compare the working example with the broken example. What changed? Which result is safer or easier to understand?
 
 ### How do we test a form?
 
-To answer **How do we test a form**, follow the operation in order rather than treating the result as framework magic. For **How do we test a form**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we test a form**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+To answer **How do we test a form**, follow the operation in order rather than treating the result as framework magic. For **How do we test a form**, write the starting value, the change you made, and the new result.
 
-**Try it before moving on:** For **How do we test a form?**, change one input or boundary in the worked example. Trace the result for **How do we test a form?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
+**Try it before moving on:** For **How do we test a form**, change one input in the example. Write the old result and the new result for **How do we test a form**.
 
 ### What should remain real?
 
-Start with the learner's concrete question: **What should remain real**. Use the worked example to show what **What should remain real** changes before introducing a framework shortcut. For **What should remain real**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should remain real**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What should remain real**. Look at **What should remain real** in the example before learning the technical name. For **What should remain real**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What should remain real?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should remain real**, say what goes in and what comes out.
 
 ## Worked example
 
-The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: We will show one complete page, split it into Header/Main/Footer, pass props to a reusable card, and compose a small dashboard.
+Start with this small example. Copy it into the starter file and run it without changing it. Write down what you see. We will then change one thing at a time. We will show one complete page, split it into Header/Main/Footer, pass props to a reusable card, and compose a small dashboard.
 
 ```tsx
 render(<LoginForm />);
@@ -93,63 +109,86 @@ await user.type(screen.getByLabelText('Email'), 'a@example.com');
 The test follows a user's action.
 ```
 
-Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is the parent-to-child data flow and the responsibility owned by each component.
+Before changing the code, answer four simple questions: What goes in? What does the code do? What comes out? Which file contains the decision?
+
+If the code is JSX, mark the JavaScript parts and the markup parts. If it runs in Next.js, say whether it is a Server Component, Client Component, Route Handler, Server Action, or Proxy file. Today’s important boundary is: the parent-to-child data flow and the responsibility owned by each component.
 
 ## Line-by-line explanation
 
 | Line | What this line does |
 | ---: | --- |
-| 1 | `render(<LoginForm />);` — Runs inside the current example; connect its effect to the parent-to-child data flow and the responsibility owned by each component. |
-| 2 | `await user.type(screen.getByLabelText('Email'), 'a@example.com');` — Pauses this async operation until its promise settles; identify whether the work runs on the server and how failure is handled. |
+| 1 | `render(<LoginForm />);` — Runs as part of this example. After `render(<LoginForm />);`, check the next line to see the result. |
+| 2 | `await user.type(screen.getByLabelText('Email'), 'a@example.com');` — Waits for the async task to finish before continuing. |
 
-Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+Use the table while you run the code. Do not only read it. If the same line behaves differently in the browser, React, and Next.js, write one short note.
 
 ## Execution trace
 
-1. Start with the fixture's initial input: A page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate.
-2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
-3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: We will show one complete page, split it into Header/Main/Footer, pass props to a reusable card, and compose a small dashboard.
-4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
-5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
+1. Write down the starting value: A page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate.
+2. Follow the code one line at a time until the result changes.
+3. Write down the action, the new value, and what appears on the screen or in the terminal.
+4. Compare what happened with your prediction. Say one reason if they differ.
+5. Remember that this result belongs to this small local example. It is not proof that a real application is secure, accessible, fast, or correct.
 
-Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
+Write four things in your notebook: the value before, the action, the value after, and the file or system that made the decision.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input or boundary related to **Testing components**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
+Write your prediction before you run the experiment. Change one input related to **Testing components**. Start with a normal value. Then try one useful edge case, such as an empty value, bad value, loading state, missing route, rejected action, or unauthorized user. Write what you expected. Run it. Write what actually happened. Put the normal example back when you finish.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** Select a private CSS class instead of an accessible label and repair the test target.
 
-Run the broken version in a local copy. The likely beginner mistake for this family is: Split every element mechanically or use a lowercase component name that JSX treats as a browser element. Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
+Make the broken version in a copy. The likely mistake is: Split every element mechanically or use a lowercase component name that JSX treats as a browser element.
+
+Run it and write down the error or wrong screen. Say what assumption was wrong. Change the smallest line that fixes the problem. Run the normal example and one edge case again. Do not hide the error with a broad catch or a disabled type check. A passing render is not proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **testing components** to a local case dashboard built from a shell, summary, list, and card. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
+Do these steps in order:
+
+1. Run the worked example unchanged.
+2. Change one input and write down the new result.
+3. Make the likely mistake and fix it.
+4. Use the same starter for **testing components** and a local case dashboard built from a shell, summary, list, and card.
+
+Before the independent exercises, answer: What should happen for a normal value? What should happen for an empty or bad value?
 
 ## Project application
 
-Apply the lesson to a local case dashboard built from a shell, summary, list, and card using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is the parent-to-child data flow and the responsibility owned by each component. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
+Use the local starter from the [examples guide](../examples/README.md) to build a local case dashboard built from a shell, summary, list, and card.
+
+Write down the goal and the data you will use. Show the normal case and one edge case. The important boundary is the parent-to-child data flow and the responsibility owned by each component.
+
+Keep secrets, databases, cookies, login checks, and permission checks on the server. Use an invented user who should be rejected when the lesson involves authorization. For React-only work, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
-1. Run the smallest page unchanged and list its visible responsibilities.
-2. Split one responsibility into a named component without changing the visible result.
-3. Explain why the chosen boundary earns a name.
-4. Pass one prop from the parent and render two different values.
-5. Compose a parent with two children and draw the data direction.
-6. Reproduce the lowercase-component mistake and record the result.
-7. Repair the capitalization and rerun the normal case.
-8. Add a stable local fixture and an empty or fallback state.
-9. Add one semantic or keyboard-accessibility improvement.
-10. Add an assertion for a visible component contract.
-11. Apply the boundary to a local feature and name its owner.
-12. Write a review note with the component tree, evidence, and one limitation.
+1. Run the page unchanged. Write down the three parts you can see.
+2. Write a `Header` component and move the heading into it.
+3. Write one sentence: what does the `Header` component do?
+4. Pass a `title` prop to a component and display two different titles.
+5. Put a parent component and two child components on the page.
+6. Change a component name to lowercase. Read the error or wrong result.
+7. Change the name back to a capital letter and run the page again.
+8. Show a clear message when the list has no items.
+9. Add a real heading, button, or link that a keyboard user can use.
+10. Write one check that fails if the component’s visible text disappears.
+11. Build a small a local case dashboard built from a shell, summary, list, and card with the components from this lesson.
+12. Answer: which component owns each piece of data? Use one short sentence per piece.
 
 ## Finish line
 
-You are finished when you can teach **Testing components** to another beginner, show the normal and broken runs, explain the repair, and point to **the parent-to-child data flow and the responsibility owned by each component**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
+You are finished when you can:
+
+1. explain **Testing components** to another beginner;
+2. show the normal result;
+3. show the broken result and the repair;
+4. explain one edge case; and
+5. point to **the parent-to-child data flow and the responsibility owned by each component**.
+
+Do not move on only because the code compiles. Write one limitation of this local example.
 
 ## References
 

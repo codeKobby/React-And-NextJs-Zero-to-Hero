@@ -4,15 +4,15 @@ Use these only after attempting the numbered exercises in [the lesson](../day_06
 
 ## Hints
 
-1. Begin with the learner problem: Form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act.
-2. Run the smallest example unchanged and inspect the evidence for a local case form with structured invalid-input feedback.
-3. Trace the input, operation, output, and owner at untrusted input crossing into typed application logic.
-4. Change exactly one input related to Why validate at a boundary?; keep the rule fixed.
-5. For What is the difference between parse and safeParse?, decide the normal and boundary behavior before coding.
-6. Reproduce the likely mistake: Trust a form value because the input element looks constrained or use a type annotation as runtime validation.
-7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
-8. Keep the data local and synthetic while you test How do schemas describe form data?.
-9. Assert a visible result or public contract rather than a private implementation detail.
-10. Use the same fixture to apply schema validation with zod-style boundaries to a local case form with structured invalid-input feedback.
-11. A passing build proves only the checked build completed; record what remains untested.
-12. Your review note should name the owner, evidence, limitation, and boundary: untrusted input crossing into typed application logic.
+1. Read the short problem statement for schema validation with zod-style boundaries and say what the page or program should do.
+2. Run the example without changes. If it works, write down what you see for a local case form with structured invalid-input feedback.
+3. Point to the input and the line that changes the output. Do not try to explain the whole application at once.
+4. Change one input for Why validate at a boundary?. Keep every other line the same.
+5. For What is the difference between parse and safeParse?, try the normal case first. Then try one empty or bad value.
+6. Make this mistake in a copy: Trust a form value because the input element looks constrained or use a type annotation as runtime validation.
+7. Read the error or wrong result. Fix one line. Run the example again.
+8. Use invented local data while you try How do schemas describe form data?.
+9. Check the text, number, URL, or DOM element that the learner can actually see.
+10. Use the same starter to build a local case form with structured invalid-input feedback. Do not add a new package.
+11. A passing check only proves that check passed. Write one thing you did not test.
+12. If a technical word is confusing, define it in your own simple sentence before using it.

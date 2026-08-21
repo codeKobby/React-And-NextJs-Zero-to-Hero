@@ -4,18 +4,18 @@ Use this guide only after attempting the numbered exercises in [the lesson](../d
 
 ## Review checkpoints
 
-1. The submission states the problem and connects it to fetching data in server components rather than offering only a definition.
-2. The unchanged example runs and its visible or returned result is recorded for a local case dashboard built from a shell, summary, list, and card.
-3. The trace identifies the owner and boundary: the parent-to-child data flow and the responsibility owned by each component.
-4. The normal change isolates one input and preserves the rule for Where should a database query run?.
-5. The boundary case for How do we validate identity and permission? has deliberate behavior and an explanation.
-6. The failure `Fetch private data without authorization and add the missing policy check.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
-7. The repair keeps the responsibility that the lesson owns: A page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate.
-8. The quality requirement for Why can a Server Component access secrets? is visible in code or project structure.
-9. The assertion or test fails when the important behavior is removed and passes after the repair.
-10. The local application demonstrates a local case dashboard built from a shell, summary, list, and card with synthetic data and a named owner.
-11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
-12. The review note is reproducible and records evidence, residual risk, and the boundary the parent-to-child data flow and the responsibility owned by each component.
+1. The learner can say what problem fetching data in server components solves in one or two simple sentences.
+2. The example runs and the learner records the visible or returned result for a local case dashboard built from a shell, summary, list, and card.
+3. The learner can point to the input, the important line, and the output.
+4. The learner changes one input for Where should a database query run? and records the old and new result.
+5. The learner tries a normal and an empty or bad value for How do we validate identity and permission?.
+6. The learner reproduces `Fetch private data without authorization and add the missing policy check.` and writes down the error or wrong result.
+7. The learner fixes the smallest line and runs the normal case again.
+8. The learner uses local invented data to show Why can a Server Component access secrets?.
+9. The test or check fails when the visible behavior is removed and passes after it is restored.
+10. The learner builds a local case dashboard built from a shell, summary, list, and card without exposing secrets or using real data.
+11. The learner writes one thing the example does not prove about a real application.
+12. The learner’s review note uses plain sentences and defines any technical word it needs.
 
 ## Self-assessment
 

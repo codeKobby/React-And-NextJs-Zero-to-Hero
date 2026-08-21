@@ -27,19 +27,35 @@
 
 ## Start here
 
-This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: We will identify repeated behavior, extract a custom Hook, enforce the Rules of Hooks, and design a small return API. Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
+Start with the [course README](../README.md), [setup guide](../SETUP.md), and [day index](../DAY_INDEX.md). Choose the starter from the [examples guide](../examples/README.md). Work locally with invented data only.
+
+Today’s steps are simple: We will identify repeated behavior, extract a custom Hook, enforce the Rules of Hooks, and design a small return API. Run the first example. Write what you expect. Change one thing. Make the stated mistake. Fix it. Then do the numbered exercises.
 
 ## Why this lesson exists
 
-The learner problem comes first: Several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear APIs. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. This lesson teaches **Class lifecycle to modern Hooks** through a connected sequence rather than a finished file dropped from the sky: We will identify repeated behavior, extract a custom Hook, enforce the Rules of Hooks, and design a small return API. The goal is to explain the decision and its owner, not to memorize a spelling.
+Here is the problem: Several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear APIs.
+
+A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears.
+
+Today we will learn **Class lifecycle to modern Hooks** in small steps. We will identify repeated behavior, extract a custom Hook, enforce the Rules of Hooks, and design a small return API. You are learning what the code does, not just memorising a word.
 
 ## Prerequisites
 
-Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **useState, Effects, and function component call sites**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
+Complete the previous lesson and read the [setup guide](../SETUP.md). You need **useState, Effects, and function component call sites**.
+
+Use the [examples guide](../examples/README.md) to choose the starter. If a command fails, stop. Write down the folder and command before trying again. Do not add a database, login provider, or unrelated package unless this lesson teaches it.
 
 ## Outcomes
 
-By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **class lifecycle to modern hooks** to a local toggle, data viewer, or form behavior with a named Hook API. You should be able to name the owner and boundary—the Hook owns reusable behavior while the component owns its visible composition—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
+By the end, you should be able to:
+
+- explain **Class lifecycle to modern Hooks** in your own words;
+- run the normal example;
+- show the broken example and fix it;
+- change one input and predict the result; and
+- use **class lifecycle to modern hooks** in a local toggle, data viewer, or form behavior with a named Hook API.
+
+This local example does not prove that a real application is secure, accessible, fast, or ready for production. We will name the important boundary later: the Hook owns reusable behavior while the component owns its visible composition.
 
 ## Keywords and terms
 
@@ -55,31 +71,31 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What did lifecycle methods do?
 
-Start with the learner's concrete question: **What did lifecycle methods do**. Use the worked example to show what **What did lifecycle methods do** changes before introducing a framework shortcut. For **What did lifecycle methods do**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What did lifecycle methods do**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What did lifecycle methods do**. Look at **What did lifecycle methods do** in the example before learning the technical name. For **What did lifecycle methods do**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What did lifecycle methods do?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What did lifecycle methods do**, say what goes in and what comes out.
 
 ### How does one Effect model synchronization?
 
-To answer **How does one Effect model synchronization**, follow the operation in order rather than treating the result as framework magic. For **How does one Effect model synchronization**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does one Effect model synchronization**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+To answer **How does one Effect model synchronization**, follow the operation in order rather than treating the result as framework magic. For **How does one Effect model synchronization**, write the starting value, the change you made, and the new result.
 
-**Try it before moving on:** For **How does one Effect model synchronization?**, change one input or boundary in the worked example. Trace the result for **How does one Effect model synchronization?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
+**Try it before moving on:** For **How does one Effect model synchronization**, change one input in the example. Write the old result and the new result for **How does one Effect model synchronization**.
 
 ### Why is lifecycle-to-Effect translation not mechanical?
 
-The answer to **Why is lifecycle-to-Effect translation not mechanical** must be earned by comparing a working case with a deliberately limited or broken case. For **Why is lifecycle-to-Effect translation not mechanical**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why is lifecycle-to-Effect translation not mechanical**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Answer **Why is lifecycle-to-Effect translation not mechanical** by comparing the working example with a broken or limited example. For **Why is lifecycle-to-Effect translation not mechanical**, say what changed and which result is easier or safer to use.
 
-**Try it before moving on:** For **Why is lifecycle-to-Effect translation not mechanical?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local toggle, data viewer, or form behavior with a named Hook API.
+**Try it before moving on:** For **Why is lifecycle-to-Effect translation not mechanical?**, compare the working example with the broken example. What changed? Which result is safer or easier to understand?
 
 ### What belongs outside Effects?
 
-Start with the learner's concrete question: **What belongs outside Effects**. Use the worked example to show what **What belongs outside Effects** changes before introducing a framework shortcut. For **What belongs outside Effects**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs outside Effects**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What belongs outside Effects**. Look at **What belongs outside Effects** in the example before learning the technical name. For **What belongs outside Effects**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What belongs outside Effects?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs outside Effects**, say what goes in and what comes out.
 
 ## Worked example
 
-The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: We will identify repeated behavior, extract a custom Hook, enforce the Rules of Hooks, and design a small return API.
+Start with this small example. Copy it into the starter file and run it without changing it. Write down what you see. We will then change one thing at a time. We will identify repeated behavior, extract a custom Hook, enforce the Rules of Hooks, and design a small return API.
 
 ```tsx
 useEffect(() => {
@@ -94,65 +110,88 @@ useEffect(() => {
 The connection follows roomId.
 ```
 
-Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is the Hook owns reusable behavior while the component owns its visible composition.
+Before changing the code, answer four simple questions: What goes in? What does the code do? What comes out? Which file contains the decision?
+
+If the code is JSX, mark the JavaScript parts and the markup parts. If it runs in Next.js, say whether it is a Server Component, Client Component, Route Handler, Server Action, or Proxy file. Today’s important boundary is: the Hook owns reusable behavior while the component owns its visible composition.
 
 ## Line-by-line explanation
 
 | Line | What this line does |
 | ---: | --- |
-| 1 | `useEffect(() => {` — Declares synchronization with an external system; inspect the dependency and cleanup rules rather than treating it as a calculation. |
-| 2 | `const connection = connect(roomId);` — Creates a named value from the expression on the right; record its input, lifetime, and owner in this day's example. |
-| 3 | `return () => connection.disconnect();` — Returns the value or UI tree owned by the surrounding function; the next visible result follows from this return. |
-| 4 | `}, [roomId]);` — Runs inside the current example; connect its effect to the Hook owns reusable behavior while the component owns its visible composition. |
+| 1 | `useEffect(() => {` — Tells React to run this outside task after the screen is updated. |
+| 2 | `const connection = connect(roomId);` — Stores the value on the right under the name on the left. |
+| 3 | `return () => connection.disconnect();` — Sends a value or UI tree back to the code that called this function. |
+| 4 | `}, [roomId]);` — Runs as part of this example. After `}, [roomId]);`, check the next line to see the result. |
 
-Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+Use the table while you run the code. Do not only read it. If the same line behaves differently in the browser, React, and Next.js, write one short note.
 
 ## Execution trace
 
-1. Start with the fixture's initial input: Several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear APIs.
-2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
-3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: We will identify repeated behavior, extract a custom Hook, enforce the Rules of Hooks, and design a small return API.
-4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
-5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
+1. Write down the starting value: Several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear APIs.
+2. Follow the code one line at a time until the result changes.
+3. Write down the action, the new value, and what appears on the screen or in the terminal.
+4. Compare what happened with your prediction. Say one reason if they differ.
+5. Remember that this result belongs to this small local example. It is not proof that a real application is secure, accessible, fast, or correct.
 
-Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
+Write four things in your notebook: the value before, the action, the value after, and the file or system that made the decision.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input or boundary related to **Class lifecycle to modern Hooks**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
+Write your prediction before you run the experiment. Change one input related to **Class lifecycle to modern Hooks**. Start with a normal value. Then try one useful edge case, such as an empty value, bad value, loading state, missing route, rejected action, or unauthorized user. Write what you expected. Run it. Write what actually happened. Put the normal example back when you finish.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** Copy three lifecycle methods into three Effects and consolidate the actual synchronization rule.
 
-Run the broken version in a local copy. The likely beginner mistake for this family is: Call a Hook conditionally or hide unrelated responsibilities in a Hook with an unclear contract. Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
+Make the broken version in a copy. The likely mistake is: Call a Hook conditionally or hide unrelated responsibilities in a Hook with an unclear contract.
+
+Run it and write down the error or wrong screen. Say what assumption was wrong. Change the smallest line that fixes the problem. Run the normal example and one edge case again. Do not hide the error with a broad catch or a disabled type check. A passing render is not proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **class lifecycle to modern hooks** to a local toggle, data viewer, or form behavior with a named Hook API. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
+Do these steps in order:
+
+1. Run the worked example unchanged.
+2. Change one input and write down the new result.
+3. Make the likely mistake and fix it.
+4. Use the same starter for **class lifecycle to modern hooks** and a local toggle, data viewer, or form behavior with a named Hook API.
+
+Before the independent exercises, answer: What should happen for a normal value? What should happen for an empty or bad value?
 
 ## Project application
 
-Apply the lesson to a local toggle, data viewer, or form behavior with a named Hook API using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is the Hook owns reusable behavior while the component owns its visible composition. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
+Use the local starter from the [examples guide](../examples/README.md) to build a local toggle, data viewer, or form behavior with a named Hook API.
+
+Write down the goal and the data you will use. Show the normal case and one edge case. The important boundary is the Hook owns reusable behavior while the component owns its visible composition.
+
+Keep secrets, databases, cookies, login checks, and permission checks on the server. Use an invented user who should be rejected when the lesson involves authorization. For React-only work, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
-1. Run the smallest Hook or synchronization example unchanged.
-2. Name the external system, input, output, and cleanup responsibility.
-3. Change one dependency and predict when work runs again.
-4. Create a loading, empty, or disconnected boundary appropriate to the example.
-5. Reproduce the likely Rules of Hooks or stale-dependency mistake.
-6. Repair the mistake without silencing the lint rule or hiding the dependency.
-7. Remove the Hook if the behavior can be calculated during render and explain why.
-8. Add cleanup evidence for the subscription, timer, request, or resource.
-9. Add a test or trace for setup and cleanup behavior.
-10. Apply the behavior to a local toggle, data viewer, or form behavior with a named Hook API with a local fixture.
-11. Explain the boundary between React rendering and the Hook owns reusable behavior while the component owns its visible composition.
-12. Write a review note naming what remains untested in an asynchronous environment.
+1. Run the example. Write down what appears before you change it.
+2. Write the name of the outside thing the code talks to, such as the document title or a timer.
+3. Change one dependency. Predict whether the work runs again, then check.
+4. Show a loading, empty, or disconnected message that fits the example.
+5. Make the Hooks mistake shown in the lesson. Write down the error or wrong result.
+6. Fix the mistake and run the example again.
+7. Remove the Hook when the value can be calculated during render. Explain the change in one sentence.
+8. Add cleanup for the timer, subscription, request, or other outside resource.
+9. Write one test or trace that shows setup and cleanup.
+10. Use this behavior in a small a local toggle, data viewer, or form behavior with a named Hook API with invented data.
+11. Answer: what starts the outside work, and what stops it?
+12. Write two things this local example does not prove about a real application.
 
 ## Finish line
 
-You are finished when you can teach **Class lifecycle to modern Hooks** to another beginner, show the normal and broken runs, explain the repair, and point to **the Hook owns reusable behavior while the component owns its visible composition**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
+You are finished when you can:
+
+1. explain **Class lifecycle to modern Hooks** to another beginner;
+2. show the normal result;
+3. show the broken result and the repair;
+4. explain one edge case; and
+5. point to **the Hook owns reusable behavior while the component owns its visible composition**.
+
+Do not move on only because the code compiles. Write one limitation of this local example.
 
 ## References
 

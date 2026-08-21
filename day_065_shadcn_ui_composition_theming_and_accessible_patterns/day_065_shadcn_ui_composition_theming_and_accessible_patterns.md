@@ -27,19 +27,35 @@
 
 ## Start here
 
-This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
+Start with the [course README](../README.md), [setup guide](../SETUP.md), and [day index](../DAY_INDEX.md). Choose the starter from the [examples guide](../examples/README.md). Work locally with invented data only.
+
+Today’s steps are simple: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. Run the first example. Write what you expect. Change one thing. Make the stated mistake. Fix it. Then do the numbered exercises.
 
 ## Why this lesson exists
 
-The learner problem comes first: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. This lesson teaches **shadcn/ui composition, theming, and accessible patterns** through a connected sequence rather than a finished file dropped from the sky: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. The goal is to explain the decision and its owner, not to memorize a spelling.
+Here is the problem: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package.
+
+A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable.
+
+Today we will learn **shadcn/ui composition, theming, and accessible patterns** in small steps. We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. You are learning what the code does, not just memorising a word.
 
 ## Prerequisites
 
-Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **JSX, className, the Next.js starter, and basic CSS**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
+Complete the previous lesson and read the [setup guide](../SETUP.md). You need **JSX, className, the Next.js starter, and basic CSS**.
+
+Use the [examples guide](../examples/README.md) to choose the starter. If a command fails, stop. Write down the folder and command before trying again. Do not add a database, login provider, or unrelated package unless this lesson teaches it.
 
 ## Outcomes
 
-By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **shadcn/ui composition, theming, and accessible patterns** to a local dashboard shell with a readable, keyboard-usable Button and empty state. You should be able to name the owner and boundary—design-system primitives versus feature-specific data, authorization, and application behavior—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
+By the end, you should be able to:
+
+- explain **shadcn/ui composition, theming, and accessible patterns** in your own words;
+- run the normal example;
+- show the broken example and fix it;
+- change one input and predict the result; and
+- use **shadcn/ui composition, theming, and accessible patterns** in a local dashboard shell with a readable, keyboard-usable Button and empty state.
+
+This local example does not prove that a real application is secure, accessible, fast, or ready for production. We will name the important boundary later: design-system primitives versus feature-specific data, authorization, and application behavior.
 
 ## Keywords and terms
 
@@ -58,31 +74,31 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### Why compose primitives instead of copying a screenshot?
 
-The answer to **Why compose primitives instead of copying a screenshot** must be earned by comparing a working case with a deliberately limited or broken case. For **Why compose primitives instead of copying a screenshot**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why compose primitives instead of copying a screenshot**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Answer **Why compose primitives instead of copying a screenshot** by comparing the working example with a broken or limited example. For **Why compose primitives instead of copying a screenshot**, say what changed and which result is easier or safer to use.
 
-**Try it before moving on:** For **Why compose primitives instead of copying a screenshot?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local dashboard shell with a readable, keyboard-usable Button and empty state.
+**Try it before moving on:** For **Why compose primitives instead of copying a screenshot?**, compare the working example with the broken example. What changed? Which result is safer or easier to understand?
 
 ### How does a Dialog manage focus?
 
-To answer **How does a Dialog manage focus**, follow the operation in order rather than treating the result as framework magic. For **How does a Dialog manage focus**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does a Dialog manage focus**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+To answer **How does a Dialog manage focus**, follow the operation in order rather than treating the result as framework magic. For **How does a Dialog manage focus**, write the starting value, the change you made, and the new result.
 
-**Try it before moving on:** For **How does a Dialog manage focus?**, change one input or boundary in the worked example. Trace the result for **How does a Dialog manage focus?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
+**Try it before moving on:** For **How does a Dialog manage focus**, change one input in the example. Write the old result and the new result for **How does a Dialog manage focus**.
 
 ### How do labels and errors support forms?
 
-To answer **How do labels and errors support forms**, follow the operation in order rather than treating the result as framework magic. For **How do labels and errors support forms**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do labels and errors support forms**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+To answer **How do labels and errors support forms**, follow the operation in order rather than treating the result as framework magic. For **How do labels and errors support forms**, write the starting value, the change you made, and the new result.
 
-**Try it before moving on:** For **How do labels and errors support forms?**, change one input or boundary in the worked example. Trace the result for **How do labels and errors support forms?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
+**Try it before moving on:** For **How do labels and errors support forms**, change one input in the example. Write the old result and the new result for **How do labels and errors support forms**.
 
 ### When should a table become a data grid?
 
-Treat **When should a table become a data grid** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should a table become a data grid**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should a table become a data grid**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Treat **When should a table become a data grid** as a simple choice. Start with a normal example and then try an empty or bad example. For **When should a table become a data grid**, write what the program should do in both examples.
 
-**Try it before moving on:** For **When should a table become a data grid?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should a table become a data grid?**, write one normal example and one empty or bad example. Say what each should do.
 
 ## Worked example
 
-The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive.
+Start with this small example. Copy it into the starter file and run it without changing it. Write down what you see. We will then change one thing at a time. We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive.
 
 ```tsx
 <Dialog>
@@ -97,65 +113,88 @@ The worked example is the smallest useful fixture for this day. Copy it into the
 The trigger opens a titled dialog with an explicit focus and reading boundary.
 ```
 
-Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is design-system primitives versus feature-specific data, authorization, and application behavior.
+Before changing the code, answer four simple questions: What goes in? What does the code do? What comes out? Which file contains the decision?
+
+If the code is JSX, mark the JavaScript parts and the markup parts. If it runs in Next.js, say whether it is a Server Component, Client Component, Route Handler, Server Action, or Proxy file. Today’s important boundary is: design-system primitives versus feature-specific data, authorization, and application behavior.
 
 ## Line-by-line explanation
 
 | Line | What this line does |
 | ---: | --- |
-| 1 | `<Dialog>` — Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result. |
-| 2 | `<DialogTrigger asChild><Button>Review case</Button></DialogTrigger>` — Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result. |
-| 3 | `<DialogContent><DialogTitle>Case details</DialogTitle></DialogContent>` — Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result. |
-| 4 | `</Dialog>` — Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result. |
+| 1 | `<Dialog>` — Creates a piece of the UI or explains the code in a comment. |
+| 2 | `<DialogTrigger asChild><Button>Review case</Button></DialogTrigger>` — Creates a piece of the UI or explains the code in a comment. |
+| 3 | `<DialogContent><DialogTitle>Case details</DialogTitle></DialogContent>` — Creates a piece of the UI or explains the code in a comment. |
+| 4 | `</Dialog>` — Creates a piece of the UI or explains the code in a comment. |
 
-Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+Use the table while you run the code. Do not only read it. If the same line behaves differently in the browser, React, and Next.js, write one short note.
 
 ## Execution trace
 
-1. Start with the fixture's initial input: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package.
-2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
-3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive.
-4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
-5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
+1. Write down the starting value: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package.
+2. Follow the code one line at a time until the result changes.
+3. Write down the action, the new value, and what appears on the screen or in the terminal.
+4. Compare what happened with your prediction. Say one reason if they differ.
+5. Remember that this result belongs to this small local example. It is not proof that a real application is secure, accessible, fast, or correct.
 
-Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
+Write four things in your notebook: the value before, the action, the value after, and the file or system that made the decision.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input or boundary related to **shadcn/ui composition, theming, and accessible patterns**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
+Write your prediction before you run the experiment. Change one input related to **shadcn/ui composition, theming, and accessible patterns**. Start with a normal value. Then try one useful edge case, such as an empty value, bad value, loading state, missing route, rejected action, or unauthorized user. Write what you expected. Run it. Write what actually happened. Put the normal example back when you finish.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** Build a click-only modal without a title or escape behavior, then repair the accessible dialog contract.
 
-Run the broken version in a local copy. The likely beginner mistake for this family is: Copy a configuration from the wrong major version, scatter arbitrary colors, or treat generated component source as a black box. Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
+Make the broken version in a copy. The likely mistake is: Copy a configuration from the wrong major version, scatter arbitrary colors, or treat generated component source as a black box.
+
+Run it and write down the error or wrong screen. Say what assumption was wrong. Change the smallest line that fixes the problem. Run the normal example and one edge case again. Do not hide the error with a broad catch or a disabled type check. A passing render is not proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **shadcn/ui composition, theming, and accessible patterns** to a local dashboard shell with a readable, keyboard-usable Button and empty state. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
+Do these steps in order:
+
+1. Run the worked example unchanged.
+2. Change one input and write down the new result.
+3. Make the likely mistake and fix it.
+4. Use the same starter for **shadcn/ui composition, theming, and accessible patterns** and a local dashboard shell with a readable, keyboard-usable Button and empty state.
+
+Before the independent exercises, answer: What should happen for a normal value? What should happen for an empty or bad value?
 
 ## Project application
 
-Apply the lesson to a local dashboard shell with a readable, keyboard-usable Button and empty state using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is design-system primitives versus feature-specific data, authorization, and application behavior. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
+Use the local starter from the [examples guide](../examples/README.md) to build a local dashboard shell with a readable, keyboard-usable Button and empty state.
+
+Write down the goal and the data you will use. Show the normal case and one edge case. The important boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+
+Keep secrets, databases, cookies, login checks, and permission checks on the server. Use an invented user who should be rejected when the lesson involves authorization. For React-only work, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
-1. Run the starter and identify the existing visual tokens or utility classes.
-2. Style one component with a small, readable set of utilities and predict the visible result.
-3. Add a responsive state and explain which breakpoint changes the layout.
-4. Create a dark, empty, loading, or error visual state appropriate to the feature.
-5. Reproduce the wrong-version configuration, alias, or inaccessible primitive mistake.
-6. Repair the configuration or component while keeping the source owned by the project.
-7. Add a named token or variant instead of scattering arbitrary colors.
-8. Check keyboard focus, labels, contrast, and semantic elements.
-9. Add a visual or DOM assertion for the component contract.
-10. Apply the design boundary to a local dashboard shell with a readable, keyboard-usable Button and empty state.
-11. Explain the boundary between a reusable primitive and design-system primitives versus feature-specific data, authorization, and application behavior.
-12. Write a review note with screenshots or DOM evidence, trade-offs, and one limitation.
+1. Run the starter. Write down the color, spacing, and button styles you see.
+2. Style one component. Write down the visible change.
+3. Make the layout change at one screen width. Check it in the browser.
+4. Add a dark, empty, loading, or error message to the component.
+5. Make the configuration or inaccessible-control mistake from the lesson.
+6. Fix the mistake and run the page again.
+7. Create one named color or spacing value and use it twice.
+8. Check the button with the keyboard and check that the label is readable.
+9. Write one DOM or visual check for the component.
+10. Style a small a local dashboard shell with a readable, keyboard-usable Button and empty state without adding unrelated packages.
+11. Answer: which styles belong to the reusable component, and which belong to this page?
+12. Save one screenshot or DOM result and write one design choice you would revisit.
 
 ## Finish line
 
-You are finished when you can teach **shadcn/ui composition, theming, and accessible patterns** to another beginner, show the normal and broken runs, explain the repair, and point to **design-system primitives versus feature-specific data, authorization, and application behavior**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
+You are finished when you can:
+
+1. explain **shadcn/ui composition, theming, and accessible patterns** to another beginner;
+2. show the normal result;
+3. show the broken result and the repair;
+4. explain one edge case; and
+5. point to **design-system primitives versus feature-specific data, authorization, and application behavior**.
+
+Do not move on only because the code compiles. Write one limitation of this local example.
 
 ## References
 

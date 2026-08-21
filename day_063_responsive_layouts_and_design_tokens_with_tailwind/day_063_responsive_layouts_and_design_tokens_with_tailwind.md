@@ -27,19 +27,35 @@
 
 ## Start here
 
-This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
+Start with the [course README](../README.md), [setup guide](../SETUP.md), and [day index](../DAY_INDEX.md). Choose the starter from the [examples guide](../examples/README.md). Work locally with invented data only.
+
+Today’s steps are simple: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. Run the first example. Write what you expect. Change one thing. Make the stated mistake. Fix it. Then do the numbered exercises.
 
 ## Why this lesson exists
 
-The learner problem comes first: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. This lesson teaches **Responsive layouts and design tokens with Tailwind** through a connected sequence rather than a finished file dropped from the sky: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. The goal is to explain the decision and its owner, not to memorize a spelling.
+Here is the problem: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package.
+
+A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable.
+
+Today we will learn **Responsive layouts and design tokens with Tailwind** in small steps. We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive. You are learning what the code does, not just memorising a word.
 
 ## Prerequisites
 
-Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **JSX, className, the Next.js starter, and basic CSS**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
+Complete the previous lesson and read the [setup guide](../SETUP.md). You need **JSX, className, the Next.js starter, and basic CSS**.
+
+Use the [examples guide](../examples/README.md) to choose the starter. If a command fails, stop. Write down the folder and command before trying again. Do not add a database, login provider, or unrelated package unless this lesson teaches it.
 
 ## Outcomes
 
-By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **responsive layouts and design tokens with tailwind** to a local dashboard shell with a readable, keyboard-usable Button and empty state. You should be able to name the owner and boundary—design-system primitives versus feature-specific data, authorization, and application behavior—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
+By the end, you should be able to:
+
+- explain **Responsive layouts and design tokens with Tailwind** in your own words;
+- run the normal example;
+- show the broken example and fix it;
+- change one input and predict the result; and
+- use **responsive layouts and design tokens with tailwind** in a local dashboard shell with a readable, keyboard-usable Button and empty state.
+
+This local example does not prove that a real application is secure, accessible, fast, or ready for production. We will name the important boundary later: design-system primitives versus feature-specific data, authorization, and application behavior.
 
 ## Keywords and terms
 
@@ -56,31 +72,31 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is responsive design?
 
-Start with the learner's concrete question: **What is responsive design**. Use the worked example to show what **What is responsive design** changes before introducing a framework shortcut. For **What is responsive design**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is responsive design**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What is responsive design**. Look at **What is responsive design** in the example before learning the technical name. For **What is responsive design**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What is responsive design?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is responsive design**, say what goes in and what comes out.
 
 ### How do Tailwind breakpoints change a layout?
 
-To answer **How do Tailwind breakpoints change a layout**, follow the operation in order rather than treating the result as framework magic. For **How do Tailwind breakpoints change a layout**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do Tailwind breakpoints change a layout**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+To answer **How do Tailwind breakpoints change a layout**, follow the operation in order rather than treating the result as framework magic. For **How do Tailwind breakpoints change a layout**, write the starting value, the change you made, and the new result.
 
-**Try it before moving on:** For **How do Tailwind breakpoints change a layout?**, change one input or boundary in the worked example. Trace the result for **How do Tailwind breakpoints change a layout?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
+**Try it before moving on:** For **How do Tailwind breakpoints change a layout**, change one input in the example. Write the old result and the new result for **How do Tailwind breakpoints change a layout**.
 
 ### What is a design token?
 
-Start with the learner's concrete question: **What is a design token**. Use the worked example to show what **What is a design token** changes before introducing a framework shortcut. For **What is a design token**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a design token**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What is a design token**. Look at **What is a design token** in the example before learning the technical name. For **What is a design token**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What is a design token?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a design token**, say what goes in and what comes out.
 
 ### How do dark mode and contrast affect accessibility?
 
-To answer **How do dark mode and contrast affect accessibility**, follow the operation in order rather than treating the result as framework magic. For **How do dark mode and contrast affect accessibility**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do dark mode and contrast affect accessibility**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+To answer **How do dark mode and contrast affect accessibility**, follow the operation in order rather than treating the result as framework magic. For **How do dark mode and contrast affect accessibility**, write the starting value, the change you made, and the new result.
 
-**Try it before moving on:** For **How do dark mode and contrast affect accessibility?**, change one input or boundary in the worked example. Trace the result for **How do dark mode and contrast affect accessibility?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
+**Try it before moving on:** For **How do dark mode and contrast affect accessibility**, change one input in the example. Write the old result and the new result for **How do dark mode and contrast affect accessibility**.
 
 ## Worked example
 
-The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive.
+Start with this small example. Copy it into the starter file and run it without changing it. Write down what you see. We will then change one thing at a time. We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive.
 
 ```tsx
 <main className="bg-background text-foreground p-4 md:p-8 dark:bg-slate-950">
@@ -94,64 +110,87 @@ The worked example is the smallest useful fixture for this day. Copy it into the
 The layout adapts at the medium breakpoint and remains readable in dark mode.
 ```
 
-Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is design-system primitives versus feature-specific data, authorization, and application behavior.
+Before changing the code, answer four simple questions: What goes in? What does the code do? What comes out? Which file contains the decision?
+
+If the code is JSX, mark the JavaScript parts and the markup parts. If it runs in Next.js, say whether it is a Server Component, Client Component, Route Handler, Server Action, or Proxy file. Today’s important boundary is: design-system primitives versus feature-specific data, authorization, and application behavior.
 
 ## Line-by-line explanation
 
 | Line | What this line does |
 | ---: | --- |
-| 1 | `<main className="bg-background text-foreground p-4 md:p-8 dark:bg-slate-950">` — Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result. |
-| 2 | `<h1 className="text-2xl md:text-4xl">Case dashboard</h1>` — Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result. |
-| 3 | `</main>` — Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result. |
+| 1 | `<main className="bg-background text-foreground p-4 md:p-8 dark:bg-slate-950">` — Creates a piece of the UI or explains the code in a comment. |
+| 2 | `<h1 className="text-2xl md:text-4xl">Case dashboard</h1>` — Creates a piece of the UI or explains the code in a comment. |
+| 3 | `</main>` — Creates a piece of the UI or explains the code in a comment. |
 
-Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+Use the table while you run the code. Do not only read it. If the same line behaves differently in the browser, React, and Next.js, write one short note.
 
 ## Execution trace
 
-1. Start with the fixture's initial input: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package.
-2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
-3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: We will style one visible element, introduce tokens and responsive states, then own and compose an accessible UI primitive.
-4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
-5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
+1. Write down the starting value: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package.
+2. Follow the code one line at a time until the result changes.
+3. Write down the action, the new value, and what appears on the screen or in the terminal.
+4. Compare what happened with your prediction. Say one reason if they differ.
+5. Remember that this result belongs to this small local example. It is not proof that a real application is secure, accessible, fast, or correct.
 
-Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
+Write four things in your notebook: the value before, the action, the value after, and the file or system that made the decision.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input or boundary related to **Responsive layouts and design tokens with Tailwind**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
+Write your prediction before you run the experiment. Change one input related to **Responsive layouts and design tokens with Tailwind**. Start with a normal value. Then try one useful edge case, such as an empty value, bad value, loading state, missing route, rejected action, or unauthorized user. Write what you expected. Run it. Write what actually happened. Put the normal example back when you finish.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** Use arbitrary colors everywhere, create inconsistent contrast, and repair the design with named tokens and a contrast check.
 
-Run the broken version in a local copy. The likely beginner mistake for this family is: Copy a configuration from the wrong major version, scatter arbitrary colors, or treat generated component source as a black box. Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
+Make the broken version in a copy. The likely mistake is: Copy a configuration from the wrong major version, scatter arbitrary colors, or treat generated component source as a black box.
+
+Run it and write down the error or wrong screen. Say what assumption was wrong. Change the smallest line that fixes the problem. Run the normal example and one edge case again. Do not hide the error with a broad catch or a disabled type check. A passing render is not proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **responsive layouts and design tokens with tailwind** to a local dashboard shell with a readable, keyboard-usable Button and empty state. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
+Do these steps in order:
+
+1. Run the worked example unchanged.
+2. Change one input and write down the new result.
+3. Make the likely mistake and fix it.
+4. Use the same starter for **responsive layouts and design tokens with tailwind** and a local dashboard shell with a readable, keyboard-usable Button and empty state.
+
+Before the independent exercises, answer: What should happen for a normal value? What should happen for an empty or bad value?
 
 ## Project application
 
-Apply the lesson to a local dashboard shell with a readable, keyboard-usable Button and empty state using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is design-system primitives versus feature-specific data, authorization, and application behavior. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
+Use the local starter from the [examples guide](../examples/README.md) to build a local dashboard shell with a readable, keyboard-usable Button and empty state.
+
+Write down the goal and the data you will use. Show the normal case and one edge case. The important boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+
+Keep secrets, databases, cookies, login checks, and permission checks on the server. Use an invented user who should be rejected when the lesson involves authorization. For React-only work, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
-1. Run the smallest route or structure fixture and write its URL and visible result.
-2. Map each relevant folder or special file to the route or boundary it creates.
-3. Change one segment or parameter and predict the URL before running it.
-4. Add a normal, missing, loading, or not-found case appropriate to the route.
-5. Reproduce the duplicate-router, missing-file, or parameter-timing mistake.
-6. Repair the folder, file, or async boundary with the smallest change.
-7. Explain which code is application source and which remains root configuration.
-8. Add a semantic link, heading, or focus behavior to the route UI.
-9. Add a route-level assertion or browser check for the public contract.
-10. Apply the lesson to a local dashboard shell with a readable, keyboard-usable Button and empty state and document the route map.
-11. Explain what crosses the design-system primitives versus feature-specific data, authorization, and application behavior and what must stay private.
-12. Write a review note with the URL, file map, evidence, and one deployment limitation.
+1. Run the route. Write down its URL and the text you see.
+2. Write the job of each special file in one short sentence.
+3. Change one folder or parameter. Predict the new URL before running it.
+4. Add the missing, loading, or not-found message from the lesson.
+5. Make the folder or file mistake shown in the lesson. Record the error.
+6. Fix the mistake and open the route again.
+7. Answer: which files are application code, and which files are project settings?
+8. Add one real heading, link, or keyboard-friendly control to the page.
+9. Write one browser check for the route’s visible text or URL.
+10. Build a small a local dashboard shell with a readable, keyboard-usable Button and empty state and list its route URLs.
+11. Answer: which data should stay on the server? Give one reason.
+12. Write the file tree and one sentence about what you have not tested.
 
 ## Finish line
 
-You are finished when you can teach **Responsive layouts and design tokens with Tailwind** to another beginner, show the normal and broken runs, explain the repair, and point to **design-system primitives versus feature-specific data, authorization, and application behavior**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
+You are finished when you can:
+
+1. explain **Responsive layouts and design tokens with Tailwind** to another beginner;
+2. show the normal result;
+3. show the broken result and the repair;
+4. explain one edge case; and
+5. point to **design-system primitives versus feature-specific data, authorization, and application behavior**.
+
+Do not move on only because the code compiles. Write one limitation of this local example.
 
 ## References
 

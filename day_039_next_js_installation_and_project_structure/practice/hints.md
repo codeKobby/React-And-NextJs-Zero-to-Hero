@@ -4,15 +4,15 @@ Use these only after attempting the numbered exercises in [the lesson](../day_03
 
 ## Hints
 
-1. Begin with the learner problem: A new Next.js project contains several conventions, and an incorrect folder choice can make a route disappear or configuration ambiguous.
-2. Run the smallest example unchanged and inspect the evidence for a small App Router starter whose source, configuration, and public assets have named homes.
-3. Trace the input, operation, output, and owner at application source versus root configuration and the route files Next.js recognizes.
-4. Change exactly one input related to What does create-next-app configure?; keep the rule fixed.
-5. For What belongs at the root?, decide the normal and boundary behavior before coding.
-6. Reproduce the likely mistake: Keep duplicate routers or treat generated configuration as magic that should never be inspected.
-7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
-8. Keep the data local and synthetic while you test What is the App Router?.
-9. Assert a visible result or public contract rather than a private implementation detail.
-10. Use the same fixture to apply next.js installation and project structure to a small App Router starter whose source, configuration, and public assets have named homes.
-11. A passing build proves only the checked build completed; record what remains untested.
-12. Your review note should name the owner, evidence, limitation, and boundary: application source versus root configuration and the route files Next.js recognizes.
+1. Read the short problem statement for next.js installation and project structure and say what the page or program should do.
+2. Run the example without changes. If it works, write down what you see for a small App Router starter whose source, configuration, and public assets have named homes.
+3. Point to the input and the line that changes the output. Do not try to explain the whole application at once.
+4. Change one input for What does create-next-app configure?. Keep every other line the same.
+5. For What belongs at the root?, try the normal case first. Then try one empty or bad value.
+6. Make this mistake in a copy: Keep duplicate routers or treat generated configuration as magic that should never be inspected.
+7. Read the error or wrong result. Fix one line. Run the example again.
+8. Use invented local data while you try What is the App Router?.
+9. Check the text, number, URL, or DOM element that the learner can actually see.
+10. Use the same starter to build a small App Router starter whose source, configuration, and public assets have named homes. Do not add a new package.
+11. A passing check only proves that check passed. Write one thing you did not test.
+12. If a technical word is confusing, define it in your own simple sentence before using it.

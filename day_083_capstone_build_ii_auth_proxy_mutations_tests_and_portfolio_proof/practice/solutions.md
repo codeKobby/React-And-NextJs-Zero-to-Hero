@@ -4,18 +4,18 @@ Use this guide only after attempting the numbered exercises in [the lesson](../d
 
 ## Review checkpoints
 
-1. The submission states the problem and connects it to capstone build ii: auth, proxy, mutations, tests, and portfolio proof rather than offering only a definition.
-2. The unchanged example runs and its visible or returned result is recorded for a local synthetic case journey with normal, invalid, empty, and failure fixtures.
-3. The trace identifies the owner and boundary: the public behavior under test and the internal implementation that may change.
-4. The normal change isolates one input and preserves the rule for How do we connect identity to protected mutations?.
-5. The boundary case for Where does Proxy help and where does it stop? has deliberate behavior and an explanation.
-6. The failure `Declare the capstone complete because the happy path works, then repair the demonstration with failure tests, security evidence, and explicit residual risk.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
-7. The repair keeps the responsibility that the lesson owns: A component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries.
-8. The quality requirement for What tests prove the main journey? is visible in code or project structure.
-9. The assertion or test fails when the important behavior is removed and passes after the repair.
-10. The local application demonstrates a local synthetic case journey with normal, invalid, empty, and failure fixtures with synthetic data and a named owner.
-11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
-12. The review note is reproducible and records evidence, residual risk, and the boundary the public behavior under test and the internal implementation that may change.
+1. The learner can say what problem capstone build ii: auth, proxy, mutations, tests, and portfolio proof solves in one or two simple sentences.
+2. The example runs and the learner records the visible or returned result for a local synthetic case journey with normal, invalid, empty, and failure fixtures.
+3. The learner can point to the input, the important line, and the output.
+4. The learner changes one input for How do we connect identity to protected mutations? and records the old and new result.
+5. The learner tries a normal and an empty or bad value for Where does Proxy help and where does it stop?.
+6. The learner reproduces `Declare the capstone complete because the happy path works, then repair the demonstration with failure tests, security evidence, and explicit residual risk.` and writes down the error or wrong result.
+7. The learner fixes the smallest line and runs the normal case again.
+8. The learner uses local invented data to show What tests prove the main journey?.
+9. The test or check fails when the visible behavior is removed and passes after it is restored.
+10. The learner builds a local synthetic case journey with normal, invalid, empty, and failure fixtures without exposing secrets or using real data.
+11. The learner writes one thing the example does not prove about a real application.
+12. The learner’s review note uses plain sentences and defines any technical word it needs.
 
 ## Self-assessment
 

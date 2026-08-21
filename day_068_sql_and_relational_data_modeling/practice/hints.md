@@ -4,15 +4,15 @@ Use these only after attempting the numbered exercises in [the lesson](../day_06
 
 ## Hints
 
-1. Begin with the learner problem: A growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability.
-2. Run the smallest example unchanged and inspect the evidence for a local synthetic case repository with typed reads and resettable seed data.
-3. Trace the input, operation, output, and owner at database schema and repository versus UI data-transfer shape and authorization policy.
-4. Change exactly one input related to What is a table?; keep the rule fixed.
-5. For Why do rows need stable identifiers?, decide the normal and boundary behavior before coding.
-6. Reproduce the likely mistake: Change a schema without a migration, return another user's row, or pass raw database objects and secrets into a Client Component.
-7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
-8. Keep the data local and synthetic while you test What is a foreign key?.
-9. Assert a visible result or public contract rather than a private implementation detail.
-10. Use the same fixture to apply sql and relational data modeling to a local synthetic case repository with typed reads and resettable seed data.
-11. A passing build proves only the checked build completed; record what remains untested.
-12. Your review note should name the owner, evidence, limitation, and boundary: database schema and repository versus UI data-transfer shape and authorization policy.
+1. Read the short problem statement for sql and relational data modeling and say what the page or program should do.
+2. Run the example without changes. If it works, write down what you see for a local synthetic case repository with typed reads and resettable seed data.
+3. Point to the input and the line that changes the output. Do not try to explain the whole application at once.
+4. Change one input for What is a table?. Keep every other line the same.
+5. For Why do rows need stable identifiers?, try the normal case first. Then try one empty or bad value.
+6. Make this mistake in a copy: Change a schema without a migration, return another user's row, or pass raw database objects and secrets into a Client Component.
+7. Read the error or wrong result. Fix one line. Run the example again.
+8. Use invented local data while you try What is a foreign key?.
+9. Check the text, number, URL, or DOM element that the learner can actually see.
+10. Use the same starter to build a local synthetic case repository with typed reads and resettable seed data. Do not add a new package.
+11. A passing check only proves that check passed. Write one thing you did not test.
+12. If a technical word is confusing, define it in your own simple sentence before using it.

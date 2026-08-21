@@ -4,15 +4,15 @@ Use these only after attempting the numbered exercises in [the lesson](../day_06
 
 ## Hints
 
-1. Begin with the learner problem: Learners need a concrete reason to study final demonstration and portfolio review before the terminology becomes useful.
-2. Run the smallest example unchanged and inspect the evidence for a small local fixture that demonstrates final demonstration and portfolio review.
-3. Trace the input, operation, output, and owner at the code or framework boundary that owns the decision in this lesson.
-4. Change exactly one input related to What makes a project demonstrable?; keep the rule fixed.
-5. For How do we explain the architecture to another person?, decide the normal and boundary behavior before coding.
-6. Reproduce the likely mistake: Copy the syntax without identifying the input, owner, output, and boundary.
-7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
-8. Keep the data local and synthetic while you test What evidence belongs in a portfolio?.
-9. Assert a visible result or public contract rather than a private implementation detail.
-10. Use the same fixture to apply final demonstration and portfolio review to a small local fixture that demonstrates final demonstration and portfolio review.
-11. A passing build proves only the checked build completed; record what remains untested.
-12. Your review note should name the owner, evidence, limitation, and boundary: the code or framework boundary that owns the decision in this lesson.
+1. Read the short problem statement for final demonstration and portfolio review and say what the page or program should do.
+2. Run the example without changes. If it works, write down what you see for a small local example.
+3. Point to the input and the line that changes the output. Do not try to explain the whole application at once.
+4. Change one input for What makes a project demonstrable?. Keep every other line the same.
+5. For How do we explain the architecture to another person?, try the normal case first. Then try one empty or bad value.
+6. Make this mistake in a copy: Copy the code without checking the input and the result.
+7. Read the error or wrong result. Fix one line. Run the example again.
+8. Use invented local data while you try What evidence belongs in a portfolio?.
+9. Check the text, number, URL, or DOM element that the learner can actually see.
+10. Use the same starter to build a small local example. Do not add a new package.
+11. A passing check only proves that check passed. Write one thing you did not test.
+12. If a technical word is confusing, define it in your own simple sentence before using it.

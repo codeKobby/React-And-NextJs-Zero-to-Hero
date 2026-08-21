@@ -4,15 +4,15 @@ Use these only after attempting the numbered exercises in [the lesson](../day_04
 
 ## Hints
 
-1. Begin with the learner problem: A page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate.
-2. Run the smallest example unchanged and inspect the evidence for a local case dashboard built from a shell, summary, list, and card.
-3. Trace the input, operation, output, and owner at the parent-to-child data flow and the responsibility owned by each component.
-4. Change exactly one input related to Where should a database query run?; keep the rule fixed.
-5. For How do we validate identity and permission?, decide the normal and boundary behavior before coding.
-6. Reproduce the likely mistake: Split every element mechanically or use a lowercase component name that JSX treats as a browser element.
-7. Repair the smallest line or boundary; do not hide the failure with a broad workaround.
-8. Keep the data local and synthetic while you test Why can a Server Component access secrets?.
-9. Assert a visible result or public contract rather than a private implementation detail.
-10. Use the same fixture to apply fetching data in server components to a local case dashboard built from a shell, summary, list, and card.
-11. A passing build proves only the checked build completed; record what remains untested.
-12. Your review note should name the owner, evidence, limitation, and boundary: the parent-to-child data flow and the responsibility owned by each component.
+1. Read the short problem statement for fetching data in server components and say what the page or program should do.
+2. Run the example without changes. If it works, write down what you see for a local case dashboard built from a shell, summary, list, and card.
+3. Point to the input and the line that changes the output. Do not try to explain the whole application at once.
+4. Change one input for Where should a database query run?. Keep every other line the same.
+5. For How do we validate identity and permission?, try the normal case first. Then try one empty or bad value.
+6. Make this mistake in a copy: Split every element mechanically or use a lowercase component name that JSX treats as a browser element.
+7. Read the error or wrong result. Fix one line. Run the example again.
+8. Use invented local data while you try Why can a Server Component access secrets?.
+9. Check the text, number, URL, or DOM element that the learner can actually see.
+10. Use the same starter to build a local case dashboard built from a shell, summary, list, and card. Do not add a new package.
+11. A passing check only proves that check passed. Write one thing you did not test.
+12. If a technical word is confusing, define it in your own simple sentence before using it.

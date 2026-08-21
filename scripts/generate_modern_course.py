@@ -519,7 +519,7 @@ def teaching_profile(title: str) -> dict[str, str]:
         return {"problem": "Files are larger and more ambiguous than ordinary text fields, and a filename is not a security policy.", "analogy": "A receiving dock weighs and labels a package before storing it; a name written on the box does not prove what is inside.", "sequence": "We will bound size and type, record safe metadata, choose a storage boundary, and authorize a download.", "mistake": "Trust extensions, accept unlimited bytes, or serve a stored object without checking ownership.", "application": "a local synthetic upload validator and authorized download response", "boundary": "browser file input versus server validation, storage, and access policy", "prereq": "forms, validation, HTTP responses, and authorization"}
     if "capstone" in lower or "production" in lower or "deployment" in lower:
         return {"problem": "A project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan.", "analogy": "A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing.", "sequence": "We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly.", "mistake": "Confuse a clean build or screenshot with proof that every user, permission, failure, and deployment condition is safe.", "application": "a portfolio-ready local case-management feature with architecture and evidence notes", "boundary": "demo evidence versus production claims, operational ownership, and residual risk", "prereq": "the preceding React/Next.js phases and a working local project"}
-    return {"problem": f"Learners need a concrete reason to study {title.lower()} before the terminology becomes useful.", "analogy": "A small workshop task gives the learner something visible to change before the tool's name matters.", "sequence": "We will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture.", "mistake": "Copy the syntax without identifying the input, owner, output, and boundary.", "application": f"a small local fixture that demonstrates {title.lower()}", "boundary": "the code or framework boundary that owns the decision in this lesson", "prereq": "the previous lesson, the setup guide, and the smallest prerequisite named in the opening"}
+    return {"problem": f"The learner needs to see what {title.lower()} does before learning its name.", "analogy": "A small workshop task lets the learner change one thing and see the result.", "sequence": "We will run a small example, change one input, look at the result, make a common mistake, fix it, and try one small variation.", "mistake": "Copy the code without checking the input and the result.", "application": "a small local example", "boundary": "the line or file that changes the result", "prereq": "the previous lesson, the setup guide, and the smallest prerequisite named in the opening"}
 
 
 def term_meaning(term: str) -> str:
@@ -547,33 +547,35 @@ def topic_explanation(topic: str, title: str) -> str:
     question = topic.rstrip("?")
     lower = question.lower()
     if lower.startswith("what"):
-        opening = f"Start with the learner's concrete question: **{question}**. Use the worked example to show what **{question}** changes before introducing a framework shortcut."
-        practice = f"For **{question}**, point to the smallest value, element, function, route, or boundary that demonstrates the answer."
+        opening = f"Start with the learner's concrete question: **{question}**. Look at **{question}** in the example before learning the technical name."
+        practice = f"For **{question}**, point to the smallest value, element, function, or route that shows the answer."
     elif lower.startswith("why"):
-        opening = f"The answer to **{question}** must be earned by comparing a working case with a deliberately limited or broken case."
-        practice = f"For **{question}**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option."
+        opening = f"Answer **{question}** by comparing the working example with a broken or limited example."
+        practice = f"For **{question}**, say what changed and which result is easier or safer to use."
     elif lower.startswith("how"):
         opening = f"To answer **{question}**, follow the operation in order rather than treating the result as framework magic."
-        practice = f"For **{question}**, write the input, the operation that changes it, the output, and the boundary that is responsible."
+        practice = f"For **{question}**, write the starting value, the change you made, and the new result."
     elif lower.startswith("when"):
-        opening = f"Treat **{question}** as a decision with a normal case, a boundary case, and a cost when chosen carelessly."
-        practice = f"For **{question}**, write one rule that accepts the normal case and one rule that handles the boundary safely."
+        opening = f"Treat **{question}** as a simple choice. Start with a normal example and then try an empty or bad example."
+        practice = f"For **{question}**, write what the program should do in both examples."
     else:
-        opening = f"Study **{question}** by naming the concrete value, operation, visible result, and owner in the worked example."
-        practice = f"For **{question}**, underline the line or file where this idea becomes observable and explain what would change it."
-    return f"{opening} {practice} Keep the conclusion limited to the local evidence for **{question}**; a small fixture cannot prove production security, accessibility, performance, or correctness."
+        opening = f"Study **{question}** by looking at the value, operation, and result in the worked example."
+        practice = f"For **{question}**, point to the line that shows the idea and say what would change it."
+    return f"{opening} {practice}"
 
 
 def topic_practice_prompt(topic: str, title: str) -> str:
     lower = topic.lower()
     profile = teaching_profile(title)
     if "why" in lower:
-        return f"For **{topic}**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for {profile['application']}."
+        return f"For **{topic}**, compare the working example with the broken example. What changed? Which result is safer or easier to understand?"
     if "how" in lower:
-        return f"For **{topic}**, change one input or boundary in the worked example. Trace the result for **{topic}** and identify which owner is responsible for the new behavior; record the concrete value or file that changed."
+        simple_topic = topic.rstrip("?")
+        return f"For **{simple_topic}**, change one input in the example. Write the old result and the new result for **{simple_topic}**."
     if "when" in lower:
-        return f"For **{topic}**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable."
-    return f"For **{topic}**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words."
+        return f"For **{topic}**, write one normal example and one empty or bad example. Say what each should do."
+    simple_topic = topic.rstrip("?")
+    return f"For **{simple_topic}**, say what goes in and what comes out."
 
 
 def topic_sections(raw: str, title: str) -> tuple[str, str]:
@@ -597,38 +599,37 @@ def line_by_line(code: str, title: str = "") -> str:
             rows.append(f"| {number} | Blank line: it separates the surrounding ideas; it has no runtime operation. |")
             continue
         if line.startswith("import "):
-            explanation = "Imports a named dependency before the file uses it; check whether the imported API is browser-only, server-only, or shared."
+            explanation = "Loads a value from another file so this file can use it."
         elif line.startswith("export "):
-            explanation = "Makes this binding available to another module; the export is part of this lesson's public boundary."
+            explanation = "Makes this value available to another file."
         elif "useState" in line and "[" in line:
-            explanation = "Asks React for a remembered value and names the current render snapshot plus the function that requests the next value."
+            explanation = "Gets the current value and a function that asks React for a new value."
         elif "useState" in line:
-            explanation = "Initializes a state slot; the value is owned by this component and restored on later renders."
+            explanation = "Creates a value that React remembers when the component renders again."
         elif "useEffect" in line:
-            explanation = "Declares synchronization with an external system; inspect the dependency and cleanup rules rather than treating it as a calculation."
+            explanation = "Tells React to run this outside task after the screen is updated."
         elif "setCount" in line or "setState" in line or "setProfile" in line or "setCases" in line:
-            explanation = "Requests a next state value; it does not mutate the current render's snapshot in place."
+            explanation = "Asks React to use a new value on the next render."
         elif "onClick" in line or "onChange" in line or "onSubmit" in line:
-            explanation = "Connects a browser event to a handler without calling the handler during render; the event supplies the later input."
+            explanation = "Tells the browser which function to run when the user performs this action."
         elif ".map(" in line or "map((" in line:
-            explanation = "Transforms each record into a rendered or returned value; the key or identity decision should be inspected with the collection."
+            explanation = "Runs the function once for each item and collects the new results."
         elif "await " in line:
-            explanation = "Pauses this async operation until its promise settles; identify whether the work runs on the server and how failure is handled."
+            explanation = "Waits for the async task to finish before continuing."
         elif line.startswith("if ") or line.startswith("if("):
-            explanation = "Guards the next behavior with a deliberate condition; this is where the example chooses a normal, empty, invalid, or unauthorized path."
+            explanation = "Checks a condition and runs the next code only when the condition is true."
         elif line.startswith("return ") or line == "return":
-            explanation = "Returns the value or UI tree owned by the surrounding function; the next visible result follows from this return."
+            explanation = "Sends a value or UI tree back to the code that called this function."
         elif line.startswith("console."):
-            explanation = "Writes an observation so the learner can compare runtime evidence with the prediction; console output is not the same as screen output."
+            explanation = "Prints a value so you can compare the result with your prediction."
         elif "=>" in line or line.startswith("function ") or line.startswith("class "):
-            explanation = "Declares a callable behavior or component boundary; note its inputs, owner, and when the runtime invokes it."
+            explanation = "Defines a function or component that can be used later."
         elif line.startswith("<") or line.startswith("</") or line.startswith("//"):
-            explanation = "Declares UI structure or records an intentional comment; inspect the semantic element and the user-visible result."
+            explanation = "Creates a piece of the UI or explains the code in a comment."
         elif "=" in line:
-            explanation = "Creates a named value from the expression on the right; record its input, lifetime, and owner in this day's example."
+            explanation = "Stores the value on the right under the name on the left."
         else:
-            topic = profile["boundary"] if profile else "the relevant code boundary"
-            explanation = f"Runs inside the current example; connect its effect to {topic}."
+            explanation = f"Runs as part of this example. After `{line}`, check the next line to see the result."
         escaped = line.replace("|", "\\|")
         rows.append(f"| {number} | `{escaped}` — {explanation} |")
     return "\n".join(rows)
@@ -639,140 +640,140 @@ def independent_exercises(title: str, raw_topics: str, repair: str) -> str:
     profile = teaching_profile(title)
     if "component" in lower and "class" not in lower:
         items = [
-            "Run the smallest page unchanged and list its visible responsibilities.",
-            "Split one responsibility into a named component without changing the visible result.",
-            "Explain why the chosen boundary earns a name.",
-            "Pass one prop from the parent and render two different values.",
-            "Compose a parent with two children and draw the data direction.",
-            "Reproduce the lowercase-component mistake and record the result.",
-            "Repair the capitalization and rerun the normal case.",
-            "Add a stable local fixture and an empty or fallback state.",
-            "Add one semantic or keyboard-accessibility improvement.",
-            "Add an assertion for a visible component contract.",
-            "Apply the boundary to a local feature and name its owner.",
-            "Write a review note with the component tree, evidence, and one limitation.",
+            "Run the page unchanged. Write down the three parts you can see.",
+            "Write a `Header` component and move the heading into it.",
+            "Write one sentence: what does the `Header` component do?",
+            "Pass a `title` prop to a component and display two different titles.",
+            "Put a parent component and two child components on the page.",
+            "Change a component name to lowercase. Read the error or wrong result.",
+            "Change the name back to a capital letter and run the page again.",
+            "Show a clear message when the list has no items.",
+            "Add a real heading, button, or link that a keyboard user can use.",
+            "Write one check that fails if the component’s visible text disappears.",
+            f"Build a small {profile['application']} with the components from this lesson.",
+            "Answer: which component owns each piece of data? Use one short sentence per piece.",
         ]
     elif "state" in lower or "usestate" in lower or "reducer" in lower or "context" in lower:
         items = [
-            "Run the smallest state example and record the initial visible snapshot.",
-            "Trigger one update and trace event, setter or dispatch, and next render.",
-            "Change one input and predict the new output before running it.",
-            "Create a normal boundary such as empty, reset, or zero state.",
-            "Reproduce the likely state ownership or mutation mistake.",
-            "Repair it with the smallest state-structure change.",
-            "Compare the current state value with the source that derives it.",
-            "Add a user-visible status or accessible announcement for the transition.",
-            "Add an assertion or test for normal and boundary behavior.",
-            f"Apply the lesson to {profile['application']} using synthetic data.",
-            f"Explain why the state belongs at the {profile['boundary']}.",
-            "Write a review note naming the next complexity that would justify a different tool.",
+            "Run the example. Write down the number or message shown before clicking anything.",
+            "Click the button once, then twice. Write down the number after each click.",
+            "Change the starting value. Predict the first number before you run the page.",
+            "Add a `Reset` button. When clicked, it must show `0` or the lesson’s starting value.",
+            "Make the beginner mistake shown in the lesson. Write down what goes wrong.",
+            "Fix the mistake and run the normal example again.",
+            "Answer: which component stores the changing value? Point to the line where it is created.",
+            "Add a message that tells the user how many items are in the list.",
+            "Write one test for the normal case and one test for an empty list.",
+            f"Build a small {profile['application']} using this lesson’s state pattern.",
+            "Answer: what should the user see while the list is empty?",
+            "Write three sentences explaining the value, the button, and the screen update.",
         ]
     elif "effect" in lower or "hook" in lower:
         items = [
-            "Run the smallest Hook or synchronization example unchanged.",
-            "Name the external system, input, output, and cleanup responsibility.",
-            "Change one dependency and predict when work runs again.",
-            "Create a loading, empty, or disconnected boundary appropriate to the example.",
-            "Reproduce the likely Rules of Hooks or stale-dependency mistake.",
-            "Repair the mistake without silencing the lint rule or hiding the dependency.",
-            "Remove the Hook if the behavior can be calculated during render and explain why.",
-            "Add cleanup evidence for the subscription, timer, request, or resource.",
-            "Add a test or trace for setup and cleanup behavior.",
-            f"Apply the behavior to {profile['application']} with a local fixture.",
-            f"Explain the boundary between React rendering and {profile['boundary']}.",
-            "Write a review note naming what remains untested in an asynchronous environment.",
+            "Run the example. Write down what appears before you change it.",
+            "Write the name of the outside thing the code talks to, such as the document title or a timer.",
+            "Change one dependency. Predict whether the work runs again, then check.",
+            "Show a loading, empty, or disconnected message that fits the example.",
+            "Make the Hooks mistake shown in the lesson. Write down the error or wrong result.",
+            "Fix the mistake and run the example again.",
+            "Remove the Hook when the value can be calculated during render. Explain the change in one sentence.",
+            "Add cleanup for the timer, subscription, request, or other outside resource.",
+            "Write one test or trace that shows setup and cleanup.",
+            f"Use this behavior in a small {profile['application']} with invented data.",
+            "Answer: what starts the outside work, and what stops it?",
+            "Write two things this local example does not prove about a real application.",
         ]
     elif "route" in lower or "layout" in lower or "app router" in lower or "dynamic" in lower or "src" in lower:
         items = [
-            "Run the smallest route or structure fixture and write its URL and visible result.",
-            "Map each relevant folder or special file to the route or boundary it creates.",
-            "Change one segment or parameter and predict the URL before running it.",
-            "Add a normal, missing, loading, or not-found case appropriate to the route.",
-            "Reproduce the duplicate-router, missing-file, or parameter-timing mistake.",
-            "Repair the folder, file, or async boundary with the smallest change.",
-            "Explain which code is application source and which remains root configuration.",
-            "Add a semantic link, heading, or focus behavior to the route UI.",
-            "Add a route-level assertion or browser check for the public contract.",
-            f"Apply the lesson to {profile['application']} and document the route map.",
-            f"Explain what crosses the {profile['boundary']} and what must stay private.",
-            "Write a review note with the URL, file map, evidence, and one deployment limitation.",
+            "Run the route. Write down its URL and the text you see.",
+            "Write the job of each special file in one short sentence.",
+            "Change one folder or parameter. Predict the new URL before running it.",
+            "Add the missing, loading, or not-found message from the lesson.",
+            "Make the folder or file mistake shown in the lesson. Record the error.",
+            "Fix the mistake and open the route again.",
+            "Answer: which files are application code, and which files are project settings?",
+            "Add one real heading, link, or keyboard-friendly control to the page.",
+            "Write one browser check for the route’s visible text or URL.",
+            f"Build a small {profile['application']} and list its route URLs.",
+            "Answer: which data should stay on the server? Give one reason.",
+            "Write the file tree and one sentence about what you have not tested.",
         ]
     elif "authentication" in lower or "session" in lower or "authorization" in lower or "proxy" in lower or "tenant" in lower:
         items = [
-            "Run the synthetic signed-out and signed-in fixtures and record the visible outcome.",
-            "Separate identity, session, navigation check, and permission in a short table.",
-            "Change one permission and predict which request should be allowed or rejected.",
-            "Add an unauthorized and an ownership-mismatch fixture.",
-            "Reproduce the client-only or hidden-button protection mistake.",
-            "Repair the authoritative server-side check before data access or mutation.",
-            "Inspect cookie flags, expiry, secret ownership, and environment boundaries.",
-            "Add a test for a forbidden actor that cannot read or mutate another record.",
-            "Explain why Proxy or a redirect is not final authorization.",
-            f"Apply the policy to {profile['application']} with invented actors and records.",
-            f"Document the exact trust boundary: {profile['boundary']}.",
-            "Write residual-risk notes for session rotation, logging, and deployment configuration.",
+            "Run the signed-out example. Write down the page or message you see.",
+            "Run the signed-in example. Write down what changed.",
+            "Change one permission. Predict whether the request should be allowed or rejected.",
+            "Add one invented user who is not allowed to open the record.",
+            "Make the client-only protection mistake from the lesson. Record what it fails to protect.",
+            "Fix the check on the server and run the allowed and rejected cases again.",
+            "Write one sentence about the cookie or secret that must stay private.",
+            "Write one test that proves a forbidden user cannot read or change the record.",
+            "Answer: why is hiding a button not enough to protect data?",
+            f"Protect a small {profile['application']} with invented users and records.",
+            "Draw one arrow showing where the user’s request meets the server’s permission check.",
+            "Write two things a real deployment would still need to check.",
         ]
     elif "sql" in lower or "drizzle" in lower or "repository" in lower or "data" in lower:
         items = [
-            "Run the smallest local schema or query fixture and record the returned shape.",
-            "Draw the tables, identifiers, and ownership relationship before coding.",
-            "Change one field or query filter and predict the result.",
-            "Add an empty result and a malformed or missing-record case.",
-            "Reproduce the missing-migration, raw-row, or unscoped-query mistake.",
-            "Repair it with a migration, DTO, repository, or ownership filter.",
-            "Explain which module is server-only and why the client does not receive raw database details.",
-            "Add a transaction or rollback scenario where the lesson makes it relevant.",
-            "Add a focused test for the query or repository contract.",
-            f"Apply the data boundary to {profile['application']} with resettable synthetic seed data.",
-            f"Explain how authorization intersects with {profile['boundary']}.",
-            "Write a review note with schema evidence, migration state, query scope, and one limitation.",
+            "Run the local database example. Write down the rows it returns.",
+            "Draw the tables and write one sentence about what each ID means.",
+            "Change one field or filter. Predict the new row before you run the query.",
+            "Show what the page displays when no row is found.",
+            "Make the missing-migration, raw-row, or wrong-user mistake from the lesson.",
+            "Fix the mistake and run the normal and rejected cases again.",
+            "Answer: which file talks to the database, and which file shows the page?",
+            "Add one transaction or rollback example if the lesson teaches it.",
+            "Write one test for the query’s normal result and one test for no result.",
+            f"Build a small {profile['application']} with resettable invented records.",
+            "Answer: how does the server stop one user from seeing another user’s record?",
+            "Write the migration command, query result, and one thing you did not test.",
         ]
     elif "tailwind" in lower or "shadcn" in lower or "design" in lower:
         items = [
-            "Run the starter and identify the existing visual tokens or utility classes.",
-            "Style one component with a small, readable set of utilities and predict the visible result.",
-            "Add a responsive state and explain which breakpoint changes the layout.",
-            "Create a dark, empty, loading, or error visual state appropriate to the feature.",
-            "Reproduce the wrong-version configuration, alias, or inaccessible primitive mistake.",
-            "Repair the configuration or component while keeping the source owned by the project.",
-            "Add a named token or variant instead of scattering arbitrary colors.",
-            "Check keyboard focus, labels, contrast, and semantic elements.",
-            "Add a visual or DOM assertion for the component contract.",
-            f"Apply the design boundary to {profile['application']}.",
-            f"Explain the boundary between a reusable primitive and {profile['boundary']}.",
-            "Write a review note with screenshots or DOM evidence, trade-offs, and one limitation.",
+            "Run the starter. Write down the color, spacing, and button styles you see.",
+            "Style one component. Write down the visible change.",
+            "Make the layout change at one screen width. Check it in the browser.",
+            "Add a dark, empty, loading, or error message to the component.",
+            "Make the configuration or inaccessible-control mistake from the lesson.",
+            "Fix the mistake and run the page again.",
+            "Create one named color or spacing value and use it twice.",
+            "Check the button with the keyboard and check that the label is readable.",
+            "Write one DOM or visual check for the component.",
+            f"Style a small {profile['application']} without adding unrelated packages.",
+            "Answer: which styles belong to the reusable component, and which belong to this page?",
+            "Save one screenshot or DOM result and write one design choice you would revisit.",
         ]
     elif "test" in lower or "testing" in lower:
         items = [
-            "State one user-visible behavior the test should protect.",
-            "Run the smallest normal fixture and record the public output.",
-            "Add an empty, invalid, rejected, or unauthorized fixture.",
-            "Choose unit, integration, or browser coverage and justify the level.",
-            "Reproduce an assertion that checks a private implementation detail.",
-            "Repair it around the user-visible or route contract.",
-            "Add a keyboard, label, loading, or error assertion where appropriate.",
-            "Make the test fail by removing the behavior, then restore it.",
-            "Explain what the test cannot prove about production.",
-            f"Apply the test plan to {profile['application']} with local synthetic data.",
-            f"Document the public boundary under test: {profile['boundary']}.",
-            "Write a review note with commands, evidence, flaky-risk considerations, and residual risk.",
+            "Write one sentence about the user action the test should protect.",
+            "Run the normal example and write down the result.",
+            "Add an empty, invalid, rejected, or unauthorized example.",
+            "Choose a unit, integration, or browser test and say what it will click or call.",
+            "Make the private-detail assertion mistake from the lesson.",
+            "Fix the test so it checks what the user can see or what the route returns.",
+            "Add one test for a keyboard, label, loading, or error result.",
+            "Remove the behavior and make sure the test fails; restore the behavior afterward.",
+            "Answer: what can this test not prove about a real deployment?",
+            f"Test a small {profile['application']} with invented data.",
+            "Write the public button, page, or route that the test uses.",
+            "Write the commands, result, and one test case you would add next.",
         ]
     else:
         topics = [item.strip() for item in raw_topics.split(";")]
         first, second, third = topics[:3]
         items = [
-            f"Define **{first}** in your own words and point to its first concrete example.",
-            "Run the smallest worked example unchanged and record the expected and observed result.",
-            "Trace the important values, operations, output, and owner line by line.",
-            f"Change one input while preserving the rule for **{second}**, then predict before running.",
-            f"Create a boundary case involving **{third}** and choose deliberate behavior.",
-            f"Reproduce the deliberate failure: {repair}",
-            "Repair the smallest meaningful line or boundary and rerun normal and boundary cases.",
-            "Add one accessibility, type, loading, error, or server/client quality requirement.",
-            "Add a focused assertion that fails when the important behavior disappears.",
-            f"Apply {title.lower()} to {profile['application']} with a local synthetic fixture.",
-            f"Explain the owner and boundary: {profile['boundary']}.",
-            "Write a review note with evidence, one limitation, and the next learning step.",
+            f"Answer the question **{first}** in one sentence. Point to the example that helped you.",
+            "Run the example unchanged. Write down what appears.",
+            "Change one value. Predict the result, then run the code and compare.",
+            f"Change one input in the example for **{second}**. Write down the old and new result.",
+            f"Add one simple edge case for **{third}**, such as an empty or invalid value.",
+            f"Make the mistake shown in the lesson: {repair}",
+            "Fix the mistake and run the normal example again.",
+            "Add one clear heading, label, error message, or type check that fits this lesson.",
+            "Write one check that fails when the important visible result disappears.",
+            "Build the small example from this lesson in the starter.",
+            "Answer: which file or function contains the important code? Give one simple reason.",
+            "Write four short sentences: what you built, what you saw, what you fixed, and what you did not test.",
         ]
     return "\n".join(f"{index}. {item}" for index, item in enumerate(items, 1))
 
@@ -816,19 +817,35 @@ def lesson(
 
 ## Start here
 
-This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: {profile['sequence']} Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
+Start with the [course README](../README.md), [setup guide](../SETUP.md), and [day index](../DAY_INDEX.md). Choose the starter from the [examples guide](../examples/README.md). Work locally with invented data only.
+
+Today’s steps are simple: {profile['sequence']} Run the first example. Write what you expect. Change one thing. Make the stated mistake. Fix it. Then do the numbered exercises.
 
 ## Why this lesson exists
 
-The learner problem comes first: {profile['problem']} {profile['analogy']} This lesson teaches **{title}** through a connected sequence rather than a finished file dropped from the sky: {profile['sequence']} The goal is to explain the decision and its owner, not to memorize a spelling.
+Here is the problem: {profile['problem']}
+
+{profile['analogy']}
+
+Today we will learn **{title}** in small steps. {profile['sequence']} You are learning what the code does, not just memorising a word.
 
 ## Prerequisites
 
-Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **{profile['prereq']}**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
+Complete the previous lesson and read the [setup guide](../SETUP.md). You need **{profile['prereq']}**.
+
+Use the [examples guide](../examples/README.md) to choose the starter. If a command fails, stop. Write down the folder and command before trying again. Do not add a database, login provider, or unrelated package unless this lesson teaches it.
 
 ## Outcomes
 
-By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **{title.lower()}** to {profile['application']}. You should be able to name the owner and boundary—{profile['boundary']}—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
+By the end, you should be able to:
+
+- explain **{title}** in your own words;
+- run the normal example;
+- show the broken example and fix it;
+- change one input and predict the result; and
+- use **{title.lower()}** in {profile['application']}.
+
+This local example does not prove that a real application is secure, accessible, fast, or ready for production. We will name the important boundary later: {profile['boundary']}.
 
 ## Keywords and terms
 
@@ -840,7 +857,7 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ## Worked example
 
-The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: {profile['sequence']}
+Start with this small example. Copy it into the starter file and run it without changing it. Write down what you see. We will then change one thing at a time. {profile['sequence']}
 
 ```tsx
 {code}
@@ -851,41 +868,56 @@ The worked example is the smallest useful fixture for this day. Copy it into the
 ```text
 {output}```
 
-Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is {profile['boundary']}.
+Before changing the code, answer four simple questions: What goes in? What does the code do? What comes out? Which file contains the decision?
+
+If the code is JSX, mark the JavaScript parts and the markup parts. If it runs in Next.js, say whether it is a Server Component, Client Component, Route Handler, Server Action, or Proxy file. Today’s important boundary is: {profile['boundary']}.
 
 ## Line-by-line explanation
 
 {line_by_line(code, title)}
 
-Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+Use the table while you run the code. Do not only read it. If the same line behaves differently in the browser, React, and Next.js, write one short note.
 
 ## Execution trace
 
-1. Start with the fixture's initial input: {profile['problem']}
-2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
-3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: {profile['sequence']}
-4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
-5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
+1. Write down the starting value: {profile['problem']}
+2. Follow the code one line at a time until the result changes.
+3. Write down the action, the new value, and what appears on the screen or in the terminal.
+4. Compare what happened with your prediction. Say one reason if they differ.
+5. Remember that this result belongs to this small local example. It is not proof that a real application is secure, accessible, fast, or correct.
 
-Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
+Write four things in your notebook: the value before, the action, the value after, and the file or system that made the decision.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input or boundary related to **{title}**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
+Write your prediction before you run the experiment. Change one input related to **{title}**. Start with a normal value. Then try one useful edge case, such as an empty value, bad value, loading state, missing route, rejected action, or unauthorized user. Write what you expected. Run it. Write what actually happened. Put the normal example back when you finish.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** {repair}
 
-Run the broken version in a local copy. The likely beginner mistake for this family is: {profile['mistake']} Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
+Make the broken version in a copy. The likely mistake is: {profile['mistake']}
+
+Run it and write down the error or wrong screen. Say what assumption was wrong. Change the smallest line that fixes the problem. Run the normal example and one edge case again. Do not hide the error with a broad catch or a disabled type check. A passing render is not proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **{title.lower()}** to {profile['application']}. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
+Do these steps in order:
+
+1. Run the worked example unchanged.
+2. Change one input and write down the new result.
+3. Make the likely mistake and fix it.
+4. Use the same starter for **{title.lower()}** and {profile['application']}.
+
+Before the independent exercises, answer: What should happen for a normal value? What should happen for an empty or bad value?
 
 ## Project application
 
-Apply the lesson to {profile['application']} using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is {profile['boundary']}. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
+Use the local starter from the [examples guide](../examples/README.md) to build {profile['application']}.
+
+Write down the goal and the data you will use. Show the normal case and one edge case. The important boundary is {profile['boundary']}.
+
+Keep secrets, databases, cookies, login checks, and permission checks on the server. Use an invented user who should be rejected when the lesson involves authorization. For React-only work, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
@@ -893,7 +925,15 @@ Apply the lesson to {profile['application']} using the local fixture from the [e
 
 ## Finish line
 
-You are finished when you can teach **{title}** to another beginner, show the normal and broken runs, explain the repair, and point to **{profile['boundary']}**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
+You are finished when you can:
+
+1. explain **{title}** to another beginner;
+2. show the normal result;
+3. show the broken result and the repair;
+4. explain one edge case; and
+5. point to **{profile['boundary']}**.
+
+Do not move on only because the code compiles. Write one limitation of this local example.
 
 ## References
 
@@ -914,18 +954,18 @@ def practice_hints(title: str, raw_topics: str, repair: str) -> str:
     first, second, third = topics[:3]
     profile = teaching_profile(title)
     items = [
-        f"Begin with the learner problem: {profile['problem']}",
-        f"Run the smallest example unchanged and inspect the evidence for {profile['application']}.",
-        f"Trace the input, operation, output, and owner at {profile['boundary']}.",
-        f"Change exactly one input related to {first}; keep the rule fixed.",
-        f"For {second}, decide the normal and boundary behavior before coding.",
-        f"Reproduce the likely mistake: {profile['mistake']}",
-        f"Repair the smallest line or boundary; do not hide the failure with a broad workaround.",
-        f"Keep the data local and synthetic while you test {third}.",
-        "Assert a visible result or public contract rather than a private implementation detail.",
-        f"Use the same fixture to apply {title.lower()} to {profile['application']}.",
-        "A passing build proves only the checked build completed; record what remains untested.",
-        f"Your review note should name the owner, evidence, limitation, and boundary: {profile['boundary']}.",
+        f"Read the short problem statement for {title.lower()} and say what the page or program should do.",
+        f"Run the example without changes. If it works, write down what you see for {profile['application']}.",
+        "Point to the input and the line that changes the output. Do not try to explain the whole application at once.",
+        f"Change one input for {first}. Keep every other line the same.",
+        f"For {second}, try the normal case first. Then try one empty or bad value.",
+        f"Make this mistake in a copy: {profile['mistake']}",
+        "Read the error or wrong result. Fix one line. Run the example again.",
+        f"Use invented local data while you try {third}.",
+        "Check the text, number, URL, or DOM element that the learner can actually see.",
+        f"Use the same starter to build {profile['application']}. Do not add a new package.",
+        "A passing check only proves that check passed. Write one thing you did not test.",
+        "If a technical word is confusing, define it in your own simple sentence before using it.",
     ]
     return "\n".join(f"{index}. {item}" for index, item in enumerate(items, 1))
 
@@ -935,18 +975,18 @@ def practice_solutions(title: str, raw_topics: str, repair: str) -> str:
     first, second, third = topics[:3]
     profile = teaching_profile(title)
     items = [
-        f"The submission states the problem and connects it to {title.lower()} rather than offering only a definition.",
-        f"The unchanged example runs and its visible or returned result is recorded for {profile['application']}.",
-        f"The trace identifies the owner and boundary: {profile['boundary']}.",
-        f"The normal change isolates one input and preserves the rule for {first}.",
-        f"The boundary case for {second} has deliberate behavior and an explanation.",
-        f"The failure `{repair}` is reproduced, diagnosed, and repaired with the smallest meaningful change.",
-        f"The repair keeps the responsibility that the lesson owns: {profile['problem']}",
-        f"The quality requirement for {third} is visible in code or project structure.",
-        "The assertion or test fails when the important behavior is removed and passes after the repair.",
-        f"The local application demonstrates {profile['application']} with synthetic data and a named owner.",
-        "The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.",
-        f"The review note is reproducible and records evidence, residual risk, and the boundary {profile['boundary']}.",
+        f"The learner can say what problem {title.lower()} solves in one or two simple sentences.",
+        f"The example runs and the learner records the visible or returned result for {profile['application']}.",
+        "The learner can point to the input, the important line, and the output.",
+        f"The learner changes one input for {first} and records the old and new result.",
+        f"The learner tries a normal and an empty or bad value for {second}.",
+        f"The learner reproduces `{repair}` and writes down the error or wrong result.",
+        "The learner fixes the smallest line and runs the normal case again.",
+        f"The learner uses local invented data to show {third}.",
+        "The test or check fails when the visible behavior is removed and passes after it is restored.",
+        f"The learner builds {profile['application']} without exposing secrets or using real data.",
+        "The learner writes one thing the example does not prove about a real application.",
+        "The learner’s review note uses plain sentences and defines any technical word it needs.",
     ]
     return "\n".join(f"{index}. {item}" for index, item in enumerate(items, 1))
 

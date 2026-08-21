@@ -27,19 +27,35 @@
 
 ## Start here
 
-This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
+Start with the [course README](../README.md), [setup guide](../SETUP.md), and [day index](../DAY_INDEX.md). Choose the starter from the [examples guide](../examples/README.md). Work locally with invented data only.
+
+Today’s steps are simple: We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. Run the first example. Write what you expect. Change one thing. Make the stated mistake. Fix it. Then do the numbered exercises.
 
 ## Why this lesson exists
 
-The learner problem comes first: A project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. This lesson teaches **Deployment and environment configuration** through a connected sequence rather than a finished file dropped from the sky: We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The goal is to explain the decision and its owner, not to memorize a spelling.
+Here is the problem: A project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan.
+
+A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing.
+
+Today we will learn **Deployment and environment configuration** in small steps. We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. You are learning what the code does, not just memorising a word.
 
 ## Prerequisites
 
-Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **the preceding React/Next.js phases and a working local project**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
+Complete the previous lesson and read the [setup guide](../SETUP.md). You need **the preceding React/Next.js phases and a working local project**.
+
+Use the [examples guide](../examples/README.md) to choose the starter. If a command fails, stop. Write down the folder and command before trying again. Do not add a database, login provider, or unrelated package unless this lesson teaches it.
 
 ## Outcomes
 
-By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **deployment and environment configuration** to a portfolio-ready local case-management feature with architecture and evidence notes. You should be able to name the owner and boundary—demo evidence versus production claims, operational ownership, and residual risk—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
+By the end, you should be able to:
+
+- explain **Deployment and environment configuration** in your own words;
+- run the normal example;
+- show the broken example and fix it;
+- change one input and predict the result; and
+- use **deployment and environment configuration** in a portfolio-ready local case-management feature with architecture and evidence notes.
+
+This local example does not prove that a real application is secure, accessible, fast, or ready for production. We will name the important boundary later: demo evidence versus production claims, operational ownership, and residual risk.
 
 ## Keywords and terms
 
@@ -56,31 +72,31 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is the production build?
 
-Start with the learner's concrete question: **What is the production build**. Use the worked example to show what **What is the production build** changes before introducing a framework shortcut. For **What is the production build**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is the production build**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What is the production build**. Look at **What is the production build** in the example before learning the technical name. For **What is the production build**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What is the production build?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is the production build**, say what goes in and what comes out.
 
 ### Which variables are public?
 
-Study **Which variables are public** by naming the concrete value, operation, visible result, and owner in the worked example. For **Which variables are public**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Which variables are public**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Study **Which variables are public** by looking at the value, operation, and result in the worked example. For **Which variables are public**, point to the line that shows the idea and say what would change it.
 
-**Try it before moving on:** For **Which variables are public?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Which variables are public**, say what goes in and what comes out.
 
 ### Where do secrets live?
 
-Study **Where do secrets live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where do secrets live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where do secrets live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Study **Where do secrets live** by looking at the value, operation, and result in the worked example. For **Where do secrets live**, point to the line that shows the idea and say what would change it.
 
-**Try it before moving on:** For **Where do secrets live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where do secrets live**, say what goes in and what comes out.
 
 ### What should CI prove before deployment?
 
-Start with the learner's concrete question: **What should CI prove before deployment**. Use the worked example to show what **What should CI prove before deployment** changes before introducing a framework shortcut. For **What should CI prove before deployment**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should CI prove before deployment**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What should CI prove before deployment**. Look at **What should CI prove before deployment** in the example before learning the technical name. For **What should CI prove before deployment**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What should CI prove before deployment?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should CI prove before deployment**, say what goes in and what comes out.
 
 ## Worked example
 
-The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly.
+Start with this small example. Copy it into the starter file and run it without changing it. Write down what you see. We will then change one thing at a time. We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly.
 
 ```tsx
 npm run build
@@ -94,64 +110,87 @@ npm run start
 The app is built before it is started in production.
 ```
 
-Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is demo evidence versus production claims, operational ownership, and residual risk.
+Before changing the code, answer four simple questions: What goes in? What does the code do? What comes out? Which file contains the decision?
+
+If the code is JSX, mark the JavaScript parts and the markup parts. If it runs in Next.js, say whether it is a Server Component, Client Component, Route Handler, Server Action, or Proxy file. Today’s important boundary is: demo evidence versus production claims, operational ownership, and residual risk.
 
 ## Line-by-line explanation
 
 | Line | What this line does |
 | ---: | --- |
-| 1 | `npm run build` — Runs inside the current example; connect its effect to demo evidence versus production claims, operational ownership, and residual risk. |
-| 2 | `# production only` — Runs inside the current example; connect its effect to demo evidence versus production claims, operational ownership, and residual risk. |
-| 3 | `npm run start` — Runs inside the current example; connect its effect to demo evidence versus production claims, operational ownership, and residual risk. |
+| 1 | `npm run build` — Runs as part of this example. After `npm run build`, check the next line to see the result. |
+| 2 | `# production only` — Runs as part of this example. After `# production only`, check the next line to see the result. |
+| 3 | `npm run start` — Runs as part of this example. After `npm run start`, check the next line to see the result. |
 
-Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+Use the table while you run the code. Do not only read it. If the same line behaves differently in the browser, React, and Next.js, write one short note.
 
 ## Execution trace
 
-1. Start with the fixture's initial input: A project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan.
-2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
-3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: We will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly.
-4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
-5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
+1. Write down the starting value: A project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan.
+2. Follow the code one line at a time until the result changes.
+3. Write down the action, the new value, and what appears on the screen or in the terminal.
+4. Compare what happened with your prediction. Say one reason if they differ.
+5. Remember that this result belongs to this small local example. It is not proof that a real application is secure, accessible, fast, or correct.
 
-Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
+Write four things in your notebook: the value before, the action, the value after, and the file or system that made the decision.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input or boundary related to **Deployment and environment configuration**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
+Write your prediction before you run the experiment. Change one input related to **Deployment and environment configuration**. Start with a normal value. Then try one useful edge case, such as an empty value, bad value, loading state, missing route, rejected action, or unauthorized user. Write what you expected. Run it. Write what actually happened. Put the normal example back when you finish.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** Commit a secret in a local env file and repair the ignore and rotation plan.
 
-Run the broken version in a local copy. The likely beginner mistake for this family is: Confuse a clean build or screenshot with proof that every user, permission, failure, and deployment condition is safe. Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
+Make the broken version in a copy. The likely mistake is: Confuse a clean build or screenshot with proof that every user, permission, failure, and deployment condition is safe.
+
+Run it and write down the error or wrong screen. Say what assumption was wrong. Change the smallest line that fixes the problem. Run the normal example and one edge case again. Do not hide the error with a broad catch or a disabled type check. A passing render is not proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **deployment and environment configuration** to a portfolio-ready local case-management feature with architecture and evidence notes. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
+Do these steps in order:
+
+1. Run the worked example unchanged.
+2. Change one input and write down the new result.
+3. Make the likely mistake and fix it.
+4. Use the same starter for **deployment and environment configuration** and a portfolio-ready local case-management feature with architecture and evidence notes.
+
+Before the independent exercises, answer: What should happen for a normal value? What should happen for an empty or bad value?
 
 ## Project application
 
-Apply the lesson to a portfolio-ready local case-management feature with architecture and evidence notes using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is demo evidence versus production claims, operational ownership, and residual risk. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
+Use the local starter from the [examples guide](../examples/README.md) to build a portfolio-ready local case-management feature with architecture and evidence notes.
+
+Write down the goal and the data you will use. Show the normal case and one edge case. The important boundary is demo evidence versus production claims, operational ownership, and residual risk.
+
+Keep secrets, databases, cookies, login checks, and permission checks on the server. Use an invented user who should be rejected when the lesson involves authorization. For React-only work, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
-1. Define **What is the production build?** in your own words and point to its first concrete example.
-2. Run the smallest worked example unchanged and record the expected and observed result.
-3. Trace the important values, operations, output, and owner line by line.
-4. Change one input while preserving the rule for **Which variables are public?**, then predict before running.
-5. Create a boundary case involving **Where do secrets live?** and choose deliberate behavior.
-6. Reproduce the deliberate failure: Commit a secret in a local env file and repair the ignore and rotation plan.
-7. Repair the smallest meaningful line or boundary and rerun normal and boundary cases.
-8. Add one accessibility, type, loading, error, or server/client quality requirement.
-9. Add a focused assertion that fails when the important behavior disappears.
-10. Apply deployment and environment configuration to a portfolio-ready local case-management feature with architecture and evidence notes with a local synthetic fixture.
-11. Explain the owner and boundary: demo evidence versus production claims, operational ownership, and residual risk.
-12. Write a review note with evidence, one limitation, and the next learning step.
+1. Answer the question **What is the production build?** in one sentence. Point to the example that helped you.
+2. Run the example unchanged. Write down what appears.
+3. Change one value. Predict the result, then run the code and compare.
+4. Change one input in the example for **Which variables are public?**. Write down the old and new result.
+5. Add one simple edge case for **Where do secrets live?**, such as an empty or invalid value.
+6. Make the mistake shown in the lesson: Commit a secret in a local env file and repair the ignore and rotation plan.
+7. Fix the mistake and run the normal example again.
+8. Add one clear heading, label, error message, or type check that fits this lesson.
+9. Write one check that fails when the important visible result disappears.
+10. Build the small example from this lesson in the starter.
+11. Answer: which file or function contains the important code? Give one simple reason.
+12. Write four short sentences: what you built, what you saw, what you fixed, and what you did not test.
 
 ## Finish line
 
-You are finished when you can teach **Deployment and environment configuration** to another beginner, show the normal and broken runs, explain the repair, and point to **demo evidence versus production claims, operational ownership, and residual risk**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
+You are finished when you can:
+
+1. explain **Deployment and environment configuration** to another beginner;
+2. show the normal result;
+3. show the broken result and the repair;
+4. explain one edge case; and
+5. point to **demo evidence versus production claims, operational ownership, and residual risk**.
+
+Do not move on only because the code compiles. Write one limitation of this local example.
 
 ## References
 

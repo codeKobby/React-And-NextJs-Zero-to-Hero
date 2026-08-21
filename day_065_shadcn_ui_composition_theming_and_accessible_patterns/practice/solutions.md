@@ -4,18 +4,18 @@ Use this guide only after attempting the numbered exercises in [the lesson](../d
 
 ## Review checkpoints
 
-1. The submission states the problem and connects it to shadcn/ui composition, theming, and accessible patterns rather than offering only a definition.
-2. The unchanged example runs and its visible or returned result is recorded for a local dashboard shell with a readable, keyboard-usable Button and empty state.
-3. The trace identifies the owner and boundary: design-system primitives versus feature-specific data, authorization, and application behavior.
-4. The normal change isolates one input and preserves the rule for Why compose primitives instead of copying a screenshot?.
-5. The boundary case for How does a Dialog manage focus? has deliberate behavior and an explanation.
-6. The failure `Build a click-only modal without a title or escape behavior, then repair the accessible dialog contract.` is reproduced, diagnosed, and repaired with the smallest meaningful change.
-7. The repair keeps the responsibility that the lesson owns: A full application needs consistent visual language and accessible controls without burying every decision in ad-hoc CSS or an opaque package.
-8. The quality requirement for How do labels and errors support forms? is visible in code or project structure.
-9. The assertion or test fails when the important behavior is removed and passes after the repair.
-10. The local application demonstrates a local dashboard shell with a readable, keyboard-usable Button and empty state with synthetic data and a named owner.
-11. The limitation avoids claiming that a build, screenshot, or one passing test proves production readiness.
-12. The review note is reproducible and records evidence, residual risk, and the boundary design-system primitives versus feature-specific data, authorization, and application behavior.
+1. The learner can say what problem shadcn/ui composition, theming, and accessible patterns solves in one or two simple sentences.
+2. The example runs and the learner records the visible or returned result for a local dashboard shell with a readable, keyboard-usable Button and empty state.
+3. The learner can point to the input, the important line, and the output.
+4. The learner changes one input for Why compose primitives instead of copying a screenshot? and records the old and new result.
+5. The learner tries a normal and an empty or bad value for How does a Dialog manage focus?.
+6. The learner reproduces `Build a click-only modal without a title or escape behavior, then repair the accessible dialog contract.` and writes down the error or wrong result.
+7. The learner fixes the smallest line and runs the normal case again.
+8. The learner uses local invented data to show How do labels and errors support forms?.
+9. The test or check fails when the visible behavior is removed and passes after it is restored.
+10. The learner builds a local dashboard shell with a readable, keyboard-usable Button and empty state without exposing secrets or using real data.
+11. The learner writes one thing the example does not prove about a real application.
+12. The learner’s review note uses plain sentences and defines any technical word it needs.
 
 ## Self-assessment
 

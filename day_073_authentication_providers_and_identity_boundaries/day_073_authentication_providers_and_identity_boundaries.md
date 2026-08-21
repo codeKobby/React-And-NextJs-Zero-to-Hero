@@ -27,19 +27,35 @@
 
 ## Start here
 
-This lesson is one step in a connected path. Start with the [course README](../README.md), confirm the [setup guide](../SETUP.md), and use the [day index](../DAY_INDEX.md) to see the phase. Choose the appropriate local fixture from the [examples guide](../examples/README.md). Work locally with synthetic data only. The learning loop for today is: We will separate identity, session, Proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. Run the first example unchanged, write a prediction, make one purposeful change, reproduce the stated mistake, repair it, and complete only the practice that fits this concept.
+Start with the [course README](../README.md), [setup guide](../SETUP.md), and [day index](../DAY_INDEX.md). Choose the starter from the [examples guide](../examples/README.md). Work locally with invented data only.
+
+Today’s steps are simple: We will separate identity, session, Proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. Run the first example. Write what you expect. Change one thing. Make the stated mistake. Fix it. Then do the numbered exercises.
 
 ## Why this lesson exists
 
-The learner problem comes first: A full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. This lesson teaches **Authentication providers and identity boundaries** through a connected sequence rather than a finished file dropped from the sky: We will separate identity, session, Proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The goal is to explain the decision and its owner, not to memorize a spelling.
+Here is the problem: A full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection.
+
+A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside.
+
+Today we will learn **Authentication providers and identity boundaries** in small steps. We will separate identity, session, Proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. You are learning what the code does, not just memorising a word.
 
 ## Prerequisites
 
-Complete the previous lesson and confirm the [setup guide](../SETUP.md). Today's minimum prerequisites are **Next.js routing, server/client boundaries, cookies, and validation**. If a command fails, stop at the first error and record the directory and command before changing anything. Use the [examples guide](../examples/README.md) to choose the starter; do not add a database, authentication provider, or unrelated dependency unless this lesson explicitly makes that boundary its subject.
+Complete the previous lesson and read the [setup guide](../SETUP.md). You need **Next.js routing, server/client boundaries, cookies, and validation**.
+
+Use the [examples guide](../examples/README.md) to choose the starter. If a command fails, stop. Write down the folder and command before trying again. Do not add a database, login provider, or unrelated package unless this lesson teaches it.
 
 ## Outcomes
 
-By the end, you should be able to explain the main idea in your own words, show the normal and broken behavior, trace the important values, predict a boundary result, and apply **authentication providers and identity boundaries** to a local protected case route with synthetic sessions, permissions, and unauthorized fixtures. You should be able to name the owner and boundary—identity and navigation checks versus server-side data and mutation authority—and state what the example does not prove about production readiness, security, accessibility, performance, or correctness.
+By the end, you should be able to:
+
+- explain **Authentication providers and identity boundaries** in your own words;
+- run the normal example;
+- show the broken example and fix it;
+- change one input and predict the result; and
+- use **authentication providers and identity boundaries** in a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+
+This local example does not prove that a real application is secure, accessible, fast, or ready for production. We will name the important boundary later: identity and navigation checks versus server-side data and mutation authority.
 
 ## Keywords and terms
 
@@ -56,31 +72,31 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is authentication?
 
-Start with the learner's concrete question: **What is authentication**. Use the worked example to show what **What is authentication** changes before introducing a framework shortcut. For **What is authentication**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is authentication**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What is authentication**. Look at **What is authentication** in the example before learning the technical name. For **What is authentication**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What is authentication?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is authentication**, say what goes in and what comes out.
 
 ### What belongs to an authentication provider?
 
-Start with the learner's concrete question: **What belongs to an authentication provider**. Use the worked example to show what **What belongs to an authentication provider** changes before introducing a framework shortcut. For **What belongs to an authentication provider**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs to an authentication provider**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Start with the learner's concrete question: **What belongs to an authentication provider**. Look at **What belongs to an authentication provider** in the example before learning the technical name. For **What belongs to an authentication provider**, point to the smallest value, element, function, or route that shows the answer.
 
-**Try it before moving on:** For **What belongs to an authentication provider?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs to an authentication provider**, say what goes in and what comes out.
 
 ### Why is identity different from permission?
 
-The answer to **Why is identity different from permission** must be earned by comparing a working case with a deliberately limited or broken case. For **Why is identity different from permission**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why is identity different from permission**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+Answer **Why is identity different from permission** by comparing the working example with a broken or limited example. For **Why is identity different from permission**, say what changed and which result is easier or safer to use.
 
-**Try it before moving on:** For **Why is identity different from permission?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+**Try it before moving on:** For **Why is identity different from permission?**, compare the working example with the broken example. What changed? Which result is safer or easier to understand?
 
 ### How do we keep provider code replaceable?
 
-To answer **How do we keep provider code replaceable**, follow the operation in order rather than treating the result as framework magic. For **How do we keep provider code replaceable**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we keep provider code replaceable**; a small fixture cannot prove production security, accessibility, performance, or correctness.
+To answer **How do we keep provider code replaceable**, follow the operation in order rather than treating the result as framework magic. For **How do we keep provider code replaceable**, write the starting value, the change you made, and the new result.
 
-**Try it before moving on:** For **How do we keep provider code replaceable?**, change one input or boundary in the worked example. Trace the result for **How do we keep provider code replaceable?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
+**Try it before moving on:** For **How do we keep provider code replaceable**, change one input in the example. Write the old result and the new result for **How do we keep provider code replaceable**.
 
 ## Worked example
 
-The worked example is the smallest useful fixture for this day. Copy it into the appropriate starter file, run it unchanged, and write down what you see before you improve it. The example is deliberately bounded: We will separate identity, session, Proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors.
+Start with this small example. Copy it into the starter file and run it without changing it. Write down what you see. We will then change one thing at a time. We will separate identity, session, Proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors.
 
 ```tsx
 const identity = await authProvider.verify(credentials);
@@ -94,64 +110,87 @@ return { userId: identity.id };
 The provider proves identity while the application still owns authorization decisions.
 ```
 
-Before changing the code, point to its input, operation, visible output, and owner. If the code is JSX, distinguish JavaScript expressions from markup. If it runs in Next.js, identify whether the file is a Server Component, Client Component, Route Handler, Server Action, or Proxy fixture. The exact boundary to inspect today is identity and navigation checks versus server-side data and mutation authority.
+Before changing the code, answer four simple questions: What goes in? What does the code do? What comes out? Which file contains the decision?
+
+If the code is JSX, mark the JavaScript parts and the markup parts. If it runs in Next.js, say whether it is a Server Component, Client Component, Route Handler, Server Action, or Proxy file. Today’s important boundary is: identity and navigation checks versus server-side data and mutation authority.
 
 ## Line-by-line explanation
 
 | Line | What this line does |
 | ---: | --- |
-| 1 | `const identity = await authProvider.verify(credentials);` — Pauses this async operation until its promise settles; identify whether the work runs on the server and how failure is handled. |
-| 2 | `if (!identity) return { error: 'Invalid credentials' };` — Guards the next behavior with a deliberate condition; this is where the example chooses a normal, empty, invalid, or unauthorized path. |
-| 3 | `return { userId: identity.id };` — Returns the value or UI tree owned by the surrounding function; the next visible result follows from this return. |
+| 1 | `const identity = await authProvider.verify(credentials);` — Waits for the async task to finish before continuing. |
+| 2 | `if (!identity) return { error: 'Invalid credentials' };` — Checks a condition and runs the next code only when the condition is true. |
+| 3 | `return { userId: identity.id };` — Sends a value or UI tree back to the code that called this function. |
 
-Use the table as a starting point, not as a substitute for running the code. Add a note beside any line whose behavior differs between a browser, React, and Next.js server environment.
+Use the table while you run the code. Do not only read it. If the same line behaves differently in the browser, React, and Next.js, write one short note.
 
 ## Execution trace
 
-1. Start with the fixture's initial input: A full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection.
-2. Follow the code until the first meaningful decision. Name the value, component, route, or server function that owns it.
-3. Observe the event, render, request, update, or boundary that changes the result. This lesson's central sequence is: We will separate identity, session, Proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors.
-4. Compare the actual output with your prediction and identify the smallest reason for any mismatch.
-5. Treat the result as evidence about this local fixture, not proof that an untested production application is secure, accessible, performant, or correct.
+1. Write down the starting value: A full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection.
+2. Follow the code one line at a time until the result changes.
+3. Write down the action, the new value, and what appears on the screen or in the terminal.
+4. Compare what happened with your prediction. Say one reason if they differ.
+5. Remember that this result belongs to this small local example. It is not proof that a real application is secure, accessible, fast, or correct.
 
-Write the trace in your own notebook. Include the before value, the operation, the after value or response, and the boundary where authority changes.
+Write four things in your notebook: the value before, the action, the value after, and the file or system that made the decision.
 
 ## Prediction experiment
 
-Before running the experiment, write your prediction. Change exactly one input or boundary related to **Authentication providers and identity boundaries**. Use a normal alternative first, then a boundary such as an empty value, invalid value, loading condition, missing route parameter, rejected action, unauthorized actor, or reordered record when it fits the lesson. Predict the visible output or error, run it, and explain the difference. Restore the original case to prove the repair preserved the normal behavior.
+Write your prediction before you run the experiment. Change one input related to **Authentication providers and identity boundaries**. Start with a normal value. Then try one useful edge case, such as an empty value, bad value, loading state, missing route, rejected action, or unauthorized user. Write what you expected. Run it. Write what actually happened. Put the normal example back when you finish.
 
 ## Broken example and repair
 
 A deliberate failure is part of the lesson. **Broken version:** Treat an email field from the browser as an authenticated identity, then repair the provider boundary.
 
-Run the broken version in a local copy. The likely beginner mistake for this family is: Treat a browser field, client redirect, or login flag as proof of permission and return data before the server policy runs. Capture the error or incorrect UI, name the violated assumption, and repair the smallest meaningful line or boundary. Rerun the normal case and one boundary case. Do not hide the failure with a broad catch, disable a type check, or call a passing render proof of authorization, accessibility, or security.
+Make the broken version in a copy. The likely mistake is: Treat a browser field, client redirect, or login flag as proof of permission and return data before the server policy runs.
+
+Run it and write down the error or wrong screen. Say what assumption was wrong. Change the smallest line that fixes the problem. Run the normal example and one edge case again. Do not hide the error with a broad catch or a disabled type check. A passing render is not proof of authorization, accessibility, or security.
 
 ## Guided practice before independent work
 
-First, reproduce the worked example unchanged. Second, change one input while keeping the rule fixed and record the visible difference. Third, reproduce the likely mistake and repair it with the smallest change. Fourth, start from the bounded local fixture and apply **authentication providers and identity boundaries** to a local protected case route with synthetic sessions, permissions, and unauthorized fixtures. Before independent work, answer: what is the owner, what crosses the boundary, what is the normal case, and what should happen when the work is empty, invalid, loading, rejected, or unauthorized?
+Do these steps in order:
+
+1. Run the worked example unchanged.
+2. Change one input and write down the new result.
+3. Make the likely mistake and fix it.
+4. Use the same starter for **authentication providers and identity boundaries** and a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+
+Before the independent exercises, answer: What should happen for a normal value? What should happen for an empty or bad value?
 
 ## Project application
 
-Apply the lesson to a local protected case route with synthetic sessions, permissions, and unauthorized fixtures using the local fixture from the [examples guide](../examples/README.md). Name the user-visible goal, the owner, the data shape, the normal case, and the boundary case. The key boundary to document is identity and navigation checks versus server-side data and mutation authority. If the work touches a secret, database, cookie, authentication, or authorization decision, keep it server-side and test an unauthorized synthetic actor. If it is React-only, use invented data and do not send it to a public service.
+Use the local starter from the [examples guide](../examples/README.md) to build a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+
+Write down the goal and the data you will use. Show the normal case and one edge case. The important boundary is identity and navigation checks versus server-side data and mutation authority.
+
+Keep secrets, databases, cookies, login checks, and permission checks on the server. Use an invented user who should be rejected when the lesson involves authorization. For React-only work, use invented data and do not send it to a public service.
 
 ## Independent exercises
 
-1. Run the synthetic signed-out and signed-in fixtures and record the visible outcome.
-2. Separate identity, session, navigation check, and permission in a short table.
-3. Change one permission and predict which request should be allowed or rejected.
-4. Add an unauthorized and an ownership-mismatch fixture.
-5. Reproduce the client-only or hidden-button protection mistake.
-6. Repair the authoritative server-side check before data access or mutation.
-7. Inspect cookie flags, expiry, secret ownership, and environment boundaries.
-8. Add a test for a forbidden actor that cannot read or mutate another record.
-9. Explain why Proxy or a redirect is not final authorization.
-10. Apply the policy to a local protected case route with synthetic sessions, permissions, and unauthorized fixtures with invented actors and records.
-11. Document the exact trust boundary: identity and navigation checks versus server-side data and mutation authority.
-12. Write residual-risk notes for session rotation, logging, and deployment configuration.
+1. Run the signed-out example. Write down the page or message you see.
+2. Run the signed-in example. Write down what changed.
+3. Change one permission. Predict whether the request should be allowed or rejected.
+4. Add one invented user who is not allowed to open the record.
+5. Make the client-only protection mistake from the lesson. Record what it fails to protect.
+6. Fix the check on the server and run the allowed and rejected cases again.
+7. Write one sentence about the cookie or secret that must stay private.
+8. Write one test that proves a forbidden user cannot read or change the record.
+9. Answer: why is hiding a button not enough to protect data?
+10. Protect a small a local protected case route with synthetic sessions, permissions, and unauthorized fixtures with invented users and records.
+11. Draw one arrow showing where the user’s request meets the server’s permission check.
+12. Write two things a real deployment would still need to check.
 
 ## Finish line
 
-You are finished when you can teach **Authentication providers and identity boundaries** to another beginner, show the normal and broken runs, explain the repair, and point to **identity and navigation checks versus server-side data and mutation authority**. You should be able to name one limitation and one piece of evidence that would be required before making a production claim. Do not move on because the code merely compiles.
+You are finished when you can:
+
+1. explain **Authentication providers and identity boundaries** to another beginner;
+2. show the normal result;
+3. show the broken result and the repair;
+4. explain one edge case; and
+5. point to **identity and navigation checks versus server-side data and mutation authority**.
+
+Do not move on only because the code compiles. Write one limitation of this local example.
 
 ## References
 
