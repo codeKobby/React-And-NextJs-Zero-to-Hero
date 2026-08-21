@@ -1,6 +1,6 @@
 # Day 066 hints: The dashboard shell and feature-based boundaries
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **The dashboard shell and feature-based boundaries** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_066_the_dashboard_shell_and_feature_based_boundaries.md). They are specific to **The dashboard shell and feature-based boundaries** and should unblock the next thought without replacing it.
 
 ## Hints
 

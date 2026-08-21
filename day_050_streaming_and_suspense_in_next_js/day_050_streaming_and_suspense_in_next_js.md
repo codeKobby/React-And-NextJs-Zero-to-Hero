@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is streaming?
 
-Start with the learner's concrete question: **What is streaming**. The problem underneath this lesson is that learners need a concrete reason to study streaming and suspense in next.js before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is streaming**. Use the worked example to show what **What is streaming** changes before introducing a framework shortcut. For **What is streaming**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is streaming**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is streaming?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why do waterfalls happen?
 
-The answer to **Why do waterfalls happen** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study streaming and suspense in next.js before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why do waterfalls happen** must be earned by comparing a working case with a deliberately limited or broken case. For **Why do waterfalls happen**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why do waterfalls happen**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates streaming and suspense in next.js.
+**Try it before moving on:** For **Why do waterfalls happen?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates streaming and suspense in next.js.
 
 ### Where should Suspense boundaries live?
 
-Study **Where should Suspense boundaries live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study streaming and suspense in next.js before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where should Suspense boundaries live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should Suspense boundaries live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should Suspense boundaries live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should Suspense boundaries live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What makes loading UI meaningful?
 
-Start with the learner's concrete question: **What makes loading UI meaningful**. The problem underneath this lesson is that learners need a concrete reason to study streaming and suspense in next.js before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What makes loading UI meaningful**. Use the worked example to show what **What makes loading UI meaningful** changes before introducing a framework shortcut. For **What makes loading UI meaningful**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What makes loading UI meaningful**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What makes loading UI meaningful?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 048 hints: Fetching data in Server Components
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Fetching data in Server Components** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_048_fetching_data_in_server_components.md). They are specific to **Fetching data in Server Components** and should unblock the next thought without replacing it.
 
 ## Hints
 

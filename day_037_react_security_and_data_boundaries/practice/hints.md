@@ -1,6 +1,6 @@
 # Day 037 hints: React security and data boundaries
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **React security and data boundaries** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_037_react_security_and_data_boundaries.md). They are specific to **React security and data boundaries** and should unblock the next thought without replacing it.
 
 ## Hints
 

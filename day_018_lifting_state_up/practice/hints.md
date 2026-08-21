@@ -1,6 +1,6 @@
 # Day 018 hints: Lifting state up
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Lifting state up** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_018_lifting_state_up.md). They are specific to **Lifting state up** and should unblock the next thought without replacing it.
 
 ## Hints
 

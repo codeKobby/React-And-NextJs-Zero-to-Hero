@@ -1,6 +1,6 @@
 # Day 010 hints: Conditional rendering and empty states
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Conditional rendering and empty states** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_010_conditional_rendering_and_empty_states.md). They are specific to **Conditional rendering and empty states** and should unblock the next thought without replacing it.
 
 ## Hints
 

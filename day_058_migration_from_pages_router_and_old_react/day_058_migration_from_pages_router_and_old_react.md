@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is legacy?
 
-Start with the learner's concrete question: **What is legacy**. The problem underneath this lesson is that learners need a concrete reason to study migration from pages router and old react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is legacy**. Use the worked example to show what **What is legacy** changes before introducing a framework shortcut. For **What is legacy**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is legacy**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is legacy?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do Pages Router data functions map to App Router?
 
-To answer **How do Pages Router data functions map to App Router**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study migration from pages router and old react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do Pages Router data functions map to App Router**, follow the operation in order rather than treating the result as framework magic. For **How do Pages Router data functions map to App Router**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do Pages Router data functions map to App Router**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do Pages Router data functions map to App Router?**, change one input or boundary in the worked example. Trace the result for **How do Pages Router data functions map to App Router?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do class lifecycles map to Hooks?
 
-To answer **How do class lifecycles map to Hooks**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study migration from pages router and old react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do class lifecycles map to Hooks**, follow the operation in order rather than treating the result as framework magic. For **How do class lifecycles map to Hooks**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do class lifecycles map to Hooks**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do class lifecycles map to Hooks?**, change one input or boundary in the worked example. Trace the result for **How do class lifecycles map to Hooks?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do we migrate incrementally?
 
-To answer **How do we migrate incrementally**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study migration from pages router and old react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we migrate incrementally**, follow the operation in order rather than treating the result as framework magic. For **How do we migrate incrementally**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we migrate incrementally**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we migrate incrementally?**, change one input or boundary in the worked example. Trace the result for **How do we migrate incrementally?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

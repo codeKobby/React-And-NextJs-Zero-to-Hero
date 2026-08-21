@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What problem does Context solve?
 
-Start with the learner's concrete question: **What problem does Context solve**. The problem underneath this lesson is that learners need a concrete reason to study context and providers before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What problem does Context solve**. Use the worked example to show what **What problem does Context solve** changes before introducing a framework shortcut. For **What problem does Context solve**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What problem does Context solve**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What problem does Context solve?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When is Context appropriate?
 
-Treat **When is Context appropriate** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study context and providers before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When is Context appropriate** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When is Context appropriate**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When is Context appropriate**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When is Context appropriate?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### Where should a provider be placed?
 
-Study **Where should a provider be placed** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study context and providers before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where should a provider be placed** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should a provider be placed**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should a provider be placed**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should a provider be placed?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why is Context not a replacement for every state tool?
 
-The answer to **Why is Context not a replacement for every state tool** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study context and providers before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why is Context not a replacement for every state tool** must be earned by comparing a working case with a deliberately limited or broken case. For **Why is Context not a replacement for every state tool**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why is Context not a replacement for every state tool**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates context and providers.
+**Try it before moving on:** For **Why is Context not a replacement for every state tool?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates context and providers.
 
 ## Worked example
 

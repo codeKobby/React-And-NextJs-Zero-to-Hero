@@ -1,6 +1,6 @@
 # Day 014 hints: State for objects and arrays
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **State for objects and arrays** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_014_state_for_objects_and_arrays.md). They are specific to **State for objects and arrays** and should unblock the next thought without replacing it.
 
 ## Hints
 

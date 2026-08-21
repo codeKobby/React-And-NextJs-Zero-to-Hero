@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What makes a dashboard shell?
 
-Start with the learner's concrete question: **What makes a dashboard shell**. The problem underneath this lesson is that learners need a concrete reason to study the dashboard shell and feature-based boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What makes a dashboard shell**. Use the worked example to show what **What makes a dashboard shell** changes before introducing a framework shortcut. For **What makes a dashboard shell**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What makes a dashboard shell**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What makes a dashboard shell?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do route groups organize features?
 
-To answer **How do route groups organize features**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study the dashboard shell and feature-based boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do route groups organize features**, follow the operation in order rather than treating the result as framework magic. For **How do route groups organize features**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do route groups organize features**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do route groups organize features?**, change one input or boundary in the worked example. Trace the result for **How do route groups organize features?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### Where should navigation state live?
 
-Study **Where should navigation state live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study the dashboard shell and feature-based boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where should navigation state live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should navigation state live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should navigation state live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should navigation state live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do feature folders reduce coupling?
 
-To answer **How do feature folders reduce coupling**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study the dashboard shell and feature-based boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do feature folders reduce coupling**, follow the operation in order rather than treating the result as framework magic. For **How do feature folders reduce coupling**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do feature folders reduce coupling**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do feature folders reduce coupling?**, change one input or boundary in the worked example. Trace the result for **How do feature folders reduce coupling?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

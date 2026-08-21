@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### How do we plan a full app?
 
-To answer **How do we plan a full app**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do we plan a full app**, follow the operation in order rather than treating the result as framework magic. For **How do we plan a full app**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we plan a full app**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we plan a full app?**, change one input or boundary in the worked example. Trace the result for **How do we plan a full app?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What is a threat model?
 
-Start with the learner's concrete question: **What is a threat model**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What is a threat model**. Use the worked example to show what **What is a threat model** changes before introducing a framework shortcut. For **What is a threat model**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a threat model**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a threat model?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do UI, data, and policy boundaries fit together?
 
-To answer **How do UI, data, and policy boundaries fit together**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do UI, data, and policy boundaries fit together**, follow the operation in order rather than treating the result as framework magic. For **How do UI, data, and policy boundaries fit together**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do UI, data, and policy boundaries fit together**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do UI, data, and policy boundaries fit together?**, change one input or boundary in the worked example. Trace the result for **How do UI, data, and policy boundaries fit together?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What evidence defines done?
 
-Start with the learner's concrete question: **What evidence defines done**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What evidence defines done**. Use the worked example to show what **What evidence defines done** changes before introducing a framework shortcut. For **What evidence defines done**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What evidence defines done**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What evidence defines done?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

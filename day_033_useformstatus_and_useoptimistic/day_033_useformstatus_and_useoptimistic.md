@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### How can a child button know a form is pending?
 
-To answer **How can a child button know a form is pending**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study useformstatus and useoptimistic before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How can a child button know a form is pending**, follow the operation in order rather than treating the result as framework magic. For **How can a child button know a form is pending**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How can a child button know a form is pending**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How can a child button know a form is pending?**, change one input or boundary in the worked example. Trace the result for **How can a child button know a form is pending?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What is an optimistic update?
 
-Start with the learner's concrete question: **What is an optimistic update**. The problem underneath this lesson is that learners need a concrete reason to study useformstatus and useoptimistic before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is an optimistic update**. Use the worked example to show what **What is an optimistic update** changes before introducing a framework shortcut. For **What is an optimistic update**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is an optimistic update**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is an optimistic update?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When must optimistic UI roll back?
 
-Treat **When must optimistic UI roll back** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study useformstatus and useoptimistic before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When must optimistic UI roll back** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When must optimistic UI roll back**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When must optimistic UI roll back**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When must optimistic UI roll back?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### How do we communicate uncertainty?
 
-To answer **How do we communicate uncertainty**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study useformstatus and useoptimistic before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we communicate uncertainty**, follow the operation in order rather than treating the result as framework magic. For **How do we communicate uncertainty**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we communicate uncertainty**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we communicate uncertainty?**, change one input or boundary in the worked example. Trace the result for **How do we communicate uncertainty?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a reducer?
 
-Start with the learner's concrete question: **What is a reducer**. The problem underneath this lesson is that learners need a concrete reason to study reducers and dispatch before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is a reducer**. Use the worked example to show what **What is a reducer** changes before introducing a framework shortcut. For **What is a reducer**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a reducer**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a reducer?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why name state transitions as actions?
 
-The answer to **Why name state transitions as actions** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study reducers and dispatch before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why name state transitions as actions** must be earned by comparing a working case with a deliberately limited or broken case. For **Why name state transitions as actions**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why name state transitions as actions**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates reducers and dispatch.
+**Try it before moving on:** For **Why name state transitions as actions?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates reducers and dispatch.
 
 ### What makes a reducer pure?
 
-Start with the learner's concrete question: **What makes a reducer pure**. The problem underneath this lesson is that learners need a concrete reason to study reducers and dispatch before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What makes a reducer pure**. Use the worked example to show what **What makes a reducer pure** changes before introducing a framework shortcut. For **What makes a reducer pure**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What makes a reducer pure**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What makes a reducer pure?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When is useReducer clearer than useState?
 
-Treat **When is useReducer clearer than useState** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study reducers and dispatch before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When is useReducer clearer than useState** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When is useReducer clearer than useState**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When is useReducer clearer than useState**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When is useReducer clearer than useState?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ## Worked example
 

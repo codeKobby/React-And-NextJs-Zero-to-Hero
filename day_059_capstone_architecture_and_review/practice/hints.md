@@ -1,6 +1,6 @@
 # Day 059 hints: Capstone architecture and review
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Capstone architecture and review** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_059_capstone_architecture_and_review.md). They are specific to **Capstone architecture and review** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -1,6 +1,6 @@
 # Day 017 hints: Uncontrolled inputs and refs
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Uncontrolled inputs and refs** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_017_uncontrolled_inputs_and_refs.md). They are specific to **Uncontrolled inputs and refs** and should unblock the next thought without replacing it.
 
 ## Hints
 

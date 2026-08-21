@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What problem does Tailwind CSS solve?
 
-Start with the learner's concrete question: **What problem does Tailwind CSS solve**. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+Start with the learner's concrete question: **What problem does Tailwind CSS solve**. Use the worked example to show what **What problem does Tailwind CSS solve** changes before introducing a framework shortcut. For **What problem does Tailwind CSS solve**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What problem does Tailwind CSS solve**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What problem does Tailwind CSS solve?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does Tailwind CSS v4 enter a Next.js project?
 
-To answer **How does Tailwind CSS v4 enter a Next.js project**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+To answer **How does Tailwind CSS v4 enter a Next.js project**, follow the operation in order rather than treating the result as framework magic. For **How does Tailwind CSS v4 enter a Next.js project**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does Tailwind CSS v4 enter a Next.js project**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does Tailwind CSS v4 enter a Next.js project?**, change one input or boundary in the worked example. Trace the result for **How does Tailwind CSS v4 enter a Next.js project?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What is a utility class?
 
-Start with the learner's concrete question: **What is a utility class**. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+Start with the learner's concrete question: **What is a utility class**. Use the worked example to show what **What is a utility class** changes before introducing a framework shortcut. For **What is a utility class**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a utility class**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a utility class?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we verify a styled component?
 
-To answer **How do we verify a styled component**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+To answer **How do we verify a styled component**, follow the operation in order rather than treating the result as framework magic. For **How do we verify a styled component**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we verify a styled component**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we verify a styled component?**, change one input or boundary in the worked example. Trace the result for **How do we verify a styled component?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

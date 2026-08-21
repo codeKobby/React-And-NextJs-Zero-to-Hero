@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What makes a route public?
 
-Start with the learner's concrete question: **What makes a route public**. The problem underneath this lesson is that learners need a concrete reason to study layouts, pages, and route segments before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What makes a route public**. Use the worked example to show what **What makes a route public** changes before introducing a framework shortcut. For **What makes a route public**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What makes a route public**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What makes a route public?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What does a layout preserve?
 
-Start with the learner's concrete question: **What does a layout preserve**. The problem underneath this lesson is that learners need a concrete reason to study layouts, pages, and route segments before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What does a layout preserve**. Use the worked example to show what **What does a layout preserve** changes before introducing a framework shortcut. For **What does a layout preserve**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does a layout preserve**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does a layout preserve?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do folders map to URLs?
 
-To answer **How do folders map to URLs**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study layouts, pages, and route segments before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do folders map to URLs**, follow the operation in order rather than treating the result as framework magic. For **How do folders map to URLs**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do folders map to URLs**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do folders map to URLs?**, change one input or boundary in the worked example. Trace the result for **How do folders map to URLs?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How does Link navigate?
 
-To answer **How does Link navigate**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study layouts, pages, and route segments before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How does Link navigate**, follow the operation in order rather than treating the result as framework magic. For **How does Link navigate**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does Link navigate**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does Link navigate?**, change one input or boundary in the worked example. Trace the result for **How does Link navigate?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

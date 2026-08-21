@@ -1,6 +1,6 @@
 # Day 045 hints: Metadata, images, fonts, and public assets
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Metadata, images, fonts, and public assets** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_045_metadata_images_fonts_and_public_assets.md). They are specific to **Metadata, images, fonts, and public assets** and should unblock the next thought without replacing it.
 
 ## Hints
 

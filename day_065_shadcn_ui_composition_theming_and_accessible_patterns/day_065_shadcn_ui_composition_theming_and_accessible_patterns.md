@@ -58,27 +58,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### Why compose primitives instead of copying a screenshot?
 
-The answer to **Why compose primitives instead of copying a screenshot** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+The answer to **Why compose primitives instead of copying a screenshot** must be earned by comparing a working case with a deliberately limited or broken case. For **Why compose primitives instead of copying a screenshot**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why compose primitives instead of copying a screenshot**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local dashboard shell with a readable, keyboard-usable Button and empty state.
+**Try it before moving on:** For **Why compose primitives instead of copying a screenshot?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local dashboard shell with a readable, keyboard-usable Button and empty state.
 
 ### How does a Dialog manage focus?
 
-To answer **How does a Dialog manage focus**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+To answer **How does a Dialog manage focus**, follow the operation in order rather than treating the result as framework magic. For **How does a Dialog manage focus**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does a Dialog manage focus**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does a Dialog manage focus?**, change one input or boundary in the worked example. Trace the result for **How does a Dialog manage focus?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do labels and errors support forms?
 
-To answer **How do labels and errors support forms**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+To answer **How do labels and errors support forms**, follow the operation in order rather than treating the result as framework magic. For **How do labels and errors support forms**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do labels and errors support forms**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do labels and errors support forms?**, change one input or boundary in the worked example. Trace the result for **How do labels and errors support forms?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### When should a table become a data grid?
 
-Treat **When should a table become a data grid** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+Treat **When should a table become a data grid** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should a table become a data grid**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should a table become a data grid**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should a table become a data grid?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ## Worked example
 

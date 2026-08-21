@@ -1,6 +1,6 @@
 # Day 043 solution guide: Route groups and private folders
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Route groups and private folders**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_043_route_groups_and_private_folders.md). It reviews the decisions for **Route groups and private folders**; it is not a copied answer key.
 
 ## Review checkpoints
 

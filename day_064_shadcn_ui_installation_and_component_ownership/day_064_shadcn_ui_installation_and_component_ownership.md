@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is shadcn/ui?
 
-Start with the learner's concrete question: **What is shadcn/ui**. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+Start with the learner's concrete question: **What is shadcn/ui**. Use the worked example to show what **What is shadcn/ui** changes before introducing a framework shortcut. For **What is shadcn/ui**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is shadcn/ui**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is shadcn/ui?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why does it copy component source into the project?
 
-The answer to **Why does it copy component source into the project** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+The answer to **Why does it copy component source into the project** must be earned by comparing a working case with a deliberately limited or broken case. For **Why does it copy component source into the project**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why does it copy component source into the project**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local case dashboard built from a shell, summary, list, and card.
+**Try it before moving on:** For **Why does it copy component source into the project?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local case dashboard built from a shell, summary, list, and card.
 
 ### What does components.json configure?
 
-Start with the learner's concrete question: **What does components.json configure**. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+Start with the learner's concrete question: **What does components.json configure**. Use the worked example to show what **What does components.json configure** changes before introducing a framework shortcut. For **What does components.json configure**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does components.json configure**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does components.json configure?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does the @ alias work with src/?
 
-To answer **How does the @ alias work with src/**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+To answer **How does the @ alias work with src/**, follow the operation in order rather than treating the result as framework magic. For **How does the @ alias work with src/**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does the @ alias work with src/**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does the @ alias work with src/?**, change one input or boundary in the worked example. Trace the result for **How does the @ alias work with src/?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

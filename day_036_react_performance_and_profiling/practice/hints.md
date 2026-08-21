@@ -1,6 +1,6 @@
 # Day 036 hints: React performance and profiling
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **React performance and profiling** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_036_react_performance_and_profiling.md). They are specific to **React performance and profiling** and should unblock the next thought without replacing it.
 
 ## Hints
 

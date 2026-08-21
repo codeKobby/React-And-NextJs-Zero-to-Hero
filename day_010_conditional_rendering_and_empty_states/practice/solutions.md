@@ -1,6 +1,6 @@
 # Day 010 solution guide: Conditional rendering and empty states
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Conditional rendering and empty states**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_010_conditional_rendering_and_empty_states.md). It reviews the decisions for **Conditional rendering and empty states**; it is not a copied answer key.
 
 ## Review checkpoints
 

@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What should be tested at each level?
 
-Start with the learner's concrete question: **What should be tested at each level**. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+Start with the learner's concrete question: **What should be tested at each level**. Use the worked example to show what **What should be tested at each level** changes before introducing a framework shortcut. For **What should be tested at each level**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should be tested at each level**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should be tested at each level?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we test a Server Action?
 
-To answer **How do we test a Server Action**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+To answer **How do we test a Server Action**, follow the operation in order rather than treating the result as framework magic. For **How do we test a Server Action**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we test a Server Action**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we test a Server Action?**, change one input or boundary in the worked example. Trace the result for **How do we test a Server Action?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What is a safe fixture?
 
-Start with the learner's concrete question: **What is a safe fixture**. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+Start with the learner's concrete question: **What is a safe fixture**. Use the worked example to show what **What is a safe fixture** changes before introducing a framework shortcut. For **What is a safe fixture**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a safe fixture**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a safe fixture?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When is a browser test valuable?
 
-Treat **When is a browser test valuable** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+Treat **When is a browser test valuable** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When is a browser test valuable**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When is a browser test valuable**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When is a browser test valuable?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ## Worked example
 

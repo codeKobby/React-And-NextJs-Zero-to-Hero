@@ -1,6 +1,6 @@
 # Day 070 hints: Repositories and server-only data access
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Repositories and server-only data access** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_070_repositories_and_server_only_data_access.md). They are specific to **Repositories and server-only data access** and should unblock the next thought without replacing it.
 
 ## Hints
 

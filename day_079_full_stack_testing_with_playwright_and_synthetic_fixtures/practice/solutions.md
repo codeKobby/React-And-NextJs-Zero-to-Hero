@@ -1,6 +1,6 @@
 # Day 079 solution guide: Full-stack testing with Playwright and synthetic fixtures
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Full-stack testing with Playwright and synthetic fixtures**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_079_full_stack_testing_with_playwright_and_synthetic_fixtures.md). It reviews the decisions for **Full-stack testing with Playwright and synthetic fixtures**; it is not a copied answer key.
 
 ## Review checkpoints
 

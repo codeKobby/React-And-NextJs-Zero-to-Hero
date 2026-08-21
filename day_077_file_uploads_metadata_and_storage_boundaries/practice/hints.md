@@ -1,6 +1,6 @@
 # Day 077 hints: File uploads, metadata, and storage boundaries
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **File uploads, metadata, and storage boundaries** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_077_file_uploads_metadata_and_storage_boundaries.md). They are specific to **File uploads, metadata, and storage boundaries** and should unblock the next thought without replacing it.
 
 ## Hints
 

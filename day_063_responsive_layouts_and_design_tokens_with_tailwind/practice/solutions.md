@@ -1,6 +1,6 @@
 # Day 063 solution guide: Responsive layouts and design tokens with Tailwind
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Responsive layouts and design tokens with Tailwind**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_063_responsive_layouts_and_design_tokens_with_tailwind.md). It reviews the decisions for **Responsive layouts and design tokens with Tailwind**; it is not a copied answer key.
 
 ## Review checkpoints
 

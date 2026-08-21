@@ -1,6 +1,6 @@
 # Day 041 solution guide: Layouts, pages, and route segments
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Layouts, pages, and route segments**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_041_layouts_pages_and_route_segments.md). It reviews the decisions for **Layouts, pages, and route segments**; it is not a copied answer key.
 
 ## Review checkpoints
 

@@ -1,6 +1,6 @@
 # Day 020 hints: Context and providers
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Context and providers** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_020_context_and_providers.md). They are specific to **Context and providers** and should unblock the next thought without replacing it.
 
 ## Hints
 

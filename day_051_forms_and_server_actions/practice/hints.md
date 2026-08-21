@@ -1,6 +1,6 @@
 # Day 051 hints: Forms and Server Actions
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Forms and Server Actions** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_051_forms_and_server_actions.md). They are specific to **Forms and Server Actions** and should unblock the next thought without replacing it.
 
 ## Hints
 

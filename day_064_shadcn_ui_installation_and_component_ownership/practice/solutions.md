@@ -1,6 +1,6 @@
 # Day 064 solution guide: shadcn/ui installation and component ownership
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **shadcn/ui installation and component ownership**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_064_shadcn_ui_installation_and_component_ownership.md). It reviews the decisions for **shadcn/ui installation and component ownership**; it is not a copied answer key.
 
 ## Review checkpoints
 

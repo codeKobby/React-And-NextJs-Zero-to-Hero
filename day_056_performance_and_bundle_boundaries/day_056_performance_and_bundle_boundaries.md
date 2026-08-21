@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What JavaScript reaches the browser?
 
-Start with the learner's concrete question: **What JavaScript reaches the browser**. The problem underneath this lesson is that learners need a concrete reason to study performance and bundle boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What JavaScript reaches the browser**. Use the worked example to show what **What JavaScript reaches the browser** changes before introducing a framework shortcut. For **What JavaScript reaches the browser**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What JavaScript reaches the browser**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What JavaScript reaches the browser?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why keep client boundaries narrow?
 
-The answer to **Why keep client boundaries narrow** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study performance and bundle boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why keep client boundaries narrow** must be earned by comparing a working case with a deliberately limited or broken case. For **Why keep client boundaries narrow**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why keep client boundaries narrow**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates performance and bundle boundaries.
+**Try it before moving on:** For **Why keep client boundaries narrow?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates performance and bundle boundaries.
 
 ### When should we lazy-load?
 
-Treat **When should we lazy-load** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study performance and bundle boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When should we lazy-load** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should we lazy-load**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should we lazy-load**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should we lazy-load?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### How do images and fonts affect performance?
 
-To answer **How do images and fonts affect performance**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study performance and bundle boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do images and fonts affect performance**, follow the operation in order rather than treating the result as framework magic. For **How do images and fonts affect performance**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do images and fonts affect performance**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do images and fonts affect performance?**, change one input or boundary in the worked example. Trace the result for **How do images and fonts affect performance?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

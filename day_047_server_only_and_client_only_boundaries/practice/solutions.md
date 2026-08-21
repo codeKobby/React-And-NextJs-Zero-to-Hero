@@ -1,6 +1,6 @@
 # Day 047 solution guide: Server-only and client-only boundaries
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Server-only and client-only boundaries**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_047_server_only_and_client_only_boundaries.md). It reviews the decisions for **Server-only and client-only boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

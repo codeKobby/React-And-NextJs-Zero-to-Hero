@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a table?
 
-Start with the learner's concrete question: **What is a table**. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+Start with the learner's concrete question: **What is a table**. Use the worked example to show what **What is a table** changes before introducing a framework shortcut. For **What is a table**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a table**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a table?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why do rows need stable identifiers?
 
-The answer to **Why do rows need stable identifiers** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+The answer to **Why do rows need stable identifiers** must be earned by comparing a working case with a deliberately limited or broken case. For **Why do rows need stable identifiers**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why do rows need stable identifiers**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic case repository with typed reads and resettable seed data.
+**Try it before moving on:** For **Why do rows need stable identifiers?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic case repository with typed reads and resettable seed data.
 
 ### What is a foreign key?
 
-Start with the learner's concrete question: **What is a foreign key**. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+Start with the learner's concrete question: **What is a foreign key**. Use the worked example to show what **What is a foreign key** changes before introducing a framework shortcut. For **What is a foreign key**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a foreign key**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a foreign key?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we model a case and its events?
 
-To answer **How do we model a case and its events**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+To answer **How do we model a case and its events**, follow the operation in order rather than treating the result as framework magic. For **How do we model a case and its events**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we model a case and its events**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we model a case and its events?**, change one input or boundary in the worked example. Trace the result for **How do we model a case and its events?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

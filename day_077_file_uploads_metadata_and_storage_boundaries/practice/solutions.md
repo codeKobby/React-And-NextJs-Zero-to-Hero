@@ -1,6 +1,6 @@
 # Day 077 solution guide: File uploads, metadata, and storage boundaries
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **File uploads, metadata, and storage boundaries**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_077_file_uploads_metadata_and_storage_boundaries.md). It reviews the decisions for **File uploads, metadata, and storage boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

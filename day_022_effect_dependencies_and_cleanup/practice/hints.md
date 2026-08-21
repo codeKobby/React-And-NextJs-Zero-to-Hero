@@ -1,6 +1,6 @@
 # Day 022 hints: Effect dependencies and cleanup
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Effect dependencies and cleanup** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_022_effect_dependencies_and_cleanup.md). They are specific to **Effect dependencies and cleanup** and should unblock the next thought without replacing it.
 
 ## Hints
 

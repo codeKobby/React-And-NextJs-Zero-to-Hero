@@ -1,6 +1,6 @@
 # Day 038 solution guide: Testing, linting, and project delivery
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Testing, linting, and project delivery**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_038_testing_linting_and_project_delivery.md). It reviews the decisions for **Testing, linting, and project delivery**; it is not a copied answer key.
 
 ## Review checkpoints
 

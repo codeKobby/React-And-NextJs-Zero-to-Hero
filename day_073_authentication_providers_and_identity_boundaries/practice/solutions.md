@@ -1,6 +1,6 @@
 # Day 073 solution guide: Authentication providers and identity boundaries
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Authentication providers and identity boundaries**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_073_authentication_providers_and_identity_boundaries.md). It reviews the decisions for **Authentication providers and identity boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

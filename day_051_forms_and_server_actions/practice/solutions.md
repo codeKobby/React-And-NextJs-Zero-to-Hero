@@ -1,6 +1,6 @@
 # Day 051 solution guide: Forms and Server Actions
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Forms and Server Actions**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_051_forms_and_server_actions.md). It reviews the decisions for **Forms and Server Actions**; it is not a copied answer key.
 
 ## Review checkpoints
 

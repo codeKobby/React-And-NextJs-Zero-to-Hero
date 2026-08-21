@@ -1,6 +1,6 @@
 # Day 025 solution guide: Transitions and responsive updates
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Transitions and responsive updates**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_025_transitions_and_responsive_updates.md). It reviews the decisions for **Transitions and responsive updates**; it is not a copied answer key.
 
 ## Review checkpoints
 

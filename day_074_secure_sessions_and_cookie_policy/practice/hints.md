@@ -1,6 +1,6 @@
 # Day 074 hints: Secure sessions and cookie policy
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Secure sessions and cookie policy** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_074_secure_sessions_and_cookie_policy.md). They are specific to **Secure sessions and cookie policy** and should unblock the next thought without replacing it.
 
 ## Hints
 

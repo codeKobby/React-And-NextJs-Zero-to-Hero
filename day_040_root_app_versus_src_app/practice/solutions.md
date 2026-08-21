@@ -1,6 +1,6 @@
 # Day 040 solution guide: Root app versus src/app
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Root app versus src/app**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_040_root_app_versus_src_app.md). It reviews the decisions for **Root app versus src/app**; it is not a copied answer key.
 
 ## Review checkpoints
 

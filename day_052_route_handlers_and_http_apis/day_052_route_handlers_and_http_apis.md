@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a Route Handler?
 
-Start with the learner's concrete question: **What is a Route Handler**. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+Start with the learner's concrete question: **What is a Route Handler**. Use the worked example to show what **What is a Route Handler** changes before introducing a framework shortcut. For **What is a Route Handler**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a Route Handler**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a Route Handler?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When do we need an HTTP endpoint?
 
-Treat **When do we need an HTTP endpoint** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+Treat **When do we need an HTTP endpoint** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When do we need an HTTP endpoint**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When do we need an HTTP endpoint**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When do we need an HTTP endpoint?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### How do we validate a request?
 
-To answer **How do we validate a request**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+To answer **How do we validate a request**, follow the operation in order rather than treating the result as framework magic. For **How do we validate a request**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we validate a request**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we validate a request?**, change one input or boundary in the worked example. Trace the result for **How do we validate a request?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How should status and errors be shaped?
 
-To answer **How should status and errors be shaped**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+To answer **How should status and errors be shaped**, follow the operation in order rather than treating the result as framework magic. For **How should status and errors be shaped**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How should status and errors be shaped**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How should status and errors be shaped?**, change one input or boundary in the worked example. Trace the result for **How should status and errors be shaped?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 004 solution guide: TypeScript foundations for UI code
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **TypeScript foundations for UI code**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_004_typescript_foundations_for_ui_code.md). It reviews the decisions for **TypeScript foundations for UI code**; it is not a copied answer key.
 
 ## Review checkpoints
 

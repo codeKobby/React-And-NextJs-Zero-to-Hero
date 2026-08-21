@@ -1,6 +1,6 @@
 # Day 067 hints: Schema validation with Zod-style boundaries
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Schema validation with Zod-style boundaries** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_067_schema_validation_with_zod_style_boundaries.md). They are specific to **Schema validation with Zod-style boundaries** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### How do we design a real app?
 
-To answer **How do we design a real app**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do we design a real app**, follow the operation in order rather than treating the result as framework magic. For **How do we design a real app**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we design a real app**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we design a real app?**, change one input or boundary in the worked example. Trace the result for **How do we design a real app?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### Where do routes, components, data, and policies live?
 
-Study **Where do routes, components, data, and policies live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Study **Where do routes, components, data, and policies live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where do routes, components, data, and policies live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where do routes, components, data, and policies live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where do routes, components, data, and policies live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we document trade-offs?
 
-To answer **How do we document trade-offs**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do we document trade-offs**, follow the operation in order rather than treating the result as framework magic. For **How do we document trade-offs**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we document trade-offs**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we document trade-offs?**, change one input or boundary in the worked example. Trace the result for **How do we document trade-offs?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What evidence proves readiness?
 
-Start with the learner's concrete question: **What evidence proves readiness**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What evidence proves readiness**. Use the worked example to show what **What evidence proves readiness** changes before introducing a framework shortcut. For **What evidence proves readiness**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What evidence proves readiness**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What evidence proves readiness?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

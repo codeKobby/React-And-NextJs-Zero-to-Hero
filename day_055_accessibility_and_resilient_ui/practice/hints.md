@@ -1,6 +1,6 @@
 # Day 055 hints: Accessibility and resilient UI
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Accessibility and resilient UI** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_055_accessibility_and_resilient_ui.md). They are specific to **Accessibility and resilient UI** and should unblock the next thought without replacing it.
 
 ## Hints
 

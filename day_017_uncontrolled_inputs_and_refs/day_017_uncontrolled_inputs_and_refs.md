@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is an uncontrolled input?
 
-Start with the learner's concrete question: **What is an uncontrolled input**. The problem underneath this lesson is that learners need a concrete reason to study uncontrolled inputs and refs before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is an uncontrolled input**. Use the worked example to show what **What is an uncontrolled input** changes before introducing a framework shortcut. For **What is an uncontrolled input**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is an uncontrolled input**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is an uncontrolled input?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When is a ref useful?
 
-Treat **When is a ref useful** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study uncontrolled inputs and refs before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When is a ref useful** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When is a ref useful**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When is a ref useful**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When is a ref useful?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### What is the difference between value and defaultValue?
 
-Start with the learner's concrete question: **What is the difference between value and defaultValue**. The problem underneath this lesson is that learners need a concrete reason to study uncontrolled inputs and refs before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is the difference between value and defaultValue**. Use the worked example to show what **What is the difference between value and defaultValue** changes before introducing a framework shortcut. For **What is the difference between value and defaultValue**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is the difference between value and defaultValue**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is the difference between value and defaultValue?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What should not be stored in refs?
 
-Start with the learner's concrete question: **What should not be stored in refs**. The problem underneath this lesson is that learners need a concrete reason to study uncontrolled inputs and refs before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What should not be stored in refs**. Use the worked example to show what **What should not be stored in refs** changes before introducing a framework shortcut. For **What should not be stored in refs**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should not be stored in refs**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should not be stored in refs?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

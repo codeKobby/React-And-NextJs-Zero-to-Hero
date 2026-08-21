@@ -1,6 +1,6 @@
 # Day 082 solution guide: Capstone build I: design system, shell, and database-backed reads
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Capstone build I: design system, shell, and database-backed reads**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_082_capstone_build_i_design_system_shell_and_database_backed_reads.md). It reviews the decisions for **Capstone build I: design system, shell, and database-backed reads**; it is not a copied answer key.
 
 ## Review checkpoints
 

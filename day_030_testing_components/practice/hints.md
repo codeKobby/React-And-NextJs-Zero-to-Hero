@@ -1,6 +1,6 @@
 # Day 030 hints: Testing components
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Testing components** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_030_testing_components.md). They are specific to **Testing components** and should unblock the next thought without replacing it.
 
 ## Hints
 

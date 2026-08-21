@@ -1,6 +1,6 @@
 # Day 038 hints: Testing, linting, and project delivery
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Testing, linting, and project delivery** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_038_testing_linting_and_project_delivery.md). They are specific to **Testing, linting, and project delivery** and should unblock the next thought without replacing it.
 
 ## Hints
 

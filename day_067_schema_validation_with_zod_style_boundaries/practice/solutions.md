@@ -1,6 +1,6 @@
 # Day 067 solution guide: Schema validation with Zod-style boundaries
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Schema validation with Zod-style boundaries**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_067_schema_validation_with_zod_style_boundaries.md). It reviews the decisions for **Schema validation with Zod-style boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

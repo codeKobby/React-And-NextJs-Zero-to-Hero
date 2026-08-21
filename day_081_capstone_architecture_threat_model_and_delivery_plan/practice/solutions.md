@@ -1,6 +1,6 @@
 # Day 081 solution guide: Capstone architecture, threat model, and delivery plan
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Capstone architecture, threat model, and delivery plan**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_081_capstone_architecture_threat_model_and_delivery_plan.md). It reviews the decisions for **Capstone architecture, threat model, and delivery plan**; it is not a copied answer key.
 
 ## Review checkpoints
 

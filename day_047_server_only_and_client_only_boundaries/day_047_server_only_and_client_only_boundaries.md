@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### Why should secrets stay server-side?
 
-The answer to **Why should secrets stay server-side** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study server-only and client-only boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why should secrets stay server-side** must be earned by comparing a working case with a deliberately limited or broken case. For **Why should secrets stay server-side**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why should secrets stay server-side**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates server-only and client-only boundaries.
+**Try it before moving on:** For **Why should secrets stay server-side?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates server-only and client-only boundaries.
 
 ### What is environment poisoning?
 
-Start with the learner's concrete question: **What is environment poisoning**. The problem underneath this lesson is that learners need a concrete reason to study server-only and client-only boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is environment poisoning**. Use the worked example to show what **What is environment poisoning** changes before introducing a framework shortcut. For **What is environment poisoning**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is environment poisoning**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is environment poisoning?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does server-only protect imports?
 
-To answer **How does server-only protect imports**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study server-only and client-only boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How does server-only protect imports**, follow the operation in order rather than treating the result as framework magic. For **How does server-only protect imports**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does server-only protect imports**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does server-only protect imports?**, change one input or boundary in the worked example. Trace the result for **How does server-only protect imports?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What belongs in NEXT_PUBLIC_?
 
-Start with the learner's concrete question: **What belongs in NEXT_PUBLIC_**. The problem underneath this lesson is that learners need a concrete reason to study server-only and client-only boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What belongs in NEXT_PUBLIC_**. Use the worked example to show what **What belongs in NEXT_PUBLIC_** changes before introducing a framework shortcut. For **What belongs in NEXT_PUBLIC_**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs in NEXT_PUBLIC_**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs in NEXT_PUBLIC_?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

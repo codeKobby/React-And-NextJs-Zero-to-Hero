@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What problem does TypeScript solve?
 
-Start with the learner's concrete question: **What problem does TypeScript solve**. The problem underneath this lesson is that learners need a concrete reason to study typescript foundations for ui code before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What problem does TypeScript solve**. Use the worked example to show what **What problem does TypeScript solve** changes before introducing a framework shortcut. For **What problem does TypeScript solve**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What problem does TypeScript solve**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What problem does TypeScript solve?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What is inference?
 
-Start with the learner's concrete question: **What is inference**. The problem underneath this lesson is that learners need a concrete reason to study typescript foundations for ui code before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is inference**. Use the worked example to show what **What is inference** changes before introducing a framework shortcut. For **What is inference**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is inference**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is inference?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do unions describe real UI states?
 
-To answer **How do unions describe real UI states**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study typescript foundations for ui code before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do unions describe real UI states**, follow the operation in order rather than treating the result as framework magic. For **How do unions describe real UI states**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do unions describe real UI states**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do unions describe real UI states?**, change one input or boundary in the worked example. Trace the result for **How do unions describe real UI states?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What can TypeScript not know at runtime?
 
-Start with the learner's concrete question: **What can TypeScript not know at runtime**. The problem underneath this lesson is that learners need a concrete reason to study typescript foundations for ui code before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What can TypeScript not know at runtime**. Use the worked example to show what **What can TypeScript not know at runtime** changes before introducing a framework shortcut. For **What can TypeScript not know at runtime**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What can TypeScript not know at runtime**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What can TypeScript not know at runtime?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

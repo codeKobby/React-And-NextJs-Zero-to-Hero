@@ -1,6 +1,6 @@
 # Day 011 solution guide: Events and event handlers
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Events and event handlers**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_011_events_and_event_handlers.md). It reviews the decisions for **Events and event handlers**; it is not a copied answer key.
 
 ## Review checkpoints
 

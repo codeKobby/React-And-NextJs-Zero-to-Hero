@@ -1,6 +1,6 @@
 # Day 026 solution guide: Suspense and the use API
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Suspense and the use API**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_026_suspense_and_the_use_api.md). It reviews the decisions for **Suspense and the use API**; it is not a copied answer key.
 
 ## Review checkpoints
 

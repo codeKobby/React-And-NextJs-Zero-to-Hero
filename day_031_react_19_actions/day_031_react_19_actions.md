@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is an Action?
 
-Start with the learner's concrete question: **What is an Action**. The problem underneath this lesson is that learners need a concrete reason to study react 19 actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is an Action**. Use the worked example to show what **What is an Action** changes before introducing a framework shortcut. For **What is an Action**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is an Action**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is an Action?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why do mutations need pending and error state?
 
-The answer to **Why do mutations need pending and error state** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study react 19 actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why do mutations need pending and error state** must be earned by comparing a working case with a deliberately limited or broken case. For **Why do mutations need pending and error state**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why do mutations need pending and error state**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates react 19 actions.
+**Try it before moving on:** For **Why do mutations need pending and error state?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates react 19 actions.
 
 ### How do Actions compose with transitions?
 
-To answer **How do Actions compose with transitions**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study react 19 actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do Actions compose with transitions**, follow the operation in order rather than treating the result as framework magic. For **How do Actions compose with transitions**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do Actions compose with transitions**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do Actions compose with transitions?**, change one input or boundary in the worked example. Trace the result for **How do Actions compose with transitions?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What remains application-specific?
 
-Start with the learner's concrete question: **What remains application-specific**. The problem underneath this lesson is that learners need a concrete reason to study react 19 actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What remains application-specific**. Use the worked example to show what **What remains application-specific** changes before introducing a framework shortcut. For **What remains application-specific**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What remains application-specific**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What remains application-specific?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

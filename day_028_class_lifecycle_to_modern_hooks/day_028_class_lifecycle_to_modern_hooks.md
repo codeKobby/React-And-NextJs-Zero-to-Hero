@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What did lifecycle methods do?
 
-Start with the learner's concrete question: **What did lifecycle methods do**. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+Start with the learner's concrete question: **What did lifecycle methods do**. Use the worked example to show what **What did lifecycle methods do** changes before introducing a framework shortcut. For **What did lifecycle methods do**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What did lifecycle methods do**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What did lifecycle methods do?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does one Effect model synchronization?
 
-To answer **How does one Effect model synchronization**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+To answer **How does one Effect model synchronization**, follow the operation in order rather than treating the result as framework magic. For **How does one Effect model synchronization**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does one Effect model synchronization**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does one Effect model synchronization?**, change one input or boundary in the worked example. Trace the result for **How does one Effect model synchronization?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### Why is lifecycle-to-Effect translation not mechanical?
 
-The answer to **Why is lifecycle-to-Effect translation not mechanical** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+The answer to **Why is lifecycle-to-Effect translation not mechanical** must be earned by comparing a working case with a deliberately limited or broken case. For **Why is lifecycle-to-Effect translation not mechanical**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why is lifecycle-to-Effect translation not mechanical**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local toggle, data viewer, or form behavior with a named Hook API.
+**Try it before moving on:** For **Why is lifecycle-to-Effect translation not mechanical?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local toggle, data viewer, or form behavior with a named Hook API.
 
 ### What belongs outside Effects?
 
-Start with the learner's concrete question: **What belongs outside Effects**. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+Start with the learner's concrete question: **What belongs outside Effects**. Use the worked example to show what **What belongs outside Effects** changes before introducing a framework shortcut. For **What belongs outside Effects**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs outside Effects**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs outside Effects?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

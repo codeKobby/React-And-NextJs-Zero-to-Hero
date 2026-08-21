@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### Which JavaScript expressions appear in JSX?
 
-Study **Which JavaScript expressions appear in JSX** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study modern javascript for react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Which JavaScript expressions appear in JSX** by naming the concrete value, operation, visible result, and owner in the worked example. For **Which JavaScript expressions appear in JSX**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Which JavaScript expressions appear in JSX**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Which JavaScript expressions appear in JSX?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why does map return a new array?
 
-The answer to **Why does map return a new array** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study modern javascript for react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why does map return a new array** must be earned by comparing a working case with a deliberately limited or broken case. For **Why does map return a new array**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why does map return a new array**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates modern javascript for react.
+**Try it before moving on:** For **Why does map return a new array?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates modern javascript for react.
 
 ### What does immutability mean?
 
-Start with the learner's concrete question: **What does immutability mean**. The problem underneath this lesson is that learners need a concrete reason to study modern javascript for react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What does immutability mean**. Use the worked example to show what **What does immutability mean** changes before introducing a framework shortcut. For **What does immutability mean**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does immutability mean**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does immutability mean?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Which JavaScript mistakes look like React mistakes?
 
-Study **Which JavaScript mistakes look like React mistakes** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study modern javascript for react before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Which JavaScript mistakes look like React mistakes** by naming the concrete value, operation, visible result, and owner in the worked example. For **Which JavaScript mistakes look like React mistakes**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Which JavaScript mistakes look like React mistakes**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Which JavaScript mistakes look like React mistakes?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

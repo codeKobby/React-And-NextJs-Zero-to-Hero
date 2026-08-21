@@ -1,6 +1,6 @@
 # Day 058 solution guide: Migration from Pages Router and old React
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Migration from Pages Router and old React**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_058_migration_from_pages_router_and_old_react.md). It reviews the decisions for **Migration from Pages Router and old React**; it is not a copied answer key.
 
 ## Review checkpoints
 

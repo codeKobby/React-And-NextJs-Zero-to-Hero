@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a cache?
 
-Start with the learner's concrete question: **What is a cache**. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+Start with the learner's concrete question: **What is a cache**. Use the worked example to show what **What is a cache** changes before introducing a framework shortcut. For **What is a cache**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a cache**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a cache?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What should be cached?
 
-Start with the learner's concrete question: **What should be cached**. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+Start with the learner's concrete question: **What should be cached**. Use the worked example to show what **What should be cached** changes before introducing a framework shortcut. For **What should be cached**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should be cached**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should be cached?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When should data be revalidated?
 
-Treat **When should data be revalidated** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+Treat **When should data be revalidated** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should data be revalidated**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should data be revalidated**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should data be revalidated?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### How do tags and paths invalidate data?
 
-To answer **How do tags and paths invalidate data**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+To answer **How do tags and paths invalidate data**, follow the operation in order rather than treating the result as framework magic. For **How do tags and paths invalidate data**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do tags and paths invalidate data**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do tags and paths invalidate data?**, change one input or boundary in the worked example. Trace the result for **How do tags and paths invalidate data?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 065 solution guide: shadcn/ui composition, theming, and accessible patterns
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **shadcn/ui composition, theming, and accessible patterns**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_065_shadcn_ui_composition_theming_and_accessible_patterns.md). It reviews the decisions for **shadcn/ui composition, theming, and accessible patterns**; it is not a copied answer key.
 
 ## Review checkpoints
 

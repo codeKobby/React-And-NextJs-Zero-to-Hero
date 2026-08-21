@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### Why should state updates create new references?
 
-The answer to **Why should state updates create new references** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study state for objects and arrays before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why should state updates create new references** must be earned by comparing a working case with a deliberately limited or broken case. For **Why should state updates create new references**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why should state updates create new references**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates state for objects and arrays.
+**Try it before moving on:** For **Why should state updates create new references?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates state for objects and arrays.
 
 ### How do we update one object field?
 
-To answer **How do we update one object field**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study state for objects and arrays before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we update one object field**, follow the operation in order rather than treating the result as framework magic. For **How do we update one object field**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we update one object field**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we update one object field?**, change one input or boundary in the worked example. Trace the result for **How do we update one object field?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do we add and remove array items?
 
-To answer **How do we add and remove array items**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study state for objects and arrays before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we add and remove array items**, follow the operation in order rather than treating the result as framework magic. For **How do we add and remove array items**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we add and remove array items**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we add and remove array items?**, change one input or boundary in the worked example. Trace the result for **How do we add and remove array items?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What is accidental mutation?
 
-Start with the learner's concrete question: **What is accidental mutation**. The problem underneath this lesson is that learners need a concrete reason to study state for objects and arrays before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is accidental mutation**. Use the worked example to show what **What is accidental mutation** changes before introducing a framework shortcut. For **What is accidental mutation**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is accidental mutation**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is accidental mutation?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

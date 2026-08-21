@@ -1,6 +1,6 @@
 # Day 015 hints: Derived state and the single source of truth
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Derived state and the single source of truth** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_015_derived_state_and_the_single_source_of_truth.md). They are specific to **Derived state and the single source of truth** and should unblock the next thought without replacing it.
 
 ## Hints
 

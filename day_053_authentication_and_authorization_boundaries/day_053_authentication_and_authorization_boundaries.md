@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is the difference between authentication and authorization?
 
-Start with the learner's concrete question: **What is the difference between authentication and authorization**. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+Start with the learner's concrete question: **What is the difference between authentication and authorization**. Use the worked example to show what **What is the difference between authentication and authorization** changes before introducing a framework shortcut. For **What is the difference between authentication and authorization**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is the difference between authentication and authorization**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is the difference between authentication and authorization?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Where should session checks run?
 
-Study **Where should session checks run** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+Study **Where should session checks run** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should session checks run**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should session checks run**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should session checks run?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why is a hidden button not authorization?
 
-The answer to **Why is a hidden button not authorization** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+The answer to **Why is a hidden button not authorization** must be earned by comparing a working case with a deliberately limited or broken case. For **Why is a hidden button not authorization**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why is a hidden button not authorization**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+**Try it before moving on:** For **Why is a hidden button not authorization?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
 
 ### How do roles limit data?
 
-To answer **How do roles limit data**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+To answer **How do roles limit data**, follow the operation in order rather than treating the result as framework magic. For **How do roles limit data**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do roles limit data**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do roles limit data?**, change one input or boundary in the worked example. Trace the result for **How do roles limit data?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

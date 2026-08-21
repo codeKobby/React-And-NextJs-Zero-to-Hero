@@ -1,6 +1,6 @@
 # Day 083 solution guide: Capstone build II: auth, proxy, mutations, tests, and portfolio proof
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Capstone build II: auth, proxy, mutations, tests, and portfolio proof**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof.md). It reviews the decisions for **Capstone build II: auth, proxy, mutations, tests, and portfolio proof**; it is not a copied answer key.
 
 ## Review checkpoints
 

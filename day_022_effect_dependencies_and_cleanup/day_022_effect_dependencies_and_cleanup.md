@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a stale closure?
 
-Start with the learner's concrete question: **What is a stale closure**. The problem underneath this lesson is that rendering describes ui, but some work must synchronize with something outside react, such as a title, timer, subscription, or request. A room display can change because the building's outside sign must also be updated; the sign is an external system with a connection and a cleanup rule. In this course's sequence, we will distinguish rendering from synchronization, add a dependency, create cleanup, and remove an unnecessary calculation effect. The relevant boundary is the line between React's render calculation and an external system's lifecycle.
+Start with the learner's concrete question: **What is a stale closure**. Use the worked example to show what **What is a stale closure** changes before introducing a framework shortcut. For **What is a stale closure**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a stale closure**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a stale closure?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why must dependencies be complete?
 
-The answer to **Why must dependencies be complete** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that rendering describes ui, but some work must synchronize with something outside react, such as a title, timer, subscription, or request. A room display can change because the building's outside sign must also be updated; the sign is an external system with a connection and a cleanup rule. In this course's sequence, we will distinguish rendering from synchronization, add a dependency, create cleanup, and remove an unnecessary calculation effect. The relevant boundary is the line between React's render calculation and an external system's lifecycle.
+The answer to **Why must dependencies be complete** must be earned by comparing a working case with a deliberately limited or broken case. For **Why must dependencies be complete**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why must dependencies be complete**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local status title or synthetic subscription with setup and cleanup evidence.
+**Try it before moving on:** For **Why must dependencies be complete?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local status title or synthetic subscription with setup and cleanup evidence.
 
 ### How do we clean up a subscription?
 
-To answer **How do we clean up a subscription**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that rendering describes ui, but some work must synchronize with something outside react, such as a title, timer, subscription, or request. A room display can change because the building's outside sign must also be updated; the sign is an external system with a connection and a cleanup rule. In this course's sequence, we will distinguish rendering from synchronization, add a dependency, create cleanup, and remove an unnecessary calculation effect. The relevant boundary is the line between React's render calculation and an external system's lifecycle.
+To answer **How do we clean up a subscription**, follow the operation in order rather than treating the result as framework magic. For **How do we clean up a subscription**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we clean up a subscription**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we clean up a subscription?**, change one input or boundary in the worked example. Trace the result for **How do we clean up a subscription?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do we abort a request?
 
-To answer **How do we abort a request**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that rendering describes ui, but some work must synchronize with something outside react, such as a title, timer, subscription, or request. A room display can change because the building's outside sign must also be updated; the sign is an external system with a connection and a cleanup rule. In this course's sequence, we will distinguish rendering from synchronization, add a dependency, create cleanup, and remove an unnecessary calculation effect. The relevant boundary is the line between React's render calculation and an external system's lifecycle.
+To answer **How do we abort a request**, follow the operation in order rather than treating the result as framework magic. For **How do we abort a request**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we abort a request**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we abort a request?**, change one input or boundary in the worked example. Trace the result for **How do we abort a request?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 029 hints: Error boundaries and failure UI
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Error boundaries and failure UI** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_029_error_boundaries_and_failure_ui.md). They are specific to **Error boundaries and failure UI** and should unblock the next thought without replacing it.
 
 ## Hints
 

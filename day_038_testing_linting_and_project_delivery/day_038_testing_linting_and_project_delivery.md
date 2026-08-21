@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does each check prove?
 
-Start with the learner's concrete question: **What does each check prove**. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+Start with the learner's concrete question: **What does each check prove**. Use the worked example to show what **What does each check prove** changes before introducing a framework shortcut. For **What does each check prove**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does each check prove**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does each check prove?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why are lint and type checks different?
 
-The answer to **Why are lint and type checks different** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+The answer to **Why are lint and type checks different** must be earned by comparing a working case with a deliberately limited or broken case. For **Why are lint and type checks different**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why are lint and type checks different**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic case journey with normal, invalid, empty, and failure fixtures.
+**Try it before moving on:** For **Why are lint and type checks different?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic case journey with normal, invalid, empty, and failure fixtures.
 
 ### What belongs in CI?
 
-Start with the learner's concrete question: **What belongs in CI**. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+Start with the learner's concrete question: **What belongs in CI**. Use the worked example to show what **What belongs in CI** changes before introducing a framework shortcut. For **What belongs in CI**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs in CI**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs in CI?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we review a change?
 
-To answer **How do we review a change**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a component can render and still be wrong for the user's actual journey, especially at empty, error, keyboard, or unauthorized boundaries. A rehearsal checks the actions a person must take, not whether the stage lights happen to turn on once. In this course's sequence, we will state a behavior claim, exercise it through the public ui or route contract, add a failure case, and distinguish test evidence from proof of production correctness. The relevant boundary is the public behavior under test and the internal implementation that may change.
+To answer **How do we review a change**, follow the operation in order rather than treating the result as framework magic. For **How do we review a change**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we review a change**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we review a change?**, change one input or boundary in the worked example. Trace the result for **How do we review a change?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 029 solution guide: Error boundaries and failure UI
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Error boundaries and failure UI**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_029_error_boundaries_and_failure_ui.md). It reviews the decisions for **Error boundaries and failure UI**; it is not a copied answer key.
 
 ## Review checkpoints
 

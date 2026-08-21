@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is an upload boundary?
 
-Start with the learner's concrete question: **What is an upload boundary**. The problem underneath this lesson is that files are larger and more ambiguous than ordinary text fields, and a filename is not a security policy. A receiving dock weighs and labels a package before storing it; a name written on the box does not prove what is inside. In this course's sequence, we will bound size and type, record safe metadata, choose a storage boundary, and authorize a download. The relevant boundary is browser file input versus server validation, storage, and access policy.
+Start with the learner's concrete question: **What is an upload boundary**. Use the worked example to show what **What is an upload boundary** changes before introducing a framework shortcut. For **What is an upload boundary**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is an upload boundary**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is an upload boundary?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why validate size and type on the server?
 
-The answer to **Why validate size and type on the server** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that files are larger and more ambiguous than ordinary text fields, and a filename is not a security policy. A receiving dock weighs and labels a package before storing it; a name written on the box does not prove what is inside. In this course's sequence, we will bound size and type, record safe metadata, choose a storage boundary, and authorize a download. The relevant boundary is browser file input versus server validation, storage, and access policy.
+The answer to **Why validate size and type on the server** must be earned by comparing a working case with a deliberately limited or broken case. For **Why validate size and type on the server**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why validate size and type on the server**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic upload validator and authorized download response.
+**Try it before moving on:** For **Why validate size and type on the server?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic upload validator and authorized download response.
 
 ### Where should file bytes live?
 
-Study **Where should file bytes live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that files are larger and more ambiguous than ordinary text fields, and a filename is not a security policy. A receiving dock weighs and labels a package before storing it; a name written on the box does not prove what is inside. In this course's sequence, we will bound size and type, record safe metadata, choose a storage boundary, and authorize a download. The relevant boundary is browser file input versus server validation, storage, and access policy.
+Study **Where should file bytes live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should file bytes live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should file bytes live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should file bytes live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How should downloads be authorized?
 
-To answer **How should downloads be authorized**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that files are larger and more ambiguous than ordinary text fields, and a filename is not a security policy. A receiving dock weighs and labels a package before storing it; a name written on the box does not prove what is inside. In this course's sequence, we will bound size and type, record safe metadata, choose a storage boundary, and authorize a download. The relevant boundary is browser file input versus server validation, storage, and access policy.
+To answer **How should downloads be authorized**, follow the operation in order rather than treating the result as framework magic. For **How should downloads be authorized**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How should downloads be authorized**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How should downloads be authorized?**, change one input or boundary in the worked example. Trace the result for **How should downloads be authorized?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

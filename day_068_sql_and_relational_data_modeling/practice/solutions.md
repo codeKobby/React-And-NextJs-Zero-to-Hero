@@ -1,6 +1,6 @@
 # Day 068 solution guide: SQL and relational data modeling
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **SQL and relational data modeling**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_068_sql_and_relational_data_modeling.md). It reviews the decisions for **SQL and relational data modeling**; it is not a copied answer key.
 
 ## Review checkpoints
 

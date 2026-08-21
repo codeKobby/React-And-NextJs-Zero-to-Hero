@@ -1,6 +1,6 @@
 # Day 059 solution guide: Capstone architecture and review
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Capstone architecture and review**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_059_capstone_architecture_and_review.md). It reviews the decisions for **Capstone architecture and review**; it is not a copied answer key.
 
 ## Review checkpoints
 

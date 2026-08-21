@@ -1,6 +1,6 @@
 # Day 008 hints: Props and one-way data flow
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Props and one-way data flow** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_008_props_and_one_way_data_flow.md). They are specific to **Props and one-way data flow** and should unblock the next thought without replacing it.
 
 ## Hints
 

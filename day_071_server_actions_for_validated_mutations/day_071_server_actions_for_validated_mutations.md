@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a Server Action?
 
-Start with the learner's concrete question: **What is a Server Action**. The problem underneath this lesson is that a form needs to change server-owned data while preserving validation, authorization, pending state, and a useful result. A signed request goes to the office that owns the records; the front desk can report pending or rejected, but it cannot approve itself. In this course's sequence, we will submit formdata, validate it on the server, check permission, mutate a local record, and revalidate the visible route. The relevant boundary is browser intent versus server authority and data mutation.
+Start with the learner's concrete question: **What is a Server Action**. Use the worked example to show what **What is a Server Action** changes before introducing a framework shortcut. For **What is a Server Action**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a Server Action**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a Server Action?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Where should validation and authorization happen?
 
-Study **Where should validation and authorization happen** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that a form needs to change server-owned data while preserving validation, authorization, pending state, and a useful result. A signed request goes to the office that owns the records; the front desk can report pending or rejected, but it cannot approve itself. In this course's sequence, we will submit formdata, validate it on the server, check permission, mutate a local record, and revalidate the visible route. The relevant boundary is browser intent versus server authority and data mutation.
+Study **Where should validation and authorization happen** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should validation and authorization happen**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should validation and authorization happen**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should validation and authorization happen?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we return field errors?
 
-To answer **How do we return field errors**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a form needs to change server-owned data while preserving validation, authorization, pending state, and a useful result. A signed request goes to the office that owns the records; the front desk can report pending or rejected, but it cannot approve itself. In this course's sequence, we will submit formdata, validate it on the server, check permission, mutate a local record, and revalidate the visible route. The relevant boundary is browser intent versus server authority and data mutation.
+To answer **How do we return field errors**, follow the operation in order rather than treating the result as framework magic. For **How do we return field errors**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we return field errors**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we return field errors?**, change one input or boundary in the worked example. Trace the result for **How do we return field errors?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### When should a mutation revalidate or redirect?
 
-Treat **When should a mutation revalidate or redirect** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that a form needs to change server-owned data while preserving validation, authorization, pending state, and a useful result. A signed request goes to the office that owns the records; the front desk can report pending or rejected, but it cannot approve itself. In this course's sequence, we will submit formdata, validate it on the server, check permission, mutate a local record, and revalidate the visible route. The relevant boundary is browser intent versus server authority and data mutation.
+Treat **When should a mutation revalidate or redirect** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should a mutation revalidate or redirect**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should a mutation revalidate or redirect**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should a mutation revalidate or redirect?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ## Worked example
 

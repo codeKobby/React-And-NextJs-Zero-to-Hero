@@ -1,6 +1,6 @@
 # Day 023 hints: Custom Hooks
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Custom Hooks** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_023_custom_hooks.md). They are specific to **Custom Hooks** and should unblock the next thought without replacing it.
 
 ## Hints
 

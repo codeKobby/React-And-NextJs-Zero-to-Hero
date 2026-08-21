@@ -1,6 +1,6 @@
 # Day 005 solution guide: Tooling and the first component
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Tooling and the first component**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_005_tooling_and_the_first_component.md). It reviews the decisions for **Tooling and the first component**; it is not a copied answer key.
 
 ## Review checkpoints
 

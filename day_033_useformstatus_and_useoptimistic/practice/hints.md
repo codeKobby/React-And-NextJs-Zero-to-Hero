@@ -1,6 +1,6 @@
 # Day 033 hints: useFormStatus and useOptimistic
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **useFormStatus and useOptimistic** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_033_useformstatus_and_useoptimistic.md). They are specific to **useFormStatus and useOptimistic** and should unblock the next thought without replacing it.
 
 ## Hints
 

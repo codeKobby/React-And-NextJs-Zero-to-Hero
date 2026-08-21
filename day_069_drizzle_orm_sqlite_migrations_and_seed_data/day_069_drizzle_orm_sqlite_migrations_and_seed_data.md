@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does an ORM do?
 
-Start with the learner's concrete question: **What does an ORM do**. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+Start with the learner's concrete question: **What does an ORM do**. Use the worked example to show what **What does an ORM do** changes before introducing a framework shortcut. For **What does an ORM do**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does an ORM do**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does an ORM do?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why are migrations committed?
 
-The answer to **Why are migrations committed** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+The answer to **Why are migrations committed** must be earned by comparing a working case with a deliberately limited or broken case. For **Why are migrations committed**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why are migrations committed**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic case repository with typed reads and resettable seed data.
+**Try it before moving on:** For **Why are migrations committed?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local synthetic case repository with typed reads and resettable seed data.
 
 ### What is seed data?
 
-Start with the learner's concrete question: **What is seed data**. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+Start with the learner's concrete question: **What is seed data**. Use the worked example to show what **What is seed data** changes before introducing a framework shortcut. For **What is seed data**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is seed data**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is seed data?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When should a transaction group changes?
 
-Treat **When should a transaction group changes** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that a growing application needs durable records and a data-access boundary that preserves ownership, migrations, and reviewability. A case archive needs labeled shelves and a catalog; writing a note on a screen is not the same as storing a record safely. In this course's sequence, we will model a table, create a local schema, migrate and seed it, query through a repository, and keep raw database details out of ui components. The relevant boundary is database schema and repository versus UI data-transfer shape and authorization policy.
+Treat **When should a transaction group changes** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should a transaction group changes**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should a transaction group changes**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should a transaction group changes?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 042 solution guide: Dynamic routes and typed params
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Dynamic routes and typed params**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_042_dynamic_routes_and_typed_params.md). It reviews the decisions for **Dynamic routes and typed params**; it is not a copied answer key.
 
 ## Review checkpoints
 

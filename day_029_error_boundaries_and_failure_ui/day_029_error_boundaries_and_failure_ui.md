@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is an error boundary?
 
-Start with the learner's concrete question: **What is an error boundary**. The problem underneath this lesson is that learners need a concrete reason to study error boundaries and failure ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is an error boundary**. Use the worked example to show what **What is an error boundary** changes before introducing a framework shortcut. For **What is an error boundary**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is an error boundary**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is an error boundary?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Which errors does it catch?
 
-Study **Which errors does it catch** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study error boundaries and failure ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Which errors does it catch** by naming the concrete value, operation, visible result, and owner in the worked example. For **Which errors does it catch**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Which errors does it catch**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Which errors does it catch?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How should fallback UI help?
 
-To answer **How should fallback UI help**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study error boundaries and failure ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How should fallback UI help**, follow the operation in order rather than treating the result as framework magic. For **How should fallback UI help**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How should fallback UI help**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How should fallback UI help?**, change one input or boundary in the worked example. Trace the result for **How should fallback UI help?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How can a user retry?
 
-To answer **How can a user retry**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study error boundaries and failure ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How can a user retry**, follow the operation in order rather than treating the result as framework magic. For **How can a user retry**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How can a user retry**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How can a user retry?**, change one input or boundary in the worked example. Trace the result for **How can a user retry?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

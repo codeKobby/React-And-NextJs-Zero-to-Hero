@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is an urgent update?
 
-Start with the learner's concrete question: **What is an urgent update**. The problem underneath this lesson is that learners need a concrete reason to study transitions and responsive updates before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is an urgent update**. Use the worked example to show what **What is an urgent update** changes before introducing a framework shortcut. For **What is an urgent update**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is an urgent update**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is an urgent update?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What is a transition?
 
-Start with the learner's concrete question: **What is a transition**. The problem underneath this lesson is that learners need a concrete reason to study transitions and responsive updates before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is a transition**. Use the worked example to show what **What is a transition** changes before introducing a framework shortcut. For **What is a transition**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a transition**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a transition?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does useTransition expose pending state?
 
-To answer **How does useTransition expose pending state**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study transitions and responsive updates before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How does useTransition expose pending state**, follow the operation in order rather than treating the result as framework magic. For **How does useTransition expose pending state**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does useTransition expose pending state**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does useTransition expose pending state?**, change one input or boundary in the worked example. Trace the result for **How does useTransition expose pending state?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### When is useDeferredValue useful?
 
-Treat **When is useDeferredValue useful** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study transitions and responsive updates before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When is useDeferredValue useful** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When is useDeferredValue useful**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When is useDeferredValue useful**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When is useDeferredValue useful?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ## Worked example
 

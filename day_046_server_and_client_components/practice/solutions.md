@@ -1,6 +1,6 @@
 # Day 046 solution guide: Server and Client Components
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Server and Client Components**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_046_server_and_client_components.md). It reviews the decisions for **Server and Client Components**; it is not a copied answer key.
 
 ## Review checkpoints
 

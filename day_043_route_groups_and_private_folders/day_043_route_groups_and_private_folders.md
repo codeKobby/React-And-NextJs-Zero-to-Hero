@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a route group?
 
-Start with the learner's concrete question: **What is a route group**. The problem underneath this lesson is that learners need a concrete reason to study route groups and private folders before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is a route group**. Use the worked example to show what **What is a route group** changes before introducing a framework shortcut. For **What is a route group**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a route group**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a route group?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why does parentheses not change the URL?
 
-The answer to **Why does parentheses not change the URL** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study route groups and private folders before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why does parentheses not change the URL** must be earned by comparing a working case with a deliberately limited or broken case. For **Why does parentheses not change the URL**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why does parentheses not change the URL**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates route groups and private folders.
+**Try it before moving on:** For **Why does parentheses not change the URL?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates route groups and private folders.
 
 ### What is a private folder?
 
-Start with the learner's concrete question: **What is a private folder**. The problem underneath this lesson is that learners need a concrete reason to study route groups and private folders before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is a private folder**. Use the worked example to show what **What is a private folder** changes before introducing a framework shortcut. For **What is a private folder**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a private folder**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a private folder?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What can be colocated safely?
 
-Start with the learner's concrete question: **What can be colocated safely**. The problem underneath this lesson is that learners need a concrete reason to study route groups and private folders before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What can be colocated safely**. Use the worked example to show what **What can be colocated safely** changes before introducing a framework shortcut. For **What can be colocated safely**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What can be colocated safely**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What can be colocated safely?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

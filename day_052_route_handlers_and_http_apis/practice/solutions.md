@@ -1,6 +1,6 @@
 # Day 052 solution guide: Route Handlers and HTTP APIs
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Route Handlers and HTTP APIs**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_052_route_handlers_and_http_apis.md). It reviews the decisions for **Route Handlers and HTTP APIs**; it is not a copied answer key.
 
 ## Review checkpoints
 

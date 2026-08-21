@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### How does React render metadata?
 
-To answer **How does React render metadata**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study metadata, refs, and modern react dom before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How does React render metadata**, follow the operation in order rather than treating the result as framework magic. For **How does React render metadata**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does React render metadata**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does React render metadata?**, change one input or boundary in the worked example. Trace the result for **How does React render metadata?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What changed for ref props?
 
-Start with the learner's concrete question: **What changed for ref props**. The problem underneath this lesson is that learners need a concrete reason to study metadata, refs, and modern react dom before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What changed for ref props**. Use the worked example to show what **What changed for ref props** changes before introducing a framework shortcut. For **What changed for ref props**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What changed for ref props**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What changed for ref props?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What is ref cleanup?
 
-Start with the learner's concrete question: **What is ref cleanup**. The problem underneath this lesson is that learners need a concrete reason to study metadata, refs, and modern react dom before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is ref cleanup**. Use the worked example to show what **What is ref cleanup** changes before introducing a framework shortcut. For **What is ref cleanup**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is ref cleanup**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is ref cleanup?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do DOM resources fit a component?
 
-To answer **How do DOM resources fit a component**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study metadata, refs, and modern react dom before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do DOM resources fit a component**, follow the operation in order rather than treating the result as framework magic. For **How do DOM resources fit a component**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do DOM resources fit a component**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do DOM resources fit a component?**, change one input or boundary in the worked example. Trace the result for **How do DOM resources fit a component?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

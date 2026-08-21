@@ -1,6 +1,6 @@
 # Day 032 solution guide: useActionState and form actions
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **useActionState and form actions**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_032_useactionstate_and_form_actions.md). It reviews the decisions for **useActionState and form actions**; it is not a copied answer key.
 
 ## Review checkpoints
 

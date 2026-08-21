@@ -1,6 +1,6 @@
 # Day 082 hints: Capstone build I: design system, shell, and database-backed reads
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Capstone build I: design system, shell, and database-backed reads** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_082_capstone_build_i_design_system_shell_and_database_backed_reads.md). They are specific to **Capstone build I: design system, shell, and database-backed reads** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does React escape?
 
-Start with the learner's concrete question: **What does React escape**. The problem underneath this lesson is that learners need a concrete reason to study react security and data boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What does React escape**. Use the worked example to show what **What does React escape** changes before introducing a framework shortcut. For **What does React escape**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does React escape**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does React escape?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why is dangerouslySetInnerHTML dangerous?
 
-The answer to **Why is dangerouslySetInnerHTML dangerous** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study react security and data boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why is dangerouslySetInnerHTML dangerous** must be earned by comparing a working case with a deliberately limited or broken case. For **Why is dangerouslySetInnerHTML dangerous**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why is dangerouslySetInnerHTML dangerous**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates react security and data boundaries.
+**Try it before moving on:** For **Why is dangerouslySetInnerHTML dangerous?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates react security and data boundaries.
 
 ### Where do secrets belong?
 
-Study **Where do secrets belong** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study react security and data boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where do secrets belong** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where do secrets belong**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where do secrets belong**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where do secrets belong?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How should user input be validated?
 
-To answer **How should user input be validated**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study react security and data boundaries before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How should user input be validated**, follow the operation in order rather than treating the result as framework magic. For **How should user input be validated**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How should user input be validated**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How should user input be validated?**, change one input or boundary in the worked example. Trace the result for **How should user input be validated?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

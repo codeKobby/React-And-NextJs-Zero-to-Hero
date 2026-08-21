@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does Suspense coordinate?
 
-Start with the learner's concrete question: **What does Suspense coordinate**. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+Start with the learner's concrete question: **What does Suspense coordinate**. Use the worked example to show what **What does Suspense coordinate** changes before introducing a framework shortcut. For **What does Suspense coordinate**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does Suspense coordinate**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does Suspense coordinate?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What is a fallback?
 
-Start with the learner's concrete question: **What is a fallback**. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+Start with the learner's concrete question: **What is a fallback**. Use the worked example to show what **What is a fallback** changes before introducing a framework shortcut. For **What is a fallback**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a fallback**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a fallback?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does use read a promise?
 
-To answer **How does use read a promise**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+To answer **How does use read a promise**, follow the operation in order rather than treating the result as framework magic. For **How does use read a promise**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does use read a promise**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does use read a promise?**, change one input or boundary in the worked example. Trace the result for **How does use read a promise?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### Where should a boundary live?
 
-Study **Where should a boundary live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that sometimes a browser, test, webhook, or other client needs a documented http boundary rather than a component-only interaction. A service counter has a public request format, a response receipt, and a deliberate way to say no. In this course's sequence, we will read a request, validate its body, return success and failure status codes, and test the public response contract. The relevant boundary is public HTTP contract versus private data-access and authorization decisions.
+Study **Where should a boundary live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should a boundary live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should a boundary live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should a boundary live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 043 hints: Route groups and private folders
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Route groups and private folders** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_043_route_groups_and_private_folders.md). They are specific to **Route groups and private folders** and should unblock the next thought without replacing it.
 
 ## Hints
 

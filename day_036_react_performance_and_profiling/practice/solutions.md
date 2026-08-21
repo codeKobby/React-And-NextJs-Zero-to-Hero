@@ -1,6 +1,6 @@
 # Day 036 solution guide: React performance and profiling
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **React performance and profiling**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_036_react_performance_and_profiling.md). It reviews the decisions for **React performance and profiling**; it is not a copied answer key.
 
 ## Review checkpoints
 

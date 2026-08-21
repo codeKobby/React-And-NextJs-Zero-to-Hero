@@ -1,6 +1,6 @@
 # Day 007 solution guide: JSX and the rules of markup
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **JSX and the rules of markup**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_007_jsx_and_the_rules_of_markup.md). It reviews the decisions for **JSX and the rules of markup**; it is not a copied answer key.
 
 ## Review checkpoints
 

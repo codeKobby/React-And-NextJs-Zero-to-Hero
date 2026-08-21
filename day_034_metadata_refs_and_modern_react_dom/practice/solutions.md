@@ -1,6 +1,6 @@
 # Day 034 solution guide: Metadata, refs, and modern React DOM
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Metadata, refs, and modern React DOM**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_034_metadata_refs_and_modern_react_dom.md). It reviews the decisions for **Metadata, refs, and modern React DOM**; it is not a copied answer key.
 
 ## Review checkpoints
 

@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does create-next-app configure?
 
-Start with the learner's concrete question: **What does create-next-app configure**. The problem underneath this lesson is that a new next.js project contains several conventions, and an incorrect folder choice can make a route disappear or configuration ambiguous. A workshop needs a clear separation between tools, storage, and workbenches; two rooms claiming to be the same entrance create confusion. In this course's sequence, we will inspect the generated files, run the first route, compare root app with src/app, and choose one unambiguous project layout. The relevant boundary is application source versus root configuration and the route files Next.js recognizes.
+Start with the learner's concrete question: **What does create-next-app configure**. Use the worked example to show what **What does create-next-app configure** changes before introducing a framework shortcut. For **What does create-next-app configure**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does create-next-app configure**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does create-next-app configure?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What belongs at the root?
 
-Start with the learner's concrete question: **What belongs at the root**. The problem underneath this lesson is that a new next.js project contains several conventions, and an incorrect folder choice can make a route disappear or configuration ambiguous. A workshop needs a clear separation between tools, storage, and workbenches; two rooms claiming to be the same entrance create confusion. In this course's sequence, we will inspect the generated files, run the first route, compare root app with src/app, and choose one unambiguous project layout. The relevant boundary is application source versus root configuration and the route files Next.js recognizes.
+Start with the learner's concrete question: **What belongs at the root**. Use the worked example to show what **What belongs at the root** changes before introducing a framework shortcut. For **What belongs at the root**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs at the root**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs at the root?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What is the App Router?
 
-Start with the learner's concrete question: **What is the App Router**. The problem underneath this lesson is that a new next.js project contains several conventions, and an incorrect folder choice can make a route disappear or configuration ambiguous. A workshop needs a clear separation between tools, storage, and workbenches; two rooms claiming to be the same entrance create confusion. In this course's sequence, we will inspect the generated files, run the first route, compare root app with src/app, and choose one unambiguous project layout. The relevant boundary is application source versus root configuration and the route files Next.js recognizes.
+Start with the learner's concrete question: **What is the App Router**. Use the worked example to show what **What is the App Router** changes before introducing a framework shortcut. For **What is the App Router**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is the App Router**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is the App Router?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What does the src choice change?
 
-Start with the learner's concrete question: **What does the src choice change**. The problem underneath this lesson is that a new next.js project contains several conventions, and an incorrect folder choice can make a route disappear or configuration ambiguous. A workshop needs a clear separation between tools, storage, and workbenches; two rooms claiming to be the same entrance create confusion. In this course's sequence, we will inspect the generated files, run the first route, compare root app with src/app, and choose one unambiguous project layout. The relevant boundary is application source versus root configuration and the route files Next.js recognizes.
+Start with the learner's concrete question: **What does the src choice change**. Use the worked example to show what **What does the src choice change** changes before introducing a framework shortcut. For **What does the src choice change**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does the src choice change**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does the src choice change?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

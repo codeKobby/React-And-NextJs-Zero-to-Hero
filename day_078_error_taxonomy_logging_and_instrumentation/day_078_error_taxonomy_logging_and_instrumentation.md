@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is the difference between an expected and unexpected error?
 
-Start with the learner's concrete question: **What is the difference between an expected and unexpected error**. The problem underneath this lesson is that learners need a concrete reason to study error taxonomy, logging, and instrumentation before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is the difference between an expected and unexpected error**. Use the worked example to show what **What is the difference between an expected and unexpected error** changes before introducing a framework shortcut. For **What is the difference between an expected and unexpected error**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is the difference between an expected and unexpected error**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is the difference between an expected and unexpected error?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What should a structured log contain?
 
-Start with the learner's concrete question: **What should a structured log contain**. The problem underneath this lesson is that learners need a concrete reason to study error taxonomy, logging, and instrumentation before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What should a structured log contain**. Use the worked example to show what **What should a structured log contain** changes before introducing a framework shortcut. For **What should a structured log contain**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should a structured log contain**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should a structured log contain?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why use a request ID?
 
-The answer to **Why use a request ID** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study error taxonomy, logging, and instrumentation before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why use a request ID** must be earned by comparing a working case with a deliberately limited or broken case. For **Why use a request ID**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why use a request ID**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates error taxonomy, logging, and instrumentation.
+**Try it before moving on:** For **Why use a request ID?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates error taxonomy, logging, and instrumentation.
 
 ### Where does instrumentation belong?
 
-Study **Where does instrumentation belong** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study error taxonomy, logging, and instrumentation before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where does instrumentation belong** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where does instrumentation belong**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where does instrumentation belong**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where does instrumentation belong?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

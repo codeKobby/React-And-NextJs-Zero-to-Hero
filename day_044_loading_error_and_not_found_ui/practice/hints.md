@@ -1,6 +1,6 @@
 # Day 044 hints: Loading, error, and not-found UI
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Loading, error, and not-found UI** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_044_loading_error_and_not_found_ui.md). They are specific to **Loading, error, and not-found UI** and should unblock the next thought without replacing it.
 
 ## Hints
 

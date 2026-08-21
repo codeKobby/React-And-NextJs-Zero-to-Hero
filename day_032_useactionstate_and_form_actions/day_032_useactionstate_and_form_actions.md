@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does useActionState return?
 
-Start with the learner's concrete question: **What does useActionState return**. The problem underneath this lesson is that learners need a concrete reason to study useactionstate and form actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What does useActionState return**. Use the worked example to show what **What does useActionState return** changes before introducing a framework shortcut. For **What does useActionState return**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does useActionState return**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does useActionState return?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does a form action receive FormData?
 
-To answer **How does a form action receive FormData**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study useactionstate and form actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How does a form action receive FormData**, follow the operation in order rather than treating the result as framework magic. For **How does a form action receive FormData**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does a form action receive FormData**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does a form action receive FormData?**, change one input or boundary in the worked example. Trace the result for **How does a form action receive FormData?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### Where should validation happen?
 
-Study **Where should validation happen** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study useactionstate and form actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where should validation happen** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where should validation happen**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where should validation happen**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where should validation happen?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we show field errors?
 
-To answer **How do we show field errors**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study useactionstate and form actions before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we show field errors**, follow the operation in order rather than treating the result as framework magic. For **How do we show field errors**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we show field errors**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we show field errors?**, change one input or boundary in the worked example. Trace the result for **How do we show field errors?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 019 solution guide: Reducers and dispatch
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Reducers and dispatch**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_019_reducers_and_dispatch.md). It reviews the decisions for **Reducers and dispatch**; it is not a copied answer key.
 
 ## Review checkpoints
 

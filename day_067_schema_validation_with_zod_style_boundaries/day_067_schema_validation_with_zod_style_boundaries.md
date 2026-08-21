@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### Why validate at a boundary?
 
-The answer to **Why validate at a boundary** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+The answer to **Why validate at a boundary** must be earned by comparing a working case with a deliberately limited or broken case. For **Why validate at a boundary**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why validate at a boundary**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local case form with structured invalid-input feedback.
+**Try it before moving on:** For **Why validate at a boundary?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local case form with structured invalid-input feedback.
 
 ### What is the difference between parse and safeParse?
 
-Start with the learner's concrete question: **What is the difference between parse and safeParse**. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+Start with the learner's concrete question: **What is the difference between parse and safeParse**. Use the worked example to show what **What is the difference between parse and safeParse** changes before introducing a framework shortcut. For **What is the difference between parse and safeParse**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is the difference between parse and safeParse**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is the difference between parse and safeParse?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do schemas describe form data?
 
-To answer **How do schemas describe form data**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+To answer **How do schemas describe form data**, follow the operation in order rather than treating the result as framework magic. For **How do schemas describe form data**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do schemas describe form data**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do schemas describe form data?**, change one input or boundary in the worked example. Trace the result for **How do schemas describe form data?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What must happen after validation fails?
 
-Start with the learner's concrete question: **What must happen after validation fails**. The problem underneath this lesson is that form data and request bodies arrive as untrusted values, but application code needs a precise shape before it can act. A receiving desk checks a package's label, size, and contents before sending it into the warehouse. In this course's sequence, we will inspect raw input, define a schema, compare parse and safeparse, display field errors, and keep invalid data away from the mutation. The relevant boundary is untrusted input crossing into typed application logic.
+Start with the learner's concrete question: **What must happen after validation fails**. Use the worked example to show what **What must happen after validation fails** changes before introducing a framework shortcut. For **What must happen after validation fails**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What must happen after validation fails**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What must happen after validation fails?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

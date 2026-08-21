@@ -1,6 +1,6 @@
 # Day 076 solution guide: Authorization, roles, ownership, and multi-tenant data
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Authorization, roles, ownership, and multi-tenant data**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_076_authorization_roles_ownership_and_multi_tenant_data.md). It reviews the decisions for **Authorization, roles, ownership, and multi-tenant data**; it is not a copied answer key.
 
 ## Review checkpoints
 

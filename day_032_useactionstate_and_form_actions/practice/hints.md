@@ -1,6 +1,6 @@
 # Day 032 hints: useActionState and form actions
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **useActionState and form actions** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_032_useactionstate_and_form_actions.md). They are specific to **useActionState and form actions** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -1,6 +1,6 @@
 # Day 071 hints: Server Actions for validated mutations
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Server Actions for validated mutations** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_071_server_actions_for_validated_mutations.md). They are specific to **Server Actions for validated mutations** and should unblock the next thought without replacing it.
 
 ## Hints
 

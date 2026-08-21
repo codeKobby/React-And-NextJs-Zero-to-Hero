@@ -1,6 +1,6 @@
 # Day 004 hints: TypeScript foundations for UI code
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **TypeScript foundations for UI code** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_004_typescript_foundations_for_ui_code.md). They are specific to **TypeScript foundations for UI code** and should unblock the next thought without replacing it.
 
 ## Hints
 

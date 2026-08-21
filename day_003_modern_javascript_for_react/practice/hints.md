@@ -1,6 +1,6 @@
 # Day 003 hints: Modern JavaScript for React
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Modern JavaScript for React** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_003_modern_javascript_for_react.md). They are specific to **Modern JavaScript for React** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does performance mean?
 
-Start with the learner's concrete question: **What does performance mean**. The problem underneath this lesson is that learners need a concrete reason to study react performance and profiling before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What does performance mean**. Use the worked example to show what **What does performance mean** changes before introducing a framework shortcut. For **What does performance mean**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does performance mean**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does performance mean?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we measure before optimizing?
 
-To answer **How do we measure before optimizing**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study react performance and profiling before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we measure before optimizing**, follow the operation in order rather than treating the result as framework magic. For **How do we measure before optimizing**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we measure before optimizing**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we measure before optimizing?**, change one input or boundary in the worked example. Trace the result for **How do we measure before optimizing?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What creates unnecessary renders?
 
-Start with the learner's concrete question: **What creates unnecessary renders**. The problem underneath this lesson is that learners need a concrete reason to study react performance and profiling before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What creates unnecessary renders**. Use the worked example to show what **What creates unnecessary renders** changes before introducing a framework shortcut. For **What creates unnecessary renders**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What creates unnecessary renders**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What creates unnecessary renders?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When should code split?
 
-Treat **When should code split** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study react performance and profiling before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When should code split** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should code split**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should code split**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should code split?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ## Worked example
 

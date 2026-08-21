@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is the production build?
 
-Start with the learner's concrete question: **What is the production build**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What is the production build**. Use the worked example to show what **What is the production build** changes before introducing a framework shortcut. For **What is the production build**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is the production build**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is the production build?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Which variables are public?
 
-Study **Which variables are public** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Study **Which variables are public** by naming the concrete value, operation, visible result, and owner in the worked example. For **Which variables are public**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Which variables are public**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Which variables are public?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Where do secrets live?
 
-Study **Where do secrets live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Study **Where do secrets live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where do secrets live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where do secrets live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where do secrets live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What should CI prove before deployment?
 
-Start with the learner's concrete question: **What should CI prove before deployment**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What should CI prove before deployment**. Use the worked example to show what **What should CI prove before deployment** changes before introducing a framework shortcut. For **What should CI prove before deployment**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should CI prove before deployment**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should CI prove before deployment?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

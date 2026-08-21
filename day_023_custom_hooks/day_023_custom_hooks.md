@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a custom Hook?
 
-Start with the learner's concrete question: **What is a custom Hook**. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+Start with the learner's concrete question: **What is a custom Hook**. Use the worked example to show what **What is a custom Hook** changes before introducing a framework shortcut. For **What is a custom Hook**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a custom Hook**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a custom Hook?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Which logic belongs in a Hook?
 
-Study **Which logic belongs in a Hook** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+Study **Which logic belongs in a Hook** by naming the concrete value, operation, visible result, and owner in the worked example. For **Which logic belongs in a Hook**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Which logic belongs in a Hook**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Which logic belongs in a Hook?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why must Hook names begin with use?
 
-The answer to **Why must Hook names begin with use** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+The answer to **Why must Hook names begin with use** must be earned by comparing a working case with a deliberately limited or broken case. For **Why must Hook names begin with use**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why must Hook names begin with use**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local toggle, data viewer, or form behavior with a named Hook API.
+**Try it before moving on:** For **Why must Hook names begin with use?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local toggle, data viewer, or form behavior with a named Hook API.
 
 ### How do we design a small return API?
 
-To answer **How do we design a small return API**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that several components need the same stateful behavior, but copying the behavior creates inconsistent fixes and unclear apis. A reusable tool has a small handle and clear result; the person using it should not need to know its internal gears. In this course's sequence, we will identify repeated behavior, extract a custom hook, enforce the rules of hooks, and design a small return api. The relevant boundary is the Hook owns reusable behavior while the component owns its visible composition.
+To answer **How do we design a small return API**, follow the operation in order rather than treating the result as framework magic. For **How do we design a small return API**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we design a small return API**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we design a small return API?**, change one input or boundary in the worked example. Trace the result for **How do we design a small return API?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

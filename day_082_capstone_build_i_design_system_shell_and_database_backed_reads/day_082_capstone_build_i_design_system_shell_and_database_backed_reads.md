@@ -58,27 +58,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### How do we turn the plan into a vertical slice?
 
-To answer **How do we turn the plan into a vertical slice**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do we turn the plan into a vertical slice**, follow the operation in order rather than treating the result as framework magic. For **How do we turn the plan into a vertical slice**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we turn the plan into a vertical slice**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we turn the plan into a vertical slice?**, change one input or boundary in the worked example. Trace the result for **How do we turn the plan into a vertical slice?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### Which UI primitives should be shared?
 
-Study **Which UI primitives should be shared** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Study **Which UI primitives should be shared** by naming the concrete value, operation, visible result, and owner in the worked example. For **Which UI primitives should be shared**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Which UI primitives should be shared**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Which UI primitives should be shared?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do Server Components read data?
 
-To answer **How do Server Components read data**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do Server Components read data**, follow the operation in order rather than treating the result as framework magic. For **How do Server Components read data**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do Server Components read data**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do Server Components read data?**, change one input or boundary in the worked example. Trace the result for **How do Server Components read data?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do loading and error states complete the feature?
 
-To answer **How do loading and error states complete the feature**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do loading and error states complete the feature**, follow the operation in order rather than treating the result as framework magic. For **How do loading and error states complete the feature**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do loading and error states complete the feature**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do loading and error states complete the feature?**, change one input or boundary in the worked example. Trace the result for **How do loading and error states complete the feature?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

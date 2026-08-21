@@ -1,6 +1,6 @@
 # Day 028 solution guide: Class lifecycle to modern Hooks
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Class lifecycle to modern Hooks**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_028_class_lifecycle_to_modern_hooks.md). It reviews the decisions for **Class lifecycle to modern Hooks**; it is not a copied answer key.
 
 ## Review checkpoints
 

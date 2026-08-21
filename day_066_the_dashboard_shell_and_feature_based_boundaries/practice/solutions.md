@@ -1,6 +1,6 @@
 # Day 066 solution guide: The dashboard shell and feature-based boundaries
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **The dashboard shell and feature-based boundaries**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_066_the_dashboard_shell_and_feature_based_boundaries.md). It reviews the decisions for **The dashboard shell and feature-based boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

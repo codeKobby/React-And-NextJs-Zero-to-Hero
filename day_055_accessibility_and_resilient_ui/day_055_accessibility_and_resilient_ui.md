@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### How does a full-stack app remain accessible?
 
-To answer **How does a full-stack app remain accessible**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study accessibility and resilient ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How does a full-stack app remain accessible**, follow the operation in order rather than treating the result as framework magic. For **How does a full-stack app remain accessible**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does a full-stack app remain accessible**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does a full-stack app remain accessible?**, change one input or boundary in the worked example. Trace the result for **How does a full-stack app remain accessible?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### Where do focus and errors live?
 
-Study **Where do focus and errors live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study accessibility and resilient ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where do focus and errors live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where do focus and errors live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where do focus and errors live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where do focus and errors live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do loading states help?
 
-To answer **How do loading states help**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study accessibility and resilient ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do loading states help**, follow the operation in order rather than treating the result as framework magic. For **How do loading states help**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do loading states help**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do loading states help?**, change one input or boundary in the worked example. Trace the result for **How do loading states help?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do we test keyboard behavior?
 
-To answer **How do we test keyboard behavior**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study accessibility and resilient ui before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we test keyboard behavior**, follow the operation in order rather than treating the result as framework magic. For **How do we test keyboard behavior**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we test keyboard behavior**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we test keyboard behavior?**, change one input or boundary in the worked example. Trace the result for **How do we test keyboard behavior?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

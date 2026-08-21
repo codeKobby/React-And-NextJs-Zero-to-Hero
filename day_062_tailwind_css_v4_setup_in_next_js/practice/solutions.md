@@ -1,6 +1,6 @@
 # Day 062 solution guide: Tailwind CSS v4 setup in Next.js
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Tailwind CSS v4 setup in Next.js**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_062_tailwind_css_v4_setup_in_next_js.md). It reviews the decisions for **Tailwind CSS v4 setup in Next.js**; it is not a copied answer key.
 
 ## Review checkpoints
 

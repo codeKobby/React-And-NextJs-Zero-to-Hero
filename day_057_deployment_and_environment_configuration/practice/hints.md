@@ -1,6 +1,6 @@
 # Day 057 hints: Deployment and environment configuration
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Deployment and environment configuration** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_057_deployment_and_environment_configuration.md). They are specific to **Deployment and environment configuration** and should unblock the next thought without replacing it.
 
 ## Hints
 

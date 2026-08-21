@@ -1,6 +1,6 @@
 # Day 003 solution guide: Modern JavaScript for React
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Modern JavaScript for React**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_003_modern_javascript_for_react.md). It reviews the decisions for **Modern JavaScript for React**; it is not a copied answer key.
 
 ## Review checkpoints
 

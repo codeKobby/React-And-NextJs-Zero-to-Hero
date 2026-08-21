@@ -1,6 +1,6 @@
 # Day 078 hints: Error taxonomy, logging, and instrumentation
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Error taxonomy, logging, and instrumentation** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_078_error_taxonomy_logging_and_instrumentation.md). They are specific to **Error taxonomy, logging, and instrumentation** and should unblock the next thought without replacing it.
 
 ## Hints
 

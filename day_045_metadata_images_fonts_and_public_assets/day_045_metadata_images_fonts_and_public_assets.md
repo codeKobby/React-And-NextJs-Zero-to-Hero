@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### Where does page metadata live?
 
-Study **Where does page metadata live** by naming its input, operation, visible result, and owner. The problem underneath this lesson is that learners need a concrete reason to study metadata, images, fonts, and public assets before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Study **Where does page metadata live** by naming the concrete value, operation, visible result, and owner in the worked example. For **Where does page metadata live**, underline the line or file where this idea becomes observable and explain what would change it. Keep the conclusion limited to the local evidence for **Where does page metadata live**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **Where does page metadata live?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why use next/image?
 
-The answer to **Why use next/image** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that learners need a concrete reason to study metadata, images, fonts, and public assets before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+The answer to **Why use next/image** must be earned by comparing a working case with a deliberately limited or broken case. For **Why use next/image**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why use next/image**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates metadata, images, fonts, and public assets.
+**Try it before moving on:** For **Why use next/image?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a small local fixture that demonstrates metadata, images, fonts, and public assets.
 
 ### What belongs in public?
 
-Start with the learner's concrete question: **What belongs in public**. The problem underneath this lesson is that learners need a concrete reason to study metadata, images, fonts, and public assets before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What belongs in public**. Use the worked example to show what **What belongs in public** changes before introducing a framework shortcut. For **What belongs in public**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs in public**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs in public?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do alt text and font loading affect quality?
 
-To answer **How do alt text and font loading affect quality**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study metadata, images, fonts, and public assets before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do alt text and font loading affect quality**, follow the operation in order rather than treating the result as framework magic. For **How do alt text and font loading affect quality**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do alt text and font loading affect quality**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do alt text and font loading affect quality?**, change one input or boundary in the worked example. Trace the result for **How do alt text and font loading affect quality?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

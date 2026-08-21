@@ -1,6 +1,6 @@
 # Day 034 hints: Metadata, refs, and modern React DOM
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Metadata, refs, and modern React DOM** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_034_metadata_refs_and_modern_react_dom.md). They are specific to **Metadata, refs, and modern React DOM** and should unblock the next thought without replacing it.
 
 ## Hints
 

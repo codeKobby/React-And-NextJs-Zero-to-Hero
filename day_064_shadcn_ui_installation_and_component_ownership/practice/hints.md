@@ -1,6 +1,6 @@
 # Day 064 hints: shadcn/ui installation and component ownership
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **shadcn/ui installation and component ownership** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_064_shadcn_ui_installation_and_component_ownership.md). They are specific to **shadcn/ui installation and component ownership** and should unblock the next thought without replacing it.
 
 ## Hints
 

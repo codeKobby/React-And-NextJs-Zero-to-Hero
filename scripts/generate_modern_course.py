@@ -99,6 +99,7 @@ LESSONS.extend(EXTRA_LESSONS)
 AUTHORED_LESSONS = {
     2: ROOT / "authored_lessons/day_002_html_css_accessibility_and_the_dom.md",
     6: ROOT / "authored_lessons/day_006_what_is_a_component.md",
+    7: ROOT / "authored_lessons/day_007_jsx_and_the_rules_of_markup.md",
     8: ROOT / "authored_lessons/day_008_props_and_one_way_data_flow.md",
     9: ROOT / "authored_lessons/day_009_rendering_lists_and_choosing_keys.md",
     10: ROOT / "authored_lessons/day_010_conditional_rendering_and_empty_states.md",
@@ -108,6 +109,7 @@ AUTHORED_LESSONS = {
     16: ROOT / "authored_lessons/day_016_controlled_forms.md",
     21: ROOT / "authored_lessons/day_021_what_is_useeffect.md",
     27: ROOT / "authored_lessons/day_027_function_components_versus_class_components.md",
+    40: ROOT / "authored_lessons/day_040_root_app_versus_src_app.md",
     46: ROOT / "authored_lessons/day_054_server_and_client_components.md",
     51: ROOT / "authored_lessons/day_059_forms_and_server_actions.md",
     61: ROOT / "authored_lessons/day_061_getters_setters_and_state_boundaries.md",
@@ -544,30 +546,34 @@ def keywords_table(raw: str) -> str:
 def topic_explanation(topic: str, title: str) -> str:
     question = topic.rstrip("?")
     lower = question.lower()
-    profile = teaching_profile(title)
     if lower.startswith("what"):
-        opening = f"Start with the learner's concrete question: **{question}**."
+        opening = f"Start with the learner's concrete question: **{question}**. Use the worked example to show what **{question}** changes before introducing a framework shortcut."
+        practice = f"For **{question}**, point to the smallest value, element, function, route, or boundary that demonstrates the answer."
     elif lower.startswith("why"):
-        opening = f"The answer to **{question}** must be earned through a visible comparison, not memorized as a slogan."
+        opening = f"The answer to **{question}** must be earned by comparing a working case with a deliberately limited or broken case."
+        practice = f"For **{question}**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option."
     elif lower.startswith("how"):
-        opening = f"To answer **{question}**, follow the day's example one purposeful change at a time."
+        opening = f"To answer **{question}**, follow the operation in order rather than treating the result as framework magic."
+        practice = f"For **{question}**, write the input, the operation that changes it, the output, and the boundary that is responsible."
     elif lower.startswith("when"):
-        opening = f"Treat **{question}** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly."
+        opening = f"Treat **{question}** as a decision with a normal case, a boundary case, and a cost when chosen carelessly."
+        practice = f"For **{question}**, write one rule that accepts the normal case and one rule that handles the boundary safely."
     else:
-        opening = f"Study **{question}** by naming its input, operation, visible result, and owner."
-    return f"{opening} The problem underneath this lesson is that {profile['problem'].lower()} {profile['analogy']} In this course's sequence, {profile['sequence'].lower()} The relevant boundary is {profile['boundary']}."
+        opening = f"Study **{question}** by naming the concrete value, operation, visible result, and owner in the worked example."
+        practice = f"For **{question}**, underline the line or file where this idea becomes observable and explain what would change it."
+    return f"{opening} {practice} Keep the conclusion limited to the local evidence for **{question}**; a small fixture cannot prove production security, accessibility, performance, or correctness."
 
 
 def topic_practice_prompt(topic: str, title: str) -> str:
     lower = topic.lower()
     profile = teaching_profile(title)
     if "why" in lower:
-        return f"Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for {profile['application']}."
+        return f"For **{topic}**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for {profile['application']}."
     if "how" in lower:
-        return f"Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior."
+        return f"For **{topic}**, change one input or boundary in the worked example. Trace the result for **{topic}** and identify which owner is responsible for the new behavior; record the concrete value or file that changed."
     if "when" in lower:
-        return f"Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable."
-    return f"Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words."
+        return f"For **{topic}**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable."
+    return f"For **{topic}**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words."
 
 
 def topic_sections(raw: str, title: str) -> tuple[str, str]:

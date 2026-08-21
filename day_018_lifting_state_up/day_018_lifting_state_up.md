@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### When should state move to a parent?
 
-Treat **When should state move to a parent** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study lifting state up before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When should state move to a parent** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When should state move to a parent**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When should state move to a parent**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When should state move to a parent?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### How do siblings share state?
 
-To answer **How do siblings share state**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study lifting state up before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do siblings share state**, follow the operation in order rather than treating the result as framework magic. For **How do siblings share state**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do siblings share state**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do siblings share state?**, change one input or boundary in the worked example. Trace the result for **How do siblings share state?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What belongs in the parent?
 
-Start with the learner's concrete question: **What belongs in the parent**. The problem underneath this lesson is that learners need a concrete reason to study lifting state up before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What belongs in the parent**. Use the worked example to show what **What belongs in the parent** changes before introducing a framework shortcut. For **What belongs in the parent**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs in the parent**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs in the parent?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do callbacks move intent upward?
 
-To answer **How do callbacks move intent upward**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study lifting state up before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do callbacks move intent upward**, follow the operation in order rather than treating the result as framework magic. For **How do callbacks move intent upward**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do callbacks move intent upward**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do callbacks move intent upward?**, change one input or boundary in the worked example. Trace the result for **How do callbacks move intent upward?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

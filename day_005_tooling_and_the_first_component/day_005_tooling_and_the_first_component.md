@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What does a toolchain do?
 
-Start with the learner's concrete question: **What does a toolchain do**. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+Start with the learner's concrete question: **What does a toolchain do**. Use the worked example to show what **What does a toolchain do** changes before introducing a framework shortcut. For **What does a toolchain do**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does a toolchain do**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does a toolchain do?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What is a React component?
 
-Start with the learner's concrete question: **What is a React component**. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+Start with the learner's concrete question: **What is a React component**. Use the worked example to show what **What is a React component** changes before introducing a framework shortcut. For **What is a React component**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a React component**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a React component?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How does JSX become browser output?
 
-To answer **How does JSX become browser output**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+To answer **How does JSX become browser output**, follow the operation in order rather than treating the result as framework magic. For **How does JSX become browser output**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How does JSX become browser output**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How does JSX become browser output?**, change one input or boundary in the worked example. Trace the result for **How does JSX become browser output?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### How do we verify a first component?
 
-To answer **How do we verify a first component**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a page that starts as one function becomes hard to read, reuse, and change when several responsibilities accumulate. A complete page is like a room with labeled areas: the labels help people find and change one responsibility without opening the whole building. In this course's sequence, we will show one complete page, split it into header/main/footer, pass props to a reusable card, and compose a small dashboard. The relevant boundary is the parent-to-child data flow and the responsibility owned by each component.
+To answer **How do we verify a first component**, follow the operation in order rather than treating the result as framework magic. For **How do we verify a first component**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we verify a first component**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we verify a first component?**, change one input or boundary in the worked example. Trace the result for **How do we verify a first component?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

@@ -1,6 +1,6 @@
 # Day 080 solution guide: Production configuration, CI, and deployment evidence
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Production configuration, CI, and deployment evidence**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_080_production_configuration_ci_and_deployment_evidence.md). It reviews the decisions for **Production configuration, CI, and deployment evidence**; it is not a copied answer key.
 
 ## Review checkpoints
 

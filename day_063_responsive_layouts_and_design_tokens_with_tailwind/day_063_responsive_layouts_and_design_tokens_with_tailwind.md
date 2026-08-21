@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is responsive design?
 
-Start with the learner's concrete question: **What is responsive design**. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+Start with the learner's concrete question: **What is responsive design**. Use the worked example to show what **What is responsive design** changes before introducing a framework shortcut. For **What is responsive design**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is responsive design**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is responsive design?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do Tailwind breakpoints change a layout?
 
-To answer **How do Tailwind breakpoints change a layout**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+To answer **How do Tailwind breakpoints change a layout**, follow the operation in order rather than treating the result as framework magic. For **How do Tailwind breakpoints change a layout**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do Tailwind breakpoints change a layout**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do Tailwind breakpoints change a layout?**, change one input or boundary in the worked example. Trace the result for **How do Tailwind breakpoints change a layout?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What is a design token?
 
-Start with the learner's concrete question: **What is a design token**. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+Start with the learner's concrete question: **What is a design token**. Use the worked example to show what **What is a design token** changes before introducing a framework shortcut. For **What is a design token**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a design token**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a design token?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do dark mode and contrast affect accessibility?
 
-To answer **How do dark mode and contrast affect accessibility**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application needs consistent visual language and accessible controls without burying every decision in ad-hoc css or an opaque package. A design system is a box of labeled building pieces: the pieces are quick to use, but their source and rules must remain inspectable. In this course's sequence, we will style one visible element, introduce tokens and responsive states, then own and compose an accessible ui primitive. The relevant boundary is design-system primitives versus feature-specific data, authorization, and application behavior.
+To answer **How do dark mode and contrast affect accessibility**, follow the operation in order rather than treating the result as framework magic. For **How do dark mode and contrast affect accessibility**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do dark mode and contrast affect accessibility**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do dark mode and contrast affect accessibility?**, change one input or boundary in the worked example. Trace the result for **How do dark mode and contrast affect accessibility?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

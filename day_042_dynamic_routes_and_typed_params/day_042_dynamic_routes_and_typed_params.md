@@ -55,27 +55,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is a dynamic segment?
 
-Start with the learner's concrete question: **What is a dynamic segment**. The problem underneath this lesson is that learners need a concrete reason to study dynamic routes and typed params before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What is a dynamic segment**. Use the worked example to show what **What is a dynamic segment** changes before introducing a framework shortcut. For **What is a dynamic segment**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a dynamic segment**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a dynamic segment?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do params arrive?
 
-To answer **How do params arrive**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study dynamic routes and typed params before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do params arrive**, follow the operation in order rather than treating the result as framework magic. For **How do params arrive**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do params arrive**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do params arrive?**, change one input or boundary in the worked example. Trace the result for **How do params arrive?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### When do we use searchParams?
 
-Treat **When do we use searchParams** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study dynamic routes and typed params before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When do we use searchParams** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When do we use searchParams**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When do we use searchParams**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When do we use searchParams?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### What does catch-all mean?
 
-Start with the learner's concrete question: **What does catch-all mean**. The problem underneath this lesson is that learners need a concrete reason to study dynamic routes and typed params before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What does catch-all mean**. Use the worked example to show what **What does catch-all mean** changes before introducing a framework shortcut. For **What does catch-all mean**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does catch-all mean**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does catch-all mean?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 

@@ -58,27 +58,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What is session management?
 
-Start with the learner's concrete question: **What is session management**. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+Start with the learner's concrete question: **What is session management**. Use the worked example to show what **What is session management** changes before introducing a framework shortcut. For **What is session management**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is session management**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is session management?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### Why must session code be server-only?
 
-The answer to **Why must session code be server-only** must be earned through a visible comparison, not memorized as a slogan. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+The answer to **Why must session code be server-only** must be earned by comparing a working case with a deliberately limited or broken case. For **Why must session code be server-only**, name the trade-off, the owner of the decision, and the visible consequence of choosing the other option. Keep the conclusion limited to the local evidence for **Why must session code be server-only**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
+**Try it before moving on:** For **Why must session code be server-only?**, compare the smallest working case with the failure case. Record the trade-off and explain why the wrong choice would be costly for a local protected case route with synthetic sessions, permissions, and unauthorized fixtures.
 
 ### What cookie flags reduce risk?
 
-Start with the learner's concrete question: **What cookie flags reduce risk**. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+Start with the learner's concrete question: **What cookie flags reduce risk**. Use the worked example to show what **What cookie flags reduce risk** changes before introducing a framework shortcut. For **What cookie flags reduce risk**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What cookie flags reduce risk**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What cookie flags reduce risk?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do stateless sessions expire?
 
-To answer **How do stateless sessions expire**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a full application must identify a caller and decide what that caller may do; a redirect or hidden link alone is not protection. A building entrance may check for a badge, but each room still checks whether the visitor is allowed to open the cabinet inside. In this course's sequence, we will separate identity, session, proxy navigation, authoritative authorization, ownership, and tenant boundaries with synthetic actors. The relevant boundary is identity and navigation checks versus server-side data and mutation authority.
+To answer **How do stateless sessions expire**, follow the operation in order rather than treating the result as framework magic. For **How do stateless sessions expire**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do stateless sessions expire**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do stateless sessions expire?**, change one input or boundary in the worked example. Trace the result for **How do stateless sessions expire?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

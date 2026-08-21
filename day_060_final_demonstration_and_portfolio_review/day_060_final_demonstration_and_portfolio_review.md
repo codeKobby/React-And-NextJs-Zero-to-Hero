@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What makes a project demonstrable?
 
-Start with the learner's concrete question: **What makes a project demonstrable**. The problem underneath this lesson is that learners need a concrete reason to study final demonstration and portfolio review before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What makes a project demonstrable**. Use the worked example to show what **What makes a project demonstrable** changes before introducing a framework shortcut. For **What makes a project demonstrable**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What makes a project demonstrable**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What makes a project demonstrable?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we explain the architecture to another person?
 
-To answer **How do we explain the architecture to another person**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study final demonstration and portfolio review before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we explain the architecture to another person**, follow the operation in order rather than treating the result as framework magic. For **How do we explain the architecture to another person**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we explain the architecture to another person**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we explain the architecture to another person?**, change one input or boundary in the worked example. Trace the result for **How do we explain the architecture to another person?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What evidence belongs in a portfolio?
 
-Start with the learner's concrete question: **What evidence belongs in a portfolio**. The problem underneath this lesson is that learners need a concrete reason to study final demonstration and portfolio review before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What evidence belongs in a portfolio**. Use the worked example to show what **What evidence belongs in a portfolio** changes before introducing a framework shortcut. For **What evidence belongs in a portfolio**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What evidence belongs in a portfolio**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What evidence belongs in a portfolio?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do we state residual risk honestly?
 
-To answer **How do we state residual risk honestly**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study final demonstration and portfolio review before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we state residual risk honestly**, follow the operation in order rather than treating the result as framework magic. For **How do we state residual risk honestly**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we state residual risk honestly**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we state residual risk honestly?**, change one input or boundary in the worked example. Trace the result for **How do we state residual risk honestly?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

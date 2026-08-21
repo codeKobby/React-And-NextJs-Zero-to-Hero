@@ -1,6 +1,6 @@
 # Day 024 hints: Memoization and the React Compiler
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Memoization and the React Compiler** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_024_memoization_and_the_react_compiler.md). They are specific to **Memoization and the React Compiler** and should unblock the next thought without replacing it.
 
 ## Hints
 

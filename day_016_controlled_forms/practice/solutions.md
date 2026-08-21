@@ -1,6 +1,6 @@
 # Day 016 solution guide: Controlled forms
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Controlled forms**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_016_controlled_forms.md). It reviews the decisions for **Controlled forms**; it is not a copied answer key.
 
 ## Review checkpoints
 

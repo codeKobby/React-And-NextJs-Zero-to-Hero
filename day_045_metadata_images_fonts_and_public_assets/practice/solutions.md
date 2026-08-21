@@ -1,6 +1,6 @@
 # Day 045 solution guide: Metadata, images, fonts, and public assets
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Metadata, images, fonts, and public assets**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_045_metadata_images_fonts_and_public_assets.md). It reviews the decisions for **Metadata, images, fonts, and public assets**; it is not a copied answer key.
 
 ## Review checkpoints
 

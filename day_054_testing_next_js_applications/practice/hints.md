@@ -1,6 +1,6 @@
 # Day 054 hints: Testing Next.js applications
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Testing Next.js applications** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_054_testing_next_js_applications.md). They are specific to **Testing Next.js applications** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -1,6 +1,6 @@
 # Day 009 solution guide: Rendering lists and choosing keys
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Rendering lists and choosing keys**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_009_rendering_lists_and_choosing_keys.md). It reviews the decisions for **Rendering lists and choosing keys**; it is not a copied answer key.
 
 ## Review checkpoints
 

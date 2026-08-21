@@ -1,6 +1,6 @@
 # Day 044 solution guide: Loading, error, and not-found UI
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Loading, error, and not-found UI**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_044_loading_error_and_not_found_ui.md). It reviews the decisions for **Loading, error, and not-found UI**; it is not a copied answer key.
 
 ## Review checkpoints
 

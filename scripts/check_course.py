@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -67,6 +68,11 @@ def check() -> list[str]:
             errors.append(f"{lesson.relative_to(ROOT)} is too short for the lesson contract")
         if any(marker in text for marker in GENERIC_MARKERS):
             errors.append(f"{lesson.relative_to(ROOT)} contains rejected generic teaching prose")
+        prose = re.sub(r"```.*?```", "", text, flags=re.DOTALL)
+        sentences = [re.sub(r"\s+", " ", sentence).strip() for sentence in re.split(r"(?<=[.!?])\s+", prose)]
+        repeated = [sentence for sentence, count in Counter(sentences).items() if count >= 3 and len(sentence.split()) >= 8]
+        if repeated:
+            errors.append(f"{lesson.relative_to(ROOT)} repeats long teaching prose inside the lesson")
         if text.count("```") < 2 and "conceptual orientation" not in text.lower():
             errors.append(f"{lesson.relative_to(ROOT)} needs a runnable or deliberately explained worked example")
         observable_markers = ("Expected result", "Visible behavior", "Expected behavior", "visible result", "visible output", "prints", "The first render", "The browser")

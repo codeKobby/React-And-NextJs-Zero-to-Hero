@@ -1,6 +1,6 @@
 # Day 061 solution guide: Getters, setters, and state boundaries
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Getters, setters, and state boundaries**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_061_getters_setters_and_state_boundaries.md). It reviews the decisions for **Getters, setters, and state boundaries**; it is not a copied answer key.
 
 ## Review checkpoints
 

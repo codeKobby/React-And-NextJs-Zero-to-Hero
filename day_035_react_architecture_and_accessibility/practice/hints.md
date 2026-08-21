@@ -1,6 +1,6 @@
 # Day 035 hints: React architecture and accessibility
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **React architecture and accessibility** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_035_react_architecture_and_accessibility.md). They are specific to **React architecture and accessibility** and should unblock the next thought without replacing it.
 
 ## Hints
 

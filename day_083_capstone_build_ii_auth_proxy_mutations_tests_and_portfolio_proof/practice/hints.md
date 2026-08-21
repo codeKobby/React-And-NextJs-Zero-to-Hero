@@ -1,6 +1,6 @@
 # Day 083 hints: Capstone build II: auth, proxy, mutations, tests, and portfolio proof
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Capstone build II: auth, proxy, mutations, tests, and portfolio proof** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_083_capstone_build_ii_auth_proxy_mutations_tests_and_portfolio_proof.md). They are specific to **Capstone build II: auth, proxy, mutations, tests, and portfolio proof** and should unblock the next thought without replacing it.
 
 ## Hints
 

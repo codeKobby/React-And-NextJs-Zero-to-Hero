@@ -1,6 +1,6 @@
 # Day 060 hints: Final demonstration and portfolio review
 
-Use these after attempting the the numbered exercises in this lesson. They are specific to **Final demonstration and portfolio review** and should unblock the next thought without replacing it.
+Use these only after attempting the numbered exercises in [the lesson](../day_060_final_demonstration_and_portfolio_review.md). They are specific to **Final demonstration and portfolio review** and should unblock the next thought without replacing it.
 
 ## Hints
 

@@ -56,27 +56,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### How do we choose component boundaries?
 
-To answer **How do we choose component boundaries**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study react architecture and accessibility before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How do we choose component boundaries**, follow the operation in order rather than treating the result as framework magic. For **How do we choose component boundaries**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do we choose component boundaries**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do we choose component boundaries?**, change one input or boundary in the worked example. Trace the result for **How do we choose component boundaries?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What does semantic HTML provide?
 
-Start with the learner's concrete question: **What does semantic HTML provide**. The problem underneath this lesson is that learners need a concrete reason to study react architecture and accessibility before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Start with the learner's concrete question: **What does semantic HTML provide**. Use the worked example to show what **What does semantic HTML provide** changes before introducing a framework shortcut. For **What does semantic HTML provide**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What does semantic HTML provide**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What does semantic HTML provide?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### When is ARIA needed?
 
-Treat **When is ARIA needed** as a decision that has a normal case, a boundary case, and a cost when chosen carelessly. The problem underneath this lesson is that learners need a concrete reason to study react architecture and accessibility before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+Treat **When is ARIA needed** as a decision with a normal case, a boundary case, and a cost when chosen carelessly. For **When is ARIA needed**, write one rule that accepts the normal case and one rule that handles the boundary safely. Keep the conclusion limited to the local evidence for **When is ARIA needed**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
+**Try it before moving on:** For **When is ARIA needed?**, write a decision rule with one normal case and one boundary case. Include what would make the other option preferable.
 
 ### How should focus move after an action?
 
-To answer **How should focus move after an action**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that learners need a concrete reason to study react architecture and accessibility before the terminology becomes useful. A small workshop task gives the learner something visible to change before the tool's name matters. In this course's sequence, we will run a smallest example, change one input, inspect the result, reproduce a likely mistake, and apply the idea to a local fixture. The relevant boundary is the code or framework boundary that owns the decision in this lesson.
+To answer **How should focus move after an action**, follow the operation in order rather than treating the result as framework magic. For **How should focus move after an action**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How should focus move after an action**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How should focus move after an action?**, change one input or boundary in the worked example. Trace the result for **How should focus move after an action?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ## Worked example
 

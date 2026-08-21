@@ -1,6 +1,6 @@
 # Day 018 solution guide: Lifting state up
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Lifting state up**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_018_lifting_state_up.md). It reviews the decisions for **Lifting state up**; it is not a copied answer key.
 
 ## Review checkpoints
 

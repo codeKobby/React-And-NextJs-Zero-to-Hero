@@ -1,6 +1,6 @@
 # Day 048 solution guide: Fetching data in Server Components
 
-Use this guide after attempting the numbered exercises in this lesson. It reviews the decisions for **Fetching data in Server Components**; it is not a copied answer key.
+Use this guide only after attempting the numbered exercises in [the lesson](../day_048_fetching_data_in_server_components.md). It reviews the decisions for **Fetching data in Server Components**; it is not a copied answer key.
 
 ## Review checkpoints
 

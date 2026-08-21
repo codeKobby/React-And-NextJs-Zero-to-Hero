@@ -57,27 +57,27 @@ By the end, you should be able to explain the main idea in your own words, show 
 
 ### What belongs in an environment variable?
 
-Start with the learner's concrete question: **What belongs in an environment variable**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What belongs in an environment variable**. Use the worked example to show what **What belongs in an environment variable** changes before introducing a framework shortcut. For **What belongs in an environment variable**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What belongs in an environment variable**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What belongs in an environment variable?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### What should CI prove?
 
-Start with the learner's concrete question: **What should CI prove**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What should CI prove**. Use the worked example to show what **What should CI prove** changes before introducing a framework shortcut. For **What should CI prove**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What should CI prove**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What should CI prove?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ### How do migrations run safely?
 
-To answer **How do migrations run safely**, follow the day's example one purposeful change at a time. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+To answer **How do migrations run safely**, follow the operation in order rather than treating the result as framework magic. For **How do migrations run safely**, write the input, the operation that changes it, the output, and the boundary that is responsible. Keep the conclusion limited to the local evidence for **How do migrations run safely**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Change one input or boundary in the worked example. Trace the result and identify which owner is responsible for the new behavior.
+**Try it before moving on:** For **How do migrations run safely?**, change one input or boundary in the worked example. Trace the result for **How do migrations run safely?** and identify which owner is responsible for the new behavior; record the concrete value or file that changed.
 
 ### What is a rollback plan?
 
-Start with the learner's concrete question: **What is a rollback plan**. The problem underneath this lesson is that a project is not finished when the happy path works; other people need to understand its architecture, evidence, limitations, and recovery plan. A bridge is accepted with inspection records, load assumptions, emergency access, and maintenance plans, not only a photograph of one crossing. In this course's sequence, we will state the architecture, build a vertical slice, exercise failure and authorization paths, record checks, and demonstrate residual risk honestly. The relevant boundary is demo evidence versus production claims, operational ownership, and residual risk.
+Start with the learner's concrete question: **What is a rollback plan**. Use the worked example to show what **What is a rollback plan** changes before introducing a framework shortcut. For **What is a rollback plan**, point to the smallest value, element, function, route, or boundary that demonstrates the answer. Keep the conclusion limited to the local evidence for **What is a rollback plan**; a small fixture cannot prove production security, accessibility, performance, or correctness.
 
-**Try it before moving on:** Point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
+**Try it before moving on:** For **What is a rollback plan?**, point to the exact line or file where this idea appears, then explain its input, visible result, and owner in your own words.
 
 ## Worked example
 
