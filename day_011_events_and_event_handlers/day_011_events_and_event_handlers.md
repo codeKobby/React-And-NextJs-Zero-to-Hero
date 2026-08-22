@@ -196,25 +196,23 @@ Build a local **case search form**. It should read a synthetic query on submit, 
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Log a button click with a named handler.
-2. Predict and compare handler reference versus handler invocation.
-3. Pass one argument through a wrapper callback.
-4. Inspect `currentTarget` and a nested `target`.
+1. What is Events and event handlers? Answer in one sentence.
+2. Log a button click with a named handler.
+3. Predict and compare handler reference versus handler invocation.
+4. Pass one argument through a wrapper callback.
+5. Inspect `currentTarget` and a nested `target`.
 
 ### Level 2 — Application
-
-5. Build a labeled form with a submit handler.
-6. Observe the default submit behavior, then prevent it intentionally.
-7. Read a named field with `FormData`.
-8. Add an empty-input message without pretending the input is authorized.
+6. Build a labeled form with a submit handler.
+7. Observe the default submit behavior, then prevent it intentionally.
+8. Read a named field with `FormData`.
+9. Add an empty-input message without pretending the input is authorized.
 
 ### Level 3 — Synthesis
-
-9. Reproduce the immediate-invocation failure and repair it.
-10. Add a visible status and a keyboard path using Enter.
-11. Add a test or manual evidence note for submit behavior and empty input.
-12. Write a review note describing event ownership, untrusted input, evidence, and limitations.
+10. Reproduce the immediate-invocation failure and repair it.
+11. Add a visible status and a keyboard path using Enter.
+12. Run the form with a normal value and an empty value. Write down what appears.
+13. Write a review note describing event ownership, untrusted input, evidence, and limitations.
 
 ## Finish line
 

@@ -234,25 +234,23 @@ Build a local **case draft form** with title, owner, notes, reset, empty values,
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Control one input with `value` and `onChange`.
-2. Add a preview of the current value.
-3. Add a second field while preserving the first.
-4. Submit from both button click and Enter.
+1. What is Controlled forms? Answer in one sentence.
+2. Control one input with `value` and `onChange`.
+3. Add a preview of the current value.
+4. Add a second field while preserving the first.
+5. Submit from both button click and Enter.
 
 ### Level 2 — Application
-
-5. Add required-title validation.
-6. Add a reset button and initial state.
-7. Add an accessible error and status message.
-8. Reproduce and repair the locked-input and dropped-field failures.
+6. Add required-title validation.
+7. Add a reset button and initial state.
+8. Add an accessible error and status message.
+9. Reproduce and repair the locked-input and dropped-field failures.
 
 ### Level 3 — Synthesis
-
-9. Explain client validation versus server validation.
-10. Add a local normal, empty, and invalid fixture.
-11. Add a test or manual evidence note for submit and reset.
-12. Write a review note with state shape, event boundary, evidence, limitation, and next server-side boundary.
+10. Explain client validation versus server validation.
+11. Add a local normal, empty, and invalid fixture.
+12. Submit one normal value and click Reset. Write down what appears.
+13. Write a review note with state shape, event boundary, evidence, limitation, and next server-side boundary.
 
 ## Finish line
 

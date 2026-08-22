@@ -193,25 +193,23 @@ Build a local **case review timer** that shows a selected case title in the brow
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Synchronize `document.title` with a local value.
-2. Change the value and predict the title.
-3. Add a timer with cleanup.
-4. Trace setup and cleanup in writing.
+1. What is What is useEffect?? Answer in one sentence.
+2. Synchronize `document.title` with a local value.
+3. Change the value and predict the title.
+4. Add a timer with cleanup.
+5. Trace setup and cleanup in writing.
 
 ### Level 2 — Application
-
-5. Add a dependency and observe reruns.
-6. Remove an unnecessary derived-data Effect.
-7. Add a local empty or paused timer state.
-8. Use a functional updater inside delayed work.
+6. Add a dependency and observe reruns.
+7. Remove an unnecessary derived-data Effect.
+8. Add a local empty or paused timer state.
+9. Use a functional updater inside delayed work.
 
 ### Level 3 — Synthesis
-
-9. Reproduce a stale dependency and repair it.
-10. Reproduce a missing-cleanup risk and repair it.
-11. Add a test or manual evidence note for synchronization and unmount.
-12. Write a review note naming the external system, dependency, cleanup, evidence, and limitation.
+10. Reproduce a stale dependency and repair it.
+11. Reproduce a missing-cleanup risk and repair it.
+12. Run the example, then remove the component. Write down what runs before and after removal.
+13. Write a review note naming the external system, dependency, cleanup, evidence, and limitation.
 
 ## Finish line
 

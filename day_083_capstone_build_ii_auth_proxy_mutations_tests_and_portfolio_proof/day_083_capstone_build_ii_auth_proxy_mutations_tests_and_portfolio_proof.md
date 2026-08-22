@@ -192,25 +192,23 @@ Complete the **synthetic case-management capstone**. It should include the Tailw
 ## Independent exercises
 
 ### Level 1 — Completion evidence
-
-1. Write the actor, asset, route, and acceptance tables.
-2. Run the existing vertical slice unchanged.
-3. Record normal, empty, loading, and error behavior.
-4. Verify the design-system component is keyboard-usable and labeled.
+1. What is Capstone build II — auth, Proxy, mutations, tests, and portfolio proof? Answer in one sentence.
+2. Write the actor, asset, route, and acceptance tables.
+3. Run the existing vertical slice unchanged.
+4. Record normal, empty, loading, and error behavior.
+5. Verify the design-system component is keyboard-usable and labeled.
 
 ### Level 2 — Security and mutation
-
-5. Add validation before the repository call.
-6. Add session and permission checks before the mutation.
-7. Add a forbidden and ownership-mismatch fixture.
-8. Add a narrow Proxy and document why it is not authorization.
+6. Add validation before the repository call.
+7. Add session and permission checks before the mutation.
+8. Add a forbidden and ownership-mismatch fixture.
+9. Add a narrow Proxy and document why it is not authorization.
 
 ### Level 3 — Portfolio proof
-
-9. Add a browser test for the main journey.
-10. Add a contract test for invalid and forbidden mutation.
-11. Run typecheck, lint, tests, build, and migration or seed checks as applicable.
-12. Write the final README section with architecture, commands, evidence, limitations, residual risk, and next production controls.
+10. Add a browser test for the main journey.
+11. Add a contract test for invalid and forbidden mutation.
+12. Run typecheck, lint, tests, build, and migration or seed checks as applicable.
+13. Write four README headings: What it does, How to run it, What you tested, and What you did not test.
 
 ## Finish line
 

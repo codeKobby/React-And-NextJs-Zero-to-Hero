@@ -273,27 +273,25 @@ Build a small **case-desk summary** using only invented records. It must have a 
 ## Independent exercises
 
 ### Level 1 — understand the syntax
-
-1. Explain JSX in two sentences and distinguish it from an HTML string.
-2. Run Example 1 unchanged and record the visible result.
-3. Add a paragraph beneath the heading without creating a second returned root.
-4. Convert one `class` attribute in a small HTML example to the JSX equivalent.
-5. Put a variable, a property lookup, and a conditional expression inside JSX braces.
+1. What is JSX and the rules of markup? Answer in one sentence.
+2. Explain JSX in two sentences and distinguish it from an HTML string.
+3. Run Example 1 unchanged and record the visible result.
+4. Add a paragraph beneath the heading without creating a second returned root.
+5. Convert one `class` attribute in a small HTML example to the JSX equivalent.
+6. Put a variable, a property lookup, and a conditional expression inside JSX braces.
 
 ### Level 2 — apply the rules
-
-6. Rebuild Example 2 with a semantic `<header>`, `<main>`, and `<section>`.
-7. Add a `CaseCard` component with typed `title` and `status` props.
-8. Render three synthetic cases with `map` and stable invented IDs.
-9. Create an empty-state branch for an empty array and explain why it is user-visible behavior.
-10. Reproduce and repair the broken example’s three mistakes, recording each error or visible symptom.
+7. Rebuild Example 2 with a semantic `<header>`, `<main>`, and `<section>`.
+8. Add a `CaseCard` component with typed `title` and `status` props.
+9. Render three synthetic cases with `map` and stable invented IDs.
+10. Create an empty-state branch for an empty array and explain why it is user-visible behavior.
+11. Reproduce and repair the broken example’s three mistakes, recording each error or visible symptom.
 
 ### Level 3 — review and extend
-
-11. Add a `priority` field and render it without changing the parent/child ownership rule.
-12. Add a keyboard-accessible link to a local detail route and explain why a native link is preferable to a clickable `div`.
-13. Explain what TypeScript checks in `CaseCardProps` and what it cannot prove about JSON from a server.
-14. Write a review note naming the changed files, command, prediction, observed result, repair, accessibility decision, and remaining limitation.
+12. Add a `priority` field and render it without changing the parent/child ownership rule.
+13. Add a keyboard-accessible link to a local detail route and explain why a native link is preferable to a clickable `div`.
+14. Explain what TypeScript checks in `CaseCardProps` and what it cannot prove about JSON from a server.
+15. Write a review note naming the changed files, command, prediction, observed result, repair, accessibility decision, and remaining limitation.
 
 ## Finish line
 

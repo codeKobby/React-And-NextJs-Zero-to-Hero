@@ -253,25 +253,23 @@ Build a local **review queue** with a parent `Queue`, child `CaseCard`, a typed 
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Run the hard-coded card and identify what data is trapped inside the child.
-2. Move the title and status into the parent and pass them as props.
-3. Render two cards from the same component with different values.
-4. Draw an arrow showing the direction of each prop.
+1. What is Props and one-way data flow? Answer in one sentence.
+2. Run the hard-coded card and identify what data is trapped inside the child.
+3. Move the title and status into the parent and pass them as props.
+4. Render two cards from the same component with different values.
+5. Draw an arrow showing the direction of each prop.
 
 ### Level 2 — Application
-
-5. Add an `id` and `reviewed` field to a synthetic case.
-6. Add an `onReview` callback and log the ID without changing state.
-7. Connect the callback to a parent state update that creates a new array.
-8. Add a completed or empty state for the queue.
+6. Add an `id` and `reviewed` field to a synthetic case.
+7. Add an `onReview` callback and log the ID without changing state.
+8. Connect the callback to a parent state update that creates a new array.
+9. Add a completed or empty state for the queue.
 
 ### Level 3 — Synthesis
-
-9. Reproduce prop mutation and immediate callback invocation, then repair both.
-10. Add a test or written acceptance check proving the parent changes and the child remains reusable.
-11. Explain why a callback prop is intent rather than permission or server authorization.
-12. Write a review note with the owner, data direction, callback contract, visible evidence, and one limitation.
+10. Reproduce prop mutation and immediate callback invocation, then repair both.
+11. Add a test or written acceptance check proving the parent changes and the child remains reusable.
+12. Explain why a callback prop is intent rather than permission or server authorization.
+13. Write a review note with the owner, data direction, callback contract, visible evidence, and one limitation.
 
 ## Finish line
 

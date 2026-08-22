@@ -189,25 +189,23 @@ Build a local **profile editor** with a plain JavaScript model that trims a disp
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Write and read a getter.
-2. Assign through a setter and log the normalized value.
-3. Trace the order of getter and setter calls.
-4. Explain why `_name` is only a convention.
+1. What is Getters, setters, and state boundaries? Answer in one sentence.
+2. Write and read a getter.
+3. Assign through a setter and log the normalized value.
+4. Trace the order of getter and setter calls.
+5. Explain why `_name` is only a convention.
 
 ### Level 2 — Application
-
-5. Add a React state object.
-6. Update it with a functional state setter.
-7. Reproduce direct property mutation and compare visible behavior.
-8. Preserve an untouched field with object spread.
+6. Add a React state object.
+7. Update it with a functional state setter.
+8. Reproduce direct property mutation and compare visible behavior.
+9. Preserve an untouched field with object spread.
 
 ### Level 3 — Synthesis
-
-9. Compare property setter and React state setter in a table.
-10. Add a test or manual evidence note for normalization and rendering.
-11. Explain why neither accessor is a substitute for server authorization.
-12. Write a review note with ownership, evidence, limitation, and next trust boundary.
+10. Compare property setter and React state setter in a table.
+11. Give the getter a normal value and a value with spaces. Write down the value that appears.
+12. Explain why neither accessor is a substitute for server authorization.
+13. Write a review note with ownership, evidence, limitation, and next trust boundary.
 
 ## Finish line
 

@@ -185,25 +185,23 @@ Add a local **create-case Server Action** to the dashboard. It must validate tit
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Read a title from `FormData`.
-2. Reject missing and non-string values.
-3. Return a structured field error.
-4. Return success for a valid synthetic title.
+1. What is Forms and Server Actions? Answer in one sentence.
+2. Read a title from `FormData`.
+3. Reject missing and non-string values.
+4. Return a structured field error.
+5. Return success for a valid synthetic title.
 
 ### Level 2 — Application
-
-5. Add a synthetic actor and permission.
-6. Derive ownership from the actor, not a hidden field.
-7. Add a repository stub and mutation call.
-8. Revalidate only after success.
+6. Add a synthetic actor and permission.
+7. Derive ownership from the actor, not a hidden field.
+8. Add a repository stub and mutation call.
+9. Revalidate only after success.
 
 ### Level 3 — Synthesis
-
-9. Reproduce the client-provided-owner failure and repair it.
-10. Add normal, invalid, signed-out, and forbidden fixtures.
-11. Add a test or manual evidence note for the public Action result.
-12. Write a review note with validation order, authority boundary, revalidation point, evidence, and limitation.
+10. Reproduce the client-provided-owner failure and repair it.
+11. Add normal, invalid, signed-out, and forbidden fixtures.
+12. Submit the form once with a good value and once with a bad value. Write down both messages.
+13. Write a review note with validation order, authority boundary, revalidation point, evidence, and limitation.
 
 ## Finish line
 

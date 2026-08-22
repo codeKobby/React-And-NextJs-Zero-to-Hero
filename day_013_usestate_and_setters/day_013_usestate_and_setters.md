@@ -309,25 +309,23 @@ Build a local **case draft form** with `title`, `owner`, and `notes`. Use one st
 ## Independent exercises
 
 ### Level 1 — Mechanical confidence
-
-1. Run the one-update counter and record the first two visible results.
-2. Predict and run two direct updates in one handler.
-3. Replace the direct updates with functional updaters and explain the difference.
-4. Log the current snapshot immediately after a setter and explain what you observe.
+1. What is useState and setters? Answer in one sentence.
+2. Run the one-update counter and record the first two visible results.
+3. Predict and run two direct updates in one handler.
+4. Replace the direct updates with functional updaters and explain the difference.
+5. Log the current snapshot immediately after a setter and explain what you observe.
 
 ### Level 2 — Applied practice
-
-5. Create a `Profile` object with two fields and update only one using spread.
-6. Deliberately drop a field with a replacement object and repair it.
-7. Build two controlled inputs backed by one object state.
-8. Add reset behavior and a visible empty or initial-state summary.
+6. Create a `Profile` object with two fields and update only one using spread.
+7. Deliberately drop a field with a replacement object and repair it.
+8. Build two controlled inputs backed by one object state.
+9. Add reset behavior and a visible empty or initial-state summary.
 
 ### Level 3 — Synthesis
-
-9. Write a sequence of three updates and predict the result for direct and functional forms.
-10. Add a test or written acceptance check for preserving the untouched object field.
-11. Explain why a setter is not the same as a JavaScript property setter; connect this to Day 061 later in the course.
-12. Write a review note naming the snapshot, pending updates, state owner, evidence, limitation, and why a reducer is not yet necessary.
+10. Write a sequence of three updates and predict the result for direct and functional forms.
+11. Add a test or written acceptance check for preserving the untouched object field.
+12. Explain why a setter is not the same as a JavaScript property setter; connect this to Day 061 later in the course.
+13. Write a review note naming the snapshot, pending updates, state owner, evidence, limitation, and why a reducer is not yet necessary.
 
 ## Finish line
 

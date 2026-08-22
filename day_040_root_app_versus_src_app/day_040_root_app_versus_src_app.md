@@ -257,19 +257,19 @@ Copy Experiment 1 and run it unchanged. Move it to `src/app/` and prove the URL 
 Write a short **project structure decision record** for the course’s Next.js starter. Include a file tree, the chosen App Router location, root configuration files, one alias mapping, one route URL, and one reason the unused router location must not exist. Keep the project local and do not add a database or authentication provider for this lesson.
 
 ## Independent exercises
-
-1. Run the root-level `app/` experiment and record the URL and visible heading.
-2. Draw the equivalent `src/app/` file tree and identify which files stay at the root.
-3. Move the route to `src/app/` and prove the URL does not gain a `/src` segment.
-4. Add `src/app/about/page.tsx` and predict its URL before running it.
-5. Add `src/components/Notice.tsx` and import it through `@/components/Notice`.
-6. Explain why `public/` remains outside `src/` in this project layout.
-7. Rename `page.tsx` and record the resulting route failure.
-8. Create both `app/` and `src/app/` with different headings, then remove the ambiguity safely.
-9. Change the alias target and record which import error appears.
-10. Compare a route file, a component file, and `tsconfig.json` in a three-row ownership table.
-11. Add a nested route and one semantic status message without introducing client state.
-12. Write a project structure decision record with the file tree, commands, URLs, evidence, and one limitation.
+1. What is Root-level `app/` versus `src/app/`? Answer in one sentence.
+2. Run the root-level `app/` experiment and record the URL and visible heading.
+3. Draw the equivalent `src/app/` file tree and identify which files stay at the root.
+4. Move the route to `src/app/` and prove the URL does not gain a `/src` segment.
+5. Add `src/app/about/page.tsx` and predict its URL before running it.
+6. Add `src/components/Notice.tsx` and import it through `@/components/Notice`.
+7. Explain why `public/` remains outside `src/` in this project layout.
+8. Rename `page.tsx` and record the resulting route failure.
+9. Create both `app/` and `src/app/` with different headings, then remove the ambiguity safely.
+10. Change the alias target and record which import error appears.
+11. Compare a route file, a component file, and `tsconfig.json` in a three-row ownership table.
+12. Add a nested route and one semantic status message without introducing client state.
+13. Write a project structure decision record with the file tree, commands, URLs, evidence, and one limitation.
 
 ## Finish line
 

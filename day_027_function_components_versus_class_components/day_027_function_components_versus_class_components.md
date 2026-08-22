@@ -194,25 +194,23 @@ Migrate a small legacy counter or profile card in the local playground. Keep the
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Identify `this`, `state`, `setState`, props, and `render` in the class.
-2. Run the class example and record the visible result.
-3. Write the function state equivalent.
-4. Run the function example and compare output.
+1. What is Function components versus class components? Answer in one sentence.
+2. Identify `this`, `state`, `setState`, props, and `render` in the class.
+3. Run the class example and record the visible result.
+4. Write the function state equivalent.
+5. Run the function example and compare output.
 
 ### Level 2 — Application
-
-5. Migrate an object state field with explicit spread.
-6. Migrate a callback handler and preserve keyboard behavior.
-7. Add a prop and explain its owner in both versions.
-8. Compare the two traces.
+6. Migrate an object state field with explicit spread.
+7. Migrate a callback handler and preserve keyboard behavior.
+8. Add a prop and explain its owner in both versions.
+9. Compare the two traces.
 
 ### Level 3 — Synthesis
-
-9. Reproduce the missing-`this` or fake-`this` failure and repair it.
-10. Identify a lifecycle behavior that should not be translated mechanically.
-11. Add a test or manual evidence note for preserved behavior.
-12. Write a migration review with changed responsibilities, risks, and residual legacy work.
+10. Reproduce the missing-`this` or fake-`this` failure and repair it.
+11. Identify a lifecycle behavior that should not be translated mechanically.
+12. Run both versions with the same input. Write down whether the visible result is the same.
+13. Write a migration review with changed responsibilities, risks, and residual legacy work.
 
 ## Finish line
 

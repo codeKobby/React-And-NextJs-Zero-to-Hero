@@ -199,25 +199,23 @@ Add an interactive **case bookmark** button to the Next.js dashboard. Keep the c
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Identify which starter file is a Server Component by default.
-2. Add a static case summary.
-3. Create a Client Component button with local state.
-4. Pass a serializable number or string.
+1. What is Server and Client Components? Answer in one sentence.
+2. Identify which starter file is a Server Component by default.
+3. Add a static case summary.
+4. Create a Client Component button with local state.
+5. Pass a serializable number or string.
 
 ### Level 2 — Application
-
-5. Move only the interactive leaf across the boundary.
-6. Add an accessible button name and pending or disabled behavior if needed.
-7. Attempt a function prop and explain the limitation.
-8. Keep a synthetic server view model separate from the client state.
+6. Move only the interactive leaf across the boundary.
+7. Add an accessible button name and pending or disabled behavior if needed.
+8. Attempt a function prop and explain the limitation.
+9. Keep a synthetic server view model separate from the client state.
 
 ### Level 3 — Synthesis
-
-9. Reproduce the server/client import failure and repair it narrowly.
-10. Add a test or manual evidence note for initial server output and client interaction.
-11. Explain why a narrow client boundary helps bundle and authority reasoning.
-12. Write a review note with the module graph, serializable props, server-only data, visible evidence, and limitation.
+10. Reproduce the server/client import failure and repair it narrowly.
+11. Write down the first server result. Then click the client control and write down the new result.
+12. Explain why a narrow client boundary helps bundle and authority reasoning.
+13. Write a review note with the module graph, serializable props, server-only data, visible evidence, and limitation.
 
 ## Finish line
 

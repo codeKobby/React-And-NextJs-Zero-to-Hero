@@ -189,25 +189,23 @@ Build a local **queue status panel** with four fixtures: loading, one case, zero
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Switch a boolean status between open and closed.
-2. Render one list and then an empty list.
-3. Write a useful empty-state sentence.
-4. Explain the difference between a false branch and an empty-data branch.
+1. What is Conditional rendering and empty states? Answer in one sentence.
+2. Switch a boolean status between open and closed.
+3. Render one list and then an empty list.
+4. Write a useful empty-state sentence.
+5. Explain the difference between a false branch and an empty-data branch.
 
 ### Level 2 — Application
-
-5. Add loading and error states with a discriminated union.
-6. Add a retry or return-to-start action that is honest about what it does.
-7. Reproduce the stray-zero bug with `&&`.
-8. Repair it and add a test or manual check for zero records.
+6. Add loading and error states with a discriminated union.
+7. Add a retry or return-to-start action that is honest about what it does.
+8. Reproduce the stray-zero bug with `&&`.
+9. Repair it and add a test or manual check for zero records.
 
 ### Level 3 — Synthesis
-
-9. Explain when an `if`, ternary, or `&&` is clearest.
-10. Add an accessible error message and verify it is not shown for empty success.
-11. Add a route or component fixture with all four states.
-12. Write a review note with state meanings, branch ownership, observed output, and one limitation.
+10. Explain when an `if`, ternary, or `&&` is clearest.
+11. Add an accessible error message and verify it is not shown for empty success.
+12. Add a route or component fixture with all four states.
+13. Write a review note with state meanings, branch ownership, observed output, and one limitation.
 
 ## Finish line
 

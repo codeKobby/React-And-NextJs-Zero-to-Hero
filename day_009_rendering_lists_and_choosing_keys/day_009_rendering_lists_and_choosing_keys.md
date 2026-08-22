@@ -221,25 +221,23 @@ Build a local **case queue** with stable IDs, a title, status, and a note input.
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Render one `CaseRow` from one object.
-2. Map two records to two rows.
-3. Add a stable key and explain where React uses it.
-4. Render an empty-state message for an empty array.
+1. What is Rendering lists and choosing keys? Answer in one sentence.
+2. Render one `CaseRow` from one object.
+3. Map two records to two rows.
+4. Add a stable key and explain where React uses it.
+5. Render an empty-state message for an empty array.
 
 ### Level 2 — Application
-
-5. Add a note input to each row.
-6. Add a reorder button with a new array, not mutation.
-7. Compare stable IDs and array indexes after reordering.
-8. Add an accessible name tied to each record.
+6. Add a note input to each row.
+7. Add a reorder button with a new array, not mutation.
+8. Compare stable IDs and array indexes after reordering.
+9. Add an accessible name tied to each record.
 
 ### Level 3 — Synthesis
-
-9. Reproduce the duplicate-key and random-key mistakes and explain the evidence.
-10. Add an assertion for row identity after reordering.
-11. Explain why the key is not available as `props.key`.
-12. Write a review note with collection shape, identity rule, empty behavior, visible evidence, and one limitation.
+10. Reproduce the duplicate-key and random-key mistakes and explain the evidence.
+11. Add an assertion for row identity after reordering.
+12. Explain why the key is not available as `props.key`.
+13. Write a review note with collection shape, identity rule, empty behavior, visible evidence, and one limitation.
 
 ## Finish line
 

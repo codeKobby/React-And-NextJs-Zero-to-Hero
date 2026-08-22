@@ -139,19 +139,19 @@ Create a short **accessibility observation note** for the Next.js starter: ident
 ## Independent exercises
 
 This conceptual day intentionally has no coding worksheet. Complete the following observation tasks instead:
-
-1. Identify a heading and explain why its level matters.
-2. Identify a link and a button and state the different user intents.
-3. Find a form control and its label.
-4. Inspect one focus state with the keyboard.
-5. Turn off CSS and record what structure remains.
-6. Identify one contrast or reduced-motion concern.
-7. Find a repeated element and describe its DOM relationship.
-8. Observe a status or error message and explain how it could be announced.
-9. Replace one visual-only assumption with a semantic question.
-10. Write one repair using native HTML rather than a custom ARIA imitation.
-11. Apply the observation method to the local Next.js starter.
-12. Write a review note with evidence, one limitation, and one question to carry into Day 003.
+1. What is HTML, CSS, accessibility, and the DOM? Answer in one sentence.
+2. Identify a heading and explain why its level matters.
+3. Identify a link and a button and state the different user intents.
+4. Find a form control and its label.
+5. Inspect one focus state with the keyboard.
+6. Turn off CSS and record what structure remains.
+7. Identify one contrast or reduced-motion concern.
+8. Find a repeated element and describe its DOM relationship.
+9. Observe a status or error message and explain how it could be announced.
+10. Replace one visual-only assumption with a semantic question.
+11. Write one repair using native HTML rather than a custom ARIA imitation.
+12. Apply the observation method to the local Next.js starter.
+13. Write a review note with evidence, one limitation, and one question to carry into Day 003.
 
 ## Finish line
 

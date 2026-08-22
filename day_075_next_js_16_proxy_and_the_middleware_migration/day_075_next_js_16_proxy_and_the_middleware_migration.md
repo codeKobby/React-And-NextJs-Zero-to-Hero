@@ -186,25 +186,23 @@ Protect the local **dashboard route** with an optimistic redirect for a missing 
 ## Independent exercises
 
 ### Level 1 — Confidence
-
-1. Locate the root `proxy.ts` and explain its role.
-2. Add a narrow dashboard matcher.
-3. Redirect a request with no session hint.
-4. Let a request with a hint continue.
+1. What is Next.js 16 Proxy and the middleware migration? Answer in one sentence.
+2. Locate the root `proxy.ts` and explain its role.
+3. Add a narrow dashboard matcher.
+4. Redirect a request with no session hint.
+5. Let a request with a hint continue.
 
 ### Level 2 — Application
-
-5. Test nested dashboard paths.
-6. Verify public paths are not matched.
-7. Add a server-only authoritative record check.
-8. Document the difference between a cookie hint and verified session.
+6. Test nested dashboard paths.
+7. Verify public paths are not matched.
+8. Add a server-only authoritative record check.
+9. Document the difference between a cookie hint and verified session.
 
 ### Level 3 — Synthesis
-
-9. Reproduce the “Proxy is authorization” mistake and repair the architecture.
-10. Add signed-out, forged-cookie, forbidden, and owned-record fixtures.
-11. Add a route or repository contract test.
-12. Write a review note with matcher scope, redirect behavior, server authority, evidence, and residual risk.
+10. Reproduce the “Proxy is authorization” mistake and repair the architecture.
+11. Add signed-out, forged-cookie, forbidden, and owned-record fixtures.
+12. Add a route or repository contract test.
+13. Test one public path and one protected path. Write which path redirects and which path does not.
 
 ## Finish line
 
