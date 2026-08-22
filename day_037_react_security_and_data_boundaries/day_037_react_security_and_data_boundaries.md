@@ -90,7 +90,7 @@ Study **Where do secrets belong** by looking at the value, operation, and result
 
 ### How should user input be validated?
 
-To answer **How should user input be validated**, follow the operation in order rather than treating the result as framework magic. For **How should user input be validated**, write the starting value, the change you made, and the new result.
+To answer **How should user input be validated**, follow the operation in order and check the example. For **How should user input be validated**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How should user input be validated**, change one input in the example. Write the old result and the new result for **How should user input be validated**.
 

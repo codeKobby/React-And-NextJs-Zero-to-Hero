@@ -72,7 +72,7 @@ This local example does not prove that a real application is secure, accessible,
 
 ### How does React render metadata?
 
-To answer **How does React render metadata**, follow the operation in order rather than treating the result as framework magic. For **How does React render metadata**, write the starting value, the change you made, and the new result.
+To answer **How does React render metadata**, follow the operation in order and check the example. For **How does React render metadata**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does React render metadata**, change one input in the example. Write the old result and the new result for **How does React render metadata**.
 
@@ -90,7 +90,7 @@ Start with the learner's concrete question: **What is ref cleanup**. Look at **W
 
 ### How do DOM resources fit a component?
 
-To answer **How do DOM resources fit a component**, follow the operation in order rather than treating the result as framework magic. For **How do DOM resources fit a component**, write the starting value, the change you made, and the new result.
+To answer **How do DOM resources fit a component**, follow the operation in order and check the example. For **How do DOM resources fit a component**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do DOM resources fit a component**, change one input in the example. Write the old result and the new result for **How do DOM resources fit a component**.
 

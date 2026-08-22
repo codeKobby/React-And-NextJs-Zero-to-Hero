@@ -80,7 +80,7 @@ Treat **When should an app expose an HTTP endpoint** as a simple choice. Start w
 
 ### How do we shape a successful response?
 
-To answer **How do we shape a successful response**, follow the operation in order rather than treating the result as framework magic. For **How do we shape a successful response**, write the starting value, the change you made, and the new result.
+To answer **How do we shape a successful response**, follow the operation in order and check the example. For **How do we shape a successful response**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we shape a successful response**, change one input in the example. Write the old result and the new result for **How do we shape a successful response**.
 
@@ -92,7 +92,7 @@ Study **Which status represents invalid input** by looking at the value, operati
 
 ### How should clients handle typed errors?
 
-To answer **How should clients handle typed errors**, follow the operation in order rather than treating the result as framework magic. For **How should clients handle typed errors**, write the starting value, the change you made, and the new result.
+To answer **How should clients handle typed errors**, follow the operation in order and check the example. For **How should clients handle typed errors**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How should clients handle typed errors**, change one input in the example. Write the old result and the new result for **How should clients handle typed errors**.
 

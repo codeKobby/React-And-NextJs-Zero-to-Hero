@@ -78,7 +78,7 @@ Start with the learner's concrete question: **What problem does Tailwind CSS sol
 
 ### How does Tailwind CSS v4 enter a Next.js project?
 
-To answer **How does Tailwind CSS v4 enter a Next.js project**, follow the operation in order rather than treating the result as framework magic. For **How does Tailwind CSS v4 enter a Next.js project**, write the starting value, the change you made, and the new result.
+To answer **How does Tailwind CSS v4 enter a Next.js project**, follow the operation in order and check the example. For **How does Tailwind CSS v4 enter a Next.js project**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does Tailwind CSS v4 enter a Next.js project**, change one input in the example. Write the old result and the new result for **How does Tailwind CSS v4 enter a Next.js project**.
 
@@ -90,7 +90,7 @@ Start with the learner's concrete question: **What is a utility class**. Look at
 
 ### How do we verify a styled component?
 
-To answer **How do we verify a styled component**, follow the operation in order rather than treating the result as framework magic. For **How do we verify a styled component**, write the starting value, the change you made, and the new result.
+To answer **How do we verify a styled component**, follow the operation in order and check the example. For **How do we verify a styled component**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we verify a styled component**, change one input in the example. Write the old result and the new result for **How do we verify a styled component**.
 

@@ -91,7 +91,7 @@ Start with the learner's concrete question: **What belongs in CI**. Look at **Wh
 
 ### How do we review a change?
 
-To answer **How do we review a change**, follow the operation in order rather than treating the result as framework magic. For **How do we review a change**, write the starting value, the change you made, and the new result.
+To answer **How do we review a change**, follow the operation in order and check the example. For **How do we review a change**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we review a change**, change one input in the example. Write the old result and the new result for **How do we review a change**.
 

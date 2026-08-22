@@ -171,10 +171,10 @@ Keep secrets, databases, cookies, login checks, and permission checks on the ser
 2. Run the example unchanged. Write down what appears.
 3. Change one value. Predict the result, then run the code and compare.
 4. Change one input in the example for **Which variables are public?**. Write down the old and new result.
-5. Add one simple edge case for **Where do secrets live?**, such as an empty or invalid value.
+5. Use an empty list, empty string, or missing value that fits **Where do secrets live?**. Say what should happen.
 6. Make the mistake shown in the lesson: Commit a secret in a local env file and repair the ignore and rotation plan.
 7. Fix the mistake and run the normal example again.
-8. Add one clear heading, label, error message, or type check that fits this lesson.
+8. Show the main result in the format this lesson uses: text, number, UI, or error message.
 9. Write one check that fails when the important visible result disappears.
 10. Build the small example from this lesson in the starter.
 11. Answer: which file or function contains the important code? Give one simple reason.

@@ -90,7 +90,7 @@ Start with the learner's concrete question: **What belongs in public**. Look at 
 
 ### How do alt text and font loading affect quality?
 
-To answer **How do alt text and font loading affect quality**, follow the operation in order rather than treating the result as framework magic. For **How do alt text and font loading affect quality**, write the starting value, the change you made, and the new result.
+To answer **How do alt text and font loading affect quality**, follow the operation in order and check the example. For **How do alt text and font loading affect quality**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do alt text and font loading affect quality**, change one input in the example. Write the old result and the new result for **How do alt text and font loading affect quality**.
 

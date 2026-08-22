@@ -553,7 +553,7 @@ def topic_explanation(topic: str, title: str) -> str:
         opening = f"Answer **{question}** by comparing the working example with a broken or limited example."
         practice = f"For **{question}**, say what changed and which result is easier or safer to use."
     elif lower.startswith("how"):
-        opening = f"To answer **{question}**, follow the operation in order rather than treating the result as framework magic."
+        opening = f"To answer **{question}**, follow the operation in order and check the example."
         practice = f"For **{question}**, write the starting value, the change you made, and the new result."
     elif lower.startswith("when"):
         opening = f"Treat **{question}** as a simple choice. Start with a normal example and then try an empty or bad example."
@@ -766,10 +766,10 @@ def independent_exercises(title: str, raw_topics: str, repair: str) -> str:
             "Run the example unchanged. Write down what appears.",
             "Change one value. Predict the result, then run the code and compare.",
             f"Change one input in the example for **{second}**. Write down the old and new result.",
-            f"Add one simple edge case for **{third}**, such as an empty or invalid value.",
+            f"Use an empty list, empty string, or missing value that fits **{third}**. Say what should happen.",
             f"Make the mistake shown in the lesson: {repair}",
             "Fix the mistake and run the normal example again.",
-            "Add one clear heading, label, error message, or type check that fits this lesson.",
+            "Show the main result in the format this lesson uses: text, number, UI, or error message.",
             "Write one check that fails when the important visible result disappears.",
             "Build the small example from this lesson in the starter.",
             "Answer: which file or function contains the important code? Give one simple reason.",

@@ -91,7 +91,7 @@ Answer **Why is a hidden button not authorization** by comparing the working exa
 
 ### How do roles limit data?
 
-To answer **How do roles limit data**, follow the operation in order rather than treating the result as framework magic. For **How do roles limit data**, write the starting value, the change you made, and the new result.
+To answer **How do roles limit data**, follow the operation in order and check the example. For **How do roles limit data**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do roles limit data**, change one input in the example. Write the old result and the new result for **How do roles limit data**.
 

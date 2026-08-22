@@ -78,19 +78,19 @@ Start with the learner's concrete question: **What is legacy**. Look at **What i
 
 ### How do Pages Router data functions map to App Router?
 
-To answer **How do Pages Router data functions map to App Router**, follow the operation in order rather than treating the result as framework magic. For **How do Pages Router data functions map to App Router**, write the starting value, the change you made, and the new result.
+To answer **How do Pages Router data functions map to App Router**, follow the operation in order and check the example. For **How do Pages Router data functions map to App Router**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do Pages Router data functions map to App Router**, change one input in the example. Write the old result and the new result for **How do Pages Router data functions map to App Router**.
 
 ### How do class lifecycles map to Hooks?
 
-To answer **How do class lifecycles map to Hooks**, follow the operation in order rather than treating the result as framework magic. For **How do class lifecycles map to Hooks**, write the starting value, the change you made, and the new result.
+To answer **How do class lifecycles map to Hooks**, follow the operation in order and check the example. For **How do class lifecycles map to Hooks**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do class lifecycles map to Hooks**, change one input in the example. Write the old result and the new result for **How do class lifecycles map to Hooks**.
 
 ### How do we migrate incrementally?
 
-To answer **How do we migrate incrementally**, follow the operation in order rather than treating the result as framework magic. For **How do we migrate incrementally**, write the starting value, the change you made, and the new result.
+To answer **How do we migrate incrementally**, follow the operation in order and check the example. For **How do we migrate incrementally**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we migrate incrementally**, change one input in the example. Write the old result and the new result for **How do we migrate incrementally**.
 

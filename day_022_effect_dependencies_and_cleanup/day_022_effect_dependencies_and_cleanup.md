@@ -83,13 +83,13 @@ Answer **Why must dependencies be complete** by comparing the working example wi
 
 ### How do we clean up a subscription?
 
-To answer **How do we clean up a subscription**, follow the operation in order rather than treating the result as framework magic. For **How do we clean up a subscription**, write the starting value, the change you made, and the new result.
+To answer **How do we clean up a subscription**, follow the operation in order and check the example. For **How do we clean up a subscription**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we clean up a subscription**, change one input in the example. Write the old result and the new result for **How do we clean up a subscription**.
 
 ### How do we abort a request?
 
-To answer **How do we abort a request**, follow the operation in order rather than treating the result as framework magic. For **How do we abort a request**, write the starting value, the change you made, and the new result.
+To answer **How do we abort a request**, follow the operation in order and check the example. For **How do we abort a request**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we abort a request**, change one input in the example. Write the old result and the new result for **How do we abort a request**.
 

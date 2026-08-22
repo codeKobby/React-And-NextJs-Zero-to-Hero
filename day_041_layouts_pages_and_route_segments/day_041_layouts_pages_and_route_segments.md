@@ -84,13 +84,13 @@ Start with the learner's concrete question: **What does a layout preserve**. Loo
 
 ### How do folders map to URLs?
 
-To answer **How do folders map to URLs**, follow the operation in order rather than treating the result as framework magic. For **How do folders map to URLs**, write the starting value, the change you made, and the new result.
+To answer **How do folders map to URLs**, follow the operation in order and check the example. For **How do folders map to URLs**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do folders map to URLs**, change one input in the example. Write the old result and the new result for **How do folders map to URLs**.
 
 ### How does Link navigate?
 
-To answer **How does Link navigate**, follow the operation in order rather than treating the result as framework magic. For **How does Link navigate**, write the starting value, the change you made, and the new result.
+To answer **How does Link navigate**, follow the operation in order and check the example. For **How does Link navigate**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does Link navigate**, change one input in the example. Write the old result and the new result for **How does Link navigate**.
 

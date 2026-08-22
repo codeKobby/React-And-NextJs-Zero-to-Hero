@@ -77,7 +77,7 @@ Start with the learner's concrete question: **What does useActionState return**.
 
 ### How does a form action receive FormData?
 
-To answer **How does a form action receive FormData**, follow the operation in order rather than treating the result as framework magic. For **How does a form action receive FormData**, write the starting value, the change you made, and the new result.
+To answer **How does a form action receive FormData**, follow the operation in order and check the example. For **How does a form action receive FormData**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does a form action receive FormData**, change one input in the example. Write the old result and the new result for **How does a form action receive FormData**.
 
@@ -89,7 +89,7 @@ Study **Where should validation happen** by looking at the value, operation, and
 
 ### How do we show field errors?
 
-To answer **How do we show field errors**, follow the operation in order rather than treating the result as framework magic. For **How do we show field errors**, write the starting value, the change you made, and the new result.
+To answer **How do we show field errors**, follow the operation in order and check the example. For **How do we show field errors**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we show field errors**, change one input in the example. Write the old result and the new result for **How do we show field errors**.
 

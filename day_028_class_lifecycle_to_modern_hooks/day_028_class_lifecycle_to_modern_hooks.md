@@ -77,7 +77,7 @@ Start with the learner's concrete question: **What did lifecycle methods do**. L
 
 ### How does one Effect model synchronization?
 
-To answer **How does one Effect model synchronization**, follow the operation in order rather than treating the result as framework magic. For **How does one Effect model synchronization**, write the starting value, the change you made, and the new result.
+To answer **How does one Effect model synchronization**, follow the operation in order and check the example. For **How does one Effect model synchronization**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does one Effect model synchronization**, change one input in the example. Write the old result and the new result for **How does one Effect model synchronization**.
 

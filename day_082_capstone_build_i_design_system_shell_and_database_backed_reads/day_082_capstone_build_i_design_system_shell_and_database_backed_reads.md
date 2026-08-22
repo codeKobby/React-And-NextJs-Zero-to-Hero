@@ -74,7 +74,7 @@ This local example does not prove that a real application is secure, accessible,
 
 ### How do we turn the plan into a vertical slice?
 
-To answer **How do we turn the plan into a vertical slice**, follow the operation in order rather than treating the result as framework magic. For **How do we turn the plan into a vertical slice**, write the starting value, the change you made, and the new result.
+To answer **How do we turn the plan into a vertical slice**, follow the operation in order and check the example. For **How do we turn the plan into a vertical slice**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we turn the plan into a vertical slice**, change one input in the example. Write the old result and the new result for **How do we turn the plan into a vertical slice**.
 
@@ -86,13 +86,13 @@ Study **Which UI primitives should be shared** by looking at the value, operatio
 
 ### How do Server Components read data?
 
-To answer **How do Server Components read data**, follow the operation in order rather than treating the result as framework magic. For **How do Server Components read data**, write the starting value, the change you made, and the new result.
+To answer **How do Server Components read data**, follow the operation in order and check the example. For **How do Server Components read data**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do Server Components read data**, change one input in the example. Write the old result and the new result for **How do Server Components read data**.
 
 ### How do loading and error states complete the feature?
 
-To answer **How do loading and error states complete the feature**, follow the operation in order rather than treating the result as framework magic. For **How do loading and error states complete the feature**, write the starting value, the change you made, and the new result.
+To answer **How do loading and error states complete the feature**, follow the operation in order and check the example. For **How do loading and error states complete the feature**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do loading and error states complete the feature**, change one input in the example. Write the old result and the new result for **How do loading and error states complete the feature**.
 

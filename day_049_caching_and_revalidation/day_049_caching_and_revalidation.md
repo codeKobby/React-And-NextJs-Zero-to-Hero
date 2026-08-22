@@ -91,7 +91,7 @@ Treat **When should data be revalidated** as a simple choice. Start with a norma
 
 ### How do tags and paths invalidate data?
 
-To answer **How do tags and paths invalidate data**, follow the operation in order rather than treating the result as framework magic. For **How do tags and paths invalidate data**, write the starting value, the change you made, and the new result.
+To answer **How do tags and paths invalidate data**, follow the operation in order and check the example. For **How do tags and paths invalidate data**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do tags and paths invalidate data**, change one input in the example. Write the old result and the new result for **How do tags and paths invalidate data**.
 
@@ -168,10 +168,10 @@ Keep secrets, databases, cookies, login checks, and permission checks on the ser
 2. Run the example unchanged. Write down what appears.
 3. Change one value. Predict the result, then run the code and compare.
 4. Change one input in the example for **What should be cached?**. Write down the old and new result.
-5. Add one simple edge case for **When should data be revalidated?**, such as an empty or invalid value.
+5. Use an empty list, empty string, or missing value that fits **When should data be revalidated?**. Say what should happen.
 6. Make the mistake shown in the lesson: Cache user-specific data globally and repair the scope and authorization policy.
 7. Fix the mistake and run the normal example again.
-8. Add one clear heading, label, error message, or type check that fits this lesson.
+8. Show the main result in the format this lesson uses: text, number, UI, or error message.
 9. Write one check that fails when the important visible result disappears.
 10. Build the small example from this lesson in the starter.
 11. Answer: which file or function contains the important code? Give one simple reason.

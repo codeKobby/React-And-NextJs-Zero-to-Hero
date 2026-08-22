@@ -72,7 +72,7 @@ This local example does not prove that a real application is secure, accessible,
 
 ### How does a full-stack app remain accessible?
 
-To answer **How does a full-stack app remain accessible**, follow the operation in order rather than treating the result as framework magic. For **How does a full-stack app remain accessible**, write the starting value, the change you made, and the new result.
+To answer **How does a full-stack app remain accessible**, follow the operation in order and check the example. For **How does a full-stack app remain accessible**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does a full-stack app remain accessible**, change one input in the example. Write the old result and the new result for **How does a full-stack app remain accessible**.
 
@@ -84,13 +84,13 @@ Study **Where do focus and errors live** by looking at the value, operation, and
 
 ### How do loading states help?
 
-To answer **How do loading states help**, follow the operation in order rather than treating the result as framework magic. For **How do loading states help**, write the starting value, the change you made, and the new result.
+To answer **How do loading states help**, follow the operation in order and check the example. For **How do loading states help**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do loading states help**, change one input in the example. Write the old result and the new result for **How do loading states help**.
 
 ### How do we test keyboard behavior?
 
-To answer **How do we test keyboard behavior**, follow the operation in order rather than treating the result as framework magic. For **How do we test keyboard behavior**, write the starting value, the change you made, and the new result.
+To answer **How do we test keyboard behavior**, follow the operation in order and check the example. For **How do we test keyboard behavior**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we test keyboard behavior**, change one input in the example. Write the old result and the new result for **How do we test keyboard behavior**.
 
@@ -169,10 +169,10 @@ Keep secrets, databases, cookies, login checks, and permission checks on the ser
 2. Run the example unchanged. Write down what appears.
 3. Change one value. Predict the result, then run the code and compare.
 4. Change one input in the example for **Where do focus and errors live?**. Write down the old and new result.
-5. Add one simple edge case for **How do loading states help?**, such as an empty or invalid value.
+5. Use an empty list, empty string, or missing value that fits **How do loading states help?**. Say what should happen.
 6. Make the mistake shown in the lesson: Use placeholder text as the only label and repair the form semantics.
 7. Fix the mistake and run the normal example again.
-8. Add one clear heading, label, error message, or type check that fits this lesson.
+8. Show the main result in the format this lesson uses: text, number, UI, or error message.
 9. Write one check that fails when the important visible result disappears.
 10. Build the small example from this lesson in the starter.
 11. Answer: which file or function contains the important code? Give one simple reason.

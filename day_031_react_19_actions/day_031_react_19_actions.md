@@ -84,7 +84,7 @@ Answer **Why do mutations need pending and error state** by comparing the workin
 
 ### How do Actions compose with transitions?
 
-To answer **How do Actions compose with transitions**, follow the operation in order rather than treating the result as framework magic. For **How do Actions compose with transitions**, write the starting value, the change you made, and the new result.
+To answer **How do Actions compose with transitions**, follow the operation in order and check the example. For **How do Actions compose with transitions**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do Actions compose with transitions**, change one input in the example. Write the old result and the new result for **How do Actions compose with transitions**.
 
@@ -171,10 +171,10 @@ Keep secrets, databases, cookies, login checks, and permission checks on the ser
 2. Run the example unchanged. Write down what appears.
 3. Change one value. Predict the result, then run the code and compare.
 4. Change one input in the example for **Why do mutations need pending and error state?**. Write down the old and new result.
-5. Add one simple edge case for **How do Actions compose with transitions?**, such as an empty or invalid value.
+5. Use an empty list, empty string, or missing value that fits **How do Actions compose with transitions?**. Say what should happen.
 6. Make the mistake shown in the lesson: Ignore a rejected promise and repair the error path.
 7. Fix the mistake and run the normal example again.
-8. Add one clear heading, label, error message, or type check that fits this lesson.
+8. Show the main result in the format this lesson uses: text, number, UI, or error message.
 9. Write one check that fails when the important visible result disappears.
 10. Build the small example from this lesson in the starter.
 11. Answer: which file or function contains the important code? Give one simple reason.

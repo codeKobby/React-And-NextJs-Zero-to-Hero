@@ -78,7 +78,7 @@ Start with the learner's concrete question: **What is responsive design**. Look 
 
 ### How do Tailwind breakpoints change a layout?
 
-To answer **How do Tailwind breakpoints change a layout**, follow the operation in order rather than treating the result as framework magic. For **How do Tailwind breakpoints change a layout**, write the starting value, the change you made, and the new result.
+To answer **How do Tailwind breakpoints change a layout**, follow the operation in order and check the example. For **How do Tailwind breakpoints change a layout**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do Tailwind breakpoints change a layout**, change one input in the example. Write the old result and the new result for **How do Tailwind breakpoints change a layout**.
 
@@ -90,7 +90,7 @@ Start with the learner's concrete question: **What is a design token**. Look at 
 
 ### How do dark mode and contrast affect accessibility?
 
-To answer **How do dark mode and contrast affect accessibility**, follow the operation in order rather than treating the result as framework magic. For **How do dark mode and contrast affect accessibility**, write the starting value, the change you made, and the new result.
+To answer **How do dark mode and contrast affect accessibility**, follow the operation in order and check the example. For **How do dark mode and contrast affect accessibility**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do dark mode and contrast affect accessibility**, change one input in the example. Write the old result and the new result for **How do dark mode and contrast affect accessibility**.
 

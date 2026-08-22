@@ -84,13 +84,13 @@ Start with the learner's concrete question: **What is a React component**. Look 
 
 ### How does JSX become browser output?
 
-To answer **How does JSX become browser output**, follow the operation in order rather than treating the result as framework magic. For **How does JSX become browser output**, write the starting value, the change you made, and the new result.
+To answer **How does JSX become browser output**, follow the operation in order and check the example. For **How does JSX become browser output**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does JSX become browser output**, change one input in the example. Write the old result and the new result for **How does JSX become browser output**.
 
 ### How do we verify a first component?
 
-To answer **How do we verify a first component**, follow the operation in order rather than treating the result as framework magic. For **How do we verify a first component**, write the starting value, the change you made, and the new result.
+To answer **How do we verify a first component**, follow the operation in order and check the example. For **How do we verify a first component**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we verify a first component**, change one input in the example. Write the old result and the new result for **How do we verify a first component**.
 

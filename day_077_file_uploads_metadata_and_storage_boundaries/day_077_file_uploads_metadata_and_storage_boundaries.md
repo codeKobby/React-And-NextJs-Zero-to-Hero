@@ -91,7 +91,7 @@ Study **Where should file bytes live** by looking at the value, operation, and r
 
 ### How should downloads be authorized?
 
-To answer **How should downloads be authorized**, follow the operation in order rather than treating the result as framework magic. For **How should downloads be authorized**, write the starting value, the change you made, and the new result.
+To answer **How should downloads be authorized**, follow the operation in order and check the example. For **How should downloads be authorized**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How should downloads be authorized**, change one input in the example. Write the old result and the new result for **How should downloads be authorized**.
 

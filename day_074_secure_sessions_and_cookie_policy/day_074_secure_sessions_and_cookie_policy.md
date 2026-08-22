@@ -92,7 +92,7 @@ Start with the learner's concrete question: **What cookie flags reduce risk**. L
 
 ### How do stateless sessions expire?
 
-To answer **How do stateless sessions expire**, follow the operation in order rather than treating the result as framework magic. For **How do stateless sessions expire**, write the starting value, the change you made, and the new result.
+To answer **How do stateless sessions expire**, follow the operation in order and check the example. For **How do stateless sessions expire**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do stateless sessions expire**, change one input in the example. Write the old result and the new result for **How do stateless sessions expire**.
 

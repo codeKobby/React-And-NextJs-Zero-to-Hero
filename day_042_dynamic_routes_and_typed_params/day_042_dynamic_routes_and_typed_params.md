@@ -77,7 +77,7 @@ Start with the learner's concrete question: **What is a dynamic segment**. Look 
 
 ### How do params arrive?
 
-To answer **How do params arrive**, follow the operation in order rather than treating the result as framework magic. For **How do params arrive**, write the starting value, the change you made, and the new result.
+To answer **How do params arrive**, follow the operation in order and check the example. For **How do params arrive**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do params arrive**, change one input in the example. Write the old result and the new result for **How do params arrive**.
 

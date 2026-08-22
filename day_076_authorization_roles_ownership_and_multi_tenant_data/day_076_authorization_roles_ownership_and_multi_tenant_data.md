@@ -78,7 +78,7 @@ Start with the learner's concrete question: **What is authorization**. Look at *
 
 ### How do roles differ from permissions?
 
-To answer **How do roles differ from permissions**, follow the operation in order rather than treating the result as framework magic. For **How do roles differ from permissions**, write the starting value, the change you made, and the new result.
+To answer **How do roles differ from permissions**, follow the operation in order and check the example. For **How do roles differ from permissions**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do roles differ from permissions**, change one input in the example. Write the old result and the new result for **How do roles differ from permissions**.
 

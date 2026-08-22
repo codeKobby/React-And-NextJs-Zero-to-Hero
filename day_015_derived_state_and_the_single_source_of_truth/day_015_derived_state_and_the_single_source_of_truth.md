@@ -89,7 +89,7 @@ Start with the learner's concrete question: **What is one source of truth**. Loo
 
 ### How do selectors simplify state?
 
-To answer **How do selectors simplify state**, follow the operation in order rather than treating the result as framework magic. For **How do selectors simplify state**, write the starting value, the change you made, and the new result.
+To answer **How do selectors simplify state**, follow the operation in order and check the example. For **How do selectors simplify state**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do selectors simplify state**, change one input in the example. Write the old result and the new result for **How do selectors simplify state**.
 

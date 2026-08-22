@@ -80,13 +80,13 @@ Answer **Why compose primitives instead of copying a screenshot** by comparing t
 
 ### How does a Dialog manage focus?
 
-To answer **How does a Dialog manage focus**, follow the operation in order rather than treating the result as framework magic. For **How does a Dialog manage focus**, write the starting value, the change you made, and the new result.
+To answer **How does a Dialog manage focus**, follow the operation in order and check the example. For **How does a Dialog manage focus**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does a Dialog manage focus**, change one input in the example. Write the old result and the new result for **How does a Dialog manage focus**.
 
 ### How do labels and errors support forms?
 
-To answer **How do labels and errors support forms**, follow the operation in order rather than treating the result as framework magic. For **How do labels and errors support forms**, write the starting value, the change you made, and the new result.
+To answer **How do labels and errors support forms**, follow the operation in order and check the example. For **How do labels and errors support forms**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do labels and errors support forms**, change one input in the example. Write the old result and the new result for **How do labels and errors support forms**.
 

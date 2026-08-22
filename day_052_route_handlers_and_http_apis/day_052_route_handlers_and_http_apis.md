@@ -85,13 +85,13 @@ Treat **When do we need an HTTP endpoint** as a simple choice. Start with a norm
 
 ### How do we validate a request?
 
-To answer **How do we validate a request**, follow the operation in order rather than treating the result as framework magic. For **How do we validate a request**, write the starting value, the change you made, and the new result.
+To answer **How do we validate a request**, follow the operation in order and check the example. For **How do we validate a request**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How do we validate a request**, change one input in the example. Write the old result and the new result for **How do we validate a request**.
 
 ### How should status and errors be shaped?
 
-To answer **How should status and errors be shaped**, follow the operation in order rather than treating the result as framework magic. For **How should status and errors be shaped**, write the starting value, the change you made, and the new result.
+To answer **How should status and errors be shaped**, follow the operation in order and check the example. For **How should status and errors be shaped**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How should status and errors be shaped**, change one input in the example. Write the old result and the new result for **How should status and errors be shaped**.
 

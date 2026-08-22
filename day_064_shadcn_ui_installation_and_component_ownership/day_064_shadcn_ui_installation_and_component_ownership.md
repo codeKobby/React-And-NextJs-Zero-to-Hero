@@ -90,7 +90,7 @@ Start with the learner's concrete question: **What does components.json configur
 
 ### How does the @ alias work with src/?
 
-To answer **How does the @ alias work with src/**, follow the operation in order rather than treating the result as framework magic. For **How does the @ alias work with src/**, write the starting value, the change you made, and the new result.
+To answer **How does the @ alias work with src/**, follow the operation in order and check the example. For **How does the @ alias work with src/**, write the starting value, the change you made, and the new result.
 
 **Try it before moving on:** For **How does the @ alias work with src/**, change one input in the example. Write the old result and the new result for **How does the @ alias work with src/**.
 
